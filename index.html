@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <!-- Optimizare viewport pentru ecran tactil pe mobil (iOS/Android) & tablă interactivă -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    
+    <title>Educație Socială: lecții, dileme, quizz-uri, jocuri</title>
+    
+    <!-- PWA & Culori de interfață -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    
+    <!-- Suport avansat iOS / Safari (iPhone & iPad) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="EdSocială5">
+    
+    <!-- Iconițe Apple Touch pentru ecranul principal iPhone/iPad -->
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon-192.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="icon-192.png">
+
+    <style>
+        * { 
+            box-sizing: border-box; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            user-select: none; 
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: transparent;
+            -webkit-touch-callout: none;
+        }
+        
+        html, body { 
+            background-color: #0f172a; 
+            min-height: 100vh; 
+        }
+        
+        body { 
+            display: flex; 
+            justify-content: center; 
+        }
+        
+        .app-container { 
+            width: 100%; 
+            max-width: 100%; 
+            background: #fdfbf7; 
+            min-height: 100vh; 
+            box-shadow: none; 
+            display: flex; 
+            flex-direction: column; 
+            position: relative; 
+        }
+        
+        header { 
+            background: linear-gradient(135deg, #1e3a8a, #0f172a); 
+            color: #f1f5f9; 
+            padding: 14px 16px; 
+            padding-top: max(14px, env(safe-area-inset-top));
+            text-align: center; 
+            font-size: 1.15rem; 
+            font-weight: bold; 
+            position: relative; 
+            border-bottom: 4px solid #3b82f6; 
+            flex-shrink: 0; 
+        }
+        
+        .back-btn { 
+            position: absolute; 
+            left: 12px; 
+            top: max(10px, env(safe-area-inset-top)); 
+            background: #2563eb; 
+            border: 1px solid #60a5fa; 
+            color: #fff; 
+            padding: 4px 10px; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            font-weight: bold; 
+            display: none; 
+        }
+        
+        .player-bar { 
+            background: #1e293b; 
+            color: #f8fafc; 
+            padding: 10px 16px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            font-size: 0.9rem; 
+            border-bottom: 2px solid #334155; 
+            flex-shrink: 0; 
+        }
+
+        .player-profile { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+        .avatar-icon { font-size: 1.8rem; background: #0f172a; border: 2px solid #3b82f6; border-radius: 50%; width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; }
+        .streak-badge { background: #ea580c; color: #fff; padding: 2px 8px; border-radius: 12px; font-weight: bold; font-size: 0.8rem; margin-left: 4px; border: 1px solid #f97316; }
+        .xp-info { text-align: right; }
+        .xp-bar-bg { width: 100px; background: #0f172a; height: 10px; border-radius: 5px; overflow: hidden; border: 1px solid #3b82f6; margin-top: 4px; display: inline-block; }
+        .xp-bar-fill { width: 0%; height: 100%; background: linear-gradient(90deg, #10b981, #059669); transition: width 0.4s ease; }
+
+        .screen { 
+            display: none; 
+            padding: 16px; 
+            padding-bottom: max(16px, env(safe-area-inset-bottom));
+            flex-grow: 1; 
+            overflow-y: auto; 
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .active-screen { display: flex; flex-direction: column; }
+
+        #screenClasses {
+            padding: 16px;
+            padding-bottom: max(24px, env(safe-area-inset-bottom));
+        }
+
+        .card { background: #ffffff; border: 1px solid #cbd5e1; border-left: 6px solid #2563eb; padding: 14px 16px; margin-bottom: 12px; border-radius: 10px; cursor: pointer; font-weight: bold; color: #1e293b; box-shadow: 0 2px 5px rgba(0,0,0,0.05); font-size: 1.05rem; transition: transform 0.1s ease; display: flex; justify-content: space-between; align-items: center; }
+        .card:active { transform: scale(0.98); }
+        .lesson-stars { font-size: 1rem; color: #f59e0b; }
+
+        .extra-section { margin-top: 10px; text-align: center; }
+        .extra-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+        .btn-extra { background: #ffffff; border: 2px solid #2563eb; color: #1e293b; padding: 12px 8px; font-weight: bold; font-size: 0.9rem; border-radius: 10px; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.06); display: flex; align-items: center; justify-content: center; gap: 6px; transition: transform 0.1s; }
+        .btn-extra:active { transform: scale(0.98); }
+
+        .tabs { display: flex; border-bottom: 2px solid #3b82f6; margin-bottom: 14px; background: #e2e8f0; border-radius: 8px 8px 0 0; overflow: hidden; flex-shrink: 0; }
+        .tab-btn { flex: 1; padding: 10px 3px; border: none; background: transparent; cursor: pointer; font-weight: bold; color: #334155; font-size: 0.8rem; text-align: center; }
+        .tab-btn.active { background: #2563eb; color: white; }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        .summary-box { background: #ffffff; border: 1px solid #cbd5e1; padding: 16px; border-radius: 10px; line-height: 1.5; font-size: 0.95rem; color: #1e293b; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .summary-box h3 { color: #2563eb; margin-top: 12px; border-bottom: 2px dashed #93c5fd; padding-bottom: 4px; font-size: 1.1rem; }
+        .summary-box h3:first-child { margin-top: 0; }
+        .summary-box ul { margin-left: 18px; margin-top: 6px; }
+
+        .dilemma-container { background: #1e293b; color: #f8fafc; border: 3px solid #3b82f6; padding: 16px; border-radius: 12px; text-align: center; box-shadow: 0 8px 16px rgba(0,0,0,0.2); }
+        .dilemma-card { background: #0f172a; border: 1px solid #3b82f6; border-radius: 10px; padding: 14px; margin-bottom: 14px; text-align: left; line-height: 1.4; color: #f1f5f9; }
+        .dilemma-opt-btn { width: 100%; background: #ffffff; color: #1e293b; border: 2px solid #3b82f6; padding: 12px; border-radius: 8px; font-weight: bold; margin-bottom: 8px; cursor: pointer; text-align: left; transition: all 0.2s; }
+        .dilemma-opt-btn:hover { background: #eff6ff; }
+        .dilemma-feedback { margin-top: 12px; padding: 10px; border-radius: 8px; font-weight: bold; font-size: 0.95rem; text-align: center; display: none; }
+
+        .archery-container { 
+            position: relative; 
+            width: 100%; 
+            background: #f1f5f9; 
+            border: 2px solid #3b82f6; 
+            border-radius: 12px; 
+            padding: 8px; 
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.05); 
+            text-align: center; 
+        }
+        
+        .question-banner { background: #1e3a8a; color: #f8fafc; padding: 10px; border-radius: 8px; font-weight: bold; font-size: 0.95rem; margin-bottom: 8px; border: 1px solid #3b82f6; min-height: 50px; display: flex; align-items: center; justify-content: center; }
+        
+        canvas { 
+            background: #e2e8f0; 
+            border-radius: 8px; 
+            border: 1px solid #3b82f6; 
+            width: 100%; 
+            max-width: 800px; 
+            height: auto; 
+            aspect-ratio: 8 / 6.5; 
+            display: block; 
+            margin: 0 auto; 
+            touch-action: none !important;
+            user-select: none;
+        }
+        
+        .quiz-feedback { margin-top: 6px; font-weight: bold; min-height: 20px; font-size: 0.9rem; }
+
+        .btn-action { background-color: #ffffff; color: #1e293b; border: 2px solid #2563eb; padding: 12px 16px; font-size: 0.95rem; font-weight: bold; border-radius: 10px; cursor: pointer; box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08); transition: all 0.2s ease; }
+        .btn-action:hover { background-color: #2563eb; color: #ffffff; }
+
+        .wordwall-tip-box {
+            background: #fefce8;
+            border: 1px dashed #ca8a04;
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-bottom: 12px;
+            font-size: 0.88rem;
+            color: #854d0e;
+            line-height: 1.4;
+        }
+
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); backdrop-filter: blur(3px); }
+        .modal-content { background-color: #ffffff; margin: 10% auto; padding: 20px; border: 3px solid #2563eb; border-radius: 12px; width: 90%; max-width: 550px; color: #1e293b; box-shadow: 0 10px 25px rgba(0,0,0,0.3); position: relative; text-align: center; }
+        .modal-content h2 { margin-top: 0; color: #1e3a8a; border-bottom: 2px solid #3b82f6; padding-bottom: 6px; margin-bottom: 12px; }
+        .close-btn { color: #2563eb; float: right; font-size: 26px; font-weight: bold; cursor: pointer; line-height: 18px; }
+
+        .avatar-grid { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+        .avatar-option { font-size: 2rem; background: #f8fafc; border: 2px solid #3b82f6; border-radius: 10px; padding: 8px; cursor: pointer; transition: transform 0.2s; }
+        .avatar-option:hover { transform: scale(1.1); }
+        .avatar-option.locked { opacity: 0.4; cursor: not-allowed; filter: grayscale(1); }
+
+        .wheel-wrapper { position: relative; width: 100%; max-width: 260px; aspect-ratio: 1 / 1; margin: 12px auto; display: flex; justify-content: center; align-items: center; }
+        #wheelCanvas { width: 100%; height: 100%; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        .wheel-pointer { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 20px solid #ef4444; z-index: 10; }
+
+        .duel-box {
+            background: #ffffff;
+            border: 2px solid #2563eb;
+            border-radius: 12px;
+            padding: 16px;
+            color: #1e293b;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+        }
+        .duel-group {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+        .duel-slider-row {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #1e3a8a;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+        .duel-slider-container {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        .duel-slider-container input[type="range"] {
+            width: 100%;
+            accent-color: #2563eb;
+            cursor: pointer;
+        }
+        .duel-options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        @media (max-width: 600px) {
+            .duel-options-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (min-width: 600px) {
+            .screen { max-width: 850px; margin: 0 auto; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <header>
+        <button class="back-btn" id="backBtn" onclick="goBack()">&#8592;</button>
+        <span id="headerTitle">Educație Socială Interactivă</span>
+    </header>
+
+    <div class="player-bar">
+        <div class="player-profile" onclick="openAvatarModal()">
+            <div class="avatar-icon" id="playerAvatar">🤝</div>
+            <div>
+                <strong id="playerRank">Nivel 1: Mic Cetățean</strong>
+                <span class="streak-badge" id="streakText">🔥 1 Zi</span>
+            </div>
+        </div>
+        <div class="xp-info">
+            <span id="xpText">0 / 200 XP</span>
+            <div><div class="xp-bar-bg"><div class="xp-bar-fill" id="xpFill"></div></div></div>
+        </div>
+    </div>
+
+    <!-- ECRAN PRINCIPAL -->
+    <div id="screenClasses" class="screen active-screen">
+        <div>
+            <h3 style="margin-bottom: 10px; color: #1e3a8a; font-size: 1.05rem;">Alege Clasa:</h3>
+            <div class="card" onclick="openClass('V')"><span>🌱 Clasa a V-a: Gândire critică și drepturile copilului</span></div>
+            <div class="card" onclick="openClass('VI')"><span>🌍 Clasa a VI-a: Educație interculturală</span></div>
+            <div class="card" onclick="openClass('VII')"><span>⚖️ Clasa a VII-a: Educație pentru cetățenie democratică</span></div>
+            <div class="card" onclick="openClass('VIII')"><span>💰 Clasa a VIII-a: Educație economico-financiară</span></div>
+        </div>
+
+        <div class="extra-grid" style="margin-top: 15px;">
+            <button id="btnDailyChest" class="btn-action" style="width: 100%;" onclick="openWheelModal()">🎁 Bonusul Cetățeanului</button>
+            <button id="btnSolo" class="btn-action" style="width: 100%;" onclick="openDuelSetup()">⚔️ Antrenament Solo</button>
+        </div>
+        <div style="margin-top: 10px;">
+            <button id="btnDespre" class="btn-action" style="width: 100%;" onclick="deschideDespre()">ℹ️ Despre aplicație</button>
+        </div>
+    </div>
+
+    <!-- ECRAN CONFIGURARE ANTRENAMENT SOLO -->
+    <div id="screenDuelSetup" class="screen">
+        <div class="duel-box">
+            <h2 style="color: #1e3a8a; margin-bottom: 8px; text-align: center;">⚔️ Antrenament Solo</h2>
+            <p style="font-size:0.88rem; color:#475569; margin-bottom:12px; text-align: center;">Alege clasa și intervalul de lecții pentru testul cronometrat!</p>
+
+            <div class="duel-group">
+                <label for="duelClassSelect"><b>Alege Clasa:</b></label><br>
+                <select id="duelClassSelect" onchange="updateDuelSliders()" style="width: 100%; padding: 8px; font-size: 0.95rem; border-radius: 8px; border: 1px solid #3b82f6; margin-top: 4px; background: #ffffff; font-weight: bold; color: #1e293b;">
+                    <option value="V">Clasa a V-a</option>
+                    <option value="VI">Clasa a VI-a</option>
+                    <option value="VII">Clasa a VII-a</option>
+                    <option value="VIII">Clasa a VIII-a</option>
+                </select>
+            </div>
+
+            <div class="duel-group">
+                <div class="duel-slider-row">
+                    <span>De la lecția: <strong id="valMinLectie">1</strong></span>
+                    <span>Până la lecția: <strong id="valMaxLectie">10</strong></span>
+                </div>
+                <div class="duel-slider-container">
+                    <input type="range" id="sliderMin" min="1" max="50" value="1" oninput="handleRangeSliders()">
+                    <input type="range" id="sliderMax" min="1" max="50" value="10" oninput="handleRangeSliders()">
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 15px;">
+                <button class="btn-action" style="background: #10b981; color: #fff; border-color: #059669; width: 100%; font-size: 1rem;" onclick="startDuel()">🚀 Începe Antrenamentul!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ECRAN JOC ANTRENAMENT SOLO -->
+    <div id="screenDuelGame" class="screen">
+        <div class="duel-box">
+            <div style="display: flex; justify-content: space-between; align-items: center; background: #1e3a8a; color: #f8fafc; padding: 8px 12px; border-radius: 8px; font-weight: bold; margin-bottom: 12px;">
+                <div>⏳ <span id="duelTimer" style="color:#facc15; font-size:1.05rem;">15</span>s</div>
+                <div>🏆 Scor: <span id="duelScore">0</span></div>
+                <div>Întrebarea <span id="duelQNum">1</span>/10</div>
+            </div>
+
+            <h3 id="duelQuestionText" style="color: #1e293b; margin-bottom: 12px; font-size: 1rem;">Aici va fi întrebarea...</h3>
+            <div id="duelOptionsContainer" class="duel-options-grid"></div>
+        </div>
+    </div>
+
+    <!-- ECRAN REZULTAT SOLO & INSIGNĂ -->
+    <div id="screenDuelResult" class="screen">
+        <div class="duel-box" style="text-align: center;">
+            <h2 style="color: #1e3a8a;">🎉 Antrenament Finalizat</h2>
+            <div style="font-size: 2rem; font-weight: bold; color: #ea580c; margin: 8px 0;">
+                <span id="finalDuelScore">0</span> Puncte
+            </div>
+            
+            <div id="badgeContainer" style="background: #eff6ff; border: 2px solid #3b82f6; border-radius: 10px; padding: 12px; margin: 12px 0;">
+                <div id="badgeIcon" style="font-size: 2.5rem; margin-bottom: 4px;">🤝</div>
+                <div id="badgeTitle" style="font-weight: bold; color: #1e3a8a; font-size: 1rem;">Insigna obținută</div>
+                <div id="badgeDesc" style="font-size: 0.82rem; color: #475569; margin-top: 2px;"></div>
+            </div>
+
+            <p id="duelResultMessage" style="font-weight: bold; color: #10b981; margin-bottom: 12px; font-size: 0.9rem;"></p>
+
+            <button class="btn-action" style="width: 100%; background: #2563eb; color: white;" onclick="goBack()">🏠 Înapoi la Meniu</button>
+        </div>
+    </div>
+
+    <!-- ECRAN LISTĂ LECȚII -->
+    <div id="screenLessons" class="screen">
+        <h3 id="lessonsCategoryTitle" style="margin-bottom: 12px; color: #1e3a8a;">Lecții</h3>
+        <div id="lessonsListContainer"></div>
+    </div>
+
+    <!-- ECRAN DETALIU LECȚIE -->
+    <div id="screenDetail" class="screen">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('summary')">📖 Rezumat</button>
+            <button class="tab-btn" onclick="switchTab('game')">⚖️ Tribuna</button>
+            <button class="tab-btn" onclick="switchTab('dilemma')">🎭 Dileme Sociale</button>
+            <button class="tab-btn" onclick="switchTab('genially')">🌐 Wordwall</button>
+        </div>
+
+        <!-- TAB 1: REZUMAT -->
+        <div id="tabSummary" class="tab-content active">
+            <div id="summaryBoxContent" class="summary-box"></div>
+        </div>
+
+        <!-- TAB 2: QUIZZ INTERACTIV -->
+        <div id="tabGame" class="tab-content">
+            <div class="archery-container" id="archeryContainer">
+                <div id="quizQuestion" class="question-banner">Alege decizia corectă pentru a construi comunitatea!</div>
+                <canvas id="archeryCanvas" width="800" height="650"></canvas>
+                <div id="quizFeedback" class="quiz-feedback"></div>
+            </div>
+        </div>
+
+        <!-- TAB 3: DILEME SOCIALE -->
+        <div id="tabDilemma" class="tab-content">
+            <div class="dilemma-container">
+                <h3 style="color: #60a5fa; margin-bottom: 8px;">🎭 Dileme Sociale & Decizii</h3>
+                <p style="font-size:0.82rem; color:#93c5fd; margin-bottom:12px;">Analizează situația și alege cea mai potrivită reacție!</p>
+
+                <div id="dilemmaProgressText" style="font-size:0.85rem; font-weight:bold; color:#e2e8f0; margin-bottom:8px;"></div>
+                
+                <div class="dilemma-card" id="dilemmaText">Aici va apărea dilema...</div>
+                
+                <div id="dilemmaOptionsArea"></div>
+                <div id="dilemmaFeedbackText" class="dilemma-feedback"></div>
+                
+                <button id="btnNextDilemma" class="btn-action" style="display:none; width:100%; margin-top:10px; background:#2563eb; color:white;" onclick="urmatoareaDilema()">Următoarea Dilemă ➔</button>
+            </div>
+        </div>
+
+        <!-- TAB 4: WORDWALL -->
+        <div id="tabGenially" class="tab-content">
+            <div class="wordwall-tip-box">
+                💡 <strong>Sfat pentru telefon:</strong> După ce selectezi jocul dorit, apasă pe simbolul de <strong>Full-Screen ⛶</strong> din ecranul jocului și rotește telefonul pe orizontală pentru o vizualizare optimă!
+            </div>
+            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 10px; margin-bottom: 12px;">
+                <div style="width: 100%; position: relative; padding-bottom: 56.25%; height: 0;">
+                    <iframe id="iframeGame1" frameborder="0" width="100%" height="100%" style="position: absolute; left: 0; top: 0; border-radius: 6px;" src="" allowfullscreen="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- MODALE -->
+<div id="modalDespre" class="modal">
+    <div class="modal-content" style="text-align: left;">
+        <span class="close-btn" onclick="inchideModal('modalDespre')">&times;</span>
+        <h2>📜 Despre Aplicație</h2>
+        <p><strong>Educație Socială Interactivă</strong> este o platformă digitală concepută pentru a sprijini elevii din clasele V–VIII în înțelegerea valorilor civice, a drepturilor omului, a cetățeniei democratice și a educației economico-financiare.</p>
+        <p style="margin-top:10px;">Toate conținuturile sunt realizate în concordanță cu Programa școlară actuală la Educație Socială.</p>
+        <p style="margin-top:10px;"><strong>prof. Cristi AMĂRIUȚEI</strong></p>
+    </div>
+</div>
+
+<div id="modalStiaiCa" class="modal">
+    <div class="modal-content" style="border-color: #2563eb;">
+        <span class="close-btn" onclick="inchideModal('modalStiaiCa')">&times;</span>
+        <h2 style="color: #2563eb;">💡 Știai că...?</h2>
+        <p id="stiaiCaText" style="font-size: 1rem; line-height: 1.5; color: #1e293b; margin-top: 8px;"></p>
+        <button class="btn-action" style="margin-top: 15px; background: #2563eb; color: white;" onclick="inchideModal('modalStiaiCa')">Am înțeles! 🤝</button>
+    </div>
+</div>
+
+<div id="modalAvatar" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="inchideModal('modalAvatar')">&times;</span>
+        <h2>🎭 Alege Avatarul Social</h2>
+        <p style="font-size:0.85rem; color:#475569;">Crește în nivel pentru a debloca noi caractere!</p>
+        <div class="avatar-grid" id="avatarGrid"></div>
+    </div>
+</div>
+
+<div id="modalWheel" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="inchideModal('modalWheel')">&times;</span>
+        <h2>🎡 Roata Cetățeanului</h2>
+        <p style="font-size:0.85rem; color:#475569;">Învârte roata pentru bonusul tău zilnic de XP!</p>
+        <div class="wheel-wrapper">
+            <div class="wheel-pointer"></div>
+            <canvas id="wheelCanvas" width="300" height="300"></canvas>
+        </div>
+        <button id="btnSpinWheel" class="btn-action" onclick="spinWheel()">🎰 Învârte Roata!</button>
+        <p id="wheelResultText" style="font-size: 1rem; font-weight: bold; color: #059669; margin-top: 10px; min-height: 22px;"></p>
+    </div>
+</div>
+
+<div id="modalLevelUp" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="inchideModal('modalLevelUp')">&times;</span>
+        <h2 style="color:#059669;">🎉 LEVEL UP!</h2>
+        <p style="font-size:1.1rem; font-weight:bold; margin-top:8px;" id="levelUpText"></p>
+        <button class="btn-action" style="margin-top:15px; background:#059669; color:white;" onclick="inchideModal('modalLevelUp')">Continuă! 🚀</button>
+    </div>
+</div>
+
+<script src="date_sociala.js"></script>
+
+<script>
+    const APP_TITLE = "Educație Socială Interactivă";
+    let xp = parseInt(localStorage.getItem('userSocialXP')) || 0;
+    let selectedAvatar = localStorage.getItem('userSocialAvatar') || '🤝';
+    let currentLessonData = null;
+    let currentLessonIdx = null;
+    let currentClassKey = 'V';
+    let currentQuizIndex = 0;
+    let currentDilemmaIndex = 0;
+
+    // Funcție de amestecare aleatorie (Shuffle)
+    function amestecaArray(array) {
+        let copie = [...array];
+        for (let i = copie.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [copie[i], copie[j]] = [copie[j], copie[i]];
+        }
+        return copie;
+    }
+
+    // Gestionare istoric adâncime navigație
+    let historyDepth = 0;
+    function pushNavigationState() {
+        historyDepth++;
+        window.location.hash = "#step" + historyDepth;
+    }
+
+    // 20 LEVEL-URI EXTINSE PENTRU EDUCAȚIE SOCIALĂ
+    const LEVELS = [
+        { level: 1,  title: "Mic Cetățean",          minXP: 0,     maxXP: 200,    avatar: '🤝' },
+        { level: 2,  title: "Promotor al Empatiei",   minXP: 200,   maxXP: 500,    avatar: '🌱' },
+        { level: 3,  title: "Promotor al Respectului",minXP: 500,   maxXP: 900,    avatar: '⭐' },
+        { level: 4,  title: "Gardian al Drepturilor", minXP: 900,   maxXP: 1400,   avatar: '🛡️' },
+        { level: 5,  title: "Ambasador al Toleranței",minXP: 1400,  maxXP: 2100,   avatar: '🌍' },
+        { level: 6,  title: "Lider al Comunității",  minXP: 2100,  maxXP: 3000,   avatar: '🏛️' },
+        { level: 7,  title: "Strateg al Bugetului",   minXP: 3000,  maxXP: 4100,   avatar: '💰' },
+        { level: 8,  title: "Cetățean Model",        minXP: 4100,  maxXP: 5400,   avatar: '👑' },
+        { level: 9,  title: "Mediator Social",        minXP: 5400,  maxXP: 6900,   avatar: '⚖️' },
+        { level: 10, title: "Sfetnic Civic",          minXP: 6900,  maxXP: 8600,   avatar: '📜' },
+        { level: 11, title: "Arhitect al Dialogue-ului", minXP: 8600, maxXP: 10500, avatar: '🕊️' },
+        { level: 12, title: "Lider Voluntar",         minXP: 10500, maxXP: 12600,  avatar: '💖' },
+        { level: 13, title: "Manager Financiare",     minXP: 12600, maxXP: 14900,  avatar: '📊' },
+        { level: 14, title: "Defensor al Egalității", minXP: 14900, maxXP: 17400,  avatar: '🗽' },
+        { level: 15, title: "Ambasador al Democrației",minXP: 17400, maxXP: 20100,  avatar: '🗳️' },
+        { level: 16, title: "Visionar al Comunității",minXP: 20100, maxXP: 23000,  avatar: '🔭' },
+        { level: 17, title: "Titan al Cetățeniei",    minXP: 23000, maxXP: 26100,  avatar: '🏆' },
+        { level: 18, title: "Garant al Dreptății",    minXP: 26100, maxXP: 29400,  avatar: '⚖️' },
+        { level: 19, title: "Magistrat Civic",        minXP: 29400, maxXP: 33000,  avatar: '🏛️' },
+        { level: 20, title: "Legendă Socială",        minXP: 33000, maxXP: Infinity, avatar: '🌌' }
+    ];
+
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    function playSound(type) {
+        if (audioCtx.state === 'suspended') { audioCtx.resume(); }
+        if (type === 'correct') {
+            [523.25, 659.25, 783.99].forEach((freq, index) => {
+                const osc = audioCtx.createOscillator(); const gain = audioCtx.createGain();
+                osc.type = 'sine'; osc.frequency.value = freq;
+                gain.gain.setValueAtTime(0, audioCtx.currentTime + index * 0.08);
+                gain.gain.linearRampToValueAtTime(0.15, audioCtx.currentTime + index * 0.08 + 0.02);
+                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + index * 0.08 + 0.3);
+                osc.connect(gain); gain.connect(audioCtx.destination); osc.start(audioCtx.currentTime + index * 0.08); osc.stop(audioCtx.currentTime + index * 0.08 + 0.3);
+            });
+        } else if (type === 'wrong') {
+            [261.63, 220.00].forEach((freq, index) => {
+                const osc = audioCtx.createOscillator(); const gain = audioCtx.createGain();
+                osc.type = 'sine'; osc.frequency.value = freq;
+                gain.gain.setValueAtTime(0, audioCtx.currentTime + index * 0.1);
+                gain.gain.linearRampToValueAtTime(0.2, audioCtx.currentTime + index * 0.1 + 0.02);
+                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + index * 0.1 + 0.25);
+                osc.connect(gain); gain.connect(audioCtx.destination); osc.start(audioCtx.currentTime + index * 0.1); osc.stop(audioCtx.currentTime + index * 0.1 + 0.25);
+            });
+        } else if (type === 'levelup') {
+            [440, 554.37, 659.25, 880].forEach((freq, index) => {
+                const osc = audioCtx.createOscillator(); const gain = audioCtx.createGain();
+                osc.type = 'triangle'; osc.frequency.value = freq;
+                gain.gain.setValueAtTime(0, audioCtx.currentTime + index * 0.1);
+                gain.gain.linearRampToValueAtTime(0.25, audioCtx.currentTime + index * 0.1 + 0.03);
+                gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + index * 0.1 + 0.4);
+                osc.connect(gain); gain.connect(audioCtx.destination); osc.start(audioCtx.currentTime + index * 0.1); osc.stop(audioCtx.currentTime + index * 0.1 + 0.4);
+            });
+        }
+    }
+
+    function getCurrentLevelInfo(valXP) {
+        let curLvl = LEVELS[0];
+        for (let i = 0; i < LEVELS.length; i++) {
+            if (valXP >= LEVELS[i].minXP) curLvl = LEVELS[i];
+        }
+        return curLvl;
+    }
+
+    function updateXP(val) {
+        let oldLevel = getCurrentLevelInfo(xp);
+        xp = Math.max(0, xp + val);
+        localStorage.setItem('userSocialXP', xp);
+        let curLvl = getCurrentLevelInfo(xp);
+
+        if (curLvl.level > oldLevel.level) {
+            playSound('levelup');
+            document.getElementById('levelUpText').innerText = `Ai deblocat Nivelul ${curLvl.level}: ${curLvl.title}!`;
+            document.getElementById('modalLevelUp').style.display = 'block';
+        }
+
+        let percentage = 100;
+        if (isFinite(curLvl.maxXP)) {
+            let xpInCurrentLevel = xp - curLvl.minXP;
+            let levelRange = curLvl.maxXP - curLvl.minXP;
+            percentage = Math.min(100, Math.max(0, (xpInCurrentLevel / levelRange) * 100));
+            document.getElementById('xpText').innerText = `${xp} / ${curLvl.maxXP} XP`;
+        } else {
+            document.getElementById('xpText').innerText = `${xp} XP`;
+            percentage = 100;
+        }
+
+        document.getElementById('xpFill').style.width = percentage + '%';
+        document.getElementById('playerRank').innerText = `Nivel ${curLvl.level}: ${curLvl.title}`;
+        document.getElementById('playerAvatar').innerText = selectedAvatar;
+    }
+
+    function updateStreak() {
+        let today = new Date().toDateString();
+        let lastVisit = localStorage.getItem('socialLastVisitDate');
+        let streak = parseInt(localStorage.getItem('socialUserStreak')) || 1;
+
+        if (lastVisit) {
+            let lastDate = new Date(lastVisit);
+            let diffDays = Math.floor((new Date() - lastDate) / (1000 * 60 * 60 * 24));
+            if (diffDays === 1) streak++;
+            else if (diffDays > 1) streak = 1;
+        }
+        localStorage.setItem('socialLastVisitDate', today);
+        localStorage.setItem('socialUserStreak', streak);
+        document.getElementById('streakText').innerText = `🔥 ${streak} Zi${streak > 1 ? 'le' : ''}`;
+    }
+
+    function openClass(clsKey) {
+        pushNavigationState();
+        currentClassKey = clsKey;
+        
+        let titluMeniu = "Clasa a " + clsKey + "-a";
+        if(clsKey === 'V') titluMeniu = "Clasa a V-a: Gândire critică";
+        else if(clsKey === 'VI') titluMeniu = "Clasa a VI-a: Ed. Interculturală";
+        else if(clsKey === 'VII') titluMeniu = "Clasa a VII-a: Cetățenie democratică";
+        else if(clsKey === 'VIII') titluMeniu = "Clasa a VIII-a: Ed. Economico-financiară";
+
+        document.getElementById('headerTitle').innerText = titluMeniu;
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active-screen'));
+        document.getElementById('screenLessons').classList.add('active-screen');
+        document.getElementById('backBtn').style.display = 'block';
+
+        const container = document.getElementById('lessonsListContainer');
+        container.innerHTML = '';
+        
+        const lessons = (typeof dateSociala !== 'undefined' && dateSociala[`clasa_${clsKey}`]) ? dateSociala[`clasa_${clsKey}`] : [];
+        if(lessons.length === 0) {
+            container.innerHTML = "<p style='text-align:center; padding:20px; color:#64748b;'>Lecțiile pentru această clasă vor fi adăugate curând!</p>";
+            return;
+        }
+
+        lessons.forEach((les, idx) => {
+            let starsKey = `social_stars_${clsKey}_${idx}`;
+            let savedStars = parseInt(localStorage.getItem(starsKey)) || 0;
+            let starsDisplay = savedStars > 0 ? "⭐".repeat(savedStars) : "";
+
+            container.innerHTML += `
+                <div class="card" onclick="openLessonDetail('${clsKey}', ${idx})">
+                    <span>${les.titlu}</span>
+                    <span class="lesson-stars">${starsDisplay}</span>
+                </div>`;
+        });
+    }
+
+    function openLessonDetail(clsKey, lessonIdx) {
+        pushNavigationState();
+        currentLessonData = dateSociala[`clasa_${clsKey}`][lessonIdx];
+        currentLessonIdx = lessonIdx;
+        currentQuizIndex = 0;
+        currentDilemmaIndex = 0;
+
+        document.getElementById('headerTitle').innerText = currentLessonData.titlu;
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active-screen'));
+        document.getElementById('screenDetail').classList.add('active-screen');
+
+        let htmlRezumat = currentLessonData.rezumat || "";
+        if (currentLessonData.stiaiCa) {
+            htmlRezumat += `
+                <br><div style="text-align: center; margin-top: 15px;">
+                    <button class="btn-action" style="background: #2563eb; color: #fff; border-color: #1d4ed8; font-size: 0.88rem;" onclick="deschideStiaiCa()">
+                        💡 Știai că...? (Curiozitate)
+                    </button>
+                </div>`;
+        }
+        document.getElementById('summaryBoxContent').innerHTML = htmlRezumat;
+        
+        document.getElementById('iframeGame1').src = currentLessonData.wordwallUrl || "";
+
+        initDilemmaModule();
+        switchTab('summary');
+    }
+
+    /* ANTRENAMENT SOLO LOGIC */
+    let duelState = { clasa: 'V', minLecție: 1, maxLecție: 10, intrebari: [], indexCurent: 0, scor: 0, timer: null, timpRamas: 15 };
+
+    function openDuelSetup() {
+        pushNavigationState();
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active-screen'));
+        document.getElementById('screenDuelSetup').classList.add('active-screen');
+        document.getElementById('headerTitle').innerText = "⚔️ Antrenament Solo";
+        document.getElementById('backBtn').style.display = 'block';
+        document.getElementById('duelClassSelect').value = 'V';
+        updateDuelSliders();
+    }
+
+    function updateDuelSliders() {
+        let cls = document.getElementById('duelClassSelect').value;
+        let lessons = (typeof dateSociala !== 'undefined' && dateSociala[`clasa_${cls}`]) ? dateSociala[`clasa_${cls}`] : [];
+        let maxLectii = lessons.length > 0 ? lessons.length : 50;
+
+        let sMin = document.getElementById('sliderMin');
+        let sMax = document.getElementById('sliderMax');
+
+        sMin.min = "1"; sMin.max = maxLectii.toString();
+        sMax.min = "1"; sMax.max = maxLectii.toString();
+
+        sMin.value = "1";
+        sMax.value = Math.min(10, maxLectii).toString();
+
+        handleRangeSliders();
+    }
+
+    function handleRangeSliders() {
+        let sMin = document.getElementById('sliderMin');
+        let sMax = document.getElementById('sliderMax');
+
+        let minVal = parseInt(sMin.value) || 1;
+        let maxVal = parseInt(sMax.value) || 1;
+
+        if (minVal > maxVal) { sMin.value = maxVal; minVal = maxVal; }
+
+        document.getElementById('valMinLectie').innerText = minVal;
+        document.getElementById('valMaxLectie').innerText = maxVal;
+
+        duelState.minLecție = minVal;
+        duelState.maxLecție = maxVal;
+    }
+
+    function startDuel() {
+        duelState.clasa = document.getElementById('duelClassSelect').value;
+        duelState.scor = 0; duelState.indexCurent = 0;
+        duelState.intrebari = extrageIntrebariInInterval(duelState.clasa, duelState.minLecție, duelState.maxLecție, 10);
+
+        if (duelState.intrebari.length === 0) {
+            alert("Nu am găsit întrebări disponibile în intervalul de lecții selectat!");
+            return;
+        }
+
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active-screen'));
+        document.getElementById('screenDuelGame').classList.add('active-screen');
+        incarcaIntrebareDuel();
+    }
+
+    function extrageIntrebariInInterval(clsKey, minL, maxL, limita) {
+        let intrebari = [];
+        let lessons = (typeof dateSociala !== 'undefined' && dateSociala[`clasa_${clsKey}`]) ? dateSociala[`clasa_${clsKey}`] : [];
+
+        lessons.forEach((l, idx) => {
+            let nrLectie = idx + 1;
+            if (nrLectie >= minL && nrLectie <= maxL && l.quiz && Array.isArray(l.quiz)) {
+                l.quiz.forEach(qItem => {
+                    intrebari.push({ intrebare: qItem.intrebare, optiuni: qItem.raspunsuri, corect: qItem.corect });
+                });
+            }
+        });
+
+        intrebari.sort(() => Math.random() - 0.5);
+        return intrebari.slice(0, limita);
+    }
+
+    function incarcaIntrebareDuel() {
+        clearInterval(duelState.timer);
+
+        let q = duelState.intrebari[duelState.indexCurent];
+        document.getElementById('duelQNum').innerText = duelState.indexCurent + 1;
+        document.getElementById('duelScore').innerText = duelState.scor;
+        document.getElementById('duelQuestionText').innerText = q.intrebare;
+
+        let container = document.getElementById('duelOptionsContainer');
+        container.innerHTML = '';
+
+        let optiuniPornire = q.optiuni.map((optText, idx) => {
+            return {
+                text: optText,
+                isCorrect: (idx === q.corect)
+            };
+        });
+        let optiuniAmestecate = amestecaArray(optiuniPornire);
+
+        optiuniAmestecate.forEach((item) => {
+            let btn = document.createElement('button');
+            btn.className = 'btn-action';
+            btn.style.width = '100%';
+            btn.style.margin = '0';
+            btn.style.textAlign = 'center';
+            btn.innerText = item.text;
+            btn.onclick = () => verificaRaspunsDuel(item.isCorrect);
+            container.appendChild(btn);
+        });
+
+        duelState.timpRamas = 15;
+        document.getElementById('duelTimer').innerText = duelState.timpRamas;
+
+        duelState.timer = setInterval(() => {
+            duelState.timpRamas--;
+            document.getElementById('duelTimer').innerText = duelState.timpRamas;
+
+            if (duelState.timpRamas <= 0) {
+                clearInterval(duelState.timer);
+                verificaRaspunsDuel(false);
+            }
+        }, 1000);
+    }
+
+    function verificaRaspunsDuel(isCorect) {
+        clearInterval(duelState.timer);
+
+        if (isCorect) {
+            playSound('correct');
+            duelState.scor += 100 + (duelState.timpRamas * 10);
+        } else {
+            playSound('wrong');
+        }
+
+        duelState.indexCurent++;
+
+        if (duelState.indexCurent < duelState.intrebari.length) {
+            incarcaIntrebareDuel();
+        } else {
+            afiseazaRezultatDuel();
+        }
+    }
+
+    function afiseazaRezultatDuel() {
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active-screen'));
+        document.getElementById('screenDuelResult').classList.add('active-screen');
+
+        document.getElementById('finalDuelScore').innerText = duelState.scor;
+        document.getElementById('duelResultMessage').innerText = "Felicitări pentru antrenament! Continuă tot așa!";
+
+        let earnedXP = Math.floor(duelState.scor / 10);
+        updateXP(earnedXP);
+
+        let badgeIcon = "🤝", badgeTitle = "Recruit Civic", badgeDesc = "Ai finalizat antrenamentul civic cu succes!";
+
+        if (duelState.scor >= 1800) {
+            badgeIcon = "👑"; badgeTitle = "Insigna: Mare Lider Civic"; badgeDesc = "Performanță absolută! Decizii civice impecabile!";
+        } else if (duelState.scor >= 1200) {
+            badgeIcon = "⭐"; badgeTitle = "Insigna: Cavaler al Empatiei"; badgeDesc = "Rezultat excelent! Ai stăpânit foarte bine conceptele!";
+        } else if (duelState.scor >= 600) {
+            badgeIcon = "📜"; badgeTitle = "Insigna: Scrib Responsabil"; badgeDesc = "Un rezultat bun! Ești pe drumul cel bun spre excelență.";
+        }
+
+        document.getElementById('badgeIcon').innerText = badgeIcon;
+        document.getElementById('badgeTitle').innerText = badgeTitle;
+        document.getElementById('badgeDesc').innerText = badgeDesc;
+    }
+
+    /* =========================================================
+       1. TRIBUNA CETĂȚEANULUI (CANVAS)
+       ========================================================= */
+    const canvas = document.getElementById('archeryCanvas');
+    const ctx = canvas.getContext('2d');
+    let communityStep = 0;
+    let targets = [], canShoot = true;
+
+    function initArcheryGame() {
+        if (!currentLessonData || !currentLessonData.quiz || currentLessonData.quiz.length === 0) return;
+        communityStep = 0;
+        currentQuizIndex = 0;
+        loadQuestion(currentQuizIndex);
+    }
+
+    function loadQuestion(qIndex) {
+        const totalQ = currentLessonData.quiz.length;
+        
+        if (qIndex >= totalQ) {
+            document.getElementById('quizQuestion').innerText = `🏆 FELICITĂRI! AI CONSTRUIT COMUNITATEA PERFECTĂ!`;
+            document.getElementById('quizFeedback').innerText = "Toți cetățenii îți mulțumesc pentru deciziile înțelepte!";
+            document.getElementById('quizFeedback').style.color = "#059669";
+            
+            playSound('correct');
+            updateXP(50);
+            drawFullCommunityScene(true);
+            return;
+        }
+
+        const qData = currentLessonData.quiz[qIndex];
+        document.getElementById('quizQuestion').innerText = `Întrebarea ${qIndex + 1}/${totalQ}: ${qData.intrebare}`;
+        document.getElementById('quizFeedback').innerText = "Alege răspunsul corect pentru a adăuga un element nou în oraș!";
+        document.getElementById('quizFeedback').style.color = "#1e293b";
+
+        canShoot = true;
+        
+        let opțiuniPornire = qData.raspunsuri.map((text, idx) => {
+            return {
+                text: text,
+                isCorrect: (idx === qData.corect)
+            };
+        });
+
+        let opțiuniAmestecate = amestecaArray(opțiuniPornire);
+
+        targets = [];
+        const targetPositions = [ { x: 200, y: 110 }, { x: 600, y: 110 }, { x: 200, y: 250 }, { x: 600, y: 250 } ];
+        for (let i = 0; i < opțiuniAmestecate.length; i++) {
+            targets.push({ 
+                x: targetPositions[i].x, y: targetPositions[i].y, 
+                width: 360, height: 100, 
+                text: opțiuniAmestecate[i].text, 
+                isCorrect: opțiuniAmestecate[i].isCorrect, 
+                hit: false 
+            });
+        }
+        drawFullCommunityScene(false);
+    }
+
+    function drawDynamicFitText(ctx, text, x, y, maxWidth, maxHeight) {
+        let words = text.split(' ');
+        let fontSize = 30;
+        let lines = [];
+        let lineHeight = 34;
+
+        while (fontSize >= 18) {
+            ctx.font = `bold ${fontSize}px 'Segoe UI', sans-serif`;
+            lineHeight = fontSize + 4;
+            lines = [];
+            let currentLine = '';
+
+            for (let n = 0; n < words.length; n++) {
+                let testLine = currentLine + words[n] + ' ';
+                let testWidth = ctx.measureText(testLine).width;
+                if (testWidth > maxWidth - 20 && n > 0) {
+                    lines.push(currentLine.trim());
+                    currentLine = words[n] + ' ';
+                } else {
+                    currentLine = testLine;
+                }
+            }
+            lines.push(currentLine.trim());
+
+            let totalHeight = lines.length * lineHeight;
+            if (totalHeight <= maxHeight - 15) {
+                break;
+            }
+            fontSize -= 2;
+        }
+
+        ctx.font = `bold ${fontSize}px 'Segoe UI', sans-serif`;
+        let startY = y - ((lines.length - 1) * lineHeight) / 2;
+        for (let k = 0; k < lines.length; k++) {
+            ctx.fillText(lines[k], x, startY + (k * lineHeight));
+        }
+    }
+
+    function drawFullCommunityScene(isFinished) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        ctx.fillStyle = "#38bdf8"; ctx.fillRect(0, 0, canvas.width, 420);
+        ctx.fillStyle = "#facc15"; ctx.beginPath(); ctx.arc(720, 70, 40, 0, Math.PI*2); ctx.fill();
+        ctx.fillStyle = "#4ade80"; ctx.fillRect(0, 420, canvas.width, 230);
+        ctx.fillStyle = "#94a3b8"; ctx.fillRect(0, 520, canvas.width, 80);
+
+        if (communityStep >= 1 || isFinished) {
+            ctx.fillStyle = "#f87171"; ctx.fillRect(60, 260, 140, 160);
+            ctx.fillStyle = "#475569"; ctx.fillRect(110, 360, 40, 60);
+            ctx.fillStyle = "#fef08a"; ctx.fillRect(80, 280, 30, 30); ctx.fillRect(140, 280, 30, 30);
+        }
+
+        if (communityStep >= 2 || isFinished) {
+            ctx.fillStyle = "#78350f"; ctx.fillRect(240, 360, 20, 60);
+            ctx.fillStyle = "#15803d"; ctx.beginPath(); ctx.arc(250, 340, 35, 0, Math.PI*2); ctx.fill();
+            ctx.fillStyle = "#78350f"; ctx.fillRect(300, 370, 18, 50);
+            ctx.fillStyle = "#16a34a"; ctx.beginPath(); ctx.arc(309, 350, 30, 0, Math.PI*2); ctx.fill();
+        }
+
+        if (communityStep >= 3 || isFinished) {
+            ctx.fillStyle = "#3b82f6"; ctx.fillRect(200, 535, 90, 35); ctx.fillRect(220, 515, 50, 20);
+            ctx.fillStyle = "#0f172a"; ctx.beginPath(); ctx.arc(220, 570, 12, 0, Math.PI*2); ctx.arc(270, 570, 12, 0, Math.PI*2); ctx.fill();
+        }
+
+        if (communityStep >= 4 || isFinished) {
+            ctx.fillStyle = "#e2e8f0"; ctx.fillRect(360, 220, 180, 200);
+            ctx.fillStyle = "#2563eb"; ctx.beginPath(); ctx.moveTo(340, 220); ctx.lineTo(450, 160); ctx.lineTo(560, 220); ctx.fill();
+            ctx.fillStyle = "#fef08a"; ctx.fillRect(390, 250, 35, 35); ctx.fillRect(465, 250, 35, 35);
+        }
+
+        if (communityStep >= 5 || isFinished) {
+            ctx.fillStyle = "#b45309"; ctx.fillRect(260, 440, 50, 12);
+            ctx.fillStyle = "#0f172a"; ctx.fillRect(265, 452, 6, 12); ctx.fillRect(300, 452, 6, 12);
+            ctx.fillStyle = "#475569"; ctx.fillRect(560, 370, 6, 80);
+            ctx.fillStyle = "#facc15"; ctx.beginPath(); ctx.arc(563, 365, 10, 0, Math.PI*2); ctx.fill();
+        }
+
+        if (communityStep >= 6 || isFinished) {
+            ctx.fillStyle = "#ef4444"; ctx.fillRect(0, 500, canvas.width, 15);
+            ctx.strokeStyle = "#ffffff"; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(0, 507); ctx.lineTo(canvas.width, 507); ctx.stroke();
+        }
+
+        if (communityStep >= 7 || isFinished) {
+            ctx.fillStyle = "#0284c7"; ctx.fillRect(580, 300, 160, 120);
+            ctx.strokeStyle = "#ffffff"; ctx.lineWidth = 2;
+            ctx.strokeRect(580, 300, 160, 120);
+            ctx.beginPath(); ctx.moveTo(660, 300); ctx.lineTo(660, 420); ctx.stroke();
+            ctx.beginPath(); ctx.arc(660, 360, 20, 0, Math.PI*2); ctx.stroke();
+            
+            ctx.fillStyle = "#ef4444"; ctx.fillRect(728, 320, 4, 40);
+            ctx.fillStyle = "#ffffff"; ctx.fillRect(720, 320, 12, 16);
+            ctx.strokeStyle = "#ef4444"; ctx.strokeRect(720, 320, 12, 16);
+            ctx.fillStyle = "#f97316"; ctx.fillRect(716, 332, 6, 2);
+        }
+
+        if (communityStep >= 8 || isFinished) {
+            drawPerson(270, 430, "#ec4899");
+            drawPerson(420, 430, "#10b981");
+            drawPerson(460, 440, "#f59e0b", 0.8);
+            drawPerson(630, 380, "#8b5cf6");
+        }
+
+        if (!isFinished) {
+            targets.forEach(t => {
+                ctx.save(); ctx.translate(t.x, t.y);
+                ctx.fillStyle = t.hit ? (t.isCorrect ? "#10b981" : "#ef4444") : "#ffffff";
+                ctx.beginPath(); ctx.roundRect(-t.width/2, -t.height/2, t.width, t.height, 12); ctx.fill();
+                ctx.lineWidth = 3; ctx.strokeStyle = "#2563eb"; ctx.stroke();
+
+                ctx.fillStyle = t.hit ? "#ffffff" : "#0f172a";
+                ctx.textAlign = "center"; ctx.textBaseline = "middle";
+                
+                drawDynamicFitText(ctx, t.text, 0, 0, t.width, t.height);
+                ctx.restore();
+            });
+        }
+    }
+
+    function drawPerson(x, y, shirtColor, scale = 1) {
+        ctx.save(); ctx.translate(x, y); ctx.scale(scale, scale);
+        ctx.fillStyle = "#fbcfe8"; ctx.beginPath(); ctx.arc(0, -25, 8, 0, Math.PI*2); ctx.fill();
+        ctx.fillStyle = shirtColor; ctx.fillRect(-7, -17, 14, 18);
+        ctx.fillStyle = "#1e293b"; ctx.fillRect(-6, 1, 5, 14); ctx.fillRect(1, 1, 5, 14);
+        ctx.restore();
+    }
+
+    canvas.addEventListener('click', function(e) {
+        if (!canShoot) return;
+        const rect = canvas.getBoundingClientRect();
+        const clickX = (e.clientX - rect.left) * (canvas.width / rect.width);
+        const clickY = (e.clientY - rect.top) * (canvas.height / rect.height);
+
+        targets.forEach(t => {
+            if (!t.hit && clickX > t.x - t.width / 2 && clickX < t.x + t.width / 2 && clickY > t.y - t.height / 2 && clickY < t.y + t.height / 2) {
+                t.hit = true;
+                canShoot = false;
+                if (t.isCorrect) {
+                    playSound('correct');
+                    updateXP(20);
+                    communityStep++;
+                    document.getElementById('quizFeedback').innerText = "🌟 Bravo! Ai adăugat un nou element în comunitate! (+20 XP)";
+                    document.getElementById('quizFeedback').style.color = "#059669";
+                } else {
+                    playSound('wrong');
+                    document.getElementById('quizFeedback').innerText = "❌ Decizie incorectă! Mai încearcă.";
+                    document.getElementById('quizFeedback').style.color = "#dc2626";
+                }
+                drawFullCommunityScene(false);
+                setTimeout(() => {
+                    if (t.isCorrect) { currentQuizIndex++; loadQuestion(currentQuizIndex); }
+                    else { canShoot = true; t.hit = false; drawFullCommunityScene(false); }
+                }, 1400);
+            }
+        });
+    });
+
+    /* =========================================================
+       2. DILEME SOCIALE
+       ========================================================= */
+    function initDilemmaModule() {
+        currentDilemmaIndex = 0;
+        incarcaDilemaCurenta();
+    }
+
+    function incarcaDilemaCurenta() {
+        const dilemmaList = currentLessonData.dileme || [];
+        const fback = document.getElementById('dilemmaFeedbackText');
+        const nextBtn = document.getElementById('btnNextDilemma');
+        fback.style.display = 'none';
+        nextBtn.style.display = 'none';
+
+        if (dilemmaList.length === 0) {
+            document.getElementById('dilemmaText').innerText = "Nu există dileme configurate pentru această lecție.";
+            document.getElementById('dilemmaOptionsArea').innerHTML = "";
+            document.getElementById('dilemmaProgressText').innerText = "";
+            return;
+        }
+
+        if (currentDilemmaIndex >= dilemmaList.length) {
+            document.getElementById('dilemmaProgressText').innerText = "🎉 TOATE CELE 4 DILEME AU FOST REZOLVATE!";
+            
+            let titluFinal = "Ești un Cetățean Model!";
+            let textMijloc = "Ai analizat cu atenție toate cele 4 scenarii practice și ai ales calea empatiei, respectului și responsabilității!";
+
+            if (currentClassKey === 'VIII') {
+                titluFinal = "Ești un Mic Antreprenor Chibzuit! 💰";
+                textMijloc = "Ai analizat cu atenție toate cele 4 scenarii și ai luat decizii financiare inteligente, punând bazele unui buget echilibrat!";
+            }
+
+            document.getElementById('dilemmaText').innerHTML = `
+                <div style="text-align:center; padding:10px;">
+                    <div style="font-size:3rem; margin-bottom:8px;">🌟👏🏅</div>
+                    <h3 style="color:#10b981;">${titluFinal}</h3>
+                    <p style="margin-top:6px; color:#cbd5e1;">${textMijloc}</p>
+                </div>
+            `;
+            document.getElementById('dilemmaOptionsArea').innerHTML = `<button class="btn-action" style="width:100%; background:#059669; color:white; font-size:1.05rem;" onclick="initDilemmaModule()">🔄 Reia Dilemele Lecției</button>`;
+            
+            playSound('correct');
+            updateXP(30);
+            return;
+        }
+
+        const d = dilemmaList[currentDilemmaIndex];
+        document.getElementById('dilemmaProgressText').innerText = `Dilema ${currentDilemmaIndex + 1} din ${dilemmaList.length}`;
+        document.getElementById('dilemmaText').innerText = d.scenariu;
+
+        let optsHtml = "";
+        d.optiuni.forEach((opt, idx) => {
+            optsHtml += `<button class="dilemma-opt-btn" onclick="alegeVariantaDilema(${idx})">${opt.text}</button>`;
+        });
+        document.getElementById('dilemmaOptionsArea').innerHTML = optsHtml;
+    }
+
+    function alegeVariantaDilema(optIdx) {
+        const d = currentLessonData.dileme[currentDilemmaIndex];
+        const opt = d.optiuni[optIdx];
+        const fback = document.getElementById('dilemmaFeedbackText');
+        
+        fback.innerHTML = opt.raspuns;
+        fback.style.display = 'block';
+
+        if (opt.puncte > 0) {
+            playSound('correct');
+            fback.style.background = "#d1fae5";
+            fback.style.color = "#065f46";
+            updateXP(opt.puncte);
+        } else {
+            playSound('wrong');
+            fback.style.background = "#fee2e2";
+            fback.style.color = "#991b1b";
+        }
+
+        document.querySelectorAll('.dilemma-opt-btn').forEach(b => b.disabled = true);
+        document.getElementById('btnNextDilemma').style.display = 'block';
+    }
+
+    function urmatoareaDilema() {
+        currentDilemmaIndex++;
+        incarcaDilemaCurenta();
+    }
+
+    /* =========================================================
+       3. LOGICĂ ROATA ZILNICĂ (WHEEL BONUS)
+       ========================================================= */
+    const wheelCanvas = document.getElementById('wheelCanvas');
+    const wheelCtx = wheelCanvas.getContext('2d');
+    const wheelSlices = [
+        { label: "10 XP", val: 10, color: "#3b82f6" },
+        { label: "25 XP", val: 25, color: "#10b981" },
+        { label: "50 XP", val: 50, color: "#f59e0b" },
+        { label: "15 XP", val: 15, color: "#8b5cf6" },
+        { label: "100 XP", val: 100, color: "#ef4444" },
+        { label: "30 XP", val: 30, color: "#06b6d4" }
+    ];
+    let wheelAngle = 0;
+    let isSpinning = false;
+
+    function drawWheel() {
+        const numSlices = wheelSlices.length;
+        const sliceAngle = (Math.PI * 2) / numSlices;
+        const centerX = wheelCanvas.width / 2;
+        const centerY = wheelCanvas.height / 2;
+        const radius = wheelCanvas.width / 2 - 5;
+
+        wheelCtx.clearRect(0, 0, wheelCanvas.width, wheelCanvas.height);
+
+        for (let i = 0; i < numSlices; i++) {
+            const angle = wheelAngle + i * sliceAngle;
+            wheelCtx.beginPath();
+            wheelCtx.moveTo(centerX, centerY);
+            wheelCtx.arc(centerX, centerY, radius, angle, angle + sliceAngle);
+            wheelCtx.fillStyle = wheelSlices[i].color;
+            wheelCtx.fill();
+            wheelCtx.lineWidth = 2;
+            wheelCtx.strokeStyle = "#ffffff";
+            wheelCtx.stroke();
+
+            wheelCtx.save();
+            wheelCtx.translate(centerX, centerY);
+            wheelCtx.rotate(angle + sliceAngle / 2);
+            wheelCtx.textAlign = "right";
+            wheelCtx.fillStyle = "#ffffff";
+            wheelCtx.font = "bold 16px 'Segoe UI', sans-serif";
+            wheelCtx.fillText(wheelSlices[i].label, radius - 20, 6);
+            wheelCtx.restore();
+        }
+    }
+
+    function spinWheel() {
+        if (isSpinning) return;
+
+        const todayStr = new Date().toDateString();
+        const lastSpin = localStorage.getItem('socialLastSpinDate');
+        if (lastSpin === todayStr) {
+            document.getElementById('wheelResultText').innerText = "🔒 Ai învârtit deja roata astăzi! Revino mâine!";
+            document.getElementById('wheelResultText').style.color = "#dc2626";
+            return;
+        }
+
+        isSpinning = true;
+        document.getElementById('wheelResultText').innerText = "🎰 Roata se învârte...";
+        document.getElementById('wheelResultText').style.color = "#2563eb";
+
+        const randomSpin = Math.PI * 2 * 5 + Math.random() * Math.PI * 2;
+        const startAngle = wheelAngle;
+        const duration = 3000;
+        const startTime = performance.now();
+
+        function animateSpin(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const easeOut = 1 - Math.pow(1 - progress, 3);
+            
+            wheelAngle = startAngle + randomSpin * easeOut;
+            drawWheel();
+
+            if (progress < 1) {
+                requestAnimationFrame(animateSpin);
+            } else {
+                isSpinning = false;
+                localStorage.setItem('socialLastSpinDate', todayStr);
+
+                const numSlices = wheelSlices.length;
+                const sliceAngle = (Math.PI * 2) / numSlices;
+                let normalizedAngle = (1.5 * Math.PI - (wheelAngle % (Math.PI * 2))) % (Math.PI * 2);
+                if (normalizedAngle < 0) normalizedAngle += Math.PI * 2;
+                
+                const winIndex = Math.floor(normalizedAngle / sliceAngle);
+                const wonItem = wheelSlices[winIndex];
+
+                playSound('correct');
+                updateXP(wonItem.val);
+                document.getElementById('wheelResultText').innerText = `🎉 Felicitări! Ai câștigat ${wonItem.label}!`;
+                document.getElementById('wheelResultText').style.color = "#059669";
+            }
+        }
+
+        requestAnimationFrame(animateSpin);
+    }
+
+    function openWheelModal() {
+        document.getElementById('modalWheel').style.display = 'block';
+        drawWheel();
+    }
+
+    function openAvatarModal() {
+        let curLvl = getCurrentLevelInfo(xp).level;
+        let container = document.getElementById('avatarGrid');
+        container.innerHTML = '';
+
+        LEVELS.forEach(lvl => {
+            let isUnlocked = curLvl >= lvl.level;
+            let div = document.createElement('div');
+            div.className = `avatar-option ${isUnlocked ? '' : 'locked'}`;
+            div.innerText = lvl.avatar;
+            div.title = isUnlocked ? lvl.title : `Deblocabil la Nivelul ${lvl.level}`;
+            if (isUnlocked) {
+                div.onclick = function() {
+                    selectedAvatar = lvl.avatar;
+                    localStorage.setItem('userSocialAvatar', selectedAvatar);
+                    document.getElementById('playerAvatar').innerText = selectedAvatar;
+                    inchideModal('modalAvatar');
+                };
+            }
+            container.appendChild(div);
+        });
+        document.getElementById('modalAvatar').style.display = 'block';
+    }
+
+    function switchTab(t) {
+        const btns = document.querySelectorAll('.tab-btn');
+        const contents = document.querySelectorAll('.tab-content');
+        btns.forEach(b => b.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
+        
+        if(t === 'summary') { btns[0].classList.add('active'); document.getElementById('tabSummary').classList.add('active'); }
+        else if(t === 'game') { btns[1].classList.add('active'); document.getElementById('tabGame').classList.add('active'); initArcheryGame(); }
+        else if(t === 'dilemma') { btns[2].classList.add('active'); document.getElementById('tabDilemma').classList.add('active'); }
+        else { btns[3].classList.add('active'); document.getElementById('tabGenially').classList.add('active'); }
+    }
+
+    function deschideStiaiCa() {
+        if (currentLessonData && currentLessonData.stiaiCa) {
+            document.getElementById('stiaiCaText').innerText = currentLessonData.stiaiCa;
+            document.getElementById('modalStiaiCa').style.display = 'block';
+            playSound('correct');
+        }
+    }
+
+    function goBack(fromHardwareBack = false) {
+        if (!fromHardwareBack && window.location.hash !== "") {
+            window.history.back();
+            return;
+        }
+
+        const detail = document.getElementById('screenDetail');
+        const lessons = document.getElementById('screenLessons');
+        const setupDuel = document.getElementById('screenDuelSetup');
+        const gameDuel = document.getElementById('screenDuelGame');
+        const resultDuel = document.getElementById('screenDuelResult');
+
+        if (gameDuel.classList.contains('active-screen') || resultDuel.classList.contains('active-screen')) {
+            clearInterval(duelState.timer);
+            gameDuel.classList.remove('active-screen');
+            resultDuel.classList.remove('active-screen');
+            setupDuel.classList.add('active-screen');
+            document.getElementById('headerTitle').innerText = "⚔️ Antrenament Solo";
+        } else if (setupDuel.classList.contains('active-screen')) {
+            setupDuel.classList.remove('active-screen');
+            document.getElementById('screenClasses').classList.add('active-screen');
+            document.getElementById('headerTitle').innerText = APP_TITLE;
+            document.getElementById('backBtn').style.display = 'none';
+            historyDepth = 0;
+        } else if(detail.classList.contains('active-screen')) {
+            detail.classList.remove('active-screen');
+            lessons.classList.add('active-screen');
+            document.getElementById('headerTitle').innerText = "Clasa a " + currentClassKey + "-a";
+        } else {
+            lessons.classList.remove('active-screen');
+            document.getElementById('screenClasses').classList.add('active-screen');
+            document.getElementById('headerTitle').innerText = APP_TITLE;
+            document.getElementById('backBtn').style.display = 'none';
+            historyDepth = 0;
+        }
+    }
+
+    function deschideDespre() { document.getElementById('modalDespre').style.display = 'block'; }
+    function inchideModal(id) { document.getElementById(id).style.display = 'none'; }
+
+    window.addEventListener('hashchange', function() {
+        let currentLevel = 0;
+        if (window.location.hash.startsWith("#step")) {
+            currentLevel = parseInt(window.location.hash.replace("#step", "")) || 0;
+        }
+
+        if (currentLevel < historyDepth) {
+            historyDepth = currentLevel;
+            goBack(true);
+        }
+    });
+
+    updateXP(0);
+    updateStreak();
+</script>
+
+<!-- Înregistrare Service Worker PWA pentru suport offline și instalare iOS/Android -->
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js')
+                .then(reg => console.log('Service Worker înregistrat cu succes!'))
+                .catch(err => console.log('Eroare Service Worker:', err));
+        });
+    }
+</script>
+</body>
+</html>

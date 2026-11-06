@@ -404,14 +404,25 @@
             </div>
         </div>
 
-        <!-- TAB 4: WORDWALL -->
+        <!-- TAB 4: WORDWALL (SUPORTĂ DOUĂ JOCURI SIMULTAN) -->
         <div id="tabGenially" class="tab-content">
             <div class="wordwall-tip-box">
                 💡 <strong>Sfat pentru telefon:</strong> După ce selectezi jocul dorit, apasă pe simbolul de <strong>Full-Screen ⛶</strong> din ecranul jocului și rotește telefonul pe orizontală pentru o vizualizare optimă!
             </div>
-            <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 10px; margin-bottom: 12px;">
+            
+            <!-- JOCUL 1 -->
+            <div id="wrapperGame1" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 10px; margin-bottom: 16px;">
+                <h4 id="titleGame1" style="color: #1e3a8a; margin-bottom: 8px;">🎮 Jocul 1</h4>
                 <div style="width: 100%; position: relative; padding-bottom: 56.25%; height: 0;">
                     <iframe id="iframeGame1" frameborder="0" width="100%" height="100%" style="position: absolute; left: 0; top: 0; border-radius: 6px;" src="" allowfullscreen="true"></iframe>
+                </div>
+            </div>
+
+            <!-- JOCUL 2 -->
+            <div id="wrapperGame2" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 10px; margin-bottom: 12px; display: none;">
+                <h4 id="titleGame2" style="color: #1e3a8a; margin-bottom: 8px;">🎮 Jocul 2</h4>
+                <div style="width: 100%; position: relative; padding-bottom: 56.25%; height: 0;">
+                    <iframe id="iframeGame2" frameborder="0" width="100%" height="100%" style="position: absolute; left: 0; top: 0; border-radius: 6px;" src="" allowfullscreen="true"></iframe>
                 </div>
             </div>
         </div>
@@ -501,7 +512,7 @@
 
     // 20 LEVEL-URI EXTINSE PENTRU EDUCAȚIE SOCIALĂ
     const LEVELS = [
-        { level: 1,  title: "Mic Cetățean",          minXP: 0,     maxXP: 200,    avatar: '🤝' },
+        { level: 1,  title: "Mic Cetățean",         minXP: 0,     maxXP: 200,    avatar: '🤝' },
         { level: 2,  title: "Promotor al Empatiei",   minXP: 200,   maxXP: 500,    avatar: '🌱' },
         { level: 3,  title: "Promotor al Respectului",minXP: 500,   maxXP: 900,    avatar: '⭐' },
         { level: 4,  title: "Gardian al Drepturilor", minXP: 900,   maxXP: 1400,   avatar: '🛡️' },
@@ -512,7 +523,7 @@
         { level: 9,  title: "Mediator Social",        minXP: 5400,  maxXP: 6900,   avatar: '⚖️' },
         { level: 10, title: "Sfetnic Civic",          minXP: 6900,  maxXP: 8600,   avatar: '📜' },
         { level: 11, title: "Arhitect al Dialogue-ului", minXP: 8600, maxXP: 10500, avatar: '🕊️' },
-        { level: 12, title: "Lider Voluntar",         minXP: 10500, maxXP: 12600,  avatar: '💖' },
+        { level: 12, title: "Lider Voluntar",          minXP: 10500, maxXP: 12600,  avatar: '💖' },
         { level: 13, title: "Manager Financiare",     minXP: 12600, maxXP: 14900,  avatar: '📊' },
         { level: 14, title: "Defensor al Egalității", minXP: 14900, maxXP: 17400,  avatar: '🗽' },
         { level: 15, title: "Ambasador al Democrației",minXP: 17400, maxXP: 20100,  avatar: '🗳️' },
@@ -667,7 +678,25 @@
         }
         document.getElementById('summaryBoxContent').innerHTML = htmlRezumat;
         
-        document.getElementById('iframeGame1').src = currentLessonData.wordwallUrl || "";
+        // GESTIONARE JOCURI WORDWALL (SUPORTĂ DOUĂ JOCURI SIMULTAN ȘI COMPATIBILITATE ÎNAPOI)
+        const iframe1 = document.getElementById('iframeGame1');
+        const iframe2 = document.getElementById('iframeGame2');
+        const wrapper2 = document.getElementById('wrapperGame2');
+
+        if (Array.isArray(currentLessonData.wordwallUrls) && currentLessonData.wordwallUrls.length > 0) {
+            iframe1.src = currentLessonData.wordwallUrls[0] || "";
+            if (currentLessonData.wordwallUrls[1]) {
+                iframe2.src = currentLessonData.wordwallUrls[1];
+                wrapper2.style.display = "block";
+            } else {
+                iframe2.src = "";
+                wrapper2.style.display = "none";
+            }
+        } else {
+            iframe1.src = currentLessonData.wordwallUrl || "";
+            iframe2.src = "";
+            wrapper2.style.display = "none";
+        }
 
         initDilemmaModule();
         switchTab('summary');

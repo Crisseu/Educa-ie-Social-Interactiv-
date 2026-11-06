@@ -1129,7 +1129,960 @@ const dateSociala = {
     ]
 }
 ],
-    "clasa_VI": [],
+    "clasa_VI": [
+        {
+    titlu: "1. Diversitatea culturală – caracteristică a societății contemporane",
+    rezumat: `
+        <h3>1. Ce este cultura?</h3>
+        <p>Cuvântul <b>cultură</b> vine din limba latină și înseamnă <i>'a cultiva', 'a îngriji'</i>. Cultura reprezintă moștenirea de valori materiale și spirituale transmise de la o generație la alta: <i>limba, tradițiile, obiceiurile, îmbrăcămintea, arta, gastronomia (mâncarea) și modul de comunicare</i>.</p>
+
+        <h3>2. Valorile și schimbarea culturii:</h3>
+        <p>Cultura nu rămâne neschimbată; ea se adaptează nevoilor oamenilor în timp și spațiu. Cele mai multe culturi pun preț pe valori precum: <b>educația, libertatea, pacea, patriotismul și respectul</b>.</p>
+
+        <h3>3. Diversitatea culturală și deviza UE:</h3>
+        <p>Cultura nu este unică, ci **diversă**. Oamenii diferă prin etnie, religie, limba vorbită și obiceiuri. Deviza Uniunii Europene este <b>'Uniți în diversitate!'</b>, amintindu-ne că învățarea și schimburile culturale ne fac mai bogați sufletește, iar diversitatea trebuie protejată și respectată.</p>
+    `,
+    stiaiCa: "Deviza Uniunii Europene, 'Uniți în diversitate' (In varietate concordia), a fost folosită pentru prima dată în anul 2000 și arată că europenii lucrează împreună pentru pace, păstrându-și în același timp propriile tradiții și culturi!",
+    wordwallUrl: "https://wordwall.net/ro/embed/27800a8165254f4892155108540bda2b?themeId=69&templateId=3&fontStackId=0",
+    dileme: [
+        {
+            scenariu: "1. La tine în clasă vine un elev nou care s-a mutat din altă țară. Vorbește româna cu un accent diferit și aduce la pachet mâncăruri specifice țării lui. Unii colegi râd de mâncarea lui. Cum reacționezi?",
+            optiuni: [
+                { text: "Îi iei apărarea, te așezi lângă el și îl rogi să îți povestească despre obiceiurile și mâncărurile din țara lui.", raspuns: "🌟 Bravo! Arăți respect pentru diversitatea culturală și îl ajuți să se simtă primit cu căldură!", puncte: 10 },
+                { text: "Râzi și tu împreună cu ceilalți colegi pentru a nu părea diferit.", raspuns: "❌ Râsul de obiceiurile altora este o lipsă de respect și afectează armonia din clasă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Orașul tău organizează un festival cultural unde diferite comunități etnice își prezintă dansurile, costumele și mâncărurile tradiționale. Un prieten spune că nu merită mers. Ce faci?",
+            optiuni: [
+                { text: "Îl convingi să mergeți împreună pentru că este o ocazie grozavă să descoperiți lucruri noi și gustoase.", raspuns: "🛡️ Excelent! Contactul cu alte culturi ne îmbogățește cunoștințele și ne deschide mintea!", puncte: 10 },
+                { text: "Refuzi și tu să mergi, spunând că doar tradițiile voastre sunt importante.", raspuns: "⚠️ Toate culturile au valoare și merită cunoscute și protejate.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Ce înseamnă cu adevărat deviza Uniunii Europene, 'Uniți în diversitate'?",
+            optiuni: [
+                { text: "Că oameni din culturi și țări diferite pot trăi în pace și colaborare, respectându-și reciproc obiceiurile.", raspuns: "👏 Minunat! Diversitatea este o bogăție comună a întregii umanități!", puncte: 10 },
+                { text: "Că toată lumea trebuie să renunțe la limba și tradițiile proprii și să devină la fel.", raspuns: "❌ Diversitatea presupune păstrarea identității fiecărui grup, nu ștergerea diferențelor.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Observi că bunicii tăi folosesc cuvinte vechi și obiceiuri pe care tinerii de azi nu le mai practică. Cum privești aceste lucruri?",
+            optiuni: [
+                { text: "Ca pe o moștenire culturală prețioasă care trebuie ascultată, înțeleasă și transmisă mai departe.", raspuns: "🌟 Foarte bine! Cultura se transmite din generație în generație!", puncte: 10 },
+                { text: "Ca pe niște lucruri inutile care ar trebui uitate complet.", raspuns: "❌ Tradițiile și moștenirea spirituală fac parte din identitatea noastră culturală.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. De unde provine termenul 'cultură' și ce însemna inițial în limba latină?", 
+            raspunsuri: [
+                "Din latină, având sensul de 'a cultiva' sau 'a îngriji'", 
+                "Din greacă, având sensul de 'a construi case'", 
+                "Din engleză, având sensul de 'a cumpăra'", 
+                "Din franceză, având sensul de 'a călători'"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele elemente FAC parte din cultura unui popor?", 
+            raspunsuri: [
+                "Doar clădirile vechi și muzeele", 
+                "Limba, tradițiile, vestimentația, arta și gastronomia", 
+                "Doar legile scrise de parlament", 
+                "Doar jocurile video și calculatoarele"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "3. Se schimbă cultura în timp?", 
+            raspunsuri: [
+                "Nu, cultura rămâne exact la fel de mii de ani", 
+                "Da, se adaptează nevoilor oamenilor și timpului în care trăim", 
+                "Se schimbă doar dacă este interzisă prin lege", 
+                "Cultura dispare complet o dată la 50 de ani"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "4. Care este cea mai importantă caracteristică a culturii în lumea contemporană?", 
+            raspunsuri: [
+                "Monotonia (toți suntem la fel)", 
+                "Izolarea (nimeni nu vorbește cu ceilalți)", 
+                "Diversitatea (există o varietate de culturi și obiceiuri)", 
+                "Secretul (cultura nu se arată altora)"
+            ], 
+            corect: 2 
+        },
+        { 
+            intrebare: "5. Care este deviza oficială a Uniunii Europene?", 
+            raspunsuri: [
+                "'Toți pentru unul, unul pentru toți!'", 
+                "'Uniți în diversitate!'", 
+                "'Pacea este singura soluție!'", 
+                "'Cultura este viitorul!'"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "6. Ce presupune respectarea diversității culturale?", 
+            raspunsuri: [
+                "Înțelegere, toleranță și coexistență pașnică între grupuri diferite", 
+                "Forțarea tuturor oamenilor să vorbească o singură limbă", 
+                "Ignorarea persoanelor care vin din alte țări", 
+                "Interzicerea sărbătorilor tradiționale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce factori au contribuit de-a lungul timpului la diversitatea culturală?", 
+            raspunsuri: [
+                "Doar condițiile meteorologice și vremea", 
+                "Procesele istorice, politice, sociale și economice", 
+                "Doar jocurile sportive internaționale", 
+                "Numărul de școli dintr-un oraș"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "8. Cum trebuie privită diversitatea culturală la nivel mondial?", 
+            raspunsuri: [
+                "Ca pe o problemă care trebuie eliminată", 
+                "Ca pe o valoare comună a umanității ce trebuie protejată", 
+                "Ca pe ceva neimportant pentru tineri", 
+                "Ca pe un motiv de certuri permanente"
+            ], 
+            corect: 1 
+        }
+    ]
+        },
+     {
+    titlu: "2. Complexitatea identității personale în prezent. Identitatea culturală proprie și identitatea culturală a celorlalți",
+    rezumat: `
+        <h3>1. Ce este identitatea personală?</h3>
+        <p><b>Identitatea personală</b> înseamnă toate informațiile care arată cine este o persoană (nume, dată de naștere, unde stă, cetățenie, cum arată, ce religie sau etnie are). Ea se schimbă pe parcursul vieții și depinde mult de comunitatea în care trăim.</p>
+
+        <h3>2. Documentele de identitate:</h3>
+        <p>Identitatea noastră este scrisă în acte oficiale: <i>certificatul de naștere, buletinul (carte de identitate), pașaportul, certificatul de căsătorie și cel de deces</i>.</p>
+
+        <h3>3. Identitatea culturală (proprie și a celorlalți):</h3>
+        <p><b>Identitatea culturală</b> înseamnă că aparținem unui grup cu aceleași lucruri în comun: limba, obiceiurile, istoria, portul popular sau mâncarea.</p>
+        <ul>
+            <li><b>Identitatea culturală proprie:</b> arată stilul și cultura fiecăruia dintre noi.</li>
+            <li><b>Identitatea culturală a celorlalți:</b> arată cultura altor oameni, din alte zone sau etnii.</li>
+            <li><b>De grup, regională sau națională:</b> când împărțim aceleași obiceiuri cu grupul nostru, cu zona în care stăm sau cu întreaga țară.</li>
+        </ul>
+    `,
+    stiaiCa: "Certificatul de naștere și buletinul sunt documentele oficiale care dovedesc cine ești în fața statului!",
+   wordwallUrls: [
+    "https://wordwall.net/ro/embed/88a22713050a465e835cfcdf76eae2a0?themeId=51&templateId=3&fontStackId=0",
+    "https://wordwall.net/ro/embed/246c5f3360024f09b2432348cd0056a2?themeId=48&templateId=35&fontStackId=0"
+],
+    dileme: [
+        {
+            scenariu: "1. Te muți într-o altă zonă a țării și colegii folosesc cuvinte regionale pe care nu le-ai mai auzit și vorbesc puțin altfel. Cum reacționezi?",
+            optiuni: [
+                { text: "Îi asculți cu atenție și îi rogi prietenește să îți explice ce înseamnă acele cuvinte.", raspuns: "🌟 Bravo! Fiecare zonă are o identitate regională deosebită!", puncte: 10 },
+                { text: "Râzi de modul lor de a vorbi și le spui că doar tu vorbești corect.", raspuns: "❌ Nu e frumos să râdem. Vorbirea diferită face parte din identitatea fiecărei regiuni.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. La o serbare, o colegă vine îmbrăcată în costumul popular al etniei din care face parte. Unii copii râd de hainele ei. Ce faci?",
+            optiuni: [
+                { text: "Îi spui că are un costum foarte frumos și că fiecare etnie are propriul port popular.", raspuns: "🛡️ Bravo! Identitatea culturală a fiecărui grup trebuie respectată!", puncte: 10 },
+                { text: "Râzi și tu ca să fii în rând cu ceilalți.", raspuns: "⚠️ Portul popular face parte din cultura fiecărui grup și nu trebuie luat în râs.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Bunicii tăi vor să îți povestească despre obiceiurile și tradițiile vechi din satul lor. Cum reacționezi?",
+            optiuni: [
+                { text: "Îi asculți cu drag, pentru că identitatea culturală ajută la păstrarea istoriei și a obiceiurilor.", raspuns: "👏 Excelent! Așa păstrăm istoria și obiceiurile noastre!", puncte: 10 },
+                { text: "Le spui că nu te interesează lucrurile vechi.", raspuns: "❌ Tradițiile și istoria fac parte din identitatea noastră culturală.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un coleg își pierde buletinul în excursie și este speriat. De ce este buletinul un document atât de important?",
+            optiuni: [
+                { text: "Pentru că este un document oficial care atestă identitatea lui personală.", raspuns: "🌟 Exact! Documentele dovedesc cine suntem!", puncte: 10 },
+                { text: "Pentru că este un simplu card de plastic fără valoare.", raspuns: "❌ Buletinul este un document oficial de identitate.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă identitatea personală?", 
+            raspunsuri: [
+                "Totalitatea datelor prin care o persoană se caracterizează și se deosebește de alta", 
+                "Jocurile pe care le avem instalate pe telefon", 
+                "Numărul de note din carnetul de elev", 
+                "Hainele pe care le purtăm astăzi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele lucruri FAC parte din datele de identificare ale unei persoane?", 
+            raspunsuri: [
+                "Culoarea preferată la adidași", 
+                "Numele, prenumele, data nașterii, domiciliul, cetățenia și etnia", 
+                "Mâncarea mâncată ieri la prânz", 
+                "Filmul la care ne uităm"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "3. Care dintre următoarele acte ESTE un document oficial de identitate?", 
+            raspunsuri: [
+                "Biletul de la film", 
+                "Cartea de identitate (buletinul) sau certificatul de naștere", 
+                "Abonamentul de autobuz", 
+                "Caietul de educație socială"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "4. La ce se referă identitatea culturală?", 
+            raspunsuri: [
+                "La marca de telefon pe care o folosim", 
+                "La sentimentul de apartenență la un grup pe baza unei moșteniri comune (limbă, obiceiuri, istorie)", 
+                "La viteza cu care alergăm la sport", 
+                "La banii din buzunar"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "5. Cum se numește profilul cultural al altor persoane, care aparțin unor etnii sau regiuni diferite?", 
+            raspunsuri: [
+                "Identitate culturală proprie", 
+                "Identitate culturală a celorlalți", 
+                "Identitate secretă", 
+                "Identitate falsă"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "6. Cum se numește identitatea culturală specifică unei anumite zone geografice?", 
+            raspunsuri: [
+                "Identitate culturală regională", 
+                "Identitate școlară", 
+                "Identitate online", 
+                "Identitate de joc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce are o mare influență asupra dezvoltării identității unei persoane?", 
+            raspunsuri: [
+                "Vremea de afară", 
+                "Comunitatea din care face parte persoana", 
+                "Reclamele de la televizor", 
+                "Modelul ghiozdanului"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "8. De ce este importantă identitatea culturală?", 
+            raspunsuri: [
+                "Pentru că ne obligă să purtăm aceleași haine", 
+                "Păstrează istoria și le oferă oamenilor un loc de apartenență", 
+                "Pentru că șterge toate sărbătorile din an", 
+                "Pentru că ne oprește să învățăm alte limbi"
+            ], 
+            corect: 1 
+        }
+    ]
+},
+{
+    titlu: "3. Patrimoniul cultural. Moștenirea culturală",
+    rezumat: `
+        <h3>1. Ce este patrimoniul cultural?</h3>
+        <p><b>Patrimoniul cultural</b> este comoara lăsată de strămoșii noștri. El cuprinde tot ce au creat oamenii de-a lungul timpului: obiceiuri, locuri, clădiri, obiecte și artă. Pentru ca identitatea unui popor să rămână vie, această comoară trebuie protejată și transmisă mai departe.</p>
+
+        <h3>2. Tipuri de patrimoniu cultural:</h3>
+        <ul>
+            <li><b>Patrimoniu material (tangibil):</b> lucrurile pe care le putem atinge. Se împarte în:
+                <ul>
+                    <li><i>Mobil (se poate muta):</i> cărți, icoane, costume populare, tablouri (găsite în muzee, biblioteci);</li>
+                    <li><i>Imobil (NU se poate muta):</i> monumente istorice, cetăți, mănăstiri, situri arheologice.</li>
+                </ul>
+            </li>
+            <li><b>Patrimoniu imaterial (intangibil):</b> obiceiuri, tradiții, meșteșuguri, limba vorbită și folclorul.</li>
+            <li><b>Patrimoniu natural:</b> zone geografice deosebite și ecosisteme.</li>
+            <li><b>Patrimoniu digital:</b> resurse create pe calculator (reconstrucții 3D, tururi virtuale, imagini, videoclipuri).</li>
+        </ul>
+
+        <h3>3. Cine protejează patrimoniul?</h3>
+        <p>La nivel național se ocupă <b>Institutul Național al Patrimoniului</b>, muzeele și asociațiile, iar la nivel internațional se ocupă <b>UNESCO</b>.</p>
+    `,
+    stiaiCa: "UNESCO este o organizație internațională care a inclus pe lista patrimoniului mondial locuri și tradiții din România precum Delta Dunării, mănăstirile din Bucovina, bisericile de lemn din Maramureș și dansul Călușului!",
+    wordwallUrls: [
+        "https://wordwall.net/ro/embed/23d7760d3e624975a6772727b777ee37?themeId=61&templateId=2&fontStackId=0", // Pui aici primul link de embed de pe Wordwall
+        "https://wordwall.net/ro/embed/566e4c64b83c49aaac8c427ca5058ae3?themeId=60&templateId=35&fontStackId=0"  // Pui aici al doilea link de embed de pe Wordwall
+    ],
+    dileme: [
+        {
+            scenariu: "1. Mergi în excursie cu clasa la un castel vechi și un coleg vrea să își scrie numele pe un zid din piatră ca 'amintire'. Cum reacționezi?",
+            optiuni: [
+                { text: "Îl oprești și îi explici că zidul face parte din patrimoniul imobil și trebuie protejat, nu distrus.", raspuns: "🌟 Bravo! Monumentele istorice trebuie păstrate intacte pentru generațiile viitoare!", puncte: 10 },
+                { text: "Îi dai și tu un pix să își scrie numele mai mare.", raspuns: "❌ Scrisul pe monumente distruge patrimoniul istoric și este interzis de lege.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Bunicul tău știe să împletească coșuri din nuiele, un meșteșug vechi pe care tinerii nu îl mai învață. Ce faci?",
+            optiuni: [
+                { text: "Îl rogi să te învețe și pe tine, pentru că meșteșugurile fac parte din patrimoniul imaterial care trebuie dat mai departe.", raspuns: "🛡️ Excelent! Așa păstrăm vii tradițiile și meșteșugurile populare!", puncte: 10 },
+                { text: "Îi spui că nu ai timp de chestii vechi pentru că există coșuri din plastic la magazin.", raspuns: "⚠️ Meșteșugurile tradiționale fac parte din identitatea noastră și se pierd dacă nu le învățăm.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Descoperi pe net un tur virtual 3D gratuit al unui muzeu celebru. Un prieten spune că tururile pe calculator sunt o pierdere de timp. Ce îi spui?",
+            optiuni: [
+                { text: "Îi explici că patrimoniul digital ne ajută să vizităm și să protejăm locuri importante direct de pe ecran.", raspuns: "👏 Foarte bine! Tehnologia ne ajută să descoperim patrimoniul digital foarte ușor!", puncte: 10 },
+                { text: "Îi dai dreptate și închizi calculatorul.", raspuns: "❌ Resursele digitale sunt mijloace moderne grozave de învățare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. În satul bunicilor există o bisericuță veche din lemn care are nevoie de reparații la acoperiș. Cine ar trebui să ajute la protejarea ei?",
+            optiuni: [
+                { text: "Instituțiile statului (muzee, Institutul Național al Patrimoniului) dar și comunitatea locală prin asociații.", raspuns: "🌟 Exact! Protejarea patrimoniului este o responsabilitate comună!", puncte: 10 },
+                { text: "Nimeni, dacă s-a învechit ar trebui lăsată să se dărâme.", raspuns: "❌ Patrimoniul imobil este o comoară istorică ce trebuie restaurată și protejată.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este patrimoniul cultural?", 
+            raspunsuri: [
+                "Comoara de valori, obiceiuri, locuri și obiecte lăsată de strămoși", 
+                "Suma banilor pe care îi avem în contul bancar", 
+                "Lista cu produsele alimentare din supermarket", 
+                "Numărul de mașini dintr-un oraș"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. În ce categorii se împarte patrimoniul material (tangibil)?", 
+            raspunsuri: [
+                "Patrimoniu mobil (se poate muta) și patrimoniu imobil (NU se poate muta)", 
+                "Patrimoniu vechi și patrimoniu cumpărat azi", 
+                "Patrimoniu din lemn și patrimoniu din fier", 
+                "Patrimoniu școlar și patrimoniu de acasă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Care dintre următoarele exemple FACE PARTE din patrimoniul mobil?", 
+            raspunsuri: [
+                "O cetate veche de piatră", 
+                "Cărțile vechi, icoanele, tablourile și costumele populare", 
+                "O mănăstire din Bucovina", 
+                "Un sat întreg cu case tradiționale"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "4. Care dintre următoarele elemente ESTE o parte a patrimoniului imobil?", 
+            raspunsuri: [
+                "Un tablou care se poate muta dintr-o cameră în alta", 
+                "Un monument istoric, o cetate sau un sit arheologic", 
+                "O carte de povești din bibliotecă", 
+                "Un costum popular din lada de zestre"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "5. Ce cuprinde patrimoniul imaterial (intangibil)?", 
+            raspunsuri: [
+                "Autobuzele și trenurile", 
+                "Obiceiurile, tradițiile, meșteșugurile, limba și folclorul", 
+                "Clădirile primăriei și spitalelor", 
+                "Calculatoarele și telefoanele mobile"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "6. Ce reprezintă patrimoniul digital?", 
+            raspunsuri: [
+                "Resurse create pe calculator (reconstrucții 3D, tururi virtuale, imagini și înregistrări)", 
+                "Cărțile scrise de mână pe pergament", 
+                "Unelte din piatră folosite în trecut", 
+                "Construcțiile din cărămidă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care este organizația internațională care se ocupă de protejarea patrimoniului la nivel mondial?", 
+            raspunsuri: [
+                "FIFA", 
+                "UNESCO (Organizația Națiunilor Unite pentru Educație, Știință și Cultură)", 
+                "Crucea Roșie", 
+                "Poliția Interpol"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "8. De ce este important să protejăm și să salvăm patrimoniul cultural?", 
+            raspunsuri: [
+                "Pentru că reprezintă imaginea și identitatea unui popor ce trebuie transmisă mai departe", 
+                "Pentru că ne ocupă spațiu degeaba în orașe", 
+                "Ca să putem vinde obiectele vechi la piață", 
+                "Pentru că ne oprește să construim magazine noi"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "4. Tradiții și obiceiuri comune sau diferite ale culturilor",
+    rezumat: `
+        <h3>1. Rolul tradițiilor și obiceiurilor:</h3>
+        <p>Tradițiile și obiceiurile sunt ca o <b>carte de vizită a unui popor</b>. Ele ajută la formarea identității naționale și ne fac să ne simțim conectați cu comunitatea din care facem parte.</p>
+
+        <h3>2. Ce este tradiția?</h3>
+        <p><b>Tradiția</b> reprezintă modul de a gândi, de a face lucrurile și de a ne comporta într-o comunitate, moștenit de la o generație la alta. Ea are 3 componente principale:</p>
+        <ul>
+            <li><b>Ideea:</b> reprezentarea sau credința;</li>
+            <li><b>Obiceiul:</b> regula care se respectă;</li>
+            <li><b>Ritualul:</b> gesturile simbolice ale obiceiului.</li>
+        </ul>
+
+        <h3>3. Ce sunt obiceiurile?</h3>
+        <p><b>Obiceiurile</b> sunt fapte culturale formate sub influența tradițiilor, care marchează momentele importante din viața oamenilor. Există două tipuri de obiceiuri:</p>
+        <ul>
+            <li><b>Calendaristice (de peste an):</b> se repetă anual (sărbători religioase, legate de munci agricole sau an anotimpuri - ex: Crăciunul, Paștele, Mărțișorul);</li>
+            <li><b>De familie:</b> legate de momentele esențiale din viața unui om, care NU se repetă (nașterea, botezul, căsătoria, înmormântarea).</li>
+        </ul>
+    `,
+    stiaiCa: "Obiceiul Mărțișorului, sărbătorit la 1 Martie ca simbol al primăverii, este o tradiție veche din spațiul românesc inclusă în Patrimoniul Cultural Imaterial UNESCO!",
+    wordwallUrl: "https://wordwall.net/ro/embed/f53f2869eeda44f3a30d2d1e69502c1a?themeId=53&templateId=2&fontStackId=0", // Aici pui link-ul de embed pentru singurul joc Wordwall
+    dileme: [
+        {
+            scenariu: "1. Prietenul tău vine dintr-o altă cultură și sărbătorește Anul Nou la o altă dată decât tine, având obiceiuri diferite. Cum privești această situație?",
+            optiuni: [
+                { text: "Îl rogi să îți povestească despre sărbătoarea lui și îi urezi 'La mulți ani!', arătând respect pentru tradițiile lui.", raspuns: "🌟 Bravo! Respectul pentru tradițiile altor culturi menține armonia în comunitate!", puncte: 10 },
+                { text: "Îi spui că sărbătoarea lui nu este valabilă pentru că nu este la fel ca a ta.", raspuns: "❌ Fiecare popor are propriul calendar și propriile tradiții care trebuie respectate.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. La nunta verișoarei tale se organizează un obicei tradițional local pe care nu l-ai mai văzut. Tu ce faci?",
+            optiuni: [
+                { text: "Participi cu curiozitate și bucurie, înțelegând că obiceiurile de familie marchează momente unice din viață.", raspuns: "🛡️ Excelent! Obiceiurile de familie aduc oamenii împreună în momente speciale!", puncte: 10 },
+                { text: "Stai îmbufnat într-un colț și te joci pe telefon fără să te uiți.", raspuns: "⚠️ Păstrarea obiceiurilor de familie ajută la menținerea identității noastre.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un coleg spune că obiceiurile calendaristice (cum ar fi mersul cu colindul) sunt demodate și nu mai au nicio valoare azi. Ce îi spui?",
+            optiuni: [
+                { text: "Îi explici că obiceiurile sunt cartea de vizită a unui popor și ne ajută să ne păstrăm identitatea națională.", raspuns: "👏 Foarte bine! Obiceiurile tradiționale păstrează vie istoria noastră!", puncte: 10 },
+                { text: "Îi dai dreptate și decizi să nu mai colinzi niciodată.", raspuns: "❌ Fără obiceiuri și tradiții, un popor își pierde identitatea culturală.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. De Crăciun, familia ta pregătește bucate tradiționale și împodobește bradul. Care este componenta simbolică (ritualul) a acestei sărbători?",
+            optiuni: [
+                { text: "Cântatul colindelor și primirea colindătorilor cu daruri.", raspuns: "🌟 Exact! Ritualul este reprezentarea simbolică a obiceiului!", puncte: 10 },
+                { text: "Mâncatul rapid al bucatelor fără nicio altă activitate.", raspuns: "❌ Mâncatul este doar o parte, ritualul cuprinde gesturile simbolice specifice.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cum mai sunt numite tradițiile și obiceiurile pentru un popor?", 
+            raspunsuri: [
+                "Cartea de vizită a unui popor", 
+                "O listă de sarcini obligatorii", 
+                "O problemă din trecut", 
+                "Un joc de noroc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce este tradiția?", 
+            raspunsuri: [
+                "O lege nouă scrisă de parlament în fiecare an", 
+                "Modul de a gândi, a face și a se comporta al unei comunități, moștenit din generație în generație", 
+                "Mâncarea pe care o cumpărăm zilnic de la magazin", 
+                "O emisiune de televiziune"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "3. Care sunt cele 3 componente principale ale unei tradiții?", 
+            raspunsuri: [
+                "Literele, cifrele și culorile", 
+                "Ideea (reprezentarea), obiceiul (regula) și ritualul (simbolul)", 
+                "Prezentul, trecutul și viitorul", 
+                "Școala, familia și prietenii"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "4. Ce sunt obiceiurile?", 
+            raspunsuri: [
+                "Reguli de circulație pe stradă", 
+                "Fapte culturale care marchează momente importante din viața omului", 
+                "Programe folosite pe calculator", 
+                "Teme făcute pentru acasă"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "5. Ce caracteristică au obiceiurile calendaristice (de peste an)?", 
+            raspunsuri: [
+                "Au loc o singură dată în viața unui om", 
+                "Se repetă în fiecare an (sărbători religioase, legate de munci sau factori de mediu)", 
+                "Sunt interzise prin lege", 
+                "Se schimbă în fiecare zi"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "6. Care dintre următoarele exemple ESTE un obicei calendaristic?", 
+            raspunsuri: [
+                "Botezul unui copil", 
+                "Mersul cu Colindul sau oferirea Mărțișorului", 
+                "Căsătoria (nunta)", 
+                "Mersul la facultate"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "7. Ce caracteristică au obiceiurile tradiționale de familie?", 
+            raspunsuri: [
+                "Sunt legate de momentele esențiale ale vieții (naștere, botez, căsătorie) și NU se repetă anual", 
+                "Se sărbătoresc în fiecare an la aceeași dată", 
+                "Sunt identice pentru toți oamenii din lume", 
+                "Se fac doar la școală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. De ce sunt importante tradițiile și obiceiurile pentru elevi și tineri?", 
+            raspunsuri: [
+                "Ne oferă un sentiment de apartenență la grup și ne ajută să ne cunoaștem identitatea", 
+                "Ne obligă să purtăm costume populare în fiecare zi la școală", 
+                "Ne opresc să învățăm lucruri noi", 
+                "Pentru că ne înlocuiesc vacanțele școlare"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "5. Patriotismul și manifestările sale",
+    rezumat: `
+        <h3>1. Ce este patriotismul?</h3>
+        <p><b>Patriotismul</b> reprezintă dragostea și devotamentul față de neam și țară. Ca să ne iubim țara, este important să îi cunoaștem istoria, limba, tradițiile, valorile și cultura națională.</p>
+
+        <h3>2. Cuvinte din familia patriotismului:</h3>
+        <ul>
+            <li><b>Patria:</b> țara noastră, locul care ne oferă sentimentul de apartenență;</li>
+            <li><b>Patriotul:</b> omul care își iubește țara, este responsabil, tolerant și respectă instituțiile statului și pe ceilalți oameni.</li>
+        </ul>
+
+        <h3>3. Prin ce se caracterizează patriotismul?</h3>
+        <ul>
+            <li>Dragoste față de țară și apărarea simbolurilor naționale;</li>
+            <li>Respect față de eroii neamului și promovarea culturii;</li>
+            <li>Grijă față de mediu și respectarea legilor țării;</li>
+            <li>Toleranță și respect față de minoritățile etnice sau migranții din țară.</li>
+        </ul>
+
+        <h3>4. Cum manifestăm patriotismul zi de zi?</h3>
+        <p>Prin ce gândim, simțim și facem: suntem fideli țării, ne cunoaștem istoria și simbolurile, mergem la vot când creștem mari, ne apărăm patria și suntem filantropi (darnici cu cei săraci).</p>
+    `,
+    stiaiCa: "Printre simbolurile naționale ale României se numără Drapelul tricolor (albastru, galben, roșu), Imnul național ('Deșteaptă-te, române!'), Stema țării și Ziua Națională de 1 Decembrie!",
+    wordwallUrl: "https://wordwall.net/ro/embed/69fa80ee87e8495699957a36f9f46421?themeId=54&templateId=2&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Vezi pe stradă că un grup de tineri aruncă gunoaie pe jos într-un parc din oraș. Un prieten spune că 'nu e treaba noastră'. Cum reacționezi?",
+            optiuni: [
+                { text: "Îi explici că a avea grijă de mediu și de natura țării tale este tot o formă de patriotism și datoria fiecărui cetățean.", raspuns: "🌟 Bravo! Patriotismul înseamnă și să păstrăm țara curată și frumoasă!", puncte: 10 },
+                { text: "Arunci și tu ambalajele pe jos pentru că toată lumea face la fel.", raspuns: "❌ Distrugerea mediului arată o lipsă de respect față de propria țară.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Se apropie Ziua Națională (1 Decembrie), iar școala ta organizează un concurs despre istoria și eroii neamului. Ce faci?",
+            optiuni: [
+                { text: "Te înscrii cu drag, pentru că un adevărat patriot își cunoaște istoria și cinstește eroii țării.", raspuns: "🛡️ Excelent! Cunoașterea istoriei este temelia patriotismului!", puncte: 10 },
+                { text: "Refuzi să participi pentru că consideri că istoria nu te ajută la nimic.", raspuns: "⚠️ Fără să cunoaștem trecutul și eroii țării, nu putem înțelege prezentul.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. La tine în cartier s-a mutat o familie de refugiați/migranți din altă țară, iar unii vecini nu vor să le vorbească. Cum procedezi?",
+            optiuni: [
+                { text: "Îi saluți prietenește, arătând toleranță și respect față de oamenii din alte țări care trăiesc la noi.", raspuns: "👏 Foarte bine! Un patriot adevărat este tolerant și respectuos cu toate grupurile etnice!", puncte: 10 },
+                { text: "Îi ignori și tu ca să fii în rând cu vecinii.", raspuns: "❌ Patriotismul nu înseamnă ură față de alții, ci respect și toleranță.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un coleg din altă clasă strânge haine și alimente pentru copiii dintr-un sat sărac. Tu ce faci?",
+            optiuni: [
+                { text: "Donezi și tu din lucrurile tale, demonstrând că ești un om darnic (filantrop) care își ajută semenii.", raspuns: "🌟 Exact! Filantropia și ajutorarea celor nevoiași sunt fapte de mare patriot!", puncte: 10 },
+                { text: "Râzi de el că își pierde timpul cu acțiuni caritabile.", raspuns: "❌ Ajutarea celor nevoiași din țara ta este o dovadă profundă de devotament.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este patriotismul?", 
+            raspunsuri: [
+                "Dragostea și devotamentul față de neam și țară", 
+                "Dorința de a călători în vacanță", 
+                "Numărul de cărți citite la limba română", 
+                "Ura față de oamenii din alte țări"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce trebuie să cunoaștem pentru a ne iubi cu adevărat țara?", 
+            raspunsuri: [
+                "Doar jocurile video populare în țară", 
+                "Istoria, tradițiile, limba, valorile și cultura națională", 
+                "Doar prețurile din magazine", 
+                "Numele emisiunilor de la TV"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "3. Cum este definit 'patriotul'?", 
+            raspunsuri: [
+                "O persoană care își iubește țara, este responsabilă, tolerantă și respectă legile", 
+                "Un om care trăiește doar în străinătate", 
+                "Persoana care nu merge niciodată la școală", 
+                "Cineva care refuză să salute steagul"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care dintre următoarele fapte ESTE o caracteristică a patriotismului?", 
+            raspunsuri: [
+                "Aruncarea gunoaielor în pădure", 
+                "Apărarea simbolurilor naționale și respectul față de eroi", 
+                "Încălcarea regulilor de circulație", 
+                "Ignorarea tuturor tradițiilor"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "5. Cum trebuie să se comporte un patriot față de grupurile etnice sau migranții din țară?", 
+            raspunsuri: [
+                "Cu toleranță și respect", 
+                "Cu răutate și respingere", 
+                "Să îi ignore complet", 
+                "Să le interzică să vorbească"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce înseamnă să fii un om 'filantrop'?", 
+            raspunsuri: [
+                "Să fii darnic și să îi ajuți pe cei săraci sau nevoiași", 
+                "Să colecționezi timbre vechi", 
+                "Să construiești poduri de fier", 
+                "Să faci doar poze în natură"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care dintre următoarele acțiuni reprezintă o manifestare a patriotismului?", 
+            raspunsuri: [
+                "Mersul la vot, respectarea legilor și îngrijirea mediului", 
+                "Distrugerea băncilor din parcuri", 
+                "Scrisul pe monumente istorice", 
+                "Evitarea meciurilor echipei naționale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce sentiment ne oferă Patria?", 
+            raspunsuri: [
+                "Sentimentul de frică", 
+                "Sentimentul de apartenență la un popor", 
+                "Sentimentul de plictiseală", 
+                "Sentimentul că suntem singuri pe lume"
+            ], 
+            corect: 1 
+        }
+    ]
+},
+{
+    titlu: "6. Raportul „eu” – „ceilalți”, „noi” – „ceilalți” în societatea multiculturală",
+    rezumat: `
+        <h3>1. Ce este o societate multiculturală?</h3>
+        <p>O <b>societate multiculturală</b> înseamnă că mai multe popoare sau grupuri culturale trăiesc în aceeași țară, iar fiecare își păstrează propriile obiceiuri și cultura.</p>
+
+        <h3>2. Cum trăiesc oamenii în multiculturalitate?</h3>
+        <p>Oamenii de culturi diferite (minorități naționale, imigranți):</p>
+        <ul>
+            <li>Trăiesc împreună în pace, fără conflicte;</li>
+            <li>Se acceptă și își oferă libertate, egalitate și respect;</li>
+            <li>Interacționează de obicei întâmplător și au o comunicare pașnică, dar mai limitată (fără legături foarte strânse de colaborare).</li>
+        </ul>
+
+        <h3>3. Cum este reprezentată multiculturalitatea?</h3>
+        <ul>
+            <li><b>La nivel național:</b> prin existența culturilor minorităților și imigranților din țara noastră;</li>
+            <li><b>La nivel european:</b> prin ansamblul culturilor tuturor popoarelor din Europa.</li>
+        </ul>
+
+        <h3>4. Cum ne purtăm cu „ceilalți”?</h3>
+        <p>Relația dintre „noi” și „ceilalți” se bazează pe: <b>toleranță</b> (acceptarea celuilalt), <b>dialog</b> (schimb de idei și soluții) și <b>comunicare</b> (depășirea barierelor).</p>
+    `,
+    stiaiCa: "În Uniunea Europeană există peste 60 de limbi regionale sau ale minorităților naționale vorbite de milioane de oameni, arătând cât de bogată este multiculturalitatea europeană!",
+    wordwallUrl: "https://wordwall.net/ro/embed/73dbff50f9a24ef596a945f1327d3651?themeId=65&templateId=3&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. În parcul din orașul tău se joacă copii care vorbesc o altă limbă maternă. Un coleg îți spune să nu mergeți acolo pentru că sunt 'diferiți'. Cum reacționezi?",
+            optiuni: [
+                { text: "Îi explici că într-o societate multiculturală toți copiii au dreptul să se joace liber și mergeți să vă împrieteniți.", raspuns: "🌟 Bravo! Toleranța și acceptarea ne ajută să trăim în pace cu ceilalți!", puncte: 10 },
+                { text: "Îi dai dreptate și evitați zona respectivă.", raspuns: "❌ Evitarea celorlalți din cauza diferențelor culturale creează bariere inutile.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Clasa voastră pregătește un proiect despre culturile din Europa. Un grup propune să prezinte doar tradițiile noastre, ignorând alte țări. Ce faci?",
+            optiuni: [
+                { text: "Propui să includeți și obiceiurile altor popoare europene, pentru că multiculturalitatea europeană înseamnă diversitate.", raspuns: "🛡️ Excelent! Aprecierea valorilor altor popoare dezvoltă societatea!", puncte: 10 },
+                { text: "Ești de acord să ignorați celelalte culturi.", raspuns: "⚠️ La nivel european, multiculturalitatea adună la un loc culturile tuturor popoarelor.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un vecin mai în vârstă se plânge că în oraș au apărut restaurante cu mâncare specifică altor culturi. Ce îi spui?",
+            optiuni: [
+                { text: "Îi explici prietenește că diversitatea culturală ne aduce lucruri noi și gustoase de descoperit.", raspuns: "👏 Foarte bine! Schimbul cultural ne face mai bogați sufletește!", puncte: 10 },
+                { text: "Spui și tu că doar mâncarea noastră este bună.", raspuns: "❌ Înțelegerea altor culturi prin gastronomie este o formă faină de respect.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Doi colegi din etnii diferite au păreri diferite despre o sărbătoare. Cum pot rezolva această situație fără certuri?",
+            optiuni: [
+                { text: "Prin dialog și comunicare ascultându-și ideile și găsind o cale de înțelegere reciprocă.", raspuns: "🌟 Exact! Dialogul ajută la găsirea soluțiilor între 'noi' și 'ceilalți'!", puncte: 10 },
+                { text: "Încetând să mai vorbească vreodată unul cu altul.", raspuns: "❌ Fără comunicare nu putem depăși barierele dintre culturi.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă o societate multiculturală?", 
+            raspunsuri: [
+                "Existența mai multor popoare în aceeași țară, fiecare păstrându-și cultura", 
+                "O țară în care toată lumea vorbește o singură limbă inventată", 
+                "Un oraș în care nu există școli sau muzee", 
+                "Un grup de oameni care au aceleași haine"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care este una dintre caracteristicile oamenilor dintr-o societate multiculturală?", 
+            raspunsuri: [
+                "Se ceartă în fiecare zi", 
+                "Trăiesc împreună fără conflicte și își oferă reciproc libertate și egalitate", 
+                "Sunt obligați să își schimbe religia", 
+                "Nu au voie să iasă din casă"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "3. Cum se manifestă multiculturalitatea la nivel național?", 
+            raspunsuri: [
+                "Prin existența culturilor minorităților naționale și ale imigranților", 
+                "Prin închiderea granițelor", 
+                "Prin interzicerea sărbătorilor", 
+                "Doar prin emisiunile de la radio"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce reprezintă multiculturalitatea la nivel european?", 
+            raspunsuri: [
+                "Un singur obicei valabil pentru toți", 
+                "Ansamblul culturilor tuturor popoarelor europene", 
+                "Limba engleză vorbită de toți copiii", 
+                "O regulă strictă de circulație"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "5. Ce înseamnă toleranța în raportul dintre 'noi' și 'ceilalți'?", 
+            raspunsuri: [
+                "O modalitate de a-l accepta pe celălalt așa cum este", 
+                "Forțarea celorlalți să gândească ca noi", 
+                "Ignorarea totală a colegilor", 
+                "Pedepsirea celor care vorbesc altă limbă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este rolul dialogului în societatea multiculturală?", 
+            raspunsuri: [
+                "Să ne ajute să schimbăm idei și să găsim soluții între 'noi' și 'ceilalți'", 
+                "Să ne certăm mai tare", 
+                "Să vorbim doar despre noi înșine", 
+                "Să ne lăudăm cu notele de la școală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Cum sunt de obicei relațiile de comunicare într-o societate multiculturală?", 
+            raspunsuri: [
+                "Asigură conviețuirea pașnică, dar pot fi pasive sau limitate, fără colaborare permanentă", 
+                "Sunt ultra-prietenoase în fiecare secundă", 
+                "Sunt pline de ură și războaie", 
+                "Sunt făcute doar prin scrisori secrete"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce trebuie să facem pentru ca o societate diversă să funcționeze bine?", 
+            raspunsuri: [
+                "Să fim deschiși cu ceilalți și să le apreciem valorile", 
+                "Să râdem de obiceiurile altora", 
+                "Să îi obligăm pe toți să mănânce la fel", 
+                "Să nu primim copii noi în clasă"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "7. Raportul „eu” – „ceilalți”, „noi” – „ceilalți” în societatea interculturală",
+    rezumat: `
+        <h3>1. Ce este o societate interculturală?</h3>
+        <p>O <b>societate interculturală</b> este formată din oameni care aparțin unor culturi diferite, dar între care există <b>comunicare, interacțiune socială și cooperare</b>. Ea înseamnă să învățăm să trăim cu adevărat împreună cu „ceilalți”.</p>
+
+        <h3>2. Care este diferența dintre multicultural și intercultural?</h3>
+        <ul>
+            <li><b>În societatea multiculturală:</b> oamenii se acceptă și se respectă, dar trăisc mai mult separat, fără o colaborare strânsă;</li>
+            <li><b>În societatea interculturală:</b> oamenii <b>cooperează, se ajută și se susțin reciproc</b>, apreciind culturile celorlalți.</li>
+        </ul>
+
+        <h3>3. Cum se caracterizează raportul cu „ceilalți”?</h3>
+        <ul>
+            <li>Respectarea diversității (limbă, obiceiuri, haine, mâncare);</li>
+            <li>Conviețuirea pașnică și dezvoltarea unor comportamente pozitive;</li>
+            <li>Comunicarea și cooperarea dincolo de diferențele culturale;</li>
+            <li>Promovarea egalității, a drepturilor omului și recunoașterea patrimoniului comun.</li>
+        </ul>
+
+        <p><i>Societatea interculturală promovează valorile pozitive și evită discriminarea, ură sau etichetarea celorlalți!</i></p>
+    `,
+    stiaiCa: "În proiectele școlare europene (cum ar fi eTwinning sau Erasmus+), elevi din țări diferite lucrează împreună în echipe mixte, punând în practică exact spiritul societății interculturale!",
+    wordwallUrl: "https://wordwall.net/ro/embed/e94f1a5fd5044759879e7b4985babfb4?themeId=22&templateId=2&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. La un concurs școlar pe echipe, în echipa ta este distribuit un elev nou venit dintr-o altă țară care nu vorbește perfect limba română. Un coleg propune să îl lăsați deoparte. Ce faci?",
+            optiuni: [
+                { text: "Îl integrezi în echipă, îl ajuți să înțeleagă sarcinile și cooperezi cu el, aplicând valorile interculturale.", raspuns: "🌟 Bravo! În societatea interculturală cooperăm și ne ajutăm reciproc!", puncte: 10 },
+                { text: "Ești de acord să îl lăsați deoparte ca să terminați sarcina mai repede.", raspuns: "❌ Ignorarea celorlalți contravine principiilor de cooperare interculturală.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Observi că un grup de elevi râde de pachetul cu mâncare al unui coleg de altă etnie, spunând că miroase ciudat. Cum reacționezi?",
+            optiuni: [
+                { text: "Le spui colegilor să se oprească, explicându-le că alimentația diferită face parte din diversitate și trebuie respectată.", raspuns: "🛡️ Excelent! Societatea interculturală combate etichetarea și discriminarea!", puncte: 10 },
+                { text: "Râzi și tu împreună cu ei.", raspuns: "⚠️ Etichetarea și luarea în râs a obiceiurilor altora sunt comportamente negative.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Clasa voastră organizează un târg culinar unde fiecare elev aduce un preparat specific familiei sale. Cum participi?",
+            optiuni: [
+                { text: "Guști cu curiozitate din mâncărurile tuturor colegilor și lauzi efortul fiecăruia.", raspuns: "👏 Foarte bine! Aprecierea culturii celuilalt creează legături frumoase!", puncte: 10 },
+                { text: "Mănânci doar ce ai adus tu de acasă și refuzi să încerci altceva.", raspuns: "❌ Deschiderea către nou este un pas important în conviețuirea interculturală.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Doi copii din etnii diferite vor să folosească terenul de sport în același timp pentru jocuri diferite. Cum rezolvă problema în stil intercultural?",
+            optiuni: [
+                { text: "Discută, cooperează și stabilesc un program comun sau un joc în care să se distreze toți împreună.", raspuns: "🌟 Exact! Cooperarea și comunicarea rezolvă barierele culturale!", puncte: 10 },
+                { text: "Se ceartă și își spun cuvinte jignitoare până când unul pleacă supărat.", raspuns: "❌ Conflictele și jignirile distrug conviețuirea pașnică.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Prin ce se caracterizează o societate interculturală?", 
+            raspunsuri: [
+                "Prin comunicare, interacțiune socială și cooperare între oameni din culturi diferite", 
+                "Prin izolarea fiecărui grup într-un cartier separat", 
+                "Prin interzicerea obiceiurilor vechi", 
+                "Prin faptul că toți oamenii poartă aceleași haine"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care este diferența principală dintre societatea multiculturală și cea interculturală?", 
+            raspunsuri: [
+                "În societatea interculturală oamenii cooperează și se ajută reciproc, nu doar se acceptă în mod pasiv", 
+                "În societatea multiculturală oamenii vorbesc mai multe limbi străine", 
+                "Nu există nicio diferență între ele", 
+                "Societatea interculturală există doar la sate"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. La ce se pot referi diferențele dintre oameni într-o societate interculturală?", 
+            raspunsuri: [
+                "Limbă, religie, tradiții, vestimentație, alimentație și comportamente", 
+                "Doar la numărul de ordine din catalog", 
+                "La marca ghiozdanului folosit la școală", 
+                "Doar la înălțimea fiecărei persoane"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce înseamnă societatea interculturală în viața de zi cu zi?", 
+            raspunsuri: [
+                "A învăța să trăiești și să cooperezi împreună cu ceilalți", 
+                "A-ți schimba numele și obiceiurile", 
+                "A refuza să vorbești cu vecinii", 
+                "A evita orice activitate în grup"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Care dintre următoarele atitudini ESTE promovată în societatea interculturală?", 
+            raspunsuri: [
+                "Etichetarea și judecarea celorlalți", 
+                "Respectarea diversității culturale și egalitatea în drepturi", 
+                "Discriminarea persoanelor din alte etnii", 
+                "Ura față de străini"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "6. Ce atitudini încearcă să EVITE o societate interculturală?", 
+            raspunsuri: [
+                "Atitudinile negative, etichetările și comportamentele discriminatorii", 
+                "Prietenia și ajutorul reciproc", 
+                "Jocurile pe echipe mixte", 
+                "Schimbul de idei"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce abilități își dezvoltă oamenii într-un mediu intercultural?", 
+            raspunsuri: [
+                "Abilități de cooperare și comunicare dincolo de barierele culturale", 
+                "Abilitatea de a ignora problemele colegilor", 
+                "Abilitatea de a câștiga toate certurile", 
+                "Abilitatea de a trăi complet izolați"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Pe ce se bazează o bună conviețuire interculturală?", 
+            raspunsuri: [
+                "Aprecierea propriei culturi plus respectul și susținerea culturii celuilalt", 
+                "Obligarea tuturor să gândească la fel", 
+                "Ștergerea istoriei propriului popor", 
+                "Refuzul de a învăța lucruri noi"
+            ], 
+            corect: 0 
+        }
+    ]
+}
+    ],
+
     "clasa_VII": [],
     "clasa_VIII": []
 };

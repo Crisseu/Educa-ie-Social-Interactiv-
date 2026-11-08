@@ -3802,6 +3802,681 @@ const dateSociala = {
             corect: 0 
         }
     ]
+},
+{
+    titlu: "2. Forme de guvernământ și regimuri politice",
+    rezumat: `
+        <h3>1. Forma de guvernământ</h3>
+        <p>Arată cum este organizată puterea supremă în stat și cum este numit conducătorul:</p>
+        <ul>
+            <li><b>Monarhie:</b> Conducătorul (rege, împărat, sultan) deține puterea pe viață și o transmite ereditar. Poate fi <i>absolută</i> (putere totală) sau <i>constituțională</i> (rol simbolic, ex: Marea Britanie, Spania, Japonia).</li>
+            <li><b>Republică:</b> Conducătorul este un președinte ales pentru un mandat limitat (4-5 ani). Poate fi <i>prezidențială</i>, <i>parlamentară</i> sau <i>semiprezidențială</i> (ex: România, SUA, Franța).</li>
+        </ul>
+
+        <h3>2. Regimul politic</h3>
+        <p>Indică modul în care este exercitată puterea și relația dintre cetățean și stat:</p>
+        <ul>
+            <li><b>Democratic:</b> Pluripartidism, alegeri libere, separația puterilor în stat și respectarea drepturilor omului;</li>
+            <li><b>Autoritar:</b> Putere concentrată în mâna unei singure forțe, fără alegeri libere, cu drepturi limitate;</li>
+            <li><b>Totalitar:</b> Unipartidism, dictatură, represiune dură și încălcarea gravă a drepturilor omului.</li>
+        </ul>
+
+        <h3>3. Specificul României</h3>
+        <p>După Revoluția din decembrie 1989, România a trecut de la un regim totalitar comunist la unul <b>democratic</b>, fiind azi o <b>republică semiprezidențială</b>.</p>
+    `,
+    stiaiCa: "San Marino este considerată cea mai veche republică din lume (fondată în anul 301 d.Hr.), având o conducere colectivă formată din doi căpitani reggenți aleși la fiecare 6 luni!",
+    wordwallUrl: "https://wordwall.net/ro/embed/3d8b31ab077e45b29c0f1fee34fba32b?themeId=53&templateId=2&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un cetățean propune desființarea tuturor partidelor politice pentru ca o singură persoană să conducă țara fără opoziție. Ce opinie ai?",
+            optiuni: [
+                { text: "Te opui, deoarece unipartidismul și lipsa opoziției conduc la un regim totalitar.", raspuns: "🌟 Bravo! Aperi pluripartidismul și valorile democratice!", puncte: 10 },
+                { text: "Susții ideea, crezând că o singură persoană ia decizii mai repede.", raspuns: "❌ Dictatura unui singur om sau partid distruge libertatea cetățenilor.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Într-o țară, monarhul are doar rol simbolic, iar legile sunt votate de un Parlament ales liber. Ce fel de stat este?",
+            optiuni: [
+                { text: "O monarhie constituțională.", raspuns: "🛡️ Excelent! În monarhia constituțională conducerea aparține organismelor alese!", puncte: 10 },
+                { text: "O monarhie absolută.", raspuns: "⚠️ În monarhia absolută conducătorul deține toată puterea, fără Parlament.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. La alegerile dintr-un stat există un singur candidat pe buletinul de vot. Cum evaluezi acest proces?",
+            optiuni: [
+                { text: "Consideri alegerile nedemocratice, specifice unui regim autoritar sau totalitar.", raspuns: "👏 Foarte bine! Alegerile libere presupun candidați multipli și opțiuni reale!", puncte: 10 },
+                { text: "Zici că este un proces corect și simplu pentru cetățeni.", raspuns: "❌ Inexistența opțiunilor libere anulează esența democrației.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Vezi o știre despre o țară unde președintele este ales prin vot direct de către cetățeni și are atribuții importante. Ce formă este?",
+            optiuni: [
+                { text: "Republică prezidențială.", raspuns: "🌟 Exact! În republica prezidențială șeful statului este ales direct și conduce executivul!", puncte: 10 },
+                { text: "Monarhie absolută.", raspuns: "❌ Președintele ales pe termen limitat este caracteristic republicilor, nu monarhiilor.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă forma de guvernământ?", 
+            raspunsuri: [
+                "Modul de organizare a puterii și de numire a conducătorului", 
+                "Bugetul de venituri și cheltuieli al unei școli", 
+                "Numărul de soldați din armata unei țări", 
+                "Stima de sine a cetățenilor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum este transmisă puterea într-o monarhie?", 
+            raspunsuri: [
+                "De regulă ereditar, pe viață, de la tată la fiu", 
+                "Prin votul elevilor din gimnaziu", 
+                "La fiecare 4 ani prin examen scris", 
+                "Prin tragere la sorți la loterie"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Care este caracteristica principală a unei republici?", 
+            raspunsuri: [
+                "Șeful statului are un mandat limitat în timp (4-5 ani)", 
+                "Conducătorul deține puterea pe viață", 
+                "Legile sunt scrise de un singur rege", 
+                "Nu există nicio autoritate de stat"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce presupune regimul politic democratic?", 
+            raspunsuri: [
+                "Pluripartidism, alegeri libere și separația puterilor", 
+                "Dictatura unui singur partid politic", 
+                "Cenzurarea presei și interzicerea protestelor", 
+                "Abolirea tuturor legilor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce formă de guvernământ are România în prezent?", 
+            raspunsuri: [
+                "Republică semiprezidențială", 
+                "Monarhie absolută", 
+                "Republică parlamentară", 
+                "Monarhie constituțională"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este o trăsătură a regimului totalitar?", 
+            raspunsuri: [
+                "Represiunea și încălcarea gravă a drepturilor omului", 
+                "Respectarea drepturilor civile", 
+                "Existența mai multor partide politice", 
+                "Organizarea de alegeri corecte și libere"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce eveniment a dus la introducerea democrației în România?", 
+            raspunsuri: [
+                "Revoluția din decembrie 1989", 
+                "Primul Război Mondial", 
+                "Pacea de la Paris din 1947", 
+                "Unirea Principatelor din 1859"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Unde a apărut pentru prima dată termenul 'republică'?", 
+            raspunsuri: [
+                "În Roma antică", 
+                "În Franța medievală", 
+                "În Egiptul antic", 
+                "În Statele Unite ale Americii"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "3. Regimul politic democratic",
+    rezumat: `
+        <h3>1. Ce este democrația?</h3>
+        <p>Democrația este regimul politic în care <b>puterea aparține cetățenilor</b>, fiind exercitată prin vot liber exprimat.</p>
+
+        <h3>2. Formele democrației</h3>
+        <ul>
+            <li><b>Democrația directă:</b> Apărută în Atena antică (sec. V î.H.), unde cetățenii votau direct legile (fără femei, sclavi sau străini);</li>
+            <li><b>Democrația reprezentativă:</b> Specifică lumii moderne (inițiată de SUA), în care cetățenii își aleg reprezentanți (independenți sau în partide) să voteze legile în numele lor.</li>
+        </ul>
+
+        <h3>3. Caracteristicile statului democratic</h3>
+        <p>Pluripartidism, alegeri libere, separația puterilor în stat, limitarea puterii prin lege, respectarea drepturilor omului și aplicarea deciziei majorității.</p>
+
+        <h3>4. Cum funcționează mecanismul democratic?</h3>
+        <p>Cetățenii votează reprezentanții ➔ Reprezentanții dezbat în Parlament și votează legi ➔ Mass-media informează populația și formează <b>opinia publică</b> ➔ Dacă cetățenii sunt mulțumiți, oferă un nou mandat la următoarele alegeri.</p>
+    `,
+    stiaiCa: "În Atena antică, cetățenii puteau vota 'ostracizarea' (alungarea din oraș timp de 5 sau 10 ani) a oricărui politician care devenea prea puternic și amenința democrația!",
+    wordwallUrl: "https://wordwall.net/ro/embed/a55bc4c24af04d6b9646fe5c16e30991?themeId=54&templateId=3&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un reprezentant ales votat de tine ignoră complet opinia publică și votează o lege împotriva comunității. Ce faci la următoarele alegeri?",
+            optiuni: [
+                { text: "Nu îl mai votezi și îți dai votul unui alt candidat responsabil.", raspuns: "🌟 Bravo! Așa funcționează sancțiunea democratică la vot!", puncte: 10 },
+                { text: "Îl votezi din nou pentru că îl cunoști deja.", raspuns: "❌ Votul necondiționat încurajează ignorarea opiniei publice.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Într-o discuție despre Atena antică, un coleg spune că acolo exista o democrație reprezentativă perfectă. Cum corectezi afirmația?",
+            optiuni: [
+                { text: "Îi explici că era directă și incompletă (femeile și sclavii nu votau).", raspuns: "🛡️ Excelent! Cunoști bine istoria formelor de democrație!", puncte: 10 },
+                { text: "Îl feliciți și spui că și femeile votau în Antichitate.", raspuns: "⚠️ În Atena antică doar bărbații cetățeni aveau drept de vot.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O televiziune prezintă opinii diferite ale cetățenilor despre un proiect de lege. De ce este important acest lucru?",
+            optiuni: [
+                { text: "Masa-media ajută la informare și la formarea opiniei publice.", raspuns: "👏 Foarte bine! Presa liberă este un pilon al statului democratic!", puncte: 10 },
+                { text: "Pentru a-i face pe oameni să se certe în familie.", raspuns: "❌ Obiectivul mass-media este informarea și dezbaterea publică.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. În clasa ta se votează destinația excursiei. 18 elevi vor la munte, iar 5 vor la mare. Ce decizie se aplică?",
+            optiuni: [
+                { text: "Se merge la munte, respectând decizia majorității.", raspuns: "🌟 Exact! Democrația se bazează pe aplicarea deciziei majorității!", puncte: 10 },
+                { text: "Se anulează excursia pentru că cei 5 nu sunt mulțumiți.", raspuns: "❌ Minoritatea își exprimă opinia, dar decizia aparține majorității.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este democrația?", 
+            raspunsuri: [
+                "Regimul politic în care puterea aparține cetățenilor", 
+                "Conducerea statului de către un singur rege", 
+                "Preluarea puterii de către armată", 
+                "Regula după care cel mai bogat conduce"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Unde și când a apărut prima democrație directă?", 
+            raspunsuri: [
+                "În orașul-stat Atena (Grecia antică, sec. V î.H.)", 
+                "În Roma antică", 
+                "În Statele Unite ale Americii în 1776", 
+                "În Franța medievală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. De ce democrația ateniană era considerată incompletă?", 
+            raspunsuri: [
+                "Femeile, sclavii și străinii nu aveau drept de vot", 
+                "Nu existau buletine de vot tipărite", 
+                "Cetățenii nu aveau voie să vorbească în public", 
+                "Votul se plătea cu bani mulți"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce caracterizează democrația reprezentativă?", 
+            raspunsuri: [
+                "Cetățenii își aleg reprezentanți care votează legile", 
+                "Toți cetățenii se adună zilnic în piață să voteze", 
+                "Legile sunt scrise doar de președinte", 
+                "Alegerile sunt interzise prin lege"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Care a fost prima mare democrație modernă a lumii?", 
+            raspunsuri: [
+                "Statele Unite ale Americii", 
+                "Marea Britanie", 
+                "Japonia", 
+                "Germania"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce rol are mass-media într-o democrație?", 
+            raspunsuri: [
+                "Prezintă informații și ajută la formarea opiniei publice", 
+                "Scrie legile în locul Parlamentului", 
+                "Stabilește prețurile în magazine", 
+                "Numește miniștrii în Guvern"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Când au avut loc primele alegeri democratice în România?", 
+            raspunsuri: [
+                "În anul 1919 (pe baza votului universal masculin)", 
+                "În anul 1859", 
+                "În anul 1989", 
+                "În anul 2000"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce se întâmplă dacă reprezentanții ignoră opinia publică?", 
+            raspunsuri: [
+                "Riscă pierderea următoarelor alegeri", 
+                "Sunt numiți pe viață în funcție", 
+                "Primesc premii suplimentare", 
+                "Desființează Parlamentul"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "4. Regimurile politice autoritare și totalitare",
+    rezumat: `
+        <h3>1. Originea dictaturii</h3>
+        <p>Termenul vine din limba latină (<i>„cel care ordonă”</i>). În Roma antică, dictatorul primea puteri nelimitate doar pentru 6 luni în caz de pericol. Iulius Cezar a rupt regula și s-a proclamat dictator pe viață.</p>
+
+        <h3>2. Regimurile totalitare din secolul al XX-lea</h3>
+        <p>S-au instalat din cauza problemelor create de Primul Război Mondial și Marea Criză Economică (1929-1933):</p>
+
+        <ul>
+            <li><b>Comunismul:</b> În Uniunea Sovietică (URSS) și extins ulterior (în România din 1945);</li>
+            <li><b>Fascismul:</b> În Italia;</li>
+            <li><b>Nazismul:</b> În Germania.</li>
+        </ul>
+
+        <h3>3. Totalitarism vs. Autoritarism</h3>
+        <ul>
+            <li><b>Regim totalitar:</b> Controlează totul prin unipartidism, teroare, cenzură, propagandă și exterminarea opozanților. Încalcă complet toate drepturile omului;</li>
+            <li><b>Regim autoritar:</b> Restrânge doar drepturile politice, dar păstrează instituțiile democratice (cu rol diminuat) și respectă, de regulă, dreptul la viață și proprietate.</li>
+        </ul>
+
+        <h3>4. Consecințe tragice</h3>
+        <p>Regimurile totalitare au provocat Al Doilea Război Mondial și milioane de victime (exterminarea evreilor de către naziști, înfometarea și uciderea țăranilor în URSS).</p>
+    `,
+    stiaiCa: "În Roma antică, funcția de dictator era o măsură temporară de urgență, dar decizia lui Iulius Cezar de a deveni dictator pe viață a dus la prăbușirea Republicii Romane!",
+    wordwallUrl: "https://wordwall.net/ro/embed/0a56030cad90418488093337c4ffc0ff?themeId=55&templateId=30&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Într-o situație de criză economică, un politician promite că va rezolva totul dacă i se dau puteri absolute și se desființează celelalte partide. Ce faci?",
+            optiuni: [
+                { text: "Refuzi propunerea, deoarece cedarea puterii către o singură persoană duce la dictatură.", raspuns: "🌟 Bravo! Ai învățat din lecțiile istoriei secolului al XX-lea!", puncte: 10 },
+                { text: "Ești de acord, crezând că dictatura este singura cale de scăpare din criză.", raspuns: "❌ Așa au ajuns la putere regimurile extremiste din Germania și Italia.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Vezi un stat în care guvernul controlează toate televiziunile, ziarele și rețelele sociale, interzicând știrile critice. Ce regim este?",
+            optiuni: [
+                { text: "Un regim totalitar sau autoritar bazat pe cenzură și propagandă.", raspuns: "🛡️ Excelent! Controlul informației împiedică cetățenii să cunoască adevărul!", puncte: 10 },
+                { text: "Un regim democratic modern.", raspuns: "⚠️ Democrația presupune libertatea presei și pluralism de opinii.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un prieten susține că între regimul autoritar și cel totalitar nu există nicio diferență. Cum îi explici?",
+            optiuni: [
+                { text: "Regimul autoritar restrânge doar drepturile politice, pe când cel totalitar controlează întreaga viață.", raspuns: "👏 Foarte bine! Ai identificat corect diferența de profunzime!", puncte: 10 },
+                { text: "Îi spui că regimul autoritar are alegeri libere și partide multiple.", raspuns: "❌ Niciunul dintre cele două regimuri nu oferă alegeri cu adevărat libere.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. În clasa ta, un elev propune ca cei care au alte păreri să nu mai aibă voie să vorbească deloc. Cum reacționezi?",
+            optiuni: [
+                { text: "Protestezi, arătând că persecutarea opozanților este o practică totalitară.", raspuns: "🌟 Exact! În democrație toate opiniile politicoase trebuie ascultate!", puncte: 10 },
+                { text: "Susții măsura pentru a avea liniște completă la ore.", raspuns: "❌ Tăcerea impusă prin forță distruge spiritul democratic.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce înseamnă termenul 'dictator' provenit din limba latină?", 
+            raspunsuri: [
+                "Cel care spune, care ordonă", 
+                "Cel care ascultă de popor", 
+                "Marele înțelept al cetății", 
+                "Conducătorul ales de Parlament"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cât timp putea conduce un dictator în Roma antică?", 
+            raspunsuri: [
+                "Maximum 6 luni în caz de pericol", 
+                "Pe viață de la bun început", 
+                "Timp de 10 ani", 
+                "Doar în zilele de weekend"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cine a fost primul conducător roman ce s-a proclamat dictator pe viață?", 
+            raspunsuri: [
+                "Iulius Cezar", 
+                "Romulus", 
+                "Augustus", 
+                "Nero"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce evenimente au favorizat apariția totalitarismului în sec. XX?", 
+            raspunsuri: [
+                "Primul Război Mondial și Marea Criză Economică", 
+                "Descoperirea Americii", 
+                "Revoluția Industrială din Anglia", 
+                "Pacea de la Westfalia"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Când s-a instaurat regimul comunist în România?", 
+            raspunsuri: [
+                "În 1945 (guvernul Petru Groza)", 
+                "În 1918 (după Marea Unire)", 
+                "În 1989 (după Revoluție)", 
+                "În 1939 (la începutul războiului)"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este o caracteristică definitorie a regimului totalitar?", 
+            raspunsuri: [
+                "Unipartidismul, teroarea și cenzura", 
+                "Pluripartidismul și votul liber", 
+                "Libertatea de circulație și de exprimare", 
+                "Separația celor trei puteri în stat"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce drepturi restrânge, în principal, un regim autoritar?", 
+            raspunsuri: [
+                "Drepturile politice", 
+                "Dreptul la viață", 
+                "Dreptul la proprietate", 
+                "Dreptul la sănătate"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Care au fost principalele regimuri totalitare din secolul al XX-lea?", 
+            raspunsuri: [
+                "Comunismul în URSS, fascismul în Italia, nazismul în Germania", 
+                "Monarhia din Marea Britanie și republica din SUA", 
+                "Democrațiile din Franța și Elveția", 
+                "Imperiul Otoman și Imperiul Austro-Ungar"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "5. Structura Constituției. Valori și principii constituționale",
+    rezumat: `
+        <h3>1. Ce este Constituția?</h3>
+        <p>Constituția este <b>legea fundamentală</b> a statului. Toate celelalte legi trebuie să fie în acord cu ea (altfel sunt declarate <i>neconstituționale</i>).</p>
+
+        <h3>2. Istoric și structură în România</h3>
+        <p>România a avut constituții în anii 1866, 1923, 1938, 1948, 1952 și 1965. Actuala Constituție a fost adoptată în <b>1991</b> (prin referendum) și revizuită în <b>2003</b>.</p>
+        <p>Este alcătuită din <b>156 de articole</b> împărțite în <b>8 titluri</b> (Principii generale, Drepturi și libertăți, Autorități publice, Economie, CCR, Integrare euroatlantică etc.).</p>
+
+        <h3>3. Principii constituționale</h3>
+        <p>Separarea puterilor în stat, pluralismul politic, egalitatea în drepturi, accesul liber la justiție și <b>prezumția de nevinovăție</b>.</p>
+
+        <h3>4. Valori promovate de Constituție</h3>
+        <p>Libertatea, egalitatea, dreptatea, proprietatea, demnitatea și toleranța.</p>
+    `,
+    stiaiCa: "Data de 8 decembrie este Ziua Constituției României, marcată în amintirea referendumului național din 1991 prin care poporul a aprobat legea fundamentală!",
+    wordwallUrl: "https://wordwall.net/ro/embed/39f0c2f15aa54855be6fbf0c8e0f24fb?themeId=6&templateId=8&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Parlamentul votează o lege care interzice accesul la școală al copiilor dintr-o anumită regiune. Ce se întâmplă?",
+            optiuni: [
+                { text: "Legea este neconstituțională și este anulată deoarece încalcă egalitatea în drepturi.", raspuns: "🌟 Bravo! Constituția este mai presus de orice lege!", puncte: 10 },
+                { text: "Legea se aplică imediat pentru că a fost votată de Parlament.", raspuns: "❌ Nicio lege nu poate fi aplicată dacă contravine Constituției.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un suspect este acuzat de un furt pe rețelele sociale înainte ca un judecător să dea verdictul. Ce principiu este încălcat?",
+            optiuni: [
+                { text: "Prezumția de nevinovăție (ești nevinovat până la dovedirea vinovăției).", raspuns: "🛡️ Excelent! Ai identificat un principiu constituțional esențial!", puncte: 10 },
+                { text: "Accesul liber la justiție.", raspuns: "⚠️ Suspectul este considerat nevinovat până la o hotărâre judecătorească definitivă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O persoană susține că votul din 1991 pentru Constituție a fost decis de un singur politician. Cum îl corectezi?",
+            optiuni: [
+                { text: "Îi explici că a fost aprobată democratic de cetățeni prin referendum național.", raspuns: "👏 Foarte bine! Constituția se bazează pe voința poporului!", puncte: 10 },
+                { text: "Îi spui că legea fundamentală a fost scrisă de rege.", raspuns: "❌ Constituția din 1991 a fost elaborată de Adunarea Constituantă și votată de popor.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un grup de cetățeni dorește să înființeze un nou partid politic legal. Ce drept constituțional folosesc?",
+            optiuni: [
+                { text: "Pluralismul politic și dreptul de asociere.", raspuns: "🌟 Exact! Pluralismul politic garantează existența mai multor partide!", puncte: 10 },
+                { text: "Prezumția de nevinovăție.", raspuns: "❌ Înființarea de partide se bazează pe dreptul de asociere și pluralism.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este Constituția într-un stat democratic?", 
+            raspunsuri: [
+                "Legea fundamentală a statului", 
+                "Un dicționar de termeni juridici", 
+                "Regulamentul de ordine interioară", 
+                "O colecție de povești istorice"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. În ce an a fost adoptată actuala Constituție a României?", 
+            raspunsuri: [
+                "1991 (revizuită în 2003)", 
+                "1866", 
+                "1923", 
+                "1989"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Câte articole și titluri are Constituția României?", 
+            raspunsuri: [
+                "156 de articole în 8 titluri", 
+                "100 de articole în 5 titluri", 
+                "500 de articole în 10 titluri", 
+                "12 articole în 2 titluri"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Cum se numește o lege care contravine prevederilor Constituției?", 
+            raspunsuri: [
+                "Neconstituțională", 
+                "Ilegală pe jumătate", 
+                "Provizorie", 
+                "Reglementată"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce înseamnă prezumția de nevinovăție?", 
+            raspunsuri: [
+                "Persoana este nevinovată până la dovedirea vinovăției prin lege", 
+                "Toți acuzații sunt vinovați din start", 
+                "Judecătorul nu poate da niciodată pedepse", 
+                "Poliția decide vinovăția fără proces"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Prin ce metodă a fost aprobată Constituția din 1991 de către popor?", 
+            raspunsuri: [
+                "Referendum național", 
+                "Tragere la sorți", 
+                "Concurs școlar", 
+                "Decret prezidențial"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care dintre următoarele este un principiu promovat de Constituție?", 
+            raspunsuri: [
+                "Pluralismul politic și dreptul de asociere", 
+                "Unipartidismul obligatoriu", 
+                "Cenzura presei", 
+                "Privilegiile pentru cei bogați"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Care dintre următoarele reprezintă o valoare constituțională?", 
+            raspunsuri: [
+                "Libertatea, egalitatea și demnitatea", 
+                "Dictatura militară", 
+                "Discriminarea pe criterii de avere", 
+                "Monopolul de stat"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "6. Statul democratic și principiul pluralismului. Separația puterilor",
+    rezumat: `
+        <h3>1. Principiul pluralismului și dreptul de asociere</h3>
+        <p>Pluralismul este o condiție a democrației care garantează libertatea cetățenilor de a se asocia în: <b>partide politice, sindicate, patronate, uniuni sau alianțe</b>. Statul le tratează pe toate în mod egal, fără privilegii.</p>
+
+        <h3>2. Rolul partidelor politice și pluripartidismul</h3>
+        <p>Partidele politice se înființează prin lege (Legea 14/2003) având o <b>doctrină</b> (conservatoare, liberală, social-democrată etc.) și un program politic:</p>
+        <ul>
+            <li><b>Partidele aflate la guvernare:</b> Câștigă alegerile și formează Guvernul;</li>
+            <li><b>Partidele din opoziție:</b> Critică deciziile guvernului, propun alternative și controlează puterea.</li>
+        </ul>
+
+        <h3>3. Principiul separării puterilor în stat</h3>
+        <p>Puterea este împărțită între 3 autorități independente care se echilibrează și se controlează reciproc (fără ierarhie):</p>
+        <ul>
+            <li><b>Autoritatea legislativă (Parlamentul bicameral):</b> Senatul și Camera Deputaților – elaborează legile;</li>
+            <li><b>Autoritatea executivă (Guvernul):</b> Prim-ministru și miniștri – pune în executare legile;</li>
+            <li><b>Autoritatea judecătorească:</b> Instanțele judecătorești (în frunte cu ÎCCJ) – judecă încălcarea legilor.</li>
+        </ul>
+    `,
+    stiaiCa: "În Parlamentul României, cele două camere (Senatul și Camera Deputaților) votează legi separate, însă pentru legi bugetare sau numiri importante se întrunesc în ședință comună!",
+    wordwallUrl: "https://wordwall.net/ro/embed/0458864ce6444ee5852665fed08c398a?themeId=26&templateId=2&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un partid politic care a pierdut alegerile decide să nu mai critice Guvernul și să refuze activitatea din Parlament. Cum evaluezi decizia?",
+            optiuni: [
+                { text: "Este greșită, deoarece rolul opoziției este să controleze Guvernul și să propună alternative.", raspuns: "🌟 Bravo! Opoziția este esențială într-o democrație sanatoasă!", puncte: 10 },
+                { text: "Este corectă, cine pierde alegerile trebuie să tacă definitiv.", raspuns: "❌ Fără o opoziție activă, Guvernul poate cădea în abuz de putere.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Guvernul dorește să schimbe o lege votată de Parlament fără să consulte parlamentarii. Ce principiu se încalcă?",
+            optiuni: [
+                { text: "Principiul separării și echilibrului puterilor în stat.", raspuns: "🛡️ Excelent! Guvernul execută legile, nu le înlocuiește după bunul plac!", puncte: 10 },
+                { text: "Pluralismul sindicatelor.", raspuns: "⚠️ Relația dintre Guvern și Parlament ține de separația puterilor.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Angajații unei fabrici se organizează într-o asociație pentru a-și apăra drepturile salariale. Ce drept folosesc?",
+            optiuni: [
+                { text: "Dreptul de asociere (prin înființarea unui sindicat).", raspuns: "👏 Foarte bine! Asocierea ajută la protejarea drepturilor comune!", puncte: 10 },
+                { text: "Autoritatea judecătorească supremă.", raspuns: "❌ Înființarea de asociații sau sindicate este un drept de asociere.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un prim-ministru încearcă să ordone judecătorilor ce sentință să dea într-un dosar. Ce faci dacă ești judecător?",
+            optiuni: [
+                { text: "Refuzi intervenția, protejând independența autorității judecătorești.", raspuns: "🌟 Exact! Instanțele sunt independente și nu se subordonează Guvernului!", puncte: 10 },
+                { text: "Execuți ordinul pentru că prim-ministrul conduce țara.", raspuns: "❌ Amestecul executivului în justiție distruge statul de drept.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este pluralismul într-un stat democratic?", 
+            raspunsuri: [
+                "Existența mai multor forme de asociere și partide politice", 
+                "Conducerea țării de către un singur partid puternic", 
+                "Interzicerea sindicatelor și patronatelor", 
+                "Organizarea alegerilor o dată la 20 de ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele este o formă de asociere a cetățenilor?", 
+            raspunsuri: [
+                "Partidele politice, sindicatele și patronatele", 
+                "Instanțele de judecată", 
+                "Ministerul Finanțelor", 
+                "Curtea Constituțională"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce partid formează Guvernul după alegeri?", 
+            raspunsuri: [
+                "Partidul sau coaliția care a primit cele mai multe voturi", 
+                "Partidul care a ieșit pe ultimul loc", 
+                "Orice partid desemnat de judecători", 
+                "Partidul stabilit prin tragere la sorți"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce rol au partidele aflate în opoziție?", 
+            raspunsuri: [
+                "Critică deciziile guvernării și propun alternative", 
+                "Conduc ministerele și armata", 
+                "Scriu Constituția în fiecare an", 
+                "Interzic participarea cetățenilor la vot"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Din ce este alcătuit Parlamentul bicameral al României?", 
+            raspunsuri: [
+                "Senatul și Camera Deputaților", 
+                "Guvernul și Primăria", 
+                "Înalta Curte și Judecătoria", 
+                "Ministere și prefecturi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este atributul principal al autorității executive (Guvernul)?", 
+            raspunsuri: [
+                "Pune în executare legile", 
+                "Elaborează și votează legile", 
+                "Judecă persoanele care încalcă legea", 
+                "Organizează activitatea instanțelor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care este instanța judecătorească supremă menționată în lectie?", 
+            raspunsuri: [
+                "Înalta Curte de Casație și Justiție", 
+                "Senatul României", 
+                "Camera Deputaților", 
+                "Guvernul României"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum sunt organizate cele trei autorități din stat?", 
+            raspunsuri: [
+                "Nu sunt ierarhizate, fiind independente și egale", 
+                "Guvernul este mai presus de Parlament", 
+                "Parlamentul conduce instanțele de judecată", 
+                "Judecătorii conduc Parlamentul"
+            ], 
+            corect: 0 
+        }
+    ]
 }
     ],
     "clasa_VIII": []

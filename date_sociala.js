@@ -1945,137 +1945,1721 @@ const dateSociala = {
     ]
 },
 {
-    titlu: "7. Raportul „eu” – „ceilalți”, „noi” – „ceilalți” în societatea interculturală",
+            titlu: "7. Raportul „eu” – „ceilalți”, „noi” – „ceilalți” în societatea interculturală",
+            rezumat: `
+                <h3>1. Ce este o societate interculturală?</h3>
+                <p>O <b>societate interculturală</b> este formată din oameni care aparțin unor culturi diferite, dar între care există <b>comunicare, interacțiune socială și cooperare</b>. Ea înseamnă să învățăm să trăim cu adevărat împreună cu „ceilalți”.</p>
+
+                <h3>2. Care este diferența dintre multicultural și intercultural?</h3>
+                <ul>
+                    <li><b>În societatea multiculturală:</b> oamenii se acceptă și se respectă, dar trăisc mai mult separat, fără o colaborare strânsă;</li>
+                    <li><b>În societatea interculturală:</b> oamenii <b>cooperează, se ajută și se susțin reciproc</b>, apreciind culturile celorlalți.</li>
+                </ul>
+
+                <h3>3. Cum se caracterizează raportul cu „ceilalți”?</h3>
+                <ul>
+                    <li>Respectarea diversității (limbă, obiceiuri, haine, mâncare);</li>
+                    <li>Conviețuirea pașnică și dezvoltarea unor comportamente pozitive;</li>
+                    <li>Comunicarea și cooperarea dincolo de diferențele culturale;</li>
+                    <li>Promovarea egalității, a drepturilor omului și recunoașterea patrimoniului comun.</li>
+                </ul>
+
+                <p><i>Societatea interculturală promovează valorile pozitive și evită discriminarea, ură sau etichetarea celorlalți!</i></p>
+            `,
+            stiaiCa: "În proiectele școlare europene (cum ar fi eTwinning sau Erasmus+), elevi din țări diferite lucrează împreună în echipe mixte, punând în practică exact spiritul societății interculturale!",
+            wordwallUrl: "https://wordwall.net/ro/embed/e94f1a5fd5044759879e7b4985babfb4?themeId=22&templateId=2&fontStackId=0",
+            dileme: [
+                {
+                    scenariu: "1. La un concurs școlar pe echipe, în echipa ta este distribuit un elev nou venit dintr-o altă țară care nu vorbește perfect limba română. Un coleg propune să îl lăsați deoparte. Ce faci?",
+                    optiuni: [
+                        { text: "Îl integrezi în echipă, îl ajuți să înțeleagă sarcinile și cooperezi cu el, aplicând valorile interculturale.", raspuns: "🌟 Bravo! În societatea interculturală cooperăm și ne ajutăm reciproc!", puncte: 10 },
+                        { text: "Ești de acord să îl lăsați deoparte ca să terminați sarcina mai repede.", raspuns: "❌ Ignorarea celorlalți contravine principiilor de cooperare interculturală.", puncte: 0 }
+                    ]
+                },
+                {
+                    scenariu: "2. Observi că un grup de elevi râde de pachetul cu mâncare al unui coleg de altă etnie, spunând că miroase ciudat. Cum reacționezi?",
+                    optiuni: [
+                        { text: "Le spui colegilor să se oprească, explicându-le că alimentația diferită face parte din diversitate și trebuie respectată.", raspuns: "🛡️ Excelent! Societatea interculturală combate etichetarea și discriminarea!", puncte: 10 },
+                        { text: "Râzi și tu împreună cu ei.", raspuns: "⚠️ Etichetarea și luarea în râs a obiceiurilor altora sunt comportamente negative.", puncte: 0 }
+                    ]
+                },
+                {
+                    scenariu: "3. Clasa voastră organizează un târg culinar unde fiecare elev aduce un preparat specific familiei sale. Cum participi?",
+                    optiuni: [
+                        { text: "Guști cu curiozitate din mâncărurile tuturor colegilor și lauzi efortul fiecăruia.", raspuns: "👏 Foarte bine! Aprecierea culturii celuilalt creează legături frumoase!", puncte: 10 },
+                        { text: "Mănânci doar ce ai adus tu de acasă și refuzi să încerci altceva.", raspuns: "❌ Deschiderea către nou este un pas important în conviețuirea interculturală.", puncte: 0 }
+                    ]
+                },
+                {
+                    scenariu: "4. Doi copii din etnii diferite vor să folosească terenul de sport în același timp pentru jocuri diferite. Cum rezolvă problema în stil intercultural?",
+                    optiuni: [
+                        { text: "Discută, cooperează și stabilesc un program comun sau un joc în care să se distreze toți împreună.", raspuns: "🌟 Exact! Cooperarea și comunicarea rezolvă barierele culturale!", puncte: 10 },
+                        { text: "Se ceartă și își spun cuvinte jignitoare până când unul pleacă supărat.", raspuns: "❌ Conflictele și jignirile distrug conviețuirea pașnică.", puncte: 0 }
+                    ]
+                }
+            ],
+            quiz: [
+                { 
+                    intrebare: "1. Prin ce se caracterizează o societate interculturală?", 
+                    raspunsuri: [
+                        "Prin comunicare, interacțiune socială și cooperare între oameni din culturi diferite", 
+                        "Prin izolarea fiecărui grup într-un cartier separat", 
+                        "Prin interzicerea obiceiurilor vechi", 
+                        "Prin faptul că toți oamenii poartă aceleași haine"
+                    ], 
+                    corect: 0 
+                },
+                { 
+                    intrebare: "2. Care este diferența principală dintre societatea multiculturală și cea interculturală?", 
+                    raspunsuri: [
+                        "În societatea interculturală oamenii cooperează și se ajută reciproc, nu doar se acceptă în mod pasiv", 
+                        "În societatea multiculturală oamenii vorbesc mai multe limbi străine", 
+                        "Nu există nicio diferență între ele", 
+                        "Societatea interculturală există doar la sate"
+                    ], 
+                    corect: 0 
+                },
+                { 
+                    intrebare: "3. La ce se pot referi diferențele dintre oameni într-o societate interculturală?", 
+                    raspunsuri: [
+                        "Limbă, religie, tradiții, vestimentație, alimentație și comportamente", 
+                        "Doar la numărul de ordine din catalog", 
+                        "La marca ghiozdanului folosit la școală", 
+                        "Doar la înălțimea fiecărei persoane"
+                    ], 
+                    corect: 0 
+                },
+                { 
+                    intrebare: "4. Ce înseamnă societatea interculturală în viața de zi cu zi?", 
+                    raspunsuri: [
+                        "A învăța să trăiești și să cooperezi împreună cu ceilalți", 
+                        "A-ți schimba numele și obiceiurile", 
+                        "A refuza să vorbești cu vecinii", 
+                        "A evita orice activitate în grup"
+                    ], 
+                    corect: 0 
+                },
+                { 
+                    intrebare: "5. Care dintre următoarele atitudini ESTE promovată în societatea interculturală?", 
+                    raspunsuri: [
+                        "Etichetarea și judecarea celorlalți", 
+                        "Respectarea diversității culturale și egalitatea în drepturi", 
+                        "Discriminarea persoanelor din alte etnii", 
+                        "Ura față de străini"
+                    ], 
+                    corect: 1 
+                },
+                { 
+                    intrebare: "6. Ce atitudini încearcă să EVITE o societate interculturală?", 
+                    raspunsuri: [
+                        "Atitudinile negative, etichetările și comportamentele discriminatorii", 
+                        "Prietenia și ajutorul reciproc", 
+                        "Jocurile pe echipe mixte", 
+                        "Schimbul de idei"
+                    ], 
+                    corect: 0 
+                },
+                { 
+                    intrebare: "7. Ce abilități își dezvoltă oamenii într-un mediu intercultural?", 
+                    raspunsuri: [
+                        "Abilități de cooperare și comunicare dincolo de barierele culturale", 
+                        "Abilitatea de a ignora problemele colegilor", 
+                        "Abilitatea de a câștiga toate certurile", 
+                        "Abilitatea de a trăi complet izolați"
+                    ], 
+                    corect: 0 
+                },
+                { 
+                    intrebare: "8. Pe ce se bazează o bună conviețuire interculturală?", 
+                    raspunsuri: [
+                        "Aprecierea propriei culturi plus respectul și susținerea culturii celuilalt", 
+                        "Obligarea tuturor să gândească la fel", 
+                        "Ștergerea istoriei propriului popor", 
+                        "Refuzul de a învăța lucruri noi"
+                    ], 
+                    corect: 0 
+                }
+            ]
+        },
+        {
+            titlu: "8. Principiile și valorile unei societăți interculturale. Dezvoltarea identității culturale proprii",
+            rezumat: `
+                <h3>1. Ce este identitatea culturală proprie?</h3>
+                <p><b>Identitatea culturală proprie</b> reprezintă ansamblul de date și trăsături prin care se identifică un grup de persoane sau o comunitate care împarte aceeași cultură. Elementele de bază sunt: <i>limba, etnia, religia, tradițiile și obiceiurile</i>.</p>
+
+                <h3>2. Cum ne dezvoltăm și promovăm identitatea culturală?</h3>
+                <ul>
+                    <li>Purtăm elemente tradiționale specifice culturii noastre;</li>
+                    <li>Participăm la festivaluri muzicale, literare și artistice;</li>
+                    <li>Scriem benzi desenate, cărți sau articole despre tradițiile noastre;</li>
+                    <li>Promovăm locurile și obiceiurile noastre prin turism și pe rețelele sociale.</li>
+                </ul>
+
+                <h3>3. Valorile societății interculturale:</h3>
+                <p><b>Valorile</b> arată ce este cu adevărat important pentru noi în relațiile cu ceilalți. O societate interculturală se construiește pe valori precum: <i>toleranța, empatia, respectul, înțelegerea, acceptarea și solidaritatea</i>.</p>
+
+                <h3>4. Principiile (Regulile de ghidare):</h3>
+                <p><b>Principiile</b> se nasc din valori și devin reguli care ne ghidează purtarea de zi cu zi (de exemplu: din valoarea <i>Respect</i> se naște principiul <i>'Să îi tratăm pe toți în mod egal'</i>).</p>
+                <p>Principalele principii interculturale sunt: acceptarea diversității, egalitatea șanselor, incluziunea socială, dialogul și tratamentul egal al tuturor oamenilor.</p>
+            `,
+            stiaiCa: "Multe benzi desenate și filme de animație moderne sunt create special pentru a promova obiceiurile și legendele locale, ajutând tinerii din toată lumea să descopere culturi noi într-un mod super distractiv!",
+            wordwallUrl: "https://wordwall.net/ro/embed/d86f28f537914f07b96528cf10c25dff?themeId=66&templateId=30&fontStackId=0",
+            dileme: [
+                {
+                    scenariu: "1. Școala ta organizează o 'Zi a Culturilor', iar tu vrei să îți lauzi tradițiile. Cum este cel mai bine să faci asta?",
+                    optiuni: [
+                        { text: "Vii îmbrăcat într-o ie sau piesă tradițională, aduci bucate specifice și le exerciți cu mândrie și respect față de ceilalți.", raspuns: "🌟 Bravo! Promovarea propriei culturi se face prin respect și deschidere!", puncte: 10 },
+                        { text: "Spui că doar cultura ta este frumoasă și că ale celorlalți colegi sunt plictisitoare.", raspuns: "❌ Promovarea identității proprii nu înseamnă să le jignești pe ale celorlalți.", puncte: 0 }
+                    ]
+                },
+                {
+                    scenariu: "2. Vezi un coleg care este lăsat singur la pauză pentru că vine dintr-o altă regiune și nu cunoaște pe nimeni. Ce valoare interculturală pui în practică?",
+                    optiuni: [
+                        { text: "Empatia și solidaritatea: mergi la el, îl inviți în grup și îl ajuți să se simtă integrat.", raspuns: "🛡️ Excelent! Incluziunea socială și empatia creează o comunitate unită!", puncte: 10 },
+                        { text: "Îl ignori și tu, considerând că e treaba lui să își facă prieteni.", raspuns: "⚠️ Lipsa de solidaritate îi face pe ceilalți să se simtă izolați.", puncte: 0 }
+                    ]
+                },
+                {
+                    scenariu: "3. Ai de ales un principiu după care să te ghidezi atunci când lucrezi într-un proiect de echipă cu elevi foarte diferiți de tine. Ce alegi?",
+                    optiuni: [
+                        { text: "Tratamentul egal al tuturor persoanelor și ascultarea părerilor fiecărui coleg.", raspuns: "👏 Foarte bine! Principiul egalității de șanse asigură succesul echipei!", puncte: 10 },
+                        { text: "Ascultarea doar a prietenilor tăi cei mai buni.", raspuns: "❌ Principiile interculturale ne cer să tratăm pe toată lumea în mod egal.", puncte: 0 }
+                    ]
+                },
+                {
+                    scenariu: "4. Vrei să creezi un desen sau o scurtă poveste pentru revista școlii. Despre ce alegi să scrii?",
+                    optiuni: [
+                        { text: "Despre o legendă veche din zona ta, explicată pe înțelesul colegilor, pentru a-ți dezvolta identitatea culturală.", raspuns: "🌟 Exact! Creația artistică și scrisul sunt modalități grozave de promovare culturală!", puncte: 10 },
+                        { text: "Copiezi o poveste oarecare de pe internet fără nicio legătură cu tradițiile.", raspuns: "❌ Promovarea identității proprii înseamnă să valorifici moștenirea ta culturală.", puncte: 0 }
+                    ]
+                }
+            ],
+           quiz: [
+        { 
+            intrebare: "1. Ce este identitatea culturală?", 
+            raspunsuri: [
+                "Limba, etnia și tradițiile moștenite", 
+                "Lista de jocuri din telefon", 
+                "Nota la teza de matematică", 
+                "Hainele cumpărate azi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce element face parte din identitate?", 
+            raspunsuri: [
+                "Modelul telefonului", 
+                "Limba maternă și obiceiurile", 
+                "Viteza la internet", 
+                "Ora la care te trezești"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "3. Cum îți promovezi tradițiile?", 
+            raspunsuri: [
+                "Purtând piese tradiționale și scriind povești", 
+                "Ascunzând obiceiurile familiei", 
+                "Refuzând să vorbi romana", 
+                "Ignorând festivalurile"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce sunt valorile unei societăți?", 
+            raspunsuri: [
+                "Ce e important în relațiile cu ceilalți", 
+                "Prețurile din magazin", 
+                "Numărul de pagini din carte", 
+                "Banii din pușculiță"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Care este o valoare interculturală?", 
+            raspunsuri: [
+                "Egoismul și invidia", 
+                "Toleranța și empatia", 
+                "Lenea și certurile", 
+                "Discriminarea"
+            ], 
+            corect: 1 
+        },
+        { 
+            intrebare: "6. Din ce se nasc principiile?", 
+            raspunsuri: [
+                "Direct din valorile noastre", 
+                "Se cumpără de la magazin", 
+                "Din vremea de afară", 
+                "Din jocurile video"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce principiu vine din RESPECT?", 
+            raspunsuri: [
+                "Să-i tratăm pe toți egal", 
+                "Să plecăm când cineva vorbește", 
+                "Să-i întrerupem pe ceilalți", 
+                "Să ascultăm doar pe cei tari"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce înseamnă egalitatea de șanse?", 
+            raspunsuri: [
+                "Oportunități egale pentru toți copiii", 
+                "Interzicerea altor limbi", 
+                "Haine identice pentru toți", 
+                "Separarea copiilor pe grupe"
+            ], 
+            corect: 0 
+        }
+    ]
+        },
+        {
+    titlu: "9. Acceptarea și respectarea diversității. Valorizarea pozitivă a diferențelor",
     rezumat: `
-        <h3>1. Ce este o societate interculturală?</h3>
-        <p>O <b>societate interculturală</b> este formată din oameni care aparțin unor culturi diferite, dar între care există <b>comunicare, interacțiune socială și cooperare</b>. Ea înseamnă să învățăm să trăim cu adevărat împreună cu „ceilalți”.</p>
+        <h3>1. Avem nevoie de diversitate?</h3>
+        <p>Da! Suntem înconjurați de diversitate în fiecare zi. Chiar și noi căutăm lucruri noi când ne plictisim de rutină.</p>
 
-        <h3>2. Care este diferența dintre multicultural și intercultural?</h3>
+        <h3>2. Ce aduce nou diversitatea?</h3>
+        <p>Diversitatea aduce <b>schimbare</b>. Lucrurile noi pe care le învățăm de la alții ne ajută să creștem și să ne dezvoltăm ca oameni.</p>
+
+        <h3>3. Toți suntem diferiți, dar egali!</h3>
         <ul>
-            <li><b>În societatea multiculturală:</b> oamenii se acceptă și se respectă, dar trăisc mai mult separat, fără o colaborare strânsă;</li>
-            <li><b>În societatea interculturală:</b> oamenii <b>cooperează, se ajută și se susțin reciproc</b>, apreciind culturile celorlalți.</li>
+            <li>A fi diferit <b>NU</b> înseamnă că cineva este mai bun decât altul;</li>
+            <li>Avem cu toții un <b>potențial valoric egal</b>;</li>
+            <li>Fiecare dintre noi este o persoană unică.</li>
         </ul>
 
-        <h3>3. Cum se caracterizează raportul cu „ceilalți”?</h3>
-        <ul>
-            <li>Respectarea diversității (limbă, obiceiuri, haine, mâncare);</li>
-            <li>Conviețuirea pașnică și dezvoltarea unor comportamente pozitive;</li>
-            <li>Comunicarea și cooperarea dincolo de diferențele culturale;</li>
-            <li>Promovarea egalității, a drepturilor omului și recunoașterea patrimoniului comun.</li>
-        </ul>
-
-        <p><i>Societatea interculturală promovează valorile pozitive și evită discriminarea, ură sau etichetarea celorlalți!</i></p>
+        <h3>4. Ce înseamnă valorizarea pozitivă a diferențelor?</h3>
+        <p>Înseamnă să privim diferențele dintre noi ca pe o șansă de a învăța lucruri noi, de a ne face prieteni și de a trăi în pace într-o comunitate unită.</p>
     `,
-    stiaiCa: "În proiectele școlare europene (cum ar fi eTwinning sau Erasmus+), elevi din țări diferite lucrează împreună în echipe mixte, punând în practică exact spiritul societății interculturale!",
-    wordwallUrl: "https://wordwall.net/ro/embed/e94f1a5fd5044759879e7b4985babfb4?themeId=22&templateId=2&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    stiaiCa: "În lume există peste 7.000 de limbi vorbite! Această diversitate incredibilă face ca fiecare cultură să aibă povești și tradiții unice.",
+    wordwallUrl: "https://wordwall.net/ro/embed/84f5402e25ec441bbef95d6739a9dccf?themeId=46&templateId=35&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
     dileme: [
         {
-            scenariu: "1. La un concurs școlar pe echipe, în echipa ta este distribuit un elev nou venit dintr-o altă țară care nu vorbește perfect limba română. Un coleg propune să îl lăsați deoparte. Ce faci?",
+            scenariu: "1. Un coleg nou se îmbracă diferit și are alte obiceiuri. Ce faci?",
             optiuni: [
-                { text: "Îl integrezi în echipă, îl ajuți să înțeleagă sarcinile și cooperezi cu el, aplicând valorile interculturale.", raspuns: "🌟 Bravo! În societatea interculturală cooperăm și ne ajutăm reciproc!", puncte: 10 },
-                { text: "Ești de acord să îl lăsați deoparte ca să terminați sarcina mai repede.", raspuns: "❌ Ignorarea celorlalți contravine principiilor de cooperare interculturală.", puncte: 0 }
+                { text: "Ești curios și îl inviți să-ți povestească despre stilul lui.", raspuns: "🌟 Bravo! Valorifici pozitiv diferențele și înveți lucruri noi!", puncte: 10 },
+                { text: "Râzi de el pentru că nu arată ca ceilalți.", raspuns: "❌ A fi diferit nu înseamnă că cineva e mai puțin valoros.", puncte: 0 }
             ]
         },
         {
-            scenariu: "2. Observi că un grup de elevi râde de pachetul cu mâncare al unui coleg de altă etnie, spunând că miroase ciudat. Cum reacționezi?",
+            scenariu: "2. În echipă la un proiect, un coleg vine cu o idee complet diferită de a ta. Cum reacționezi?",
             optiuni: [
-                { text: "Le spui colegilor să se oprească, explicându-le că alimentația diferită face parte din diversitate și trebuie respectată.", raspuns: "🛡️ Excelent! Societatea interculturală combate etichetarea și discriminarea!", puncte: 10 },
-                { text: "Râzi și tu împreună cu ei.", raspuns: "⚠️ Etichetarea și luarea în râs a obiceiurilor altora sunt comportamente negative.", puncte: 0 }
+                { text: "O asculti cu atenție, pentru că ideile noi ne ajută să învățăm.", raspuns: "🛡️ Excelent! Diversitatea de opinii aduce idei mai bune!", puncte: 10 },
+                { text: "Spui că ideea lui e proastă doar pentru că e altfel.", raspuns: "⚠️ Respectarea diversității înseamnă ascultarea altor păreri.", puncte: 0 }
             ]
         },
         {
-            scenariu: "3. Clasa voastră organizează un târg culinar unde fiecare elev aduce un preparat specific familiei sale. Cum participi?",
+            scenariu: "3. La ora de desen, un coleg folosește culori neobișnuite. Ce îi spui?",
             optiuni: [
-                { text: "Guști cu curiozitate din mâncărurile tuturor colegilor și lauzi efortul fiecăruia.", raspuns: "👏 Foarte bine! Aprecierea culturii celuilalt creează legături frumoase!", puncte: 10 },
-                { text: "Mănânci doar ce ai adus tu de acasă și refuzi să încerci altceva.", raspuns: "❌ Deschiderea către nou este un pas important în conviețuirea interculturală.", puncte: 0 }
+                { text: "Îl felicit pentru originalitate și pentru modul său unic.", raspuns: "👏 Foarte bine! Fiecare om este unic și își exprimă ideile altfel!", puncte: 10 },
+                { text: "Îi spui că a greșit desenul pentru că nu a făcut ca tine.", raspuns: "❌ Nu există o singură cale corectă în artă sau în viață.", puncte: 0 }
             ]
         },
         {
-            scenariu: "4. Doi copii din etnii diferite vor să folosească terenul de sport în același timp pentru jocuri diferite. Cum rezolvă problema în stil intercultural?",
+            scenariu: "4. Un grup de colegi ignoră un elev pentru că vine din altă țară. Cum procedezi?",
             optiuni: [
-                { text: "Discută, cooperează și stabilesc un program comun sau un joc în care să se distreze toți împreună.", raspuns: "🌟 Exact! Cooperarea și comunicarea rezolvă barierele culturale!", puncte: 10 },
-                { text: "Se ceartă și își spun cuvinte jignitoare până când unul pleacă supărat.", raspuns: "❌ Conflictele și jignirile distrug conviețuirea pașnică.", puncte: 0 }
+                { text: "Mergi la el și îi arăți că este egalul vostru în comunitate.", raspuns: "🌟 Exact! Avem cu toții un potențial valoric egal!", puncte: 10 },
+                { text: "Stai deoparte și îi lași să îl ignore.", raspuns: "❌ Tăcerea ajută la izolarea celorlalți.", puncte: 0 }
             ]
         }
     ],
     quiz: [
         { 
-            intrebare: "1. Prin ce se caracterizează o societate interculturală?", 
+            intrebare: "1. Ce aduce diversitatea în viața noastră?", 
             raspunsuri: [
-                "Prin comunicare, interacțiune socială și cooperare între oameni din culturi diferite", 
-                "Prin izolarea fiecărui grup într-un cartier separat", 
-                "Prin interzicerea obiceiurilor vechi", 
-                "Prin faptul că toți oamenii poartă aceleași haine"
+                "Schimbare și învățare", 
+                "Doar plictiseală și ceartă", 
+                "Note mici la școală", 
+                "Reguli stricte și dure"
             ], 
             corect: 0 
         },
         { 
-            intrebare: "2. Care este diferența principală dintre societatea multiculturală și cea interculturală?", 
+            intrebare: "2. Ce înseamnă că suntem diferiți?", 
             raspunsuri: [
-                "În societatea interculturală oamenii cooperează și se ajută reciproc, nu doar se acceptă în mod pasiv", 
-                "În societatea multiculturală oamenii vorbesc mai multe limbi străine", 
-                "Nu există nicio diferență între ele", 
-                "Societatea interculturală există doar la sate"
+                "Că suntem persoane unice", 
+                "Că unii sunt superiori altora", 
+                "Că trebuie să fim izolați", 
+                "Că nu avem aceleași drepturi"
             ], 
             corect: 0 
         },
         { 
-            intrebare: "3. La ce se pot referi diferențele dintre oameni într-o societate interculturală?", 
+            intrebare: "3. Cum este potențialul nostru valoric?", 
             raspunsuri: [
-                "Limbă, religie, tradiții, vestimentație, alimentație și comportamente", 
-                "Doar la numărul de ordine din catalog", 
-                "La marca ghiozdanului folosit la școală", 
-                "Doar la înălțimea fiecărei persoane"
+                "Egal pentru toți oamenii", 
+                "Mai mare doar la bogați", 
+                "Mai mic la copiii noi", 
+                "Diferit în fiecare minut"
             ], 
             corect: 0 
         },
         { 
-            intrebare: "4. Ce înseamnă societatea interculturală în viața de zi cu zi?", 
+            intrebare: "4. Ce facem când rutina ne plictisește?", 
             raspunsuri: [
-                "A învăța să trăiești și să cooperezi împreună cu ceilalți", 
-                "A-ți schimba numele și obiceiurile", 
-                "A refuza să vorbești cu vecinii", 
-                "A evita orice activitate în grup"
+                "Căutăm lucruri noi și diverse", 
+                "Nu mai facem nimic", 
+                "Ne certăm cu colegii", 
+                "Dormim toată ziua"
             ], 
             corect: 0 
         },
         { 
-            intrebare: "5. Care dintre următoarele atitudini ESTE promovată în societatea interculturală?", 
+            intrebare: "5. Ce facilitatează valorizarea diversității?", 
             raspunsuri: [
-                "Etichetarea și judecarea celorlalți", 
-                "Respectarea diversității culturale și egalitatea în drepturi", 
-                "Discriminarea persoanelor din alte etnii", 
-                "Ura față de străini"
-            ], 
-            corect: 1 
-        },
-        { 
-            intrebare: "6. Ce atitudini încearcă să EVITE o societate interculturală?", 
-            raspunsuri: [
-                "Atitudinile negative, etichetările și comportamentele discriminatorii", 
-                "Prietenia și ajutorul reciproc", 
-                "Jocurile pe echipe mixte", 
-                "Schimbul de idei"
+                "Toleranța și descoperirea noului", 
+                "Separarea elevilor în clase", 
+                "Certurile din pauze", 
+                "Pedeapsa pentru greșeli"
             ], 
             corect: 0 
         },
         { 
-            intrebare: "7. Ce abilități își dezvoltă oamenii într-un mediu intercultural?", 
+            intrebare: "6. Cum trebuie privită diversitatea culturală?", 
             raspunsuri: [
-                "Abilități de cooperare și comunicare dincolo de barierele culturale", 
-                "Abilitatea de a ignora problemele colegilor", 
-                "Abilitatea de a câștiga toate certurile", 
-                "Abilitatea de a trăi complet izolați"
+                "Cu respect și acceptare", 
+                "Cu frică și respingere", 
+                "Ca pe o greșeală", 
+                "Ca pe o problemă gravă"
             ], 
             corect: 0 
         },
         { 
-            intrebare: "8. Pe ce se bazează o bună conviețuire interculturală?", 
+            intrebare: "7. Ce înseamnă valorizarea pozitivă?", 
             raspunsuri: [
-                "Aprecierea propriei culturi plus respectul și susținerea culturii celuilalt", 
-                "Obligarea tuturor să gândească la fel", 
-                "Ștergerea istoriei propriului popor", 
-                "Refuzul de a învăța lucruri noi"
+                "Să privim diferențele ca pe un plus", 
+                "Să căutăm doar greșelile altora", 
+                "Să punem note mici colegilor", 
+                "Să îi obligăm pe toți să fie la fel"
+            ], 
+            corect: 0 
+        },
+       { 
+            intrebare: "8. Unde ne ajută acceptarea diversității?", 
+            raspunsuri: [
+                "La întărirea relațiilor în comunitate", 
+                "La câștigarea jocurilor pe bani", 
+                "La pierderea timpului liber", 
+                "La izolarea de prieteni"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "10. Tratamentul egal al persoanelor",
+    rezumat: `
+        <h3>1. Beneficiem cu toții de șanse egale?</h3>
+        <p>Legile spun că toți avem drepturi egale, fără nicio discriminare. Totuși, uneori, unii oameni sunt tratați incorect doar pentru că sunt diferiți de majoritate.</p>
+
+        <h3>2. Cine trebuie să asigure tratamentul egal?</h3>
+        <p>Responsabilitatea este a <b>fiecăruia dintre noi</b>, dar și a instituțiilor și școlilor. Trebuie să respectăm atât ce avem în comun, cât și ce ne face unici.</p>
+
+        <h3>3. Cine ne protejează în România?</h3>
+        <p>În România există <b>CNCD</b> (Consiliul Național pentru Combaterea Discriminării), o instituție care apară egalitatea de șanse.</p>
+
+        <h3>4. Ce spune Declarația Drepturilor Omului?</h3>
+        <p><i>„Toate ființele umane se nasc libere și egale în demnitate și în drepturi.”</i> (Articolul 1)</p>
+        <p>Tratamentul egal interzice discriminarea bazată pe: etnie, rasă, limbă, religie, gen sau dizabilități.</p>
+    `,
+    stiaiCa: "Articolul 1 din Declarația Universală a Drepturilor Omului a fost tradus în peste 500 de limbi, fiind cel mai tradus text din întreaga lume!",
+    wordwallUrl: "https://wordwall.net/ro/embed/f0c489706654446bb2f950558c2b41d9?themeId=54&templateId=2&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. La ora de educație fizică, un coleg în scaun cu rotile vrea să participe. Ce faci?",
+            optiuni: [
+                { text: "Adaptați jocul astfel încât să poată juca și el alături de voi.", raspuns: "🌟 Bravo! Asiguri participarea deplină și șanse egale!", puncte: 10 },
+                { text: "Îi spui să stea deoparte pentru că nu poate alerga.", raspuns: "❌ Ignorarea nevoilor speciale contravine tratamentului egal.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Auzi pe cineva că face glume pe seama religiei unui coleg. Cum reacționezi?",
+            optiuni: [
+                { text: "Atragi atenția că fiecare om are dreptul la propria religie fără a fi judecat.", raspuns: "🛡️ Excelent! Tratezi pe toată lumea cu respect și nediscriminare!", puncte: 10 },
+                { text: "Râzi și tu pentru a nu strica atmosfera.", raspuns: "⚠️ Glumele pe seama diferențelor sunt forme de discriminare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Într-un concurs școlar, un coleg dintr-o familie mai săracă nu are echipament nou. Ce decizi?",
+            optiuni: [
+                { text: "Îl încurajezi și îl susții, pentru că potențialul lui este egal.", raspuns: "👏 Foarte bine! Categoria socială nu trebuie să împiedice șansele egale!", puncte: 10 },
+                { text: "Spui că nu are ce căuta în concurs fără haine scumpe.", raspuns: "❌ Criteriile financiare nu trebuie să creeze inegalități.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un coleg nou nu vorbește fluent limba română și ezită să răspundă la oră. Ce faci?",
+            optiuni: [
+                { text: "Îi oferi sprijin și ai răbdare cu el până își exprimă ideea.", raspuns: "🌟 Exact! Respectarea diferențelor de limbă ajută la integrare!", puncte: 10 },
+                { text: "Îl întrerupi și îi spui să tacă.", raspuns: "❌ Tratamentul egal înseamnă acordarea de șanse tuturor.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cum se nasc toate ființele umane?", 
+            raspunsuri: [
+                "Libere și egale în drepturi", 
+                "Cu note gata puse", 
+                "Diferite ca valoare", 
+                "Fără niciun drept"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cui îi revine responsabilitatea tratamentului egal?", 
+            raspunsuri: [
+                "Fiecăruia dintre noi și tuturor instituțiilor", 
+                "Doar profesorilor de la școală", 
+                "Doar poliției și autorităților", 
+                "Nimănui, vine de la sine"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este CNCD în România?", 
+            raspunsuri: [
+                "Instituția ce combate discriminarea", 
+                "Un club sportiv pentru elevi", 
+                "O aplicație de mobil", 
+                "Un magazin de cărți"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce interzice principiul tratamentului egal?", 
+            raspunsuri: [
+                "Discriminarea de orice fel", 
+                "Participarea la ore", 
+                "Purtarea hainelor colorate", 
+                "Muncă în echipă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Pe ce se bazează egalitatea de șanse?", 
+            raspunsuri: [
+                "Participarea deplină a tuturor în societate", 
+                "Banii economisiți de părinți", 
+                "Hainele purtate la școală", 
+                "Separarea copiilor pe grupe"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Într-o societate echitabilă, ce prețuim?", 
+            raspunsuri: [
+                "Diversitatea și respectul reciproc", 
+                "Doar ideile noastre", 
+                "Limbajul dur și certurile", 
+                "Izolarea celor diferiți"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce trebuie să luăm în seamă pentru un tratament egal?", 
+            raspunsuri: [
+                "Atât ce avem în comun, cât și deosebirile", 
+                "Doar înălțimea fiecăruia", 
+                "Marca telefonului folosit", 
+                "Doar greșelile făcute"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce garantează legile într-o democrație?", 
+            raspunsuri: [
+                "Participarea la viața societății fără discriminare", 
+                "Note maxime pentru toți", 
+                "Jocuri gratuite pe telefon", 
+                "Vacanțe lungi tot anul"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "11. Solidaritatea. Promovarea incluziunii sociale. Dialogul intercultural",
+    rezumat: `
+        <h3>1. Ce este solidaritatea?</h3>
+        <p><b>Solidaritatea</b> este sentimentul prin care oamenii se ajută reciproc la nevoie (ex: strângere de fonduri, ajutoare după un cutremur sau pentru colegi bolnavi).</p>
+
+        <h3>2. Ce este Corpul European de Solidaritate?</h3>
+        <p>Este o inițiativă a Uniunii Europene (din 2016) care aduce tinerii împreună pentru a ajuta persoanele vulnerabile și comunitățile din toată lumea.</p>
+
+        <h3>3. Ce înseamnă incluziunea socială?</h3>
+        <p><b>Incluziunea socială</b> înseamnă integrarea tuturor oamenilor în societate și respectarea drepturilor lor, indiferent de etnie, sărăcie, religie sau dizabilități.</p>
+
+        <h3>4. Ce este dialogul intercultural?</h3>
+        <p><b>Dialogul intercultural</b> înseamnă discuția, cooperarea și ascultarea cu respect între oameni din culturi diferite, promovând pacea și toleranța.</p>
+    `,
+    stiaiCa: "Voluntarii din Corpul European de Solidaritate pot călători în alte țări pentru a ajuta la protejarea mediului, educarea copiilor sau sprijinirea persoanelor în vârstă!",
+    wordwallUrl: "https://wordwall.net/ro/embed/e6f5ccfa5a2263abdde3643386d0cdd9?themeId=54&templateId=3&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. O familie din comunitatea ta și-a pierdut casa într-un incendiu. Ce faci?",
+            optiuni: [
+                { text: "Donăm haine, alimente sau jucării pentru a-i ajuta la greu.", raspuns: "🌟 Bravo! Arăți solidaritate și sprijin real la nevoie!", puncte: 10 },
+                { text: "Spui că nu este treaba ta și îi ignori.", raspuns: "❌ Lipsa de solidaritate lasă oamenii vulnerabili fără sprijin.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un coleg este retras pentru că familia lui se confruntă cu sărăcia. Cum reacționezi?",
+            optiuni: [
+                { text: "Îl integrezi în grup și împărți cu el resursele tale la școală.", raspuns: "🛡️ Excelent! Practici incluziunea socială!", puncte: 10 },
+                { text: "Îl izolezi și le spui altora să nu vorbească cu el.", raspuns: "⚠️ Excluderea creează inegalități și suferință.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Ai o opinie diferită față de un coleg din altă cultură privind o sărbătoare. Ce faci?",
+            optiuni: [
+                { text: "Discuți cu calm, îl asculți cu atenție și respecti părerea lui.", raspuns: "👏 Foarte bine! Acesta este un dialog intercultural corect!", puncte: 10 },
+                { text: "Țipi la el și îi spui că tradiția lui este greșită.", raspuns: "❌ Lipsa de respect distruge dialogul și armonia.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Vezi un proiect de voluntariat pentru curățarea parcului din oraș. Cum procedezi?",
+            optiuni: [
+                { text: "Te înscrii cu prietenii pentru a face un bine comunității.", raspuns: "🌟 Exact! Implicarea activă aduce schimbări pozitive!", puncte: 10 },
+                { text: "Zici că mai bine stai pe telefon acasă.", raspuns: "❌ Comunitățile se dezvoltă doar prin implicare.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este solidaritatea?", 
+            raspunsuri: [
+                "Ajutorul oferit altora în situații grele", 
+                "O regulă strictă de la școală", 
+                "Un joc de societate", 
+                "Cumpărarea de obiecte noi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum ne putem arăta solidaritatea?", 
+            raspunsuri: [
+                "Prin donații și sprijin la nevoie", 
+                "Râzând de problemele altora", 
+                "Cumpărând doar pentru noi", 
+                "Refuzând să ajutăm"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este Corpul European de Solidaritate?", 
+            raspunsuri: [
+                "O inițiativă UE pentru sprijinirea comunităților", 
+                "O echipă de fotbal europeană", 
+                "Un magazin de haine", 
+                "O aplicație de muzică"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce urmărește incluziunea socială?", 
+            raspunsuri: [
+                "Integrarea și egalitatea tuturor oamenilor", 
+                "Separarea copiilor pe categorii", 
+                "Izolarea celor săraci", 
+                "Obligarea tuturor să gândească la fel"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cui îi revine protejarea locuitorilor vulnerabili?", 
+            raspunsuri: [
+                "Statului și autorităților", 
+                "Doar copiilor din școli", 
+                "Turiștilor străini", 
+                "Nimănui"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce înseamnă dialogul intercultural?", 
+            raspunsuri: [
+                "Discuția și cooperarea între culturi diferite", 
+                "O ceartă între vecini", 
+                "Vizionarea unui film fără sonor", 
+                "Tăcerea în timpul orelor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce promovează dialogul intercultural?", 
+            raspunsuri: [
+                "Toleranța, respectul și pacea", 
+                "Egoismul și neînțelegerea", 
+                "Discriminarea celor mici", 
+                "Ura și invidia"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum rezolvăm opiniile diferite între culturi?", 
+            raspunsuri: [
+                "Prin ascultare atentă și respect reciproc", 
+                "Prin întreruperea celorlalți", 
+                "Prin refuzul de a vorbi", 
+                "Prin impunerea ideilor proprii"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "12. Abateri de la valorile societății interculturale. Intoleranța",
+    rezumat: `
+        <h3>1. Ce este toleranța?</h3>
+        <p><b>Toleranța</b> înseamnă să accepți diversitatea și să trăiești în pace cu oamenii diferiți de tine (prin etnie, rasă, religie sau obiceiuri).</p>
+
+        <h3>2. Ce este intoleranța și ce produce ea?</h3>
+        <p><b>Intoleranța</b> este lipsa de acceptare a celor diferiți. Ea apare când oamenii uită valorile interculturale și duce la conflicte și neînțelegeri.</p>
+
+        <h3>3. Care sunt principalele forme de intoleranță?</h3>
+        <ul>
+            <li><b>Discriminarea:</b> Tratarea incorectă a cuiva doar pentru că este diferit;</li>
+            <li><b>Segregarea:</b> Separarea forțată a oamenilor pe criterii de rasă sau etnie;</li>
+            <li><b>Rasismul:</b> Credința greșită că o rasă este superioară alteia;</li>
+            <li><b>Xenofobia:</b> Frica sau ura față de străini.</li>
+        </ul>
+
+        <h3>4. Cum combatem intoleranța?</h3>
+        <p>Prin implicare în comunitate, respect și <b>dialog intercultural</b>. Orice formă de intoleranță este interzisă prin lege!</p>
+    `,
+    stiaiCa: "Uniunea Europeană finanțează programe precum Erasmus+ pentru ca tinerii din țări diferite să călătorească, să se împrietenească și să elimine prejudecățile!",
+    wordwallUrl: "https://wordwall.net/ro/embed/0e5675cd87af4c57a10b77ca84ecb0fd?themeId=22&templateId=45&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un coleg refuză să stea în bancă cu cineva doar pentru că este dintr-o altă etnie. Ce faci?",
+            optiuni: [
+                { text: "Îi explici că toți suntem egali și că intoleranța este greșită.", raspuns: "🌟 Bravo! Combați intoleranța și promovezi acceptarea!", puncte: 10 },
+                { text: "Taci și îl lași pe colegul izolat să sufere.", raspuns: "❌ Tăcerea încurajează discriminarea și segregarea.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Vezi un comentariu cu ură la adresa străinilor pe o rețea de socializare. Cum reacționezi?",
+            optiuni: [
+                { text: "Dai report comentariului, deoarece xenofobia este interzisă prin lege.", raspuns: "🛡️ Excelent! Tratezi mediul online cu responsabilitate!", puncte: 10 },
+                { text: "Dai like comentariului pentru că ți se pare amuzant.", raspuns: "⚠️ Ura față de străini (xenofobia) creează conflicte grave.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. La un joc de echipă, câțiva elevi vor să-i separe pe cei mai mici pe o altă bancă. Ce spui?",
+            optiuni: [
+                { text: "Le ceri să renunțe la segregare și să jucați toți împreună.", raspuns: "👏 Foarte bine! Promovezi incluziunea și egalitatea!", puncte: 10 },
+                { text: "Ești de acord cu separarea lor pe grupuri.", raspuns: "❌ Separarea forțată este o abatere de la valorile sociale.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Doi colegi din culturi diferite încep să se certe din cauza unei tradiții. Cum îi ajuți?",
+            optiuni: [
+                { text: "Îi pui să discute cu calm și să găsească ce au în comun.", raspuns: "🌟 Exact! Rezolvi conflictele prin dialog intercultural!", puncte: 10 },
+                { text: "Ții cu unul dintre ei și începi să țipi.", raspuns: "❌ Certurile adâncesc intoleranța.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce înseamnă să fii tolerant?", 
+            raspunsuri: [
+                "Să accepți diversitatea și pe ceilalți", 
+                "Să te cerți cu cei din jur", 
+                "Să refuzi regulile școlii", 
+                "Să stai doar singur"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce generează intoleranța?", 
+            raspunsuri: [
+                "Conflicte și neînțelegeri", 
+                "Prietenii de lungă durată", 
+                "Pace și armonie", 
+                "Note mari la examene"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este xenofobia?", 
+            raspunsuri: [
+                "Frica sau ura față de străini", 
+                "Pasiunea pentru jocurile video", 
+                "Iubirea față de natură", 
+                "Ajutarea copiilor mici"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce înseamnă segregarea?", 
+            raspunsuri: [
+                "Separarea forțată a oamenilor", 
+                "Un joc de echipă în curte", 
+                "Organizarea unei petreceri", 
+                "Munca împreună la proiecte"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cum este intoleranța potrivit legii?", 
+            raspunsuri: [
+                "Strict interzisă", 
+                "Încurajată la școală", 
+                "Obligatorie pentru toți", 
+                "Ignorată complet"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce este rasismul?", 
+            raspunsuri: [
+                "Credința că o rasă e superioară", 
+                "Un sport de echipă", 
+                "Un stil de muzică vechi", 
+                "O tradiție de sărbători"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Prin ce putem rezolva conflictele?", 
+            raspunsuri: [
+                "Prin dialog intercultural", 
+                "Prin țipete și certuri", 
+                "Prin ignorarea problemei", 
+                "Prin folosirea forței"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce program UE ajută la combaterea prejudecăților?", 
+            raspunsuri: [
+                "Erasmus+", 
+                "Windows 11", 
+                "Google Play", 
+                "Wordwall"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "13. Forme de intoleranță: discriminare, segregare, rasism, xenofobie",
+    rezumat: `
+        <h3>1. Ce sunt formele de intoleranță?</h3>
+        <ul>
+            <li><b>Discriminarea:</b> Tratamentul nedrept față de persoane doar pentru că aparțin unui anumit grup;</li>
+            <li><b>Segregarea:</b> Separarea forțată a grupurilor (pe criterii economice, rasiale sau educaționale);</li>
+            <li><b>Rasismul:</b> Intoleranța bazată pe culoarea pielii;</li>
+            <li><b>Xenofobia:</b> Teama și ura față de străini.</li>
+        </ul>
+
+        <h3>2. Unde și pe ce criterii apare discriminarea?</h3>
+        <p>Apare oriunde (școală, muncă, magazine, transport) și poate fi bazată pe: <b>vârstă</b>, <b>gen</b>, <b>religie</b> sau <b>dizabilitate</b> (ex: lipsa rampelor pentru scaune cu rotile).</p>
+
+        <h3>3. Cum putem depăși aceste atitudini?</h3>
+        <p>Ne informăm despre alte culturi, ne recunoaștem greșelile de judecată și ne facem prieteni din medii diferite!</p>
+    `,
+    stiaiCa: "În multe țări, clădirile publice sunt obligate prin lege să aibă rampe de acces și semne în alfabetul Braille pentru a garanta accesul egal al tuturor persoanelor!",
+    wordwallUrl: "https://wordwall.net/ro/embed/d0d8628748684f34b455ec152cb4fb5f?themeId=22&templateId=3&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un coleg dintr-o altă țară este strigat pe stradă cu cuvinte jignitoare. Ce faci?",
+            optiuni: [
+                { text: "Îi iei apărarea și condamni xenofobia.", raspuns: "🌟 Bravo! Xenofobia (ura de străini) trebuie oprită!", puncte: 10 },
+                { text: "Râzi și tu pentru că nu este problema ta.", raspuns: "❌ Expresiile jignitoare față de străini creează dezbinare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. O școală vrea să facă o clasă separată doar pentru copiii mai săraci. Ce opinie ai?",
+            optiuni: [
+                { text: "Te opui, deoarece segregarea educațională este nedreaptă.", raspuns: "🛡️ Excelent! Toți copiii au dreptul să învețe împreună!", puncte: 10 },
+                { text: "Zici că e o idee bună să fie separați.", raspuns: "⚠️ Separarea grupurilor (segregarea) este o abatere gravă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un coleg în scaun cu rotile nu poate intra în biblioteca școlii din cauza treptelor. Ce faci?",
+            optiuni: [
+                { text: "Propui conducerii instalarea unei rampe de acces.", raspuns: "👏 Foarte bine! Combăți discriminarea pe criteriu de dizabilitate!", puncte: 10 },
+                { text: "Îi spui să își ia cărți de acasă.", raspuns: "❌ Lipsa condițiilor de acces este o formă de discriminare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. La un joc de fotbal, un jucător este huiduit doar pentru culoarea pielii lui. Cum reacționezi?",
+            optiuni: [
+                { text: "Atragi atenția că rasismul nu are loc în sport.", raspuns: "🌟 Exact! Culoarea pielii nu determină valoarea unui om!", puncte: 10 },
+                { text: "Huidui și tu alături de ceilalți.", raspuns: "❌ Rasismul este o formă severă de intoleranță.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este discriminarea?", 
+            raspunsuri: [
+                "Un tratament diferit și nedrept față de cineva", 
+                "O regulă de ordine interioară", 
+                "Un mod de a felicita un coleg", 
+                "Un joc de perspicacitate"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce reprezintă segregarea?", 
+            raspunsuri: [
+                "Separarea persoanelor pe diverse criterii", 
+                "Munca în echipă la clasă", 
+                "Adunarea de fonduri pentru școală", 
+                "Organizarea de excursii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Pe ce se bazează rasismul?", 
+            raspunsuri: [
+                "Pe culoarea pielii", 
+                "Pe stilul de îmbrăcăminte", 
+                "Pe notele de la școală", 
+                "Pe preferințele muzicale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce înseamnă xenofobia?", 
+            raspunsuri: [
+                "Teama și ura față de străini", 
+                "Pasiunea pentru geografie", 
+                "Respectul pentru bătrâni", 
+                "Frica de întuneric"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Unde se poate manifesta discriminarea?", 
+            raspunsuri: [
+                "Oriunde: școală, muncă, transport", 
+                "Doar în cărțile de istorie", 
+                "Exclusiv pe stadion", 
+                "Nicăieri în viața reală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce este discriminarea de gen?", 
+            raspunsuri: [
+                "Diferențele nedrepte între bărbați și femei", 
+                "Alegerea hainelor de vară", 
+                "Separarea claselor pe vârste", 
+                "Notarea la educație fizică"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce ajută la eliminarea accesului greoi pt. cei cu dizabilități?", 
+            raspunsuri: [
+                "Construirea rampelor de acces", 
+                "Interzicerea ieșirii din casă", 
+                "Ignorarea problemei", 
+                "Renunțarea la activități"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum depășim intoleranța?", 
+            raspunsuri: [
+                "Informându-ne despre alte culturi", 
+                "Refuzând să vorbim cu alții", 
+                "Crezând doar zvonurile", 
+                "Păstrând păreri greșite"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "14. Manifestări și efecte ale lipsei de solidaritate: marginalizare, excludere, izolare",
+    rezumat: `
+        <h3>1. Ce este lipsa de solidaritate?</h3>
+        <p>Este o atitudine de <b>indiferență</b> sau egoism față de problemele altora. Se poate manifesta direct (din prejudecăți) sau indirect (când stăm deoparte fără să ajutăm).</p>
+
+        <h3>2. Care sunt efectele lipsei de solidaritate?</h3>
+        <ul>
+            <li><b>Marginalizarea:</b> Reducerea importanței cuiva pe nedrept, prin neglijare voită sau lipsa resurselor pentru un trai decent;</li>
+            <li><b>Excluderea:</b> Eliminarea sau îndepărtarea unui grup din viața societății (din cauza sărăciei, a lipsei de educație etc.);</li>
+            <li><b>Izolarea:</b> Refuzul de a interacționa cu alte culturi și sentimentul de însingurare față de ceilalți oameni.</li>
+        </ul>
+
+        <h3>3. Ce consecințe au aceste manifestări?</h3>
+        <p>Duc la încălcarea drepturilor omului, pierderea identității culturale și dezbinarea comunității.</p>
+    `,
+    stiaiCa: "În comunitățile foarte unite, atunci când cineva trece printr-un necaz, vecinii se adună spontan pentru a ajuta – această solidaritate reduce la zero riscul de izolare!",
+    wordwallUrl: "https://wordwall.net/ro/embed/ec6fdef90f9e4f71a167639ed78e4333?themeId=22&templateId=8&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un coleg nou nu este băgat în seamă de nimeni la pauză și stă singur pe o bancă. Ce faci?",
+            optiuni: [
+                { text: "Mergi la el și îl inviți să se joace cu grupul tău.", raspuns: "🌟 Bravo! Combăți marginalizarea și arăți solidaritate!", puncte: 10 },
+                { text: "Treci pe lângă el fără să îi spui nimic.", raspuns: "❌ Indiferența contribuie la izolarea celorlalți.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Vezi un caz în care un copil este exclus dintr-un joc doar pentru că are haine mai vechi. Cum reacționezi?",
+            optiuni: [
+                { text: "Ceri ca toți să fie primiți în joc, indiferent de starea materială.", raspuns: "🛡️ Excelent! Te opui excluderii sociale!", puncte: 10 },
+                { text: "Taci pentru că nu vrei să te cerți cu ceilalți.", raspuns: "⚠️ Lipsa de acțiune este o formă pasivă de nedreptate.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un coleg din altă țară se retrage și evită să mai vorbească cu lumea din cauza fricii de a fi judecat. Ce faci?",
+            optiuni: [
+                { text: "Îi arăți că este acceptat și încurajezi comunicarea cu el.", raspuns: "👏 Foarte bine! Îl ajuți să depășească starea de izolare!", puncte: 10 },
+                { text: "Îl lași în pace dacă așa dorește el.", raspuns: "❌ Izolarea prelungită afectează integrarea în comunitate.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. În clasa ta se strâng ajutoare pentru o familie rămasă fără adăpost. Cum procedezi?",
+            optiuni: [
+                { text: "Contribui cu ce poți și încurajezi și alți colegi să ajute.", raspuns: "🌟 Exact! Solidaritatea activă salvează comunități!", puncte: 10 },
+                { text: "Spui că ar trebui să se ocupe doar autoritățile.", raspuns: "❌ Așteptarea ca doar alții să intervină arată dezinteres.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este lipsa de solidaritate?", 
+            raspunsuri: [
+                "O atitudine de indiferență sau egoism", 
+                "O regulă nouă în jocul de fotbal", 
+                "Dorința de a învăța mai mult", 
+                "O formă de respect reciproc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum se manifestă lipsa de solidaritate pasivă?", 
+            raspunsuri: [
+                "Prin indiferență și neimplicare", 
+                "Prin oferirea de ajutoare", 
+                "Prin discuții amicale", 
+                "Prin participarea la voluntariat"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este marginalizarea?", 
+            raspunsuri: [
+                "Reducerea importanței cuiva prin neglijare", 
+                "Includerea tuturor în proiecte", 
+                "Notarea corectă la teste", 
+                "Organizarea de excursii școlare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce înseamnă excluderea socială?", 
+            raspunsuri: [
+                "Îndepărtarea sau eliminarea dintr-un grup", 
+                "Înscrierea la un club de lectură", 
+                "Invitarea tuturor copiilor la petrecere", 
+                "Ascultarea părerilor celorlalți"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cum se manifestă izolarea?", 
+            raspunsuri: [
+                "Prin sentimentul de însingurare și refuzul de a participa", 
+                "Prin muncă intensă în echipă", 
+                "Prin ascultarea muzicii preferate", 
+                "Prin călătorii frecvente"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este o consecință a lipsei de solidaritate?", 
+            raspunsuri: [
+                "Încălcarea drepturilor omului", 
+                "Creșterea prieteniilor în clasă", 
+                "Dezvoltarea armonioasă a comunității", 
+                "Obținerea de premii la concursuri"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce simt persoanele marginalizate cultural?", 
+            raspunsuri: [
+                "Că nu mai aparțin niciunui grup", 
+                "Că sunt extrem de importante", 
+                "Că au toate resursele necesare", 
+                "Că sunt apreciate de toți"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce atitudine combate cel mai bine izolarea?", 
+            raspunsuri: [
+                "Empatia și implicarea activă", 
+                "Egoismul și tăcerea", 
+                "Judecarea altora după haine", 
+                "Privitul deoparte la necazuri"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "15. Trăsături ale persoanei în societatea interculturală: spirit deschis, flexibilitate",
+    rezumat: `
+        <h3>1. Ce presupune societatea interculturală?</h3>
+        <p>Spre deosebire de societatea multiculturală (care doar tolerează), cea <b>interculturală</b> pune accent pe: interacțiune, comunicare, integrare, prietenie și relații active între culturi.</p>
+
+        <h3>2. Ce înseamnă să ai spirit deschis?</h3>
+        <p><b>Spiritul deschis</b> înseamnă curiozitate de a cunoaște obiceiurile și tradițiile altora, precum și respectarea acestora.</p>
+
+        <h3>3. Ce este flexibilitatea interculturală?</h3>
+        <p><b>Flexibilitatea</b> înseamnă adaptarea la specificul altei culturi, evitarea conflictelor și renunțarea la impunerea propriilor reguli asupra altora.</p>
+
+        <h3>4. Ce aduce educația interculturală?</h3>
+        <p>Ne ajută să ne păstrăm propria identitate culturală, învățând în același timp să ne îmbogățim reciproc prin preluarea de idei și tradiții frumoase.</p>
+    `,
+    stiaiCa: "Multe dintre mâncărurile noastre preferate (cum ar fi pizza sau sarmalele) au fost preluate din alte culturi și adaptate de-a lungul timpului – un exemplu perfect de îmbogățire interculturală!",
+    wordwallUrl: "https://wordwall.net/ro/embed/304742aa776c4f0bbf5dc5d9d0ec2912?themeId=55&templateId=3&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Mergi într-o tabără și colegul tău de cameră are un obicei alimentar diferit la masă. Ce faci?",
+            optiuni: [
+                { text: "Îl întrebi cu curiozitate și respect despre obiceiul lui.", raspuns: "🌟 Bravo! Arăți spirit deschis și curiozitate culturală!", puncte: 10 },
+                { text: "Râzi de el și îi spui să mănânce ca tine.", raspuns: "❌ Impunerea propriilor reguli contravine flexibilității.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Într-un proiect de echipă, un coleg propune o idee de prezentare inspirată din țara lui. Cum reacționezi?",
+            optiuni: [
+                { text: "Accepți ideea și o adaptați împreună pentru proiect.", raspuns: "🛡️ Excelent! Practici flexibilitatea și îmbogățirea reciprocă!", puncte: 10 },
+                { text: "Refuzi din start pentru că nu este o idee obișnuită.", raspuns: "⚠️ Respingerea ideilor noi arată o lipsă de spirit deschis.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un prieten din altă cultură te invită la o sărbătoare specifică familiei sale. Ce decizi?",
+            optiuni: [
+                { text: "Mergi cu drag pentru a învăța lucruri noi despre tradiția lui.", raspuns: "👏 Foarte bine! Înveți să comunici și să te integrezi!", puncte: 10 },
+                { text: "Refuzi spunând că nu te interesează sărbătorile altora.", raspuns: "❌ Lipsa curiozității împiedică formarea relațiilor interculturale.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Vezi doi colegi care se contrazic din cauza unor reguli de joc diferite. Cum îi ajuți?",
+            optiuni: [
+                { text: "Le sugerezi să combine regulile astfel încât amândoi să fie mulțumiți.", raspuns: "🌟 Exact! Adaptezi situația pentru a evita conflictele!", puncte: 10 },
+                { text: "Îi lași să se certe până renunță la joc.", raspuns: "❌ Lipsa de mediere adâncește neînțelegerile.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce pune în centru societatea interculturală?", 
+            raspunsuri: [
+                "Interacțiunea, comunicarea și prietenia", 
+                "Izolarea fiecărui grup în casă", 
+                "Impunerea unei singure culturi", 
+                "Refuzul de a vorbi cu străinii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce presupune a avea un spirit deschis?", 
+            raspunsuri: [
+                "Curiozitate și respect față de obiceiurile altora", 
+                "Acceptarea doar a prietenilor vechi", 
+                "Impunerea părerilor proprii", 
+                "Ignorarea tradițiilor străine"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce înseamnă flexibilitatea interculturală?", 
+            raspunsuri: [
+                "Adaptarea la specificul altor culturi și evitarea conflictelor", 
+                "Exerciții fizice făcute dimineața", 
+                "Renunțarea la propria limbă", 
+                "Obligarea altora să ne imite"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce ne permite educația interculturală?", 
+            raspunsuri: [
+                "Să ne păstrăm identitatea respectându-i pe ceilalți", 
+                "Să uităm cine suntem", 
+                "Să luăm note mari fără să învățăm", 
+                "Să ne izolăm de restul lumii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. La ce duce educația interculturală în timp?", 
+            raspunsuri: [
+                "La o îmbogățire reciprocă prin schimb de idei", 
+                "La pierderea timpului liber", 
+                "La conflicte inevitabile", 
+                "La ștergerea tuturor tradițiilor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce trebuie să evităm când interacționăm cu alte culturi?", 
+            raspunsuri: [
+                "Impunerea propriilor reguli de viață", 
+                "Ascultarea părerilor diferite", 
+                "Prietenia și colaborarea", 
+                "Munca în echipă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care este o ocazie ideală de a cunoaște oameni din alte culturi?", 
+            raspunsuri: [
+                "Excursiile, studiul și proiectele comune", 
+                "Privitul la televizor singur", 
+                "Refuzul de a ieși din casă", 
+                "Certurile pe rețelele de socializare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce se întâmplă cu unele obiceiuri într-o societate interculturală?", 
+            raspunsuri: [
+                "Pot fi reciproc preluate și adaptate", 
+                "Sunt interzise complet prin lege", 
+                "Rămân neschimbate timp de mii de ani", 
+                "Sunt uitate de toată lumea"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "16. Trăsături ale persoanei în societatea interculturală: cooperare, abilități relaționale și comunicaționale",
+    rezumat: `
+        <h3>1. Ce înseamnă cooperarea interculturală?</h3>
+        <p><b>Cooperarea</b> înseamnă să lucrezi și să acționezi împreună cu alții pentru un beneficiu comun, fără a intra în competiție egoistă pentru propriul câștig.</p>
+
+        <h3>2. Ce sunt abilitățile relaționale?</h3>
+        <p>Sunt capacitățile care te ajută să legi prietenii și să ai relații bune: ascultarea activă, atenția acordată celor din jur, zâmbetul, umorul, oferirea de laude și lipsa judecării celorlalți.</p>
+
+        <h3>3. Ce sunt abilitățile comunicaționale?</h3>
+        <p>Sunt trăsăturile care te ajută să comunici clar, deschis și cu respect cu oamenii, indiferent din ce cultură provin aceștia.</p>
+
+        <h3>4. Cum construim relații armonioase?</h3>
+        <p>Prin educație interculturală învățăm să ne punem în locul celuilalt (empatie), să ascultăm cu atenție și să acceptăm ideile și credințele altora.</p>
+    `,
+    stiaiCa: "În echipele de lucru formate din oameni din culturi diferite, proiectele sunt de două ori mai creative pentru că fiecare aduce idei unice la care ceilalți nu s-au gândit!",
+    wordwallUrl: "", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Într-un proiect de grup, un coleg din altă cultură propune o metodă diferită de rezolvare. Ce faci?",
+            optiuni: [
+                { text: "Îl asculți cu atenție și îmbinați ideile pentru beneficiul echipei.", raspuns: "🌟 Bravo! Arăți cooperare și ascultare activă!", puncte: 10 },
+                { text: "Îl întrerupi și spui că doar metoda ta este bună.", raspuns: "❌ Intratul în competiție egoistă strică munca de echipă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un coleg este emoționat și se încurcă când vorbește în fața clasei. Cum reacționezi?",
+            optiuni: [
+                { text: "Îi zâmbești încurajator și îl asculți cu răbdare până termină.", raspuns: "🛡️ Excelent! Practici abilitățile relaționale și empatia!", puncte: 10 },
+                { text: "Râzi tare și faci glume pe seama lui.", raspuns: "⚠️ Râsul de alții distruge calitatea relațiilor dintre elevi.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Ai o neînțelegere cu un prieten privind regulile unui joc. Cum rezolvi situația?",
+            optiuni: [
+                { text: "Discuți cu calm, faci o concesie și ajungeți la un compromis.", raspuns: "👏 Foarte bine! Comunicarea bună rezolvă neînțelegerile!", puncte: 10 },
+                { text: "Refuzi să mai vorbești cu el și părăsești jocul.", raspuns: "❌ Relațiile deficitare împiedică buna colaborare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un coleg nou se străduiește să ajute echipa, deși face mici greșeli. Ce spui?",
+            optiuni: [
+                { text: "Îl lauzi pentru efortul depus și îl sprijini să se îndrepte.", raspuns: "🌟 Exact! Oferirea de laude crește motivarea și încrederea!", puncte: 10 },
+                { text: "Îi spui să se retragă pentru că strică totul.", raspuns: "❌ Judecarea dură a celorlalți dăunează comunicării.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă cooperarea?", 
+            raspunsuri: [
+                "Munca împreună pentru un beneficiu comun", 
+                "Lupta pentru a fi primul cu orice preț", 
+                "Munca de unul singur în bancă", 
+                "Ignorarea sfaturilor colegilor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce ne aduce calitatea bună a relațiilor cu ceilalți?", 
+            raspunsuri: [
+                "Bucurie, eficiență și creativitate", 
+                "Plictiseală și oboseală", 
+                "Certuri permanente la școală", 
+                "Gânduri negative"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum pot fi îmbunătățite abilitățile relaționale?", 
+            raspunsuri: [
+                "Prin ascultare activă, zâmbet și laude", 
+                "Prin criticarea dură a prietenilor", 
+                "Prin refuzul de a vorbi cu alții", 
+                "Prin ascunderea ideilor proprii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce dezvoltă educația interculturală?", 
+            raspunsuri: [
+                "Abilități de comunicare, curiozitate și flexibilitate", 
+                "Dorința de a te certa pe internet", 
+                "Egoismul și competiția dură", 
+                "Izolarea de comunitate"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce ajută la construirea de relații armonioase?", 
+            raspunsuri: [
+                "Punerea în locul celuilalt (empatia)", 
+                "Impunerea regulilor proprii", 
+                "Ignorarea sentimentelor celorlalți", 
+                "Intreruperea când altul vorbește"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce sunt abilitățile comunicaționale?", 
+            raspunsuri: [
+                "Trăsături ce ajută la o comunicare respectuoasă", 
+                "Trimiterea de mesaje scurte doar familiei", 
+                "Vizionarea de videoclipuri pe telefon", 
+                "Purtarea de haine elegante"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce trebuie să facem când avem păreri diferite într-o echipă?", 
+            raspunsuri: [
+                "Să ascultăm și să facem concesii", 
+                "Să ne abandonăm colegii", 
+                "Să țipăm mai tare decât ceilalți", 
+                "Să anulăm tot proiectul"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce efect au relațiile deficitare în grup?", 
+            raspunsuri: [
+                "Pot împiedica realizarea ideilor bune", 
+                "Fac proiectul să meargă mai repede", 
+                "Aduc puncte suplimentare la test", 
+                "Îmbunătățesc creativitatea"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "17. Comunicarea interculturală. Specificul comunicării interculturale",
+    rezumat: `
+        <h3>1. De ce este importantă comunicarea?</h3>
+        <p>Comunicarea influențează direct relațiile dintre oameni: o comunicare bună aduce <b>armonie și cooperare</b>, iar una defectuoasă creează tensiuni și conflicte.</p>
+
+        <h3>2. Ce este comunicarea interculturală?</h3>
+        <p>Este schimbul de mesaje între oameni cu identități culturale diferite. Este mai complexă deoarece fiecare cultură poate folosi <b>„coduri” diferite</b> (gesturi, limbajul trupului, salutul).</p>
+
+        <h3>3. Cum diferă interpretarea mesajelor?</h3>
+        <p>Un gest prietenos dintr-o cultură poate fi privit în alta ca o lipsă de respect sau o invadare a spațiului personal.</p>
+
+        <h3>4. Ce presupune o comunicare interculturală reușită?</h3>
+        <p>Presupune respectarea limbii și valorilor celorlalți, acceptarea perspectivelor multiple și înțelegerea faptului că putem avea obiceiuri și valori diferite.</p>
+    `,
+    stiaiCa: "În Bulgaria, clătinarea capului de sus în jos înseamnă „NU”, iar mișcarea stânga-dreapta înseamnă „DA” – un exemplu clasic de coduri diferite în comunicare!",
+    wordwallUrl: "https://wordwall.net/ro/embed/9e13dea8b2d44b7a933b6aa4a31b735f?themeId=48&templateId=35&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un coleg străin se apropie foarte mult de tine când îți vorbește, lucru ce te face să te simți inconfortabil. Ce faci?",
+            optiuni: [
+                { text: "Îi explici cu amabilitate despre spațiul tău personal, fără să îl jignești.", raspuns: "🌟 Bravo! Clarifici codurile de comunicare cu respect!", puncte: 10 },
+                { text: "Împingi colegul și îi spui nervos să plece de lângă tine.", raspuns: "❌ Reacțiile agresive creează tensiuni și conflicte.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Vezi un turist care face un gest cu mâna pe care în cultura ta îl consideri ciudat. Cum reacționezi?",
+            optiuni: [
+                { text: "Înțelegi că gesturile pot avea semnificații diferite în alte țări.", raspuns: "🛡️ Excelent! Accepți specificul comunicării interculturale!", puncte: 10 },
+                { text: "Râzi tare și îl imiți în fața prietenilor tăi.", raspuns: "⚠️ Râsul de obiceiurile altora arată lipsă de respect.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. La un proiect de grup, un coleg exprimă o perspectivă diferită asupra unei sărbători. Ce decizi?",
+            optiuni: [
+                { text: "Asculți cu atenție și accepți că există perspective multiple.", raspuns: "👏 Foarte bine! Promovezi dialogul și egalitatea în idei!", puncte: 10 },
+                { text: "Spui că doar părerea ta este cea adevărată.", raspuns: "❌ Refuzul altor opinii împiedică buna comunicare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un coleg nou nu înțelege o expresie populară folosită de clasă și este derutat. Ce faci?",
+            optiuni: [
+                { text: "Îi explici cu răbdare înțelesul expresiei pentru a-l ajuta.", raspuns: "🌟 Exact! Îl ajuți să descifreze codul comunicării!", puncte: 10 },
+                { text: "Îi spui că nu are ce căuta în grup dacă nu știe vorbele voastre.", raspuns: "❌ Lipsa de răbdare creează bariere între oameni.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce determină calitatea comunicării între oameni?", 
+            raspunsuri: [
+                "Relații de armonie sau de conflict", 
+                "Viteza cu care alergăm", 
+                "Notarea la educație fizică", 
+                "Tipul de telefon mobil utilizat"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. De ce comunicarea interculturală este mai complexă?", 
+            raspunsuri: [
+                "Implică oameni cu coduri culturale diferite", 
+                "Se desfășoară doar în scris", 
+                "Este permisă doar adulților", 
+                "Necesită traducători oficiali mereu"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce pot însemna gesturile în culturi diferite?", 
+            raspunsuri: [
+                "Lucruri complet diferite sau chiar opuse", 
+                "Exact același lucru peste tot", 
+                "Doar cifre matematice", 
+                "Nimic important"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce trebuie să luăm în calcul în comunicarea interculturală?", 
+            raspunsuri: [
+                "Limbajul trupului, salutul și spațiul personal", 
+                "Doar notele din carnet", 
+                "Modelul de îmbrăcăminte purtat", 
+                "Vremea de afară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Unde se poate realiza comunicarea interculturală azi?", 
+            raspunsuri: [
+                "Oriunde: școală, stradă, cumpărături, excursii", 
+                "Exclusiv la televizor", 
+                "Doar în navele spațiale", 
+                "Nicăieri în viața de zi cu zi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce presupune acceptarea perspectivelor multiple?", 
+            raspunsuri: [
+                "Înțelegerea faptului că putem avea valori diferite", 
+                "Preluarea automată a ideilor altora", 
+                "Urmărirea aceluiași canal TV", 
+                "Renunțarea la limba maternă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce poate provoca o comunicare defectuoasă?", 
+            raspunsuri: [
+                "Neîncredere, tensiune și conflicte", 
+                "Prietenii de lungă durată", 
+                "Pace și cooperare", 
+                "Premii școlare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. De ce putem avea dificultăți de comunicare și cu cei asemenea nouă?", 
+            raspunsuri: [
+                "Din cauza opiniilor și intereselor diferite", 
+                "Pentru că purtăm ochelari", 
+                "Fiindcă citim aceleași cărți", 
+                "Mâncăm aceleași mâncăruri"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "18. Bariere ale comunicării interculturale. Stereotipuri și prejudecăți",
+    rezumat: `
+        <h3>1. Care sunt barierele comunicării interculturale?</h3>
+        <ul>
+            <li><b>Obiective:</b> Necunoașterea limbii sau a semnificației gesturilor;</li>
+            <li><b>Subiective:</b> Disprețul față de alte culturi, credința greșită că propria cultură e superioară sau lipsa sincerității.</li>
+        </ul>
+
+        <h3>2. Ce sunt stereotipurile?</h3>
+        <p><b>Stereotipurile</b> sunt convingeri (pozitive sau negative) generalizate despre trăsăturile unui grup. Ele pot fi infirmate atunci când cunoaștem oameni noi.</p>
+
+        <h3>3. Ce este prejudecata și la ce poate duce?</h3>
+        <p><b>Prejudecata</b> este o părere formată despre o persoană înainte de a o cunoaște, doar pe baza grupului din care face parte. Prejudecățile negative duc la <b>discriminare</b> (comportament nedrept).</p>
+
+        <h3>4. Cum depășim aceste bariere?</h3>
+        <p>Prin <b>empatie</b> (punerea în locul celuilalt), respect reciproc și acceptarea faptului că „diferit” nu înseamnă superior sau inferior!</p>
+    `,
+    stiaiCa: "Oamenii de știință au demonstrat că creierul nostru tinde să creeze rapid stereotipuri pentru a economisi energie, dar învățarea și educația ne ajută să depășim aceste judecăți greșite!",
+    wordwallUrl: "https://wordwall.net/ro/embed/6fb4e5da82ea4986a606c08378acd3f0?themeId=26&templateId=35&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Auzi pe cineva spunând că toți copiii dintr-o anumită țară sunt leneși. Ce faci?",
+            optiuni: [
+                { text: "Explici că aceasta este o generalizare greșită (un stereotip).", raspuns: "🌟 Bravo! Combați stereotipurile și judecata nedreaptă!", puncte: 10 },
+                { text: "Aprobi ideea și o repeți și altor prieteni.", raspuns: "❌ Răspândirea stereotipurilor afectează comunicarea.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. În clasa ta vine un elev nou dintr-o altă regiune și câțiva colegi îl refuză înainte să vorbească cu el. Cum reacționezi?",
+            optiuni: [
+                { text: "Mergi să îl cunoști, ignorând prejudecățile celorlalți.", raspuns: "🛡️ Excelent! Nu lași prejudecățile să-ți controleze comportamentul!", puncte: 10 },
+                { text: "Îl eviți și tu pentru a fi în rând cu clasa.", raspuns: "⚠️ Prejudecățile nefondate duc la excludere și nedreptate.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un coleg nu vorbește bine limba română și se chinuie să se exprime. Ce faci?",
+            optiuni: [
+                { text: "Îl asculți cu răbdare și îl ajuți să treacă peste bariera lingvistică.", raspuns: "👏 Foarte bine! Depășești o barieră obiectivă prin empatie!", puncte: 10 },
+                { text: "Râzi de greșelile lui de pronunție.", raspuns: "❌ Râsul de greșeli creează bariere subiective grave.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Vezi un grup de copii care consideră tradițiile lor superioare tuturor celorlalte. Ce le spui?",
+            optiuni: [
+                { text: "Le amintești că diferit nu înseamnă superior sau inferior.", raspuns: "🌟 Exact! Respectul egal este baza societății interculturale!", puncte: 10 },
+                { text: "Îi feliciți pentru că se cred mai buni decât alții.", raspuns: "❌ Sentimentul de superioritate distruge cooperarea.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Care este o barieră obiectivă în comunicare?", 
+            raspunsuri: [
+                "Necunoașterea limbii sau a gesturilor", 
+                "Invidia față de alți colegi", 
+                "Purtarea de ochelari de soare", 
+                "Mâncatul de dulciuri"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce este un stereotip?", 
+            raspunsuri: [
+                "O convingere generalizată despre un grup", 
+                "Un aparat electrocasnic", 
+                "O regulă scrisă în dicționar", 
+                "O piesă de teatru clasică"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce reprezintă prejudecata?", 
+            raspunsuri: [
+                "O părere formată înainte de a cunoaște pe cineva", 
+                "O evaluare corectă la un test", 
+                "O discuție amicală în pauză", 
+                "O invitație la o zi de naștere"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. La ce pot duce prejudecățile negative?", 
+            raspunsuri: [
+                "La discriminare și comportament nedrept", 
+                "La premierea celor mai buni elevi", 
+                "La învățarea mai rapidă a limbilor străine", 
+                "La împrietenirea instantanee"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Care este o barieră subiectivă în comunicare?", 
+            raspunsuri: [
+                "Credința în superioritatea propriei culturi", 
+                "Lipsele financiare ale școlii", 
+                "Zgomotul făcut de mașini afară", 
+                "Semnalul slab la internet"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Cum pot fi infirmate stereotipurile?", 
+            raspunsuri: [
+                "Prin noi contacte și experiențe cu membrii grupului", 
+                "Refuzând să mai ieșim din casă", 
+                "Citind doar benzi desenate", 
+                "Ascultând zvonuri nefondate"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce înseamnă empatia?", 
+            raspunsuri: [
+                "Faptul de a te pune în locul celeilalte persoane", 
+                "Dorința de a câștiga toate jocurile", 
+                "Impunerea părerilor proprii", 
+                "Refuzul de a asculta sfaturi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce trebuie să acceptăm în comunicarea interculturală?", 
+            raspunsuri: [
+                "Că diferit nu înseamnă superior sau inferior", 
+                "Că doar noi avem mereu dreptate", 
+                "Că toate persoanele trebuie să gândească la fel", 
+                "Că tradițiile vechi trebuie uitate"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "19. Reguli și principii pentru facilitarea comunicării interculturale",
+    rezumat: `
+        <h3>1. De ce avem nevoie de reguli în comunicare?</h3>
+        <p>Culturile sunt doar diferite, nu superioare sau inferioare. Fără reguli clare și respect, bunele relații pot fi înlocuite rapid de neînțelegeri și conflicte.</p>
+
+        <h3>2. Care sunt principalele reguli și principii?</h3>
+        <ul>
+            <li><b>Pregătirea anterioară:</b> Să știi cum să saluți, să mulțumești și ce gesturi sunt potrivite;</li>
+            <li><b>Respectul și egalitatea:</b> Tratarea celorlalți ca indivizi unici, nu ca pe simpli membri ai unui grup;</li>
+            <li><b>Ascultarea activă:</b> Atenție, răbdare și implicare în conversație, fără a-l întrerupe pe cel care vorbește;</li>
+            <li><b>Evitarea prejudecăților:</b> Conștientizarea propriilor stereotipuri și comunicarea fără teamă.</li>
+        </ul>
+
+        <h3>3. Care sunt avantajele respectării acestor reguli?</h3>
+        <p>Îmbunătățirea comunicării, respectul reciproc, o mai bună adaptare la alte culturi și interacțiuni plăcute cu cei din jur.</p>
+    `,
+    stiaiCa: "În Japonia, a oferi sau a primi o carte de vizită cu ambele mâini și a o citi cu atenție este un semn fundamental de respect – o regulă simplă de pregătire anterioară!",
+    wordwallUrl: "https://wordwall.net/ro/embed/bbc670a2e0a348e39b52da1d59e62ea7?themeId=46&templateId=35&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Urmează să primești în vizită un elev dintr-o altă țară. Ce faci înainte să sosească?",
+            optiuni: [
+                { text: "Te informezi despre salutul și obiceiurile din țara lui.", raspuns: "🌟 Bravo! Practici pregătirea anterioară pentru o comunicare bună!", puncte: 10 },
+                { text: "Aștepți să vină fără să te intereseze nimic despre cultura lui.", raspuns: "❌ Lipsa de pregătire poate duce la neînțelegeri stânjenitoare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Într-o discuție, un coleg din altă cultură vorbește mai încet și mai ezitant. Cum reacționezi?",
+            optiuni: [
+                { text: "Îl asculți cu răbdare și atenție, fără să îl întrerupi.", raspuns: "🛡️ Excelent! Arăți ascultare activă și respect!", puncte: 10 },
+                { text: "Îi felul în care vorbește și îl completezi rapid ca să termine.", raspuns: "⚠️ Întreruperea interlocutorului strică dialogul intercultural.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un coleg nou face o greșeală de etichetă la masă din cauza obiceiurilor din țara sa. Ce faci?",
+            optiuni: [
+                { text: "Îl tratezi ca pe un individ unic și îi explici cu blândețe obiceiul local.", raspuns: "👏 Foarte bine! Te concentrezi pe soluții, nu pe probleme!", puncte: 10 },
+                { text: "Spui tuturor că 'așa sunt toți cei din țara lui'.", raspuns: "❌ Etichetarea oamenilor după grup creează prejudecăți.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Vezi doi colegi care se tem să vorbească cu un turist străin pentru că nu știu perfecta limba. Ce le spui?",
+            optiuni: [
+                { text: "Îi încurajezi să comunice fără teamă, folosind și gesturi amabile.", raspuns: "🌟 Exact! Comunicarea fără teamă deschide porți spre prietenie!", puncte: 10 },
+                { text: "Le spui să se ascundă ca să nu se facă de râs.", raspuns: "❌ Teama împiedică adaptarea și învățarea interculturală.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cum sunt culturile în societatea contemporană?", 
+            raspunsuri: [
+                "Doar diferite, nu superioare sau inferioare", 
+                "Unele bune, iar altele complet greșite", 
+                "Toate identice din toate punctele de vedere", 
+                "Importante doar pentru adulți"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce presupune pregătirea anterioară?", 
+            raspunsuri: [
+                "Să știi cum să saluți și ce gesturi să folosești", 
+                "Să cumperi cadouri scumpe", 
+                "Să înveți pe de rost o carte întreagă", 
+                "Să eviți orice întâlnire"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce înseamnă ascultarea activă?", 
+            raspunsuri: [
+                "Menținerea atenției și răbdării fără a întrerupe", 
+                "Ascultarea muzicii la căști în timpul orei", 
+                "Privitul pe fereastră când altul vorbește", 
+                "Răspunsul rapid prin țipete"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Cum trebuie să-i tratăm pe ceilalți?", 
+            raspunsuri: [
+                "Ca indivizi unici, nu ca membri ai unui grup", 
+                "După haine și marca telefonului", 
+                "În funcție de notele din carnet", 
+                "Doar dacă sunt de acord cu noi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce trebuie să facem cu stereotipurile proprii?", 
+            raspunsuri: [
+                "Să fim conștienți de ele și să le evităm", 
+                "Să le spunem tuturor ca pe niște adevăruri", 
+                "Să le scriem pe tablă", 
+                "Să le ignorăm complet"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este un avantaj al respectării regulilor interculturale?", 
+            raspunsuri: [
+                "Îmbunătățirea comunicării și respectul reciproc", 
+                "Câștigarea de bani la jocuri video", 
+                "Anularea temelor pentru acasă", 
+                "Primirea de note mari fără efort"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Pe ce trebuie să ne concentrăm în caz de diferențe culturale?", 
+            raspunsuri: [
+                "Pe găsirea de soluții, nu pe probleme", 
+                "Pe arătarea greșelilor celuilalt", 
+                "Pe părăsirea conversației", 
+                "Pe începerea unui conflict"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum trebuie să fie comunicarea interculturală?", 
+            raspunsuri: [
+                "Fără teamă, bazată pe dialog și cooperare", 
+                "Strictă și plină de reguli dure", 
+                "Desfășurată doar în scris", 
+                "Oprită definitiv"
             ], 
             corect: 0 
         }
@@ -2083,6 +3667,142 @@ const dateSociala = {
 }
     ],
 
-    "clasa_VII": [],
+    "clasa_VII": [
+        {
+    titlu: "1. Drepturile omului",
+    rezumat: `
+        <h3>1. Ce sunt drepturile omului?</h3>
+        <p>Sunt condițiile absolut necesare pentru starea de bine, libertatea și dezvoltarea fiecărei persoane în societate.</p>
+
+        <h3>2. Când au devenit universale?</h3>
+        <p>După abuzurile din Al Doilea Război Mondial, Adunarea Generală a ONU a adoptat <b>Declarația Universală a Drepturilor Omului</b> la <b>10 decembrie 1948</b>. România a semnat-o la 14 decembrie 1955.</p>
+
+        <h3>3. Care sunt caracteristicile lor?</h3>
+        <p>Drepturile omului sunt <b>universale</b> – adică valabile pentru toți oamenii de pe Pământ, indiferent de rasă, etnie, gen, religie sau țară.</p>
+
+        <h3>4. Categorii principale de drepturi:</h3>
+        <ul>
+            <li><b>Civile și politice:</b> dreptul la viață, egalitate în fața legii, vot, libertatea de exprimare;</li>
+            <li><b>Economice, sociale și culturale:</b> dreptul la muncă, educație, odihnă și sănătate;</li>
+            <li><b>Ale persoanelor vulnerabile:</b> protecție împotriva abuzurilor, acces egal la școală și îngrijire medicală;</li>
+            <li><b>Ale popoarelor:</b> dreptul la pace, dezvoltare și identitate culturală.</li>
+        </ul>
+    `,
+    stiaiCa: "Declarația Universală a Drepturilor Omului deține recordul mondial Guinness pentru cel mai tradus document din lume, fiind disponibilă în peste 500 de limbi și dialecte!",
+    wordwallUrl: "https://wordwall.net/ro/embed/15c9f82417ca49ee8244dd621e45bee0?themeId=23&templateId=35&fontStackId=0", // Aici pui link-ul de embed de pe Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un coleg susține că doar oamenii bogați ar trebui să aibă dreptul la sănătate și educație. Ce faci?",
+            optiuni: [
+                { text: "Îi explici că drepturile omului sunt universale și aparțin tuturor în mod egal.", raspuns: "🌟 Bravo! Promovezi caracterul universal al drepturilor!", puncte: 10 },
+                { text: "Ești de acord cu el și spui că banii decid totul.", raspuns: "❌ În trecut existau drepturi doar pentru cei bogați, dar azi toți suntem egali.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Vezi un copil care este împiedicat să meargă la școală de către familie pentru a munci. Cum reacționezi?",
+            optiuni: [
+                { text: "Sesizezi un profesor sau o autoritate, deoarece educația este un drept fundamental.", raspuns: "🛡️ Excelent! Aperi dreptul la educație al persoanelor vulnerabile!", puncte: 10 },
+                { text: "Nu te bagi, considerând că este treaba familiei lui.", raspuns: "⚠️ Tăcerea permite încălcarea drepturilor fundamentale ale copilului.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Cineva pe internet încearcă să-ți interzică să-ți exprimi opinia politicoasă despre un subiect. Ce decizi?",
+            optiuni: [
+                { text: "Îți susții cu calm dreptul la libertatea de exprimare și gândire.", raspuns: "👏 Foarte bine! Libertatea de exprimare este un drept civil esențial!", puncte: 10 },
+                { text: "Ștergi tot și promiți să nu mai spui niciodată ce gândești.", raspuns: "❌ Renunțarea la propriile opinii înseamnă cedarea în fața cenzurii.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Auzi la știri despre un conflict armat care afectează școlile și spitalul dintr-o regiune. Ce drept este încălcat?",
+            optiuni: [
+                { text: "Dreptul popoarelor la pace, sănătate și dezvoltare.", raspuns: "🌟 Exact! Războiul distruge drepturile fundamentale la viață și securitate!", puncte: 10 },
+                { text: "Dreptul la vot și asociere politică.", raspuns: "❌ Deși afectate, principala pierdere în război este dreptul la pace și viață.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Când a fost adoptată Declarația Universală a Drepturilor Omului?", 
+            raspunsuri: [
+                "10 decembrie 1948", 
+                "14 decembrie 1955", 
+                "1 decembrie 1918", 
+                "9 mai 1945"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce organizație a adoptat Declarația Universală?", 
+            raspunsuri: [
+                "ONU (Organizația Națiunilor Unite)", 
+                "Uniunea Europeană", 
+                "Parlamentul României", 
+                "Crucea Roșie"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce înseamnă că drepturile omului sunt universale?", 
+            raspunsuri: [
+                "Sunt valabile pentru toți oamenii, fără deosebire", 
+                "Sunt valabile doar în spațiul cosmic", 
+                "Aparțin doar cetățenilor dintr-o singură țară", 
+                "Se aplică numai persoanelor adulte"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care dintre următoarele este un drept civil și politic?", 
+            raspunsuri: [
+                "Dreptul la vot și egalitatea în fața legii", 
+                "Dreptul la vacanță de vară", 
+                "Dreptul de a cumpăra jocuri video", 
+                "Dreptul de a avea telefon mobil"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Din ce categorie face parte dreptul la educație și sănătate?", 
+            raspunsuri: [
+                "Drepturi economice, sociale și culturale", 
+                "Drepturi militare strict secrete", 
+                "Drepturi exclusive ale bogaților", 
+                "Drepturi ale universului"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Când a semnat România Declarația Universală a Drepturilor Omului?", 
+            raspunsuri: [
+                "14 decembrie 1955", 
+                "10 decembrie 1948", 
+                "1 ianuarie 2007", 
+                "22 decembrie 1989"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce document istoric din 1789 a servit ca model pentru Declarație?", 
+            raspunsuri: [
+                "Declarația drepturilor omului și cetățeanului (Franța)", 
+                "Regulamentul Organic", 
+                "Magna Carta", 
+                "Tratatul de la Versailles"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce drept aparține categoriei 'drepturile popoarelor'?", 
+            raspunsuri: [
+                "Dreptul la pace și dezvoltare", 
+                "Dreptul la proprietate privată", 
+                "Dreptul la odihnă săptămânală", 
+                "Dreptul de a primi note mari"
+            ], 
+            corect: 0 
+        }
+    ]
+}
+    ],
     "clasa_VIII": []
 };

@@ -1134,9 +1134,13 @@
         document.getElementById('dilemmaProgressText').innerText = `Dilema ${currentDilemmaIndex + 1} din ${dilemmaList.length}`;
         document.getElementById('dilemmaText').innerText = d.scenariu;
 
+        // Amestecăm opțiunile păstrând legătura cu datele originale
+        let optiuniPornire = d.optiuni.map((opt, idx) => ({ ...opt, originalIdx: idx }));
+        let optiuniAmestecate = amestecaArray(optiuniPornire);
+
         let optsHtml = "";
-        d.optiuni.forEach((opt, idx) => {
-            optsHtml += `<button class="dilemma-opt-btn" onclick="alegeVariantaDilema(${idx})">${opt.text}</button>`;
+        optiuniAmestecate.forEach((opt) => {
+            optsHtml += `<button class="dilemma-opt-btn" onclick="alegeVariantaDilema(${opt.originalIdx})">${opt.text}</button>`;
         });
         document.getElementById('dilemmaOptionsArea').innerHTML = optsHtml;
     }

@@ -6117,5 +6117,689 @@ const dateSociala = {
     ]
 }
     ],
-    "clasa_VIII": []
+    "clasa_VIII": [
+        {
+    titlu: "1. Calitatea de consumator de bunuri și servicii. Calitatea de consumator de servicii financiare",
+    rezumat: `
+        <h3>1. Ce sunt bunurile și serviciile?</h3>
+        <p><b>Consumatorul</b> este persoana care cumpără bunuri și servicii pentru a-și satisface nevoile personale.</p>
+        <ul>
+            <li><b>Bunurile libere:</b> Sunt din natură, gratuite și nelimitate (ex: aerul);</li>
+            <li><b>Bunurile economice:</b> Sunt materiale, limitate și au un cost (ex: telefonul).</li>
+        </ul>
+
+        <h3>2. Diferența dintre bunuri și servicii</h3>
+        <p><b>Bunurile</b> au formă materială, pot fi depozitate și fabricate înainte de cumpărare. <b>Serviciile</b> sunt imateriale, nu se pot depozita, iar prestarea și consumul lor au loc în același timp.</p>
+
+        <h3>3. Tipuri de servicii și factori de influență</h3>
+        <p>Serviciile pot fi: de distribuție, de producție, sociale, personale și <b>financiare</b> (conturi bancare, credite, asigurări).</p>
+        <p>Comportamentul de cumpărare este influențat de factori <i>culturali</i>, <i>sociali</i> (familie, prieteni), <i>personali</i> (vârstă, stil de viață) și <i>psihologici</i>.</p>
+
+        <h3>4. Piețele financiare</h3>
+        <ul>
+            <li><b>Piața asigurărilor:</b> Pentru polițe de asigurare;</li>
+            <li><b>Piața bancară:</b> Pentru împrumuturi și depozite;</li>
+            <li><b>Piața de capital:</b> Pentru acțiuni și titluri de stat.</li>
+        </ul>
+    `,
+    stiaiCa: "Aerul și lumina soarelui sunt bunuri libere, dar în momentul în care aerul este filtrat sau îmbuteliat în tuburi de oxigen pentru scufundări, el devine un bun economic care costă bani!",
+    wordwallUrl: "https://wordwall.net/ro/embed/6f46999e77c949c38e14cbc5fba06f6d?themeId=59&templateId=35&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Vrei să cumperi o pâine și un abonament la sala de sport. Care dintre cele două este un 'bun economic' și care este un 'serviciu'?",
+            optiuni: [
+                { text: "Pâinea este un bun economic (este materială), iar abonamentul este un serviciu (este o activitate prestată).", raspuns: "🌟 Bravo! Ai identificat corect diferența dintre bun și serviciu!", puncte: 10 },
+                { text: "Ambele sunt bunuri libere oferite de natură.", raspuns: "❌ Bunurile libere sunt gratuite (ca aerul), pe când pâinea și sala sunt economice.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Colegii tăi își cumpără un anumit model de adidași pentru că este 'la modă'. Ce factor influențează comportamentul lor de consum?",
+            optiuni: [
+                { text: "Factori sociali (grupul de prieteni și tendințele în modă).", raspuns: "🛡️ Excelent! Grupul și moda sunt factori sociali de influență!", puncte: 10 },
+                { text: "Factori financiari de pe piața de capital.", raspuns: "⚠️ Moda și prietenii fac parte din categoria factorilor sociali.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Părinții tăi doresc să economisească bani pentru facultate și deschid un depozit la o bancă. Ce fel de piață folosesc?",
+            optiuni: [
+                { text: "Piața bancară.", raspuns: "👏 Foarte bine! Depozitele și creditele aparțin pieței bancare!", puncte: 10 },
+                { text: "Piața de distribuție turistică.", raspuns: "❌ Depozitele bănești se realizează pe piața bancară.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un frizer îți taie părul. Poți depozita acest 'serviciu' într-un dulap pentru săptămâna viitoare?",
+            optiuni: [
+                { text: "Nu, serviciile sunt imateriale și nu pot fi depozitate.", raspuns: "🌟 Exact! Prestarea și consumul serviciului au loc în același timp!", puncte: 10 },
+                { text: "Da, serviciile se confecționează și se păstrează pe raft.", raspuns: "❌ Doar bunurile materiale pot fi depozitate, nu și serviciile.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este un consumator?", 
+            raspunsuri: [
+                "Persoana care folosește bunuri și servicii pentru nevoile personale", 
+                "Persoana care fabrică produse într-o fabrică", 
+                "Un funcționar care votează legi în Parlament", 
+                "Un judecător din instanță"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care este un exemplu de bun liber?", 
+            raspunsuri: [
+                "Aerul din atmosferă", 
+                "Un telefon mobil", 
+                "O pereche de pantofi", 
+                "Un automobil"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Prin ce se caracterizează serviciile spre deosebire de bunuri?", 
+            raspunsuri: [
+                "Sunt imateriale și nu pot fi depozitate", 
+                "Sunt materiale și se fabrică în avans", 
+                "Pot fi ambalate în cutii de carton", 
+                "Se cumpără doar din piețele libere"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce fel de servicii sunt sănătatea, educația și apărarea?", 
+            raspunsuri: [
+                "Servicii sociale (sau colective)", 
+                "Servicii personale", 
+                "Servicii de producție", 
+                "Servicii de distribuție"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce servicii includ conturile bancare, creditele și asigurările?", 
+            raspunsuri: [
+                "Servicii financiare", 
+                "Servicii de alimentație publică", 
+                "Servicii de transport", 
+                "Servicii de curățenie"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care dintre următorii este un factor SOCIAL ce influențează consumul?", 
+            raspunsuri: [
+                "Grupul de prieteni și moda", 
+                "Vârsta și ocupația", 
+                "Motivația personală", 
+                "Nivelul de oxigen"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Pe ce piață financiară se cumpără acțiuni și titluri de stat?", 
+            raspunsuri: [
+                "Piața de capital", 
+                "Piața bancară", 
+                "Piața asigurărilor", 
+                "Piața agroalimentară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce se întâmplă în cazul prestării unui serviciu?", 
+            raspunsuri: [
+                "Prestarea și consumul au loc în mod concomitent", 
+                "Consumul are loc la un an după producție", 
+                "Clientul nu are voie să fie prezent", 
+                "Serviciul se trimite prin poștă într-un colet"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "2. Drepturi și responsabilități ale consumatorului. Protecția consumatorului",
+    rezumat: `
+        <h3>1. Drepturile consumatorilor (conform ANPC)</h3>
+        <ul>
+            <li><b>Protecție:</b> Împotriva produselor/serviciilor periculoase pentru sănătate sau viață;</li>
+            <li><b>Informare:</b> Corectă, completă și precisă asupra caracteristicilor produsului;</li>
+            <li><b>Acces și Organizare:</b> La o gamă variată de produse de calitate și posibilitatea constituirii în asociații;</li>
+            <li><b>Despăgubire:</b> În caz de pagube provocate de produse necorespunzătoare;</li>
+            <li><b>Refuzul clauzelor abuzive:</b> Dreptul de a refuza contracte incorecte.</li>
+        </ul>
+
+        <h3>2. Responsabilitățile consumatorului</h3>
+        <p>Să plătească prețul convenit și să verifice integritatea și calitatea produsului sau serviciului cumpărat.</p>
+
+        <h3>3. Ce este ANPC?</h3>
+        <p><b>Autoritatea Națională pentru Protecția Consumatorilor</b> este instituția de stat care controlează agenții economici și apără drepturile cetățenilor.</p>
+
+        <h3>4. Cum și unde depunem o reclamație?</h3>
+        <ul>
+            <li><b>Când:</b> Doar după ce am încercat mai întâi rezolvarea amiabilă (pe cale amiabilă) cu vânzătorul;</li>
+            <li><b>Unde:</b> La Comisariatul Județean pentru Protecția Consumatorilor (scriere/electronic sau personal);</li>
+            <li><b>Documente necesare:</b> Bon fiscal, factură, chitanță, contract sau certificat de garanție.</li>
+        </ul>
+    `,
+    stiaiCa: "Dacă ANPC descoperă un magazin care vinde alimente expirate sau periculoase, instituția are puterea să amendeze agentul economic și chiar să închidă magazinul temporar!",
+    wordwallUrl: "https://wordwall.net/ro/embed/0d09179f70c0435a9a5b70cafa81cd96?themeId=48&templateId=35&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Ai cumpărat o pereche de adidași care s-au dezlipit după 2 zile. Mergi direct la ANPC fără să treci mai întâi pe la magazin. Este corect?",
+            optiuni: [
+                { text: "Nu, reclamația la ANPC se face doar după încercarea de rezolvare amiabilă cu magazinul.", raspuns: "🌟 Bravo! Mai întâi discuți cu vânzătorul, iar dacă acesta refuză rezolvarea, mergi la ANPC!", puncte: 10 },
+                { text: "Da, ANPC se contactează întotdeauna înainte de a vorbi cu vânzătorul.", raspuns: "❌ Pasul 1 este încercarea de rezolvare amiabilă cu agentul economic.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un vânzător îți oferă un contract de garanție care conține o clauză prin care renunți la orice drept de despăgubire dacă produsul se strică. Ce drept poți folosi?",
+            optiuni: [
+                { text: "Dreptul de a refuza încheierea contractelor cu clauze abuzive.", raspuns: "🛡️ Excelent! Legea îți dă dreptul să refuzi clauzele abuzive!", puncte: 10 },
+                { text: "Nu ai niciun drept, trebuie să semnezi ce spune vânzătorul.", raspuns: "⚠️ Consumatorii au dreptul legal de a refuza clauzele abuzive.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Ai aruncat bonul fiscal de la un telefon primit defect și vrei să depui o sesizare oficială la ANPC. Se va procesa reclamația ta?",
+            optiuni: [
+                { text: "Nu, reclamația trebuie însoțită obligatoriu de bon fiscal, factură sau garanție.", raspuns: "👏 Foarte bine! Documentele doveditoare (bonul/factura) sunt obligatorii!", puncte: 10 },
+                { text: "Da, ANPC nu solicită nicio dovadă sau bon de cumpărare.", raspuns: "❌ Reclamația la ANPC necesită acte doveditoare (bon fiscal, contract etc.).", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Cumpări un pachet de biscuiți de la magazin, dar nu te uiți deloc pe ambalaj și observi acasă că erau expirați de un an. Ce responsabilitate ai ignorat?",
+            optiuni: [
+                { text: "Responsabilitatea de a verifica integritatea și calitatea produsului la cumpărare.", raspuns: "🌟 Exact! Consumatorul are responsabilitatea de a verifica marfa înainte sau la achiziție!", puncte: 10 },
+                { text: "Responsabilitatea de a redacta o inițiativă legislativă.", raspuns: "❌ Verificarea produsului este o responsabilitate de bază a consumatorului.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă ANPC?", 
+            raspunsuri: [
+                "Autoritatea Națională pentru Protecția Consumatorilor", 
+                "Asociația Națională a Producătorilor de Carte", 
+                "Agentul Național pentru Paza Comunității", 
+                "Administrația Națională a Pădurilor și Cuiburilor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele este un DREPT al consumatorului?", 
+            raspunsuri: [
+                "De a fi informat complet, corect și precis", 
+                "De a lua produse din magazin fără să plătească", 
+                "De a stabili prețurile din supermarket", 
+                "De a schimba legile din țară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Care este o RESPONSABILITATE principală a consumatorului?", 
+            raspunsuri: [
+                "Să plătească prețul produsului/serviciului", 
+                "Să transporte marfa vânzătorului acasă", 
+                "Să verifice salariile angajaților", 
+                "Să repare singur produsele din magazin"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Când se poate depune o reclamație la ANPC?", 
+            raspunsuri: [
+                "După ce s-a încercat rezolvarea amiabilă cu agentul economic", 
+                "Înainte de cumpărarea produsului", 
+                "Imediat ce am văzut o reclamă la televizor", 
+                "Doar duminica la prânz"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Unde se trimite sau se depune o reclamație pentru un produs defect?", 
+            raspunsuri: [
+                "La Comisariatul Județean pentru Protecția Consumatorilor", 
+                "La Primăria din alt județ", 
+                "La Ministerul Educației", 
+                "La secția de pompieri"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce act este obligatoriu de atașat la o sesizare către ANPC?", 
+            raspunsuri: [
+                "Bonul fiscal, factura sau certificatul de garanție", 
+                "Carnetul de elev vizat pe anul în curs", 
+                "O fotografie de la ziua de naștere", 
+                "Biletul de autobuz"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce au dreptul consumatorii să primească dacă un produs le-a provocat o pagubă?", 
+            raspunsuri: [
+                "Să fie despăgubiți conform legii", 
+                "O medalie de merit de la primărie", 
+                "O excursie gratuită în străinătate", 
+                "O diplomă de participare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. În ce format se transmite o sesizare către Protecția Consumatorilor?", 
+            raspunsuri: [
+                "În format scris (depus personal sau electronic)", 
+                "Prin mesaj telefonic vocal", 
+                "Prin scrisoare anonimă fără nume", 
+                "Prin semnale audio pe radio"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "3. Producătorul. Producerea de bunuri și servicii",
+    rezumat: `
+        <h3>1. Categorii de agenți economici</h3>
+        <ul>
+            <li><b>Producătorul:</b> Folosește resurse pentru a crea bunuri și servicii;</li>
+            <li><b>Distribuitorul:</b> Cumpără de la producător pentru a revinde propriilor clienți;</li>
+            <li><b>Comerciantul:</b> Desfășoară activități de vânzare-cumpărare pe piață;</li>
+            <li><b>Prestatorul:</b> Furnizează servicii sau activități directe.</li>
+        </ul>
+
+        <h3>2. Obligațiile agenților economici</h3>
+        <p>Să ofere doar produse/servicii sigure, să aibă un comportament corect față de consumatori și să nu folosească practici comerciale abuzive.</p>
+
+        <h3>3. Ce este producția și preocupările producătorului</h3>
+        <p>Producția este procesul prin care se obțin bunuri și servicii. Producătorul trebuie să ia decizii despre resurse, să fie creativ, autonom și să își asume riscuri.</p>
+
+        <h3>4. Forme principale de abuz ale producătorilor</h3>
+        <p>Produse alterate/periculoase, publicitate mincinoasă, imitații de branduri (falsuri), lipsa etichetelor cu preț/riscuri sau clauze abuzive în contracte.</p>
+    `,
+    stiaiCa: "Publicitatea înșelătoare (care promite rezultate miraculoase false) și copierea numelui unui brand celebru sunt considerate infracțiuni și se pedepsesc aspru de către lege!",
+    wordwallUrl: "https://wordwall.net/ro/embed/27dd9b8e5cc34e5891a7bc9dc11b5ad8?themeId=53&templateId=11&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. O firmă cumpără sucuri direct de la o fabrică din alt oraș și le revinde magazinelor mici din județ. Ce fel de agent economic este această firmă?",
+            optiuni: [
+                { text: "Distribuitor.", raspuns: "🌟 Bravo! Distribuitorul cumpără de la producător pentru a revinde marfa!", puncte: 10 },
+                { text: "Producător direct de suc.", raspuns: "❌ Producătorul este cel care fabrică produsul din resurse primare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un magazin vinde ciocolată ambalată într-un ambalaj aproape identic cu al unei mărci celebre, dar ciocolata din interior este de proastă calitate. Ce abuz comite?",
+            optiuni: [
+                { text: "Vânzarea de produse cu denumiri și ambalaje asemănătoare unor branduri cunoscute.", raspuns: "🛡️ Excelent! Copierea brandurilor este o practică comercială abuzivă!", puncte: 10 },
+                { text: "Organizarea legală a pieței bancare.", raspuns: "⚠️ Imitația de branduri este o formă de abuz împotriva consumatorului.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O cremă de față promite pe ambalaj că 'șterge ridurile în 10 secunde', dar în realitate este doar o cremă obișnuită de mâini. Cum se numește această practică?",
+            optiuni: [
+                { text: "Publicitate mincinoasă (înșelătoare).", raspuns: "👏 Foarte bine! Promisiunile false reprezintă publicitate înșelătoare!", puncte: 10 },
+                { text: "Serviciu financiar de asigurare.", raspuns: "❌ Oferirea de informații neadevărate în reclame este publicitate mincinoasă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un mecanic auto îți repară frânele la mașină contra unei sume de bani. Ce calitate are el în acest proces?",
+            optiuni: [
+                { text: "Prestator de servicii.", raspuns: "🌟 Exact! Persoana care furnizează o activitate sau un serviciu se numește prestator!", puncte: 10 },
+                { text: "Consumator final de bunuri economice libere.", raspuns: "❌ Mecanicul oferă un serviciu, fiind prestator.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cine este producătorul?", 
+            raspunsuri: [
+                "Agentul economic care folosește resurse pentru a crea bunuri și servicii", 
+                "Persoana care cumpără haine de la magazin", 
+                "Judecătorul de la Secția Penală", 
+                "Elevul care rezolvă un test la școală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce este un distribuitor?", 
+            raspunsuri: [
+                "Agentul economic care cumpără marfa de la producător pentru a o revinde", 
+                "Persoana care repară televizoare stricate", 
+                "Banca ce oferă credite ipotecare", 
+                "Consumatorul care plătește biletul de autobuz"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum se numește agentul economic care furnizează o activitate/serviciu?", 
+            raspunsuri: [
+                "Prestator", 
+                "Investitor", 
+                "Producător", 
+                "Consumator"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care este o obligație de bază a oricărui agent economic?", 
+            raspunsuri: [
+                "Să ofere produse și servicii sigure și conforme", 
+                "Să mărească prețurile în fiecare săptămână", 
+                "Să vândă marfă fără etichete de avertizare", 
+                "Să evite plata salariilor angajaților"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce reprezintă producția?", 
+            raspunsuri: [
+                "Activitatea prin care se obțin bunurile și serviciile necesare oamenilor", 
+                "Cumpărarea de cadouri pentru ziua de naștere", 
+                "Verificarea certificatului de garanție de către ANPC", 
+                "Depunerea de bani într-un cont de economii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care dintre următoarele este o formă de ABUZ practicată de unii producători?", 
+            raspunsuri: [
+                "Publicitatea mincinoasă și vânzarea de produse perimate (alterate)", 
+                "Oferirea de instrucțiuni de utilizare în limba română", 
+                "Afișarea clară a prețului pe etichetă", 
+                "Eliberarea bonului fiscal la cumpărare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce informație lipsă de pe ambalaj reprezintă o încălcare a drepturilor consumatorului?", 
+            raspunsuri: [
+                "Prețul și avertizările privitoare la riscuri și alergeni", 
+                "Numele actorului preferat al vânzătorului", 
+                "Numărul de telefon al primăriei din oraș", 
+                "Culoarea preferată a producătorului"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce trăsătură trebuie să aibă un producător pentru a avea succes pe piață?", 
+            raspunsuri: [
+                "Creativitate, autonomie și asumarea de riscuri", 
+                "Dependență totală de sfaturile altor firme", 
+                "Folosirea de etichete false pe toate produsele", 
+                "Evitarea creării de bunuri noi"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "4. Producătorul și spiritul antreprenorial. Inițiativă și risc",
+    rezumat: `
+        <h3>1. Ce este spiritul antreprenorial?</h3>
+        <p>Este capacitatea de a vedea oportunități acolo unde alții văd probleme și de a acționa perseverent pentru rezolvarea lor, obținând profit.</p>
+        <p><i>Reține:</i> Spiritul antreprenorial se dezvoltă prin învățare și experiență!</p>
+
+        <h3>2. Surse de finanțare ale unei afaceri</h3>
+        <p>Economii personale, sprijin de la familie/prieteni, credite bancare, firme cu capital de risc și <b>fonduri europene nerambursabile</b>.</p>
+
+        <h3>3. Riscul în afaceri</h3>
+        <p>Reprezintă un factor cu impact negativ asupra firmei. Poate fi:</p>
+        <ul>
+            <li><b>Risc extern:</b> Din afara afacerii (taxe mari, inflație, crize economice);</li>
+            <li><b>Risc intern:</b> Din interiorul firmei (datorii, lipsă de muncitori calificați).</li>
+        </ul>
+
+        <h3>4. Pași cheie pentru deschiderea unei afaceri</h3>
+        <p>Găsirea ideii ➔ Identificarea clienților (piața-țintă) ➔ Planul de afaceri ➔ Alegerea numelui și locației ➔ Înregistrarea firmei și obținerea autorizațiilor.</p>
+    `,
+    stiaiCa: "Fondurile europene nerambursabile sunt bani oferiți antreprenorilor pentru a deschide sau dezvolta afaceri, fără ca aceștia să fie obligați să îi restituie, dacă își îndeplinesc obiectivele promise!",
+    wordwallUrl: "https://wordwall.net/ro/embed/b493d2286c4549f9bc8efc210bb2f8ad?themeId=66&templateId=11&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un tânăr dorește să deschidă un atelier de reparații de biciclete și folosește banii strânși de el în ultimii 3 ani. Ce sursă de finanțare folosește?",
+            optiuni: [
+                { text: "Economiile personale.", raspuns: "🌟 Bravo! Multe afaceri mici încep cu economii personale!", puncte: 10 },
+                { text: "Firme cu capital de risc internațional.", raspuns: "❌ Banii proprii strânși în timp reprezintă economii personale.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. O brutărie se confruntă cu o creștere uriașă a prețului la curentul electric în toată țara. Ce tip de risc este acesta pentru afacere?",
+            optiuni: [
+                { text: "Risc extern (provine din afara afacerii).", raspuns: "🛡️ Excelent! Factorii din afara firmei (prețul energiei, taxele) sunt riscuri externe!", puncte: 10 },
+                { text: "Risc intern provocat de angajați.", raspuns: "⚠️ Schimbările generale de preț din economie reprezintă riscuri externe.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O firmă își pierde jumătate din clienți pentru că angajații nu sunt bine pregătiți și greșesc comenzile. Ce tip de risc este acesta?",
+            optiuni: [
+                { text: "Risc intern (lipsa muncitorilor calificați).", raspuns: "👏 Foarte bine! Problemele din interiorul firmei constituie riscuri interne!", puncte: 10 },
+                { text: "Risc extern cauzat de fondurile europene.", raspuns: "❌ Calitatea slabă a muncii echipei este o problemă internă a firmei.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Cineva susține că 'antreprenor te naști și nu poți învăța niciodată cum să conduci o afacere'. Este adevărat?",
+            optiuni: [
+                { text: "Fals; spiritul antreprenorial se dezvoltă prin învățare și experiență.", raspuns: "🌟 Exact! Reține că antreprenoriatul se învață în timp!", puncte: 10 },
+                { text: "Adevărat; dacă nu ai afaceri la 10 ani, nu vei avea niciodată.", raspuns: "❌ Educația și experiența sunt esențiale în dezvoltarea spiritului antreprenorial.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă spiritul antreprenorial?", 
+            raspunsuri: [
+                "Capacitatea de a vedea oportunități în probleme și de a acționa pentru profit", 
+                "Dorința de a lucra doar la stat pe un salariu fix", 
+                "Refuzul de a-ți asuma orice fel de risc", 
+                "Cumpărarea de produse fără a plăti prețul"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele este o sursă de finanțare NERAMBURSABILĂ?", 
+            raspunsuri: [
+                "Fondurile europene", 
+                "Creditul bancar cu dobândă", 
+                "Împrumutul de la o firmă de amanet", 
+                "Datoriile către furnizori"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este riscul extern într-o afacere?", 
+            raspunsuri: [
+                "Un factor din afara firmei (ex: taxe mari, inflație)", 
+                "Cearta dintre doi angajați din birou", 
+                "Lipsa de curățenie din depozit", 
+                "Defectarea imprimantei firmei"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce reprezintă un risc INTERN pentru un magazin?", 
+            raspunsuri: [
+                "Lipsa personalului calificat și datoriile proprii", 
+                "Schimbarea legilor în altă țară", 
+                "Vremea ploioasă de afară", 
+                "Creșterea prețului petrolului pe glob"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Care este primul pas în începerea unei afaceri?", 
+            raspunsuri: [
+                "Găsirea unei idei de afaceri", 
+                "Înregistrarea numelui la primărie", 
+                "Cumpărarea unei mașini de firmă", 
+                "Angajarea a 100 de oameni"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Cum se numește grupul de consumatori cărora li se adresează produsele unei firme?", 
+            raspunsuri: [
+                "Piața-țintă", 
+                "Piața valutară", 
+                "Banca centrală", 
+                "Consiliul local"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce acordă băncile antreprenorilor dacă proiectul afacerii este realizabil?", 
+            raspunsuri: [
+                "Împrumuturi (credite bancare)", 
+                "Diplome de merit", 
+                "Avize de mediu", 
+                "Titluri de proprietate pe terenuri"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum se dezvoltă cel mai adesea spiritul antreprenorial?", 
+            raspunsuri: [
+                "Prin învățare și experiență", 
+                "Prin noroc la jocuri de noroc", 
+                "Prin ignorarea regulilor din societate", 
+                "Prin vizionarea de filme de acțiune"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "5. Forme actuale ale banilor",
+    rezumat: `
+        <h3>1. Ce sunt banii și cum au apărut?</h3>
+        <p>Banii (sau moneda) reprezintă mijloacele de plată din economie. Au apărut din necesitatea de a înlocui <b>trocul</b> (schimbul direct de produse, cum ar fi scoici sau piei de animale).</p>
+
+        <h3>2. Formele banilor contemporani</h3>
+        <ul>
+            <li><b>Numerar:</b> Monede din metal și bancnote din hârtie sau polimer (plastic);</li>
+            <li><b>Monedă scripturală (bani de cont):</b> Fără existență fizică, sume aflate în conturi bancare (utilizate și ca bani electronici / e-money via card);</li>
+            <li><b>Criptomonedă (monedă virtuală):</b> Monedă nebancară folosită în tranzacții digitale (ex: Bitcoin, Ethereum).</li>
+        </ul>
+
+        <h3>3. Valuta și codurile monetare</h3>
+        <p>Unitatea monetară a altui stat se numește <b>valută</b>. Fiecare monedă are un cod internațional: <b>RON</b> (leu românesc), <b>EUR</b> (euro), <b>USD</b> (dolar american), <b>GBP</b> (liră sterlină).</p>
+
+        <h3>4. Moneda Euro</h3>
+        <p>Intrată în circulație la 1 ianuarie 2002, bancnotele euro sunt identice în toate țările, iar monedele au o față națională specifică fiecărui stat.</p>
+    `,
+    stiaiCa: "Bancnotele românești sunt realizate dintr-un material plastic special numit polimer, care le face rezistente la apă și mult mai greu de rupt sau falsificat decât bancnotele din hârtie obișnuită!",
+    wordwallUrl: "https://wordwall.net/ro/embed/aabcddfdb56049bbb463fa37001aa818?themeId=49&templateId=35&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Vrei să cumperi un joc de pe internet și plătești cu cardul bancar al părinților, fără să folosești bancnote fizice. Ce formă de bani folosești?",
+            optiuni: [
+                { text: "Monedă scripturală (bani de cont / bani electronici).", raspuns: "🌟 Bravo! Banii din contul bancar utilizați online sunt bani scripturali!", puncte: 10 },
+                { text: "Bani sub formă de troc din natură.", raspuns: "❌ Trocul înseamnă schimb direct de bunuri (ex: grâu pe piei de animale).", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Mergi în vacanță în SUA și schimbi lei în dolari americani (USD). Cum se numește moneda altui stat în raport cu leul?",
+            optiuni: [
+                { text: "Valută.", raspuns: "🛡️ Excelent! Moneda unui alt stat este denumită valută!", puncte: 10 },
+                { text: "Monedă scripturală internă.", raspuns: "⚠️ Monedele străine purtătoare de cod internațional se numesc valute.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Ai primit două monede de 1 Euro: una din Germania și una din Franța. Observi că o față este identică, dar cealaltă este diferită. De ce?",
+            optiuni: [
+                { text: "Monedele euro au o față comună și o față cu însemnul național al fiecărui stat.", raspuns: "👏 Foarte bine! Fiecare țară din zona euro își imprimă simbolul propriu pe o față a monedei!", puncte: 10 },
+                { text: "Una dintre monede este cu siguranță un fals din plastic.", raspuns: "❌ Monedele euro au legal o față națională diferită în funcție de țara emitentă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Cineva vrea să îți vândă o bicicletă în schimbul a 3 saci de cartofi, fără să folosiți bani. Cum se numește acest schimb?",
+            optiuni: [
+                { text: "Troc.", raspuns: "🌟 Exact! Schimbul direct produs pe produs, fără bani, este trocul!", puncte: 10 },
+                { text: "Tranzacție cu criptomonedă nebancară.", raspuns: "❌ Schimbul de bunuri materiale direct este troc.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cum se numea schimbul direct de bunuri utilizat înainte de apariția banilor?", 
+            raspunsuri: [
+                "Troc", 
+                "Criptomonedă", 
+                "Buget", 
+                "Promulgare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Din ce categorii este format banii de tip numerar?", 
+            raspunsuri: [
+                "Monede din metal și bancnote din hârtie/plastic", 
+                "Doar conturi bancare virtuale", 
+                "Scoici și dinți de rechin", 
+                "Acțiuni și titluri de stat"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este moneda scripturală?", 
+            raspunsuri: [
+                "Banii de cont care nu au o existență fizică materială", 
+                "Monedele vechi din aur și argint", 
+                "Bancnotele tipărite pe polimer", 
+                "Tichetele de masă pe hârtie"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce reprezintă Bitcoin sau Ethereum?", 
+            raspunsuri: [
+                "Monede virtuale (criptomonedă)", 
+                "Monedă națională emisă de BNRO", 
+                "Bancnote de hârtie de tip numerar", 
+                "Servicii de asigurări sociale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cum se numește unitatea monetară a unui alt stat?", 
+            raspunsuri: [
+                "Valută", 
+                "Troc", 
+                "Deontologie", 
+                "Fundație"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este codul internațional de recunoaștere pentru leul românesc?", 
+            raspunsuri: [
+                "RON", 
+                "EUR", 
+                "USD", 
+                "GBP"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. În ce an a fost pusă în circulație moneda Euro?", 
+            raspunsuri: [
+                "1 ianuarie 2002", 
+                "1 decembrie 1918", 
+                "1 ianuarie 1990", 
+                "15 septembrie 2010"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Prin ce se caracterizează bancnotele euro în toate țările din zona euro?", 
+            raspunsuri: [
+                "Au exact același design în toate statele membre", 
+                "Sunt de culori diferite în fiecare țară", 
+                "Sunt făcute doar din metale prețioase", 
+                "Au imprimate doar fețele primarilor"
+            ], 
+            corect: 0 
+        }
+    ]
+}
+    ]
 };

@@ -22,29 +22,29 @@ const dateSociala = {
         {
             scenariu: "1. La o oră de curs, profesorul explică ceva, dar tu nu ai înțeles un termen. Ce faci?",
             optiuni: [
-                { text: "A. Ridici mâna politicos și pui o întrebare pentru a te lămuri.", raspuns: "🌟 Foarte bine! Ai folosit cheia cunoașterii și ți-ai exercitat dreptul de a fi informat!", puncte: 10 },
-                { text: "B. Taci de rușine, ca să nu râdă colegii că nu ai înțeles.", raspuns: "❌ Nu-ți fie teamă! Întrebările sunt normale și te ajută să înveți.", puncte: 0 }
+                { text: " Ridici mâna politicos și pui o întrebare pentru a te lămuri.", raspuns: "🌟 Foarte bine! Ai folosit cheia cunoașterii și ți-ai exercitat dreptul de a fi informat!", puncte: 10 },
+                { text: " Taci de rușine, ca să nu râdă colegii că nu ai înțeles.", raspuns: "❌ Nu-ți fie teamă! Întrebările sunt normale și te ajută să înveți.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Vezi o știre ciudată la televizor și ai îndoieli că ar fi adevărată. Cum reacționezi?",
             optiuni: [
-                { text: "A. Îi întrebi pe părinți sau pe profesori ce cred despre acea știre.", raspuns: "👏 Excelent! Curiozitatea și verificarea informațiilor te protejează de minciuni.", puncte: 10 },
-                { text: "B. Crezi totul din prima, fără să pui nicio întrebare.", raspuns: "⚠️ Fiecare informație trebuie trecută prin filtrul propriei minți!", puncte: 0 }
+                { text: " Îi întrebi pe părinți sau pe profesori ce cred despre acea știre.", raspuns: "👏 Excelent! Curiozitatea și verificarea informațiilor te protejează de minciuni.", puncte: 10 },
+                { text: " Crezi totul din prima, fără să pui nicio întrebare.", raspuns: "⚠️ Fiecare informație trebuie trecută prin filtrul propriei minți!", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Într-un proiect de echipă, un coleg mai mare îți spune să taci pentru că „ești prea mic”. Ce îi spui?",
             optiuni: [
-                { text: "A. Îi amintești politicos că și vocea ta contează și că ai idei bune.", raspuns: "🛡️ Bravo! Ți-ai susținut dreptul la exprimare cu respect și curaj!", puncte: 10 },
-                { text: "B. Te retragi supărat și nu mai spui nimic.", raspuns: "❌ Părerea ta este la fel de valoroasă ca a oricărui alt coleg. Exprimă-te!", puncte: 0 }
+                { text: " Îi amintești politicos că și vocea ta contează și că ai idei bune.", raspuns: "🛡️ Bravo! Ți-ai susținut dreptul la exprimare cu respect și curaj!", puncte: 10 },
+                { text: " Te retragi supărat și nu mai spui nimic.", raspuns: "❌ Părerea ta este la fel de valoroasă ca a oricărui alt coleg. Exprimă-te!", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Un prieten se miră de un fenomen din natură și te întreabă de ce se întâmplă. Cum îi răspunzi?",
             optiuni: [
-                { text: "A. Îi spui: „O întrebare bună! Hai să căutăm răspunsul într-o carte sau pe internet!”", raspuns: "🌟 Minunat! Încurajezi curiozitatea și căutați informația împreună!", puncte: 10 },
-                { text: "B. Îi zici: „Ce tot pui atâtea întrebări inutile?”", raspuns: "⚠️ Nimic nu e inutil când vine vorba de cunoaștere. Fii deschis!", puncte: 0 }
+                { text: " Îi spui: „O întrebare bună! Hai să căutăm răspunsul într-o carte sau pe internet!”", raspuns: "🌟 Minunat! Încurajezi curiozitatea și căutați informația împreună!", puncte: 10 },
+                { text: " Îi zici: „Ce tot pui atâtea întrebări inutile?”", raspuns: "⚠️ Nimic nu e inutil când vine vorba de cunoaștere. Fii deschis!", puncte: 0 }
             ]
         }
     ],
@@ -82,29 +82,29 @@ const dateSociala = {
         {
             scenariu: "1. Un utilizator necunoscut dintr-un joc online îți cere numele real, școala la care înveți și adresa. Ce faci?",
             optiuni: [
-                { text: "A. Îi spui imediat că datele personale sunt confidențiale și refuzi să le trimiți.", raspuns: "🛡️ Bravo! Ți-ai protejat identitatea pe internet! Regula de aur a siguranței digitale!", puncte: 10 },
-                { text: "B. Îi trimiți datele, gândindu-te că pare un om de treabă.", raspuns: "⚠️ Pericol! Pe internet nu știi cine se află în spatele ecranului. Nu oferi niciodată date personale!", puncte: 0 }
+                { text: " Îi spui imediat că datele personale sunt confidențiale și refuzi să le trimiți.", raspuns: "🛡️ Bravo! Ți-ai protejat identitatea pe internet! Regula de aur a siguranței digitale!", puncte: 10 },
+                { text: " Îi trimiți datele, gândindu-te că pare un om de treabă.", raspuns: "⚠️ Pericol! Pe internet nu știi cine se află în spatele ecranului. Nu oferi niciodată date personale!", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Te-ai rătăcit într-un centru comercial mare și nu-ți mai găsești părinții. Pe cine abordezi?",
             optiuni: [
-                { text: "A. Cauți un paznic, un polițist sau un angajat cu insignă al magazinului.", raspuns: "🌟 Foarte bine! Te-ai adresat unei persoane dintr-o instituție/unitate sigură!", puncte: 10 },
-                { text: "B. Pleci din magazin cu un străin care îți promite că te duce el acasă.", raspuns: "❌ Foarte periculos! Nu pleca niciodată cu persoane necunoscute!", puncte: 0 }
+                { text: " Cauți un paznic, un polițist sau un angajat cu insignă al magazinului.", raspuns: "🌟 Foarte bine! Te-ai adresat unei persoane dintr-o instituție/unitate sigură!", puncte: 10 },
+                { text: " Pleci din magazin cu un străin care îți promite că te duce el acasă.", raspuns: "❌ Foarte periculos! Nu pleca niciodată cu persoane necunoscute!", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Ai o dilemă despre un subiect complicat văzut pe internet și nu știi dacă e potrivit pentru tine. Ce faci?",
             optiuni: [
-                { text: "A. Mergi la părinți sau la profesori și îi întrebi deschis despre acel subiect.", raspuns: "👏 Excelent! Părinții și profesorii sunt ghidul tău cel mai sigur pentru informații corecte.", puncte: 10 },
-                { text: "B. Cauți mai departe singur pe site-uri dubioase.", raspuns: "⚠️ Atenție! Informațiile de pe site-uri nesigure te pot induce în eroare sau speria.", puncte: 0 }
+                { text: " Mergi la părinți sau la profesori și îi întrebi deschis despre acel subiect.", raspuns: "👏 Excelent! Părinții și profesorii sunt ghidul tău cel mai sigur pentru informații corecte.", puncte: 10 },
+                { text: " Cauți mai departe singur pe site-uri dubioase.", raspuns: "⚠️ Atenție! Informațiile de pe site-uri nesigure te pot induce în eroare sau speria.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Vrei să afli cum s-a petrecut un eveniment istoric pentru un proiect de grup. Cum pui întrebările?",
             optiuni: [
-                { text: "A. Folosești întrebările cheie: Cine? Ce? Când? Unde? De ce? Cum?", raspuns: "🌟 Minunat! Aceste întrebări te ajută să afli tabloul complet și corect al situației!", puncte: 10 },
-                { text: "B. Pui o singură întrebare vagă și te mulțumești cu primul răspuns scurt.", raspuns: "⚠️ O cercetare bună are nevoie de mai multe întrebări bine țintite.", puncte: 0 }
+                { text: " Folosești întrebările cheie: Cine? Ce? Când? Unde? De ce? Cum?", raspuns: "🌟 Minunat! Aceste întrebări te ajută să afli tabloul complet și corect al situației!", puncte: 10 },
+                { text: " Pui o singură întrebare vagă și te mulțumești cu primul răspuns scurt.", raspuns: "⚠️ O cercetare bună are nevoie de mai multe întrebări bine țintite.", puncte: 0 }
             ]
         }
     ],
@@ -139,29 +139,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Un coleg îți spune ferm: „Păpușile și jocurile de construit sunt cele mai urâte jucării din lume!”. Cum reacționezi?",
                     optiuni: [
-                        { text: "A. Îi explici că aceasta este doar opinia lui personală, iar alți copii pot avea opinii diferite.", raspuns: "🌟 Bravo! Ai identificat corect o opinie și ai respectat punctul de vedere diferit!", puncte: 10 },
-                        { text: "B. Te cerți cu el și îi spui că minte și că afirmația lui este un fapt clar.", raspuns: "⚠️ Atenție! Gusturile și preferințele sunt opinii, nu fapte verificabile.", puncte: 0 }
+                        { text: " Îi explici că aceasta este doar opinia lui personală, iar alți copii pot avea opinii diferite.", raspuns: "🌟 Bravo! Ai identificat corect o opinie și ai respectat punctul de vedere diferit!", puncte: 10 },
+                        { text: " Te cerți cu el și îi spui că minte și că afirmația lui este un fapt clar.", raspuns: "⚠️ Atenție! Gusturile și preferințele sunt opinii, nu fapte verificabile.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "2. Citiți un articol în care scrie: „Orașul nostru are o populație de 50.000 de locuitori”. Ce fel de enunț este acesta?",
                     optiuni: [
-                        { text: "A. Este un fapt, deoarece numărul locuitorilor poate fi verificat oficial la recensământ.", raspuns: "👏 Cât se poate de corect! Datele care pot fi măsurate sau verificate sunt fapte!", puncte: 10 },
-                        { text: "B. Este o opinie, pentru că unora nu le place numărul acesta.", raspuns: "❌ Greșit. Cifrele oficiale și datele măsurabile nu sunt opinii personale.", puncte: 0 }
+                        { text: " Este un fapt, deoarece numărul locuitorilor poate fi verificat oficial la recensământ.", raspuns: "👏 Cât se poate de corect! Datele care pot fi măsurate sau verificate sunt fapte!", puncte: 10 },
+                        { text: " Este o opinie, pentru că unora nu le place numărul acesta.", raspuns: "❌ Greșit. Cifrele oficiale și datele măsurabile nu sunt opinii personale.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. La oră, un coleg afirmă că „Toți elevii ar trebui să poarte uniformă școlară albastră”. Ce reprezintă afirmația?",
                     optiuni: [
-                        { text: "A. O opinie susținută de un argument, cu care unii pot fi de acord, iar alții nu.", raspuns: "🛡️ Excelent! Propunerile și preferințele despre reguli sunt opinii!", puncte: 10 },
-                        { text: "B. Un fapt științific demonstrat în laborator.", raspuns: "⚠️ Regulile și preferințele vestimentare țin de opinii civice, nu de fapte științifice.", puncte: 0 }
+                        { text: " O opinie susținută de un argument, cu care unii pot fi de acord, iar alții nu.", raspuns: "🛡️ Excelent! Propunerile și preferințele despre reguli sunt opinii!", puncte: 10 },
+                        { text: " Un fapt științific demonstrat în laborator.", raspuns: "⚠️ Regulile și preferințele vestimentare țin de opinii civice, nu de fapte științifice.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Vezi pe internet o postare care susține că „Luceafărul este o stea”. Cum verifici enunțul?",
                     optiuni: [
-                        { text: "A. Cauți în cărțile de astronomie și afli că e un fapt FALS (Luceafărul este planeta Venus).", raspuns: "🌟 Minunat! Faptele pot fi verificate obiectiv și pot fi Adevărate sau False!", puncte: 10 },
-                        { text: "B. Zici că e doar o opinie și că fiecare crede ce vrea despre stele.", raspuns: "⚠️ Informațiile astronomice sunt fapte științifice, nu opinii personale.", puncte: 0 }
+                        { text: " Cauți în cărțile de astronomie și afli că e un fapt FALS (Luceafărul este planeta Venus).", raspuns: "🌟 Minunat! Faptele pot fi verificate obiectiv și pot fi Adevărate sau False!", puncte: 10 },
+                        { text: " Zici că e doar o opinie și că fiecare crede ce vrea despre stele.", raspuns: "⚠️ Informațiile astronomice sunt fapte științifice, nu opinii personale.", puncte: 0 }
                     ]
                 }
             ],
@@ -197,29 +197,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Într-o pauză, un coleg îți spune că pasiunea ta pentru desene animate este „copilărească și urâtă”. Cum îi răspunzi?",
                     optiuni: [
-                        { text: "A. Îi spui calm: „Aceasta este opinia ta. Mie îmi plac desenele pentru că mă relaxează și îmi dezvoltă imaginația.”", raspuns: "🌟 Bravo! Ai atacat ideea cu argumente și ai rămas calm și politicos!", puncte: 10 },
-                        { text: "B. Îl jignești și îi spui că și pasiunile lui sunt stupide.", raspuns: "❌ Așa NU! Nu folosi jigniri. Lupta se dă între idei, nu între persoane!", puncte: 0 }
+                        { text: " Îi spui calm: „Aceasta este opinia ta. Mie îmi plac desenele pentru că mă relaxează și îmi dezvoltă imaginația.”", raspuns: "🌟 Bravo! Ai atacat ideea cu argumente și ai rămas calm și politicos!", puncte: 10 },
+                        { text: " Îl jignești și îi spui că și pasiunile lui sunt stupide.", raspuns: "❌ Așa NU! Nu folosi jigniri. Lupta se dă între idei, nu între persoane!", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "2. Lucrezi la un proiect de grup și un coleg vine cu o idee complet diferită de a ta. Ce faci mai întâi?",
                     optiuni: [
-                        { text: "A. Îl asculti cu atenție fără să-l întrerupi și compari argumentele pro și contra.", raspuns: "👏 Excelent! Ascultarea activă și compararea argumentelor previn conflictele!", puncte: 10 },
-                        { text: "B. Îi spui din start că ideea ta e singura bună și că a lui e greșită.", raspuns: "⚠️ Nu-ți prezenta opinia ca fiind singura posibilă sau cea mai bună!", puncte: 0 }
+                        { text: " Îl asculti cu atenție fără să-l întrerupi și compari argumentele pro și contra.", raspuns: "👏 Excelent! Ascultarea activă și compararea argumentelor previn conflictele!", puncte: 10 },
+                        { text: " Îi spui din start că ideea ta e singura bună și că a lui e greșită.", raspuns: "⚠️ Nu-ți prezenta opinia ca fiind singura posibilă sau cea mai bună!", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Un coleg te întrerupe mereu când încerci să-ți spui părerea la oră. Cum protestezi corect?",
                     optiuni: [
-                        { text: "A. Îi spui prompt și politicos: „Te rog să mă lași să termin ce am de spus, așa cum și eu te ascult pe tine.”", raspuns: "🛡️ Excelent! Ai acționat prompt, clar și respectuos (Așa DA)!", puncte: 10 },
-                        { text: "B. Începi să țipi la el și te plângi la alți colegi pe la spate.", raspuns: "⚠️ Ridicatul tonului și plânsul la alți colegi nu rezolvă problema direct.", puncte: 0 }
+                        { text: " Îi spui prompt și politicos: „Te rog să mă lași să termin ce am de spus, așa cum și eu te ascult pe tine.”", raspuns: "🛡️ Excelent! Ai acționat prompt, clar și respectuos (Așa DA)!", puncte: 10 },
+                        { text: " Începi să țipi la el și te plângi la alți colegi pe la spate.", raspuns: "⚠️ Ridicatul tonului și plânsul la alți colegi nu rezolvă problema direct.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Un prieten susține o opinie cu care nu ești absolut deloc de acord. Ce tehnică aplici?",
                     optiuni: [
-                        { text: "A. Te pui în locul lui și te întrebi: „De ce oare gândește așa?”", raspuns: "🌟 Minunat! Empatia te ajută să înțelegi motivele din spatele opiniilor diferite!", puncte: 10 },
-                        { text: "B. Îl ameninți că nu mai ești prieten cu el dacă nu își schimbă părerea.", raspuns: "⚠️ Amenințările și impunerea soluției distrug prieteniile.", puncte: 0 }
+                        { text: " Te pui în locul lui și te întrebi: „De ce oare gândește așa?”", raspuns: "🌟 Minunat! Empatia te ajută să înțelegi motivele din spatele opiniilor diferite!", puncte: 10 },
+                        { text: " Îl ameninți că nu mai ești prieten cu el dacă nu își schimbă părerea.", raspuns: "⚠️ Amenințările și impunerea soluției distrug prieteniile.", puncte: 0 }
                     ]
                 }
             ],
@@ -256,29 +256,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Un coleg a întârziat și a adus jocul de echipă târziu. Cum îi exprimi nemulțumirea?",
                     optiuni: [
-                        { text: "A. Îi spui: „Eu simt că pierdem timp prețios și aș dori să fim mai punctuali.”", raspuns: "🌟 Bravo! Ai folosit mesajul la persoana I fără să pui etichete sau să acuzi!", puncte: 10 },
-                        { text: "B. Îi strigi: „Tu întotdeauna întârzii și ești neserios!”", raspuns: "❌ Așa NU! Formulările cu „Tu întotdeauna” creează impresia că pui etichete și stârnesc certuri.", puncte: 0 }
+                        { text: " Îi spui: „Eu simt că pierdem timp prețios și aș dori să fim mai punctuali.”", raspuns: "🌟 Bravo! Ai folosit mesajul la persoana I fără să pui etichete sau să acuzi!", puncte: 10 },
+                        { text: " Îi strigi: „Tu întotdeauna întârzii și ești neserios!”", raspuns: "❌ Așa NU! Formulările cu „Tu întotdeauna” creează impresia că pui etichete și stârnesc certuri.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "2. În timpul unei prezentări, simți că colegii din bancă nu te ascultă. Ce formulare alegi?",
                     optiuni: [
-                        { text: "A. Spui calm: „Eu cred că ideea mea este importantă și m-aș simți mai bine dacă m-ați asculta.”", raspuns: "👏 Excelent! Ai urmat exact modelul celor 3 pași civici!", puncte: 10 },
-                        { text: "B. Îi jignești și le spui că sunt nepoliticoși.", raspuns: "⚠️ Jignirile nu te ajută să te faci ascultat. Exprimă-te politicos la persoana I!", puncte: 0 }
+                        { text: " Spui calm: „Eu cred că ideea mea este importantă și m-aș simți mai bine dacă m-ați asculta.”", raspuns: "👏 Excelent! Ai urmat exact modelul celor 3 pași civici!", puncte: 10 },
+                        { text: " Îi jignești și le spui că sunt nepoliticoși.", raspuns: "⚠️ Jignirile nu te ajută să te faci ascultat. Exprimă-te politicos la persoana I!", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Vrei să propui o schimare pentru pauza mare la nivelul clasei. Cum te comporți fizic?",
                     optiuni: [
-                        { text: "A. Vorbești suficient de tare (fără să țipi), privești spre colegi și ai o postură dreaptă.", raspuns: "🛡️ Minunat! Limbajul corpului și tonul adecvat îți fac opinia respectată!", puncte: 10 },
-                        { text: "B. Vorbești șoptit, privești doar în podea și bătătoriți din picioare nervos.", raspuns: "⚠️ Postura nesigură și lipsa privirii fac ca ideea ta să treacă neobservată.", puncte: 0 }
+                        { text: " Vorbești suficient de tare (fără să țipi), privești spre colegi și ai o postură dreaptă.", raspuns: "🛡️ Minunat! Limbajul corpului și tonul adecvat îți fac opinia respectată!", puncte: 10 },
+                        { text: " Vorbești șoptit, privești doar în podea și bătătoriți din picioare nervos.", raspuns: "⚠️ Postura nesigură și lipsa privirii fac ca ideea ta să treacă neobservată.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Un prieten ți-a împrumutat o carte și a returnat-o puțin șifonată. Cum reacționezi?",
                     optiuni: [
-                        { text: "A. Îi spui: „Eu țin mult la cărțile mele și m-am întristat. Aș dori să ai mai multă grijă data viitoare.”", raspuns: "🌟 Foarte bine! Ai exprimat ce simți și ce așteptări ai pentru viitor!", puncte: 10 },
-                        { text: "B. Îi spui: „Tu ești un distrugător de cărți!”", raspuns: "⚠️ Atacul la persoană distruge comunicarea și prietenia.", puncte: 0 }
+                        { text: " Îi spui: „Eu țin mult la cărțile mele și m-am întristat. Aș dori să ai mai multă grijă data viitoare.”", raspuns: "🌟 Foarte bine! Ai exprimat ce simți și ce așteptări ai pentru viitor!", puncte: 10 },
+                        { text: " Îi spui: „Tu ești un distrugător de cărți!”", raspuns: "⚠️ Atacul la persoană distruge comunicarea și prietenia.", puncte: 0 }
                     ]
                 }
             ],
@@ -316,29 +316,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Un coleg susține că un alt elev este nedreptățit. Ce îi ceri pentru a-i crede opinia?",
                     optiuni: [
-                        { text: "A. Îi cer dovezi concrete și exemple verificate.", raspuns: "🌟 Bravo! Un argument credibil are nevoie de dovezi și exemple!", puncte: 10 },
-                        { text: "B. Îl cred pe cuvânt fără să întreb nimic.", raspuns: "❌ Așa NU! Fără dovezi, poți fi ușor influențat sau păcălit.", puncte: 0 }
+                        { text: " Îi cer dovezi concrete și exemple verificate.", raspuns: "🌟 Bravo! Un argument credibil are nevoie de dovezi și exemple!", puncte: 10 },
+                        { text: " Îl cred pe cuvânt fără să întreb nimic.", raspuns: "❌ Așa NU! Fără dovezi, poți fi ușor influențat sau păcălit.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "2. Vrei să convingi echipa să păstreze curățenia în sală. Cum construiești argumentul?",
                     optiuni: [
-                        { text: "A. Spui că astfel evităm îmbolnăvirile și clasa va arăta frumos.", raspuns: "👏 Excelent! Ai arătat dovezile și consecințele pozitive!", puncte: 10 },
-                        { text: "B. Țipi la ei și le spui că așa trebuie.", raspuns: "⚠️ Țipetele nu sunt argumente și nu conving pe nimeni.", puncte: 0 }
+                        { text: " Spui că astfel evităm îmbolnăvirile și clasa va arăta frumos.", raspuns: "👏 Excelent! Ai arătat dovezile și consecințele pozitive!", puncte: 10 },
+                        { text: " Țipi la ei și le spui că așa trebuie.", raspuns: "⚠️ Țipetele nu sunt argumente și nu conving pe nimeni.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Un prieten își schimbă părerea doar pentru că așa au spus alți colegi. Ce îl sfătuiești?",
                     optiuni: [
-                        { text: "A. Să cântărească singur dovezile și argumentele aduse.", raspuns: "🛡️ Minunat! Alegerea responsabilă se bazează pe propriul filtru!", puncte: 10 },
-                        { text: "B. Să facă mereu ce spun alții fără să gândească.", raspuns: "⚠️ Cine nu își cântărește opiniile este ușor de manipulat.", puncte: 0 }
+                        { text: " Să cântărească singur dovezile și argumentele aduse.", raspuns: "🛡️ Minunat! Alegerea responsabilă se bazează pe propriul filtru!", puncte: 10 },
+                        { text: " Să facă mereu ce spun alții fără să gândească.", raspuns: "⚠️ Cine nu își cântărește opiniile este ușor de manipulat.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Un coleg folosește jigniri în timp ce își susține o idee. Este un argument bun?",
                     optiuni: [
-                        { text: "A. Nu, jignirile provoacă suferință și strică argumentul.", raspuns: "🌟 Exact! Jignirile nu sunt dovezi, ci atacuri interzise.", puncte: 10 },
-                        { text: "B. Da, dacă vorbește mai tare are dreptate.", raspuns: "⚠️ Tonul ridicat și jignirile nu înlocuiesc dovezile.", puncte: 0 }
+                        { text: " Nu, jignirile provoacă suferință și strică argumentul.", raspuns: "🌟 Exact! Jignirile nu sunt dovezi, ci atacuri interzise.", puncte: 10 },
+                        { text: " Da, dacă vorbește mai tare are dreptate.", raspuns: "⚠️ Tonul ridicat și jignirile nu înlocuiesc dovezile.", puncte: 0 }
                     ]
                 }
             ],
@@ -374,29 +374,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Un coleg nou provine dintr-o altă țară, iar ceilalți refuză să se joace cu el spunând că „străinii sunt ciudați”. Ce faci?",
                     optiuni: [
-                        { text: "A. Îl pui la încercare și îl jignești ca să fii în rând cu lumea.", raspuns: "❌ Așa NU! Aceasta este o manifestare de discriminare și prejudecată.", puncte: 0 },
-                        { text: "B. Îl inviți în jocul tău pentru a-l cunoaște cu adevărat.", raspuns: "🌟 Bravo! Cunoașterea directă dărâmă stereotipurile!", puncte: 10 }
+                        { text: " Îl pui la încercare și îl jignești ca să fii în rând cu lumea.", raspuns: "❌ Așa NU! Aceasta este o manifestare de discriminare și prejudecată.", puncte: 0 },
+                        { text: " Îl inviți în jocul tău pentru a-l cunoaște cu adevărat.", raspuns: "🌟 Bravo! Cunoașterea directă dărâmă stereotipurile!", puncte: 10 }
                     ]
                 },
                 {
                     scenariu: "2. La ora de sport, cineva spune că fetele nu ar trebui să joace fotbal pentru că „nu se pricep”. Cum reacționezi?",
                     optiuni: [
-                        { text: "A. Arăți că sportul este pentru toți și că pasiunile nu au gen.", raspuns: "👏 Excelent! Ai combătut un stereotip de gen frecvent!", puncte: 10 },
-                        { text: "B. Râzi și le trimiți pe fete pe bancă.", raspuns: "⚠️ Asta înseamnă să accepți un stereotip fals fără să gândești.", puncte: 0 }
+                        { text: " Arăți că sportul este pentru toți și că pasiunile nu au gen.", raspuns: "👏 Excelent! Ai combătut un stereotip de gen frecvent!", puncte: 10 },
+                        { text: " Râzi și le trimiți pe fete pe bancă.", raspuns: "⚠️ Asta înseamnă să accepți un stereotip fals fără să gândești.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Vezi că un coleg este marginalizat și nu e primit în echipă din cauza rasei sau etniei lui. Ce reprezintă asta?",
                     optiuni: [
-                        { text: "A. Este un act clar de discriminare care trebuie oprit.", raspuns: "🛡️ Minunat! Ai identificat corect fapta nedreaptă!", puncte: 10 },
-                        { text: "B. O glumă inofensivă de pauză.", raspuns: "⚠️ Nedreptățirea unei persoane pe criterii de grup este discriminare, nu glumă.", puncte: 0 }
+                        { text: " Este un act clar de discriminare care trebuie oprit.", raspuns: "🛡️ Minunat! Ai identificat corect fapta nedreaptă!", puncte: 10 },
+                        { text: " O glumă inofensivă de pauză.", raspuns: "⚠️ Nedreptățirea unei persoane pe criterii de grup este discriminare, nu glumă.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Observi că ai în minte o idee negativă despre o categorie de oameni. Cum scapi de ea?",
                     optiuni: [
-                        { text: "A. O păstrezi și îi eviți pe toți din acel grup.", raspuns: "⚠️ Așa devii prizonierul prejudecăților.", puncte: 0 },
-                        { text: "B. Încerci să cunoști oameni din acel grup și să-ți schimbi părerea.", raspuns: "🌟 Foarte bine! Doar cunoașterea te face liber de prejudecăți!", puncte: 10 }
+                        { text: " O păstrezi și îi eviți pe toți din acel grup.", raspuns: "⚠️ Așa devii prizonierul prejudecăților.", puncte: 0 },
+                        { text: " Încerci să cunoști oameni din acel grup și să-ți schimbi părerea.", raspuns: "🌟 Foarte bine! Doar cunoașterea te face liber de prejudecăți!", puncte: 10 }
                     ]
                 }
             ],
@@ -431,29 +431,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Școala dorește să schimbe programul pauzelor. Ce ar trebui să facă conducerea conform principiului Participării?",
                     optiuni: [
-                        { text: "A. Să decidă în secret fără să spună nimănui.", raspuns: "❌ Părerile copiilor nu trebuie ignorate în problemele care îi privesc direct.", puncte: 0 },
-                        { text: "B. Să consulte și elevii pentru a le asculta părerea.", raspuns: "🌟 Bravo! Ai aplicat principiul Participării copilului!", puncte: 10 }
+                        { text: " Să decidă în secret fără să spună nimănui.", raspuns: "❌ Părerile copiilor nu trebuie ignorate în problemele care îi privesc direct.", puncte: 0 },
+                        { text: " Să consulte și elevii pentru a le asculta părerea.", raspuns: "🌟 Bravo! Ai aplicat principiul Participării copilului!", puncte: 10 }
                     ]
                 },
                 {
                     scenariu: "2. Părinții unui coleg vor să ia o decizie importantă privind educația lui. Ce prim criteriu trebuie să urmărească?",
                     optiuni: [
-                        { text: "A. Interesul superior și binele copilului.", raspuns: "👏 Excelent! Binele copilului este pe primul loc!", puncte: 10 },
-                        { text: "B. Doar confortul personal al adulților.", raspuns: "⚠️ Deciziile trebuie luate pentru binele copilului, nu al adulților.", puncte: 0 }
+                        { text: " Interesul superior și binele copilului.", raspuns: "👏 Excelent! Binele copilului este pe primul loc!", puncte: 10 },
+                        { text: " Doar confortul personal al adulților.", raspuns: "⚠️ Deciziile trebuie luate pentru binele copilului, nu al adulților.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Într-un spital, doi copii au nevoie de îngrijiri, dar unul provine dintr-o familie mai bogată. Cum trebuie tratați?",
                     optiuni: [
-                        { text: "A. La fel, amândoi având exact aceleași drepturi.", raspuns: "🛡️ Minunat! Nediscriminarea garantează drepturi egale tuturor copiilor!", puncte: 10 },
-                        { text: "B. Să fie îngrijit doar cel bogat.", raspuns: "⚠️ Încălcarea drepturilor pe criterii de avere este interzisă.", puncte: 0 }
+                        { text: " La fel, amândoi având exact aceleași drepturi.", raspuns: "🛡️ Minunat! Nediscriminarea garantează drepturi egale tuturor copiilor!", puncte: 10 },
+                        { text: " Să fie îngrijit doar cel bogat.", raspuns: "⚠️ Încălcarea drepturilor pe criterii de avere este interzisă.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Aflăm că în unele zone din lume copiii suferă de lipsă de apă curată. Care este datoria noastră?",
                     optiuni: [
-                        { text: "A. Să ne prefacem că nu este problema noastră.", raspuns: "⚠️ Fiecare copil are dreptul la viață și protecție.", puncte: 0 },
-                        { text: "B. Să sprijinim respectarea dreptului la viață și dezvoltare.", raspuns: "🌟 Foarte bine! Copilăria este fragilă și are nevoie de ajutorul tuturor!", puncte: 10 }
+                        { text: " Să ne prefacem că nu este problema noastră.", raspuns: "⚠️ Fiecare copil are dreptul la viață și protecție.", puncte: 0 },
+                        { text: " Să sprijinim respectarea dreptului la viață și dezvoltare.", raspuns: "🌟 Foarte bine! Copilăria este fragilă și are nevoie de ajutorul tuturor!", puncte: 10 }
                     ]
                 }
             ],
@@ -486,29 +486,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Aflați că un copil din vecini nu are certificat de naștere și nu poate merge la școală. Ce puteți face?",
                     optiuni: [
-                        { text: "A. Îl ignorăm, deoarece nu este problema noastră.", raspuns: "⚠️ Fiecare copil are dreptul la identitate și educație!", puncte: 0 },
-                        { text: "B. Rugăm părinții sau anunțăm primăria pentru a-l ajuta să obțină actele.", raspuns: "🌟 Bravo! Ai sprijinit dreptul fundamental la identitate al unui alt copil!", puncte: 10 }
+                        { text: " Îl ignorăm, deoarece nu este problema noastră.", raspuns: "⚠️ Fiecare copil are dreptul la identitate și educație!", puncte: 0 },
+                        { text: " Rugăm părinții sau anunțăm primăria pentru a-l ajuta să obțină actele.", raspuns: "🌟 Bravo! Ai sprijinit dreptul fundamental la identitate al unui alt copil!", puncte: 10 }
                     ]
                 },
                 {
                     scenariu: "2. Când ești înscris la medicul de familie sau la școală, ce act oficial dovedește cine ești?",
                     optiuni: [
-                        { text: "A. Certificatul de naștere eliberat de primărie.", raspuns: "👏 Excelent! Certificatul de naștere este dovada oficială a identității!", puncte: 10 },
-                        { text: "B. Un carnet de note vechi sau o poză pe telefon.", raspuns: "❌ Actele oficiale sunt cele emise de instituțiile statului.", puncte: 0 }
+                        { text: " Certificatul de naștere eliberat de primărie.", raspuns: "👏 Excelent! Certificatul de naștere este dovada oficială a identității!", puncte: 10 },
+                        { text: " Un carnet de note vechi sau o poză pe telefon.", raspuns: "❌ Actele oficiale sunt cele emise de instituțiile statului.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Ce înseamnă faptul că un copil român are și cetățenie europeană?",
                     optiuni: [
-                        { text: "A. Că drepturile lui sunt protejate și de Uniunea Europeană.", raspuns: "🛡️ Minunat! Cetățenia europeană oferă protecție extinsă!", puncte: 10 },
-                        { text: "B. Că nu mai trebuie să meargă la școală în România.", raspuns: "⚠️ Cetățenia oferă drepturi și protecție, nu anulează educația.", puncte: 0 }
+                        { text: " Că drepturile lui sunt protejate și de Uniunea Europeană.", raspuns: "🛡️ Minunat! Cetățenia europeană oferă protecție extinsă!", puncte: 10 },
+                        { text: " Că nu mai trebuie să meargă la școală în România.", raspuns: "⚠️ Cetățenia oferă drepturi și protecție, nu anulează educația.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Un copil orfan vrea să afle cine au fost părinții lui și unde s-a născut. Unde găsește aceste date?",
                     optiuni: [
-                        { text: "A. În registrul de la magazinul din sat.", raspuns: "⚠️ Datele personale oficiale nu se țin în magazine.", puncte: 0 },
-                        { text: "B. În certificatul său de naștere înregistrat la primărie.", raspuns: "🌟 Foarte bine! Certificatul păstrează datele despre părinți și locul nașterii!", puncte: 10 }
+                        { text: " În registrul de la magazinul din sat.", raspuns: "⚠️ Datele personale oficiale nu se țin în magazine.", puncte: 0 },
+                        { text: " În certificatul său de naștere înregistrat la primărie.", raspuns: "🌟 Foarte bine! Certificatul păstrează datele despre părinți și locul nașterii!", puncte: 10 }
                     ]
                 }
             ],
@@ -541,29 +541,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Părinții unui coleg sunt despărțiți. Ce drept important are copilul în această situație?",
                     optiuni: [
-                        { text: "A. Dreptul de a păstra legătura cu ambii părinți.", raspuns: "🌟 Bravo! Copilul are dreptul să mențină relația cu ambii părinți!", puncte: 10 },
-                        { text: "B. Obligația de a nu mai vorbi cu unul dintre ei.", raspuns: "❌ Fals! Nimeni nu îi poate interzice legătura cu părinții.", puncte: 0 }
+                        { text: " Dreptul de a păstra legătura cu ambii părinți.", raspuns: "🌟 Bravo! Copilul are dreptul să mențină relația cu ambii părinți!", puncte: 10 },
+                        { text: " Obligația de a nu mai vorbi cu unul dintre ei.", raspuns: "❌ Fals! Nimeni nu îi poate interzice legătura cu părinții.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "2. O familie trece prin dificultăți financiare mari. Ce trebuie să facă instituțiile statului?",
                     optiuni: [
-                        { text: "A. Să sprijine familia pentru ca acest copil să nu fie separat de ea.", raspuns: "👏 Excelent! Statul are datoria de a preveni separarea de familie!", puncte: 10 },
-                        { text: "B. Să ignore complet situația familiei.", raspuns: "⚠️ Statul trebuie să ofere sprijin prin servicii sociale.", puncte: 0 }
+                        { text: " Să sprijine familia pentru ca acest copil să nu fie separat de ea.", raspuns: "👏 Excelent! Statul are datoria de a preveni separarea de familie!", puncte: 10 },
+                        { text: " Să ignore complet situația familiei.", raspuns: "⚠️ Statul trebuie să ofere sprijin prin servicii sociale.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Un copil locuiește doar cu bunicii săi. Se consideră aceasta o familie?",
                     optiuni: [
-                        { text: "A. Nu, doar părinții pot forma o familie.", raspuns: "⚠️ Familiile pot fi de multe feluri, important e mediul stabil.", puncte: 0 },
-                        { text: "B. Da, orice mediu stabil care oferă îngrijire este o familie.", raspuns: "🛡️ Minunat! Diversitatea familiilor este recunoscută și protejată!", puncte: 10 }
+                        { text: " Nu, doar părinții pot forma o familie.", raspuns: "⚠️ Familiile pot fi de multe feluri, important e mediul stabil.", puncte: 0 },
+                        { text: " Da, orice mediu stabil care oferă îngrijire este o familie.", raspuns: "🛡️ Minunat! Diversitatea familiilor este recunoscută și protejată!", puncte: 10 }
                     ]
                 },
                 {
                     scenariu: "4. Un copil adoptat dorește la o anumită vârstă să afle cine sunt părinții săi naturali. Are acest drept?",
                     optiuni: [
-                        { text: "A. Da, are dreptul legal de a-și cunoaște originile.", raspuns: "🌟 Exact! Dreptul la cunoașterea părinților naturali este garantat!", puncte: 10 },
-                        { text: "B. Nu, legea îi interzice complet acest lucru.", raspuns: "⚠️ Convenția îi garantează dreptul de a-și cunoaște părinții.", puncte: 0 }
+                        { text: " Da, are dreptul legal de a-și cunoaște originile.", raspuns: "🌟 Exact! Dreptul la cunoașterea părinților naturali este garantat!", puncte: 10 },
+                        { text: " Nu, legea îi interzice complet acest lucru.", raspuns: "⚠️ Convenția îi garantează dreptul de a-și cunoaște părinții.", puncte: 0 }
                     ]
                 }
             ],
@@ -596,29 +596,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Un coleg lipsește des de la școală din cauza problemelor de acasă și se gândește să renunțe. Ce sfat îi dai?",
                     optiuni: [
-                        { text: "A. Să renunțe, pentru că școala nu este atât de importantă.", raspuns: "⚠️ Abandonul școlar îi blochează viitorul și accesul la o profesie.", puncte: 0 },
-                        { text: "B. Să ceară ajutorul profesorilor și consilierului pentru a continua școala.", raspuns: "🌟 Bravo! Educația îi asigură o viață independentă și șanse egale!", puncte: 10 }
+                        { text: " Să renunțe, pentru că școala nu este atât de importantă.", raspuns: "⚠️ Abandonul școlar îi blochează viitorul și accesul la o profesie.", puncte: 0 },
+                        { text: " Să ceară ajutorul profesorilor și consilierului pentru a continua școala.", raspuns: "🌟 Bravo! Educația îi asigură o viață independentă și șanse egale!", puncte: 10 }
                     ]
                 },
                 {
                     scenariu: "2. Un profesor folosește cuvinte umilitoare la adresa unui elev care a greșit un exercițiu. Ce drept este încălcat?",
                     optiuni: [
-                        { text: "A. Dreptul la demnitate al elevului.", raspuns: "👏 Excelent! Tratamentele abuzive și umilitoare sunt interzise în școală!", puncte: 10 },
-                        { text: "B. Dreptul la vacanță.", raspuns: "❌ Umilirea încalcă demnitatea persoanei, nu timpul liber.", puncte: 0 }
+                        { text: " Dreptul la demnitate al elevului.", raspuns: "👏 Excelent! Tratamentele abuzive și umilitoare sunt interzise în școală!", puncte: 10 },
+                        { text: " Dreptul la vacanță.", raspuns: "❌ Umilirea încalcă demnitatea persoanei, nu timpul liber.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Cine are datoria de a asigura înscrierea și prezența regulată a copilului la ore?",
                     optiuni: [
-                        { text: "A. Părinții copilului.", raspuns: "🛡️ Minunat! Părinții au ca prioritate asigurarea educației copilului!", puncte: 10 },
-                        { text: "B. Vecinii din bloc.", raspuns: "⚠️ Părinții au obligația legală să asigure frecventarea școlii.", puncte: 0 }
+                        { text: " Părinții copilului.", raspuns: "🛡️ Minunat! Părinții au ca prioritate asigurarea educației copilului!", puncte: 10 },
+                        { text: " Vecinii din bloc.", raspuns: "⚠️ Părinții au obligația legală să asigure frecventarea școlii.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "4. Ce trebuie să garanteze statul pentru învățământul obligatoriu?",
                     optiuni: [
-                        { text: "A. Să fie contra cost și scump.", raspuns: "⚠️ Statul trebuie să asigure gratuitatea educației de bază.", puncte: 0 },
-                        { text: "B. Să fie gratuit și accesibil tuturor, fără discriminare.", raspuns: "🌟 Foarte bine! Gratuitatea garantează șanse egale pentru toți!", puncte: 10 }
+                        { text: " Să fie contra cost și scump.", raspuns: "⚠️ Statul trebuie să asigure gratuitatea educației de bază.", puncte: 0 },
+                        { text: " Să fie gratuit și accesibil tuturor, fără discriminare.", raspuns: "🌟 Foarte bine! Gratuitatea garantează șanse egale pentru toți!", puncte: 10 }
                     ]
                 }
             ],
@@ -651,29 +651,29 @@ const dateSociala = {
                 {
                     scenariu: "1. Ai multe teme, sarcini în casă și vrei să te și joci. Cum procedezi corect?",
                     optiuni: [
-                        { text: "A. Faci o listă de priorități și îți calculezi timpul pentru fiecare.", raspuns: "🌟 Bravo! Organizarea eficientă îți lasă timp și pentru joacă!", puncte: 10 },
-                        { text: "B. Lași toate temele deoparte și te joci toată ziua.", raspuns: "⚠️ Jocul este un drept, dar nu trebuie să-ți neglijezi responsabilitățile.", puncte: 0 }
+                        { text: " Faci o listă de priorități și îți calculezi timpul pentru fiecare.", raspuns: "🌟 Bravo! Organizarea eficientă îți lasă timp și pentru joacă!", puncte: 10 },
+                        { text: " Lași toate temele deoparte și te joci toată ziua.", raspuns: "⚠️ Jocul este un drept, dar nu trebuie să-ți neglijezi responsabilitățile.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "2. Într-un joc de grup, un coleg încearcă să trișeze pentru a câștiga. Cum reacționezi?",
                     optiuni: [
-                        { text: "A. Îi amintești calm că respectarea regulilor este o obligație la joacă.", raspuns: "👏 Excelent! Regulile și respectul fac jocul corect și plăcut!", puncte: 10 },
-                        { text: "B. Începi să țipi și să strici tot jocul.", raspuns: "❌ Conflictul nu rezolvă problema, regulile se discută respectuos.", puncte: 0 }
+                        { text: " Îi amintești calm că respectarea regulilor este o obligație la joacă.", raspuns: "👏 Excelent! Regulile și respectul fac jocul corect și plăcut!", puncte: 10 },
+                        { text: " Începi să țipi și să strici tot jocul.", raspuns: "❌ Conflictul nu rezolvă problema, regulile se discută respectuos.", puncte: 0 }
                     ]
                 },
                 {
                     scenariu: "3. Un adult îți dă atât de multe treburi încât nu mai ai deloc timp de odihnă sau joc. Ce drept îți este încălcat?",
                     optiuni: [
-                        { text: "A. Dreptul la identitate.", raspuns: "⚠️ Identitatea ține de nume și act, nu de timpul liber.", puncte: 0 },
-                        { text: "B. Dreptul la joc, odihnă și activități recreative (Art. 31).", raspuns: "🛡️ Minunat! Adulții au datoria de a-ți respecta timpul liber!", puncte: 10 }
+                        { text: " Dreptul la identitate.", raspuns: "⚠️ Identitatea ține de nume și act, nu de timpul liber.", puncte: 0 },
+                        { text: " Dreptul la joc, odihnă și activități recreative (Art. 31).", raspuns: "🛡️ Minunat! Adulții au datoria de a-ți respecta timpul liber!", puncte: 10 }
                     ]
                 },
                 {
                     scenariu: "4. Vrei să încerci un joc periculos pe stradă sau la înălțime. La ce obligație trebuie să te gândești?",
                     optiuni: [
-                        { text: "A. Obligația de a-mi proteja viața și siguranța.", raspuns: "🌟 Foarte bine! Siguranța ta și a celorlalți este pe primul loc!", puncte: 10 },
-                        { text: "B. Nu am nicio obligație când mă joc.", raspuns: "⚠️ Dreptul la joc vine mereu cu responsabilitatea siguranței.", puncte: 0 }
+                        { text: " Obligația de a-mi proteja viața și siguranța.", raspuns: "🌟 Foarte bine! Siguranța ta și a celorlalți este pe primul loc!", puncte: 10 },
+                        { text: " Nu am nicio obligație când mă joc.", raspuns: "⚠️ Dreptul la joc vine mereu cu responsabilitatea siguranței.", puncte: 0 }
                     ]
                 }
             ],
@@ -706,29 +706,29 @@ const dateSociala = {
         {
             scenariu: "1. Un coleg vine des la școală fără pachet sau caiete, deoarece familia lui are dificultăți financiare mari. Cum reacționezi?",
             optiuni: [
-                { text: "A. Îi împarți din pachetul tău și anunți un profesor pentru ca școala să-l poată sprijini.", raspuns: "🌟 Bravo! Empatia și alertarea cadrelor didactice asigură protecția socială necesară!", puncte: 10 },
-                { text: "B. Râzi de el cu ceilalți colegi că nu are rechizite.", raspuns: "❌ Sărăcia nu este vina copilului; jignirile încalcă dreptul la respect și protecție.", puncte: 0 }
+                { text: " Îi împarți din pachetul tău și anunți un profesor pentru ca școala să-l poată sprijini.", raspuns: "🌟 Bravo! Empatia și alertarea cadrelor didactice asigură protecția socială necesară!", puncte: 10 },
+                { text: " Râzi de el cu ceilalți colegi că nu are rechizite.", raspuns: "❌ Sărăcia nu este vina copilului; jignirile încalcă dreptul la respect și protecție.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Afli că un copil este pus zilnic la munci grele și periculoase, lipsind din această cauză de la ore. Ce trebuie făcut?",
             optiuni: [
-                { text: "A. Raportezi situația unui profesor sau asistenței sociale (119).", raspuns: "🛡️ Excelent! Copiii au dreptul de a fi protejați împotriva exploatării prin muncă!", puncte: 10 },
-                { text: "B. Nu te bagi, considerând că e treaba familiei lui.", raspuns: "⚠️ Pasivitatea permite abuzul; exploatarea copilului prin muncă este interzisă de lege.", puncte: 0 }
+                { text: " Raportezi situația unui profesor sau asistenței sociale (119).", raspuns: "🛡️ Excelent! Copiii au dreptul de a fi protejați împotriva exploatării prin muncă!", puncte: 10 },
+                { text: " Nu te bagi, considerând că e treaba familiei lui.", raspuns: "⚠️ Pasivitatea permite abuzul; exploatarea copilului prin muncă este interzisă de lege.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. La Consiliul elevilor se caută idei pentru a sprijini copiii dintr-o zonă afectată de calamități/sărăcie. Ce propui?",
             optiuni: [
-                { text: "A. Strângerea de haine, rechizite și trimiterea unei scrisori către primărie pentru sprijin.", raspuns: "👏 Minunat! Cetățenii activi propun autorităților soluții concrete de sprijin!", puncte: 10 },
-                { text: "B. Să nu vă băgați, fiindcă doar adulții au obligații.", raspuns: "⚠️ Deși statul oferă protecția, și copiii pot propune soluții și manifesta solidaritate.", puncte: 0 }
+                { text: " Strângerea de haine, rechizite și trimiterea unei scrisori către primărie pentru sprijin.", raspuns: "👏 Minunat! Cetățenii activi propun autorităților soluții concrete de sprijin!", puncte: 10 },
+                { text: " Să nu vă băgați, fiindcă doar adulții au obligații.", raspuns: "⚠️ Deși statul oferă protecția, și copiii pot propune soluții și manifesta solidaritate.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Ce măsuri poate lua statul când părinții nu pot asigura traiul zilnic al copiilor?",
             optiuni: [
-                { text: "A. Să ofere ajutoare sociale, rechizite sau mese calde gratuite în școli.", raspuns: "🌟 Foarte bine! Protecția socială garantează condiții decente pentru toți copiii!", puncte: 10 },
-                { text: "B. Să-i oblige pe copii să lucreze pentru a-și ajuta familia.", raspuns: "❌ Copiii nu trebuie supuși muncii; statul este cel care intervine cu ajutoare.", puncte: 0 }
+                { text: " Să ofere ajutoare sociale, rechizite sau mese calde gratuite în școli.", raspuns: "🌟 Foarte bine! Protecția socială garantează condiții decente pentru toți copiii!", puncte: 10 },
+                { text: " Să-i oblige pe copii să lucreze pentru a-și ajuta familia.", raspuns: "❌ Copiii nu trebuie supuși muncii; statul este cel care intervine cu ajutoare.", puncte: 0 }
             ]
         }
     ],
@@ -761,29 +761,29 @@ const dateSociala = {
         {
             scenariu: "1. Vezi că un coleg este jignit, împins și umilit zilnic de un grup de elevi în curtea școlii (bullying). Colegului îi este frică să vorbească. Cum reacționezi?",
             optiuni: [
-                { text: "A. Mergi imediat la diriginte sau la consilierul școlar pentru a raporta situația.", raspuns: "🌟 Bravo! Raportarea bullying-ului ajută la oprirea agresiunii și protejarea victimei!", puncte: 10 },
-                { text: "B. Te prefaci că nu vezi nimic pentru a nu fi și tu vizat.", raspuns: "❌ Tăcerea permite violenței să continue; raportarea la un adult este responsabilă.", puncte: 0 }
+                { text: " Mergi imediat la diriginte sau la consilierul școlar pentru a raporta situația.", raspuns: "🌟 Bravo! Raportarea bullying-ului ajută la oprirea agresiunii și protejarea victimei!", puncte: 10 },
+                { text: " Te prefaci că nu vezi nimic pentru a nu fi și tu vizat.", raspuns: "❌ Tăcerea permite violenței să continue; raportarea la un adult este responsabilă.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Pe o rețea de socializare, o persoană necunoscută îți cere adresa de acasă și fotografii cu tine în schimbul unui joc gratuit. Ce faci?",
             optiuni: [
-                { text: "A. Refuzi, blochezi persoana și le arăți imediat părinților sau profesorului.", raspuns: "🛡️ Excelent! Înțelegi pericolele violenței pe internet și îți protejezi datele personale!", puncte: 10 },
-                { text: "B. Îi trimiți datele, crezând că este o persoană de încredere.", raspuns: "⚠️ Atenție! Pe internet nu trebuie să oferi niciodată date personale necunoscuților.", puncte: 0 }
+                { text: " Refuzi, blochezi persoana și le arăți imediat părinților sau profesorului.", raspuns: "🛡️ Excelent! Înțelegi pericolele violenței pe internet și îți protejezi datele personale!", puncte: 10 },
+                { text: " Îi trimiți datele, crezând că este o persoană de încredere.", raspuns: "⚠️ Atenție! Pe internet nu trebuie să oferi niciodată date personale necunoscuților.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Observi un coleg de clasă care vine mereu cu haine foarte murdare, nepotrivite anotimpului și spune că nu mănâncă aproape nimic acasă. Ce măsură este corectă?",
             optiuni: [
-                { text: "A. Discuți cu un cadru didactic sau cu asistentul social din școală/primărie.", raspuns: "👏 Minunat! Neglijarea alimentară și vestimentară necesită intervenția specialiștilor!", puncte: 10 },
-                { text: "B. Râzi de el împreună cu ceilalți copii din clasă.", raspuns: "❌ Neglijarea nu este vina copilului; jignirile agravează suferința emoțională.", puncte: 0 }
+                { text: " Discuți cu un cadru didactic sau cu asistentul social din școală/primărie.", raspuns: "👏 Minunat! Neglijarea alimentară și vestimentară necesită intervenția specialiștilor!", puncte: 10 },
+                { text: " Râzi de el împreună cu ceilalți copii din clasă.", raspuns: "❌ Neglijarea nu este vina copilului; jignirile agravează suferința emoțională.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Un vecin de vârsta ta este pus zilnic de părinți la munci grele în construcții și a fost retras de la școală pentru a aduce bani acasă. Cum procedezi?",
             optiuni: [
-                { text: "A. Sunați la 'Telefonul Copilului' sau anunțați autoritățile locale.", raspuns: "🌟 Foarte bine! Exploatarea prin muncă este interzisă, iar dreptul la educație trebuie apărat!", puncte: 10 },
-                { text: "B. Spui că este normal ca copiii să lucreze în loc să meargă la școală.", raspuns: "❌ Muncile grele împiedică dezvoltarea și sunt pedepsite de lege.", puncte: 0 }
+                { text: " Sunați la 'Telefonul Copilului' sau anunțați autoritățile locale.", raspuns: "🌟 Foarte bine! Exploatarea prin muncă este interzisă, iar dreptul la educație trebuie apărat!", puncte: 10 },
+                { text: " Spui că este normal ca copiii să lucreze în loc să meargă la școală.", raspuns: "❌ Muncile grele împiedică dezvoltarea și sunt pedepsite de lege.", puncte: 0 }
             ]
         }
     ],
@@ -816,29 +816,29 @@ const dateSociala = {
         {
             scenariu: "1. Te speli pe dinți sau pe mâini și apa curge continuu la robinet în timp ce faci această activitate. Cum este corect să procedezi?",
             optiuni: [
-                { text: "A. Oprești robinetul în timp ce te săpunești pentru a economisi apa.", raspuns: "🌟 Bravo! Fiecare picătură economisită protejează resursele planetei!", puncte: 10 },
-                { text: "B. Lași apa să curgă la maxim tot timpul.", raspuns: "❌ Ripsa de atenție duce la risipa resurselor naturale fundamentale.", puncte: 0 }
+                { text: " Oprești robinetul în timp ce te săpunești pentru a economisi apa.", raspuns: "🌟 Bravo! Fiecare picătură economisită protejează resursele planetei!", puncte: 10 },
+                { text: " Lași apa să curgă la maxim tot timpul.", raspuns: "❌ Ripsa de atenție duce la risipa resurselor naturale fundamentale.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Ieși ultimul dintr-o sală de clasă sau din cameră și lumina rămâne aprinsă. Ce faci?",
             optiuni: [
-                { text: "A. Stingi lumina pentru a economisi energia electrică.", raspuns: "🛡️ Excelent! Economisirea energiei reduce poluarea mediului!", puncte: 10 },
-                { text: "B. O lași aprinsă, gândindu-te că nu plătești tu factura.", raspuns: "⚠️ Comportamentul ecologic înseamnă responsabilitate, indiferent de bani.", puncte: 0 }
+                { text: " Stingi lumina pentru a economisi energia electrică.", raspuns: "🛡️ Excelent! Economisirea energiei reduce poluarea mediului!", puncte: 10 },
+                { text: " O lași aprinsă, gândindu-te că nu plătești tu factura.", raspuns: "⚠️ Comportamentul ecologic înseamnă responsabilitate, indiferent de bani.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Ai terminat de băut un suc din sticlă de plastic (PET) în curtea școlii. Unde arunci recipientul?",
             optiuni: [
-                { text: "A. Îl pui în containerul special galben/destinat colectării selective a plasticului.", raspuns: "👏 Minunat! Colectarea selectivă permite reciclarea și reutilizarea materialelor!", puncte: 10 },
-                { text: "B. Îl arunci pe jos sau în primul tufiș din curte.", raspuns: "❌ Aruncarea deșeurilor la întâmplare poluează natura și dăunează mediului.", puncte: 0 }
+                { text: " Îl pui în containerul special galben/destinat colectării selective a plasticului.", raspuns: "👏 Minunat! Colectarea selectivă permite reciclarea și reutilizarea materialelor!", puncte: 10 },
+                { text: " Îl arunci pe jos sau în primul tufiș din curte.", raspuns: "❌ Aruncarea deșeurilor la întâmplare poluează natura și dăunează mediului.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Școala ta organizează o acțiune de plantare de puieți și ecologizare a parcului local. Cum reacționezi?",
             optiuni: [
-                { text: "A. Te înscrii cu drag și participi activ la acțiunea de ecologizare.", raspuns: "🌟 Foarte bine! Te comporți ca un mic cetățean responsabil și grijuliu cu mediul!", puncte: 10 },
-                { text: "B. Refuzi să participi, spunând că curățenia este doar sarcina primăriei.", raspuns: "⚠️ Deși statul are obligații, protejarea naturii este datoria fiecăruia dintre noi.", puncte: 0 }
+                { text: " Te înscrii cu drag și participi activ la acțiunea de ecologizare.", raspuns: "🌟 Foarte bine! Te comporți ca un mic cetățean responsabil și grijuliu cu mediul!", puncte: 10 },
+                { text: " Refuzi să participi, spunând că curățenia este doar sarcina primăriei.", raspuns: "⚠️ Deși statul are obligații, protejarea naturii este datoria fiecăruia dintre noi.", puncte: 0 }
             ]
         }
     ],
@@ -871,29 +871,29 @@ const dateSociala = {
         {
             scenariu: "1. Vrei să propui conducerii școlii amenajarea unei săli de lectură și spectacole pentru elevi, dar îți este teamă că nu vei fi ascultat. Cum procedezi?",
             optiuni: [
-                { text: "A. Strângi semnături de la colegi și trimiți o propunere respectuoasă conducerii.", raspuns: "🌟 Bravo! Copiii au dreptul să se implice în deciziile care îi privesc direct!", puncte: 10 },
-                { text: "B. Renunți imediat, gândindu-te că doar adulții pot lua decizii.", raspuns: "❌ Copiii pot fi promotori activi ai propriilor drepturi și idei.", puncte: 0 }
+                { text: " Strângi semnături de la colegi și trimiți o propunere respectuoasă conducerii.", raspuns: "🌟 Bravo! Copiii au dreptul să se implice în deciziile care îi privesc direct!", puncte: 10 },
+                { text: " Renunți imediat, gândindu-te că doar adulții pot lua decizii.", raspuns: "❌ Copiii pot fi promotori activi ai propriilor drepturi și idei.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Aflând că fetele din unele țări nu au voie să meargă la școală, dorești să organizezi o campanie de informare în clasă. Ce faci?",
             optiuni: [
-                { text: "A. Pregătești un afiș și discuți cu colegii despre dreptul universal la educație.", raspuns: "🛡️ Excelent! Promovezi egalitatea de șanse și solidaritatea internațională!", puncte: 10 },
-                { text: "B. Spui că nu te interesează ce se întâmplă în alte țări.", raspuns: "⚠️ Drepturile omului sunt universale, iar susținerea lor contează pretutindeni.", puncte: 0 }
+                { text: " Pregătești un afiș și discuți cu colegii despre dreptul universal la educație.", raspuns: "🛡️ Excelent! Promovezi egalitatea de șanse și solidaritatea internațională!", puncte: 10 },
+                { text: " Spui că nu te interesează ce se întâmplă în alte țări.", raspuns: "⚠️ Drepturile omului sunt universale, iar susținerea lor contează pretutindeni.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Un coleg dorește să strângă semnături pentru un parc de joacă, dar un alt elev încearcă să-i rupă foile și să-l jignească.",
             optiuni: [
-                { text: "A. Îi iei apărarea colegului și îi amintești agresorului că orice copil are dreptul la opinie.", raspuns: "👏 Minunat! Îți aperi propriile drepturi fără a încălca drepturile altora!", puncte: 10 },
-                { text: "B. Încurajezi agresorul ca să pară interesant.", raspuns: "❌ Violarea dreptului la exprimare al celorlalți este interzisă.", puncte: 0 }
+                { text: " Îi iei apărarea colegului și îi amintești agresorului că orice copil are dreptul la opinie.", raspuns: "👏 Minunat! Îți aperi propriile drepturi fără a încălca drepturile altora!", puncte: 10 },
+                { text: " Încurajezi agresorul ca să pară interesant.", raspuns: "❌ Violarea dreptului la exprimare al celorlalți este interzisă.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Ce lecție importantă ne oferă povestea Malalei Yousafzai?",
             optiuni: [
-                { text: "A. Că pasiunea pentru educație și curajul pot schimba lumea în bine.", raspuns: "🌟 Foarte bine! Malala este un model mondial de perseverență și curaj!", puncte: 10 },
-                { text: "B. Că este mai bine să renunți la școală dacă întâmpini dificultăți.", raspuns: "❌ Educația este un drept fundamental pentru care merită să luptăm.", puncte: 0 }
+                { text: " Că pasiunea pentru educație și curajul pot schimba lumea în bine.", raspuns: "🌟 Foarte bine! Malala este un model mondial de perseverență și curaj!", puncte: 10 },
+                { text: " Că este mai bine să renunți la școală dacă întâmpini dificultăți.", raspuns: "❌ Educația este un drept fundamental pentru care merită să luptăm.", puncte: 0 }
             ]
         }
     ],
@@ -926,29 +926,29 @@ const dateSociala = {
         {
             scenariu: "1. La începutul anului școlar trebuie să alegeți reprezentantul clasei în Consiliul elevilor. Pe cine votezi?",
             optiuni: [
-                { text: "A. Pe colegul care ascultă părerile tuturor și știe să susțină respectuos punctul de vedere al clasei.", raspuns: "🌟 Bravo! Un reprezentant bun vorbește în numele echipei și este un bun comunicator!", puncte: 10 },
-                { text: "B. Pe cel mai popular coleg, chiar dacă nu îl interesează problemele clasei.", raspuns: "❌ Reprezentantul trebuie să fie responsabil și implicat în sprijinirea colegilor.", puncte: 0 }
+                { text: " Pe colegul care ascultă părerile tuturor și știe să susțină respectuos punctul de vedere al clasei.", raspuns: "🌟 Bravo! Un reprezentant bun vorbește în numele echipei și este un bun comunicator!", puncte: 10 },
+                { text: " Pe cel mai popular coleg, chiar dacă nu îl interesează problemele clasei.", raspuns: "❌ Reprezentantul trebuie să fie responsabil și implicat în sprijinirea colegilor.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Ai o idee pentru organizarea unui concurs sau a unui spectacol în școală. Cum procedezi?",
             optiuni: [
-                { text: "A. Îi propui ideea reprezentantului clasei pentru a o duce în Consiliul elevilor.", raspuns: "🛡️ Excelent! Consiliul elevilor este puntea de legătură dintre elevi și profesori!", puncte: 10 },
-                { text: "B. Renunți la idee, gândindu-te că elevii nu au dreptul să propună activități.", raspuns: "⚠️ Elevii au dreptul să participe la deciziile și proiectele din școala lor.", puncte: 0 }
+                { text: " Îi propui ideea reprezentantului clasei pentru a o duce în Consiliul elevilor.", raspuns: "🛡️ Excelent! Consiliul elevilor este puntea de legătură dintre elevi și profesori!", puncte: 10 },
+                { text: " Renunți la idee, gândindu-te că elevii nu au dreptul să propună activități.", raspuns: "⚠️ Elevii au dreptul să participe la deciziile și proiectele din școala lor.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Reprezentantul clasei a participat la o ședință importantă cu profesorii. Ce obligație are el față de voi?",
             optiuni: [
-                { text: "A. Să vă informeze pe toți despre deciziile luate și proiectele care urmează.", raspuns: "👏 Minunat! Transparența și informarea colegilor sunt calități esențiale!", puncte: 10 },
-                { text: "B. Să țină informațiile doar pentru el și prietenii lui apropiați.", raspuns: "❌ Reprezentantul trebuie să se poarte la fel cu toți colegii și să îi informeze.", puncte: 0 }
+                { text: " Să vă informeze pe toți despre deciziile luate și proiectele care urmează.", raspuns: "👏 Minunat! Transparența și informarea colegilor sunt calități esențiale!", puncte: 10 },
+                { text: " Să țină informațiile doar pentru el și prietenii lui apropiați.", raspuns: "❌ Reprezentantul trebuie să se poarte la fel cu toți colegii și să îi informeze.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Vezi că un coleg este marginalizat și nu își poate spune părerea când se iau decizii în clasă. Cum reacționezi?",
             optiuni: [
-                { text: "A. Îl încurajezi să își exprime opinia și ceri ca toți colegii să fie ascultați egal.", raspuns: "🌟 Foarte bine! Școala este un spațiu unde fiecare copil își poate exercita drepturile!", puncte: 10 },
-                { text: "B. Îl ignori, spunând că opinia lui nu contează.", raspuns: "❌ Fiecare elev are dreptul la exprimare și la un tratament corect.", puncte: 0 }
+                { text: " Îl încurajezi să își exprime opinia și ceri ca toți colegii să fie ascultați egal.", raspuns: "🌟 Foarte bine! Școala este un spațiu unde fiecare copil își poate exercita drepturile!", puncte: 10 },
+                { text: " Îl ignori, spunând că opinia lui nu contează.", raspuns: "❌ Fiecare elev are dreptul la exprimare și la un tratament corect.", puncte: 0 }
             ]
         }
     ],
@@ -981,29 +981,29 @@ const dateSociala = {
         {
             scenariu: "1. Un coleg care se deplasează în cărucior cu rotile nu poate urca treptele pentru a ajunge în sala de clasă. Ce măsură este corectă?",
             optiuni: [
-                { text: "A. Școala trebuie să construiască o rampă de acces și să-l ajute să se deplaseze ușor.", raspuns: "🌟 Bravo! Adaptarea spațiilor asigură dreptul egal la educație pentru toți copiii!", puncte: 10 },
-                { text: "B. Colegul ar trebui lăsat să învețe doar de acasă.", raspuns: "❌ Izolarea nu este o soluție; școala trebuie să fie accesibilă tuturor elevilor.", puncte: 0 }
+                { text: " Școala trebuie să construiască o rampă de acces și să-l ajute să se deplaseze ușor.", raspuns: "🌟 Bravo! Adaptarea spațiilor asigură dreptul egal la educație pentru toți copiii!", puncte: 10 },
+                { text: " Colegul ar trebui lăsat să învețe doar de acasă.", raspuns: "❌ Izolarea nu este o soluție; școala trebuie să fie accesibilă tuturor elevilor.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Afli că un coleg de clasă are părinții plecați la muncă în străinătate și rămâne des singur să aibă grijă de frații mai mici. Cum reacționezi?",
             optiuni: [
-                { text: "A. Îi oferi sprijin la teme și anunți dirigintele pentru a-l ajuta să nu rămână în urmă.", raspuns: "🛡️ Excelent! Solidaritatea colegilor îi ajută pe copiii cu părinți plecați să depășească dificultățile!", puncte: 10 },
-                { text: "B. Îl certat când nu își face temele sau când întârzie.", raspuns: "⚠️ Lipsa părinților creează o sarcină grea; copilul are nevoie de înțelegere și ajutor.", puncte: 0 }
+                { text: " Îi oferi sprijin la teme și anunți dirigintele pentru a-l ajuta să nu rămână în urmă.", raspuns: "🛡️ Excelent! Solidaritatea colegilor îi ajută pe copiii cu părinți plecați să depășească dificultățile!", puncte: 10 },
+                { text: " Îl certat când nu își face temele sau când întârzie.", raspuns: "⚠️ Lipsa părinților creează o sarcină grea; copilul are nevoie de înțelegere și ajutor.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Un copil din vecini trăiește în grija unui asistent maternal pentru că a fost abandonat de familie. Cum îl tratezi?",
             optiuni: [
-                { text: "A. Îl primești cu drag la joacă și îl tratezi ca pe un prieten egal.", raspuns: "👏 Minunat! Copiii din sistemul de protecție au nevoie de incluziune și afecțiune!", puncte: 10 },
-                { text: "B. Îl eviți pentru că nu trăiește cu părinții lui naturali.", raspuns: "❌ Toți copiii au aceleași drepturi, indiferent de mediul familial din care provin.", puncte: 0 }
+                { text: " Îl primești cu drag la joacă și îl tratezi ca pe un prieten egal.", raspuns: "👏 Minunat! Copiii din sistemul de protecție au nevoie de incluziune și afecțiune!", puncte: 10 },
+                { text: " Îl eviți pentru că nu trăiește cu părinții lui naturali.", raspuns: "❌ Toți copiii au aceleași drepturi, indiferent de mediul familial din care provin.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. În comunitate se deschide un Centru de zi pentru copiii din familii defavorizate. Ce rol are acest centru?",
             optiuni: [
-                { text: "A. Să le ofere o masă caldă, sprijin la teme și un mediu sigur de învățare.", raspuns: "🌟 Foarte bine! Centrele de zi reduc riscul de abandon școlar și sărăcie!", puncte: 10 },
-                { text: "B. Să-i izoleze pe copii de ceilalți elevi din oraș.", raspuns: "❌ Protecția socială are rolul de a sprijini integrarea, nu izolarea copiilor.", puncte: 0 }
+                { text: " Să le ofere o masă caldă, sprijin la teme și un mediu sigur de învățare.", raspuns: "🌟 Foarte bine! Centrele de zi reduc riscul de abandon școlar și sărăcie!", puncte: 10 },
+                { text: " Să-i izoleze pe copii de ceilalți elevi din oraș.", raspuns: "❌ Protecția socială are rolul de a sprijini integrarea, nu izolarea copiilor.", puncte: 0 }
             ]
         }
     ],
@@ -1036,29 +1036,29 @@ const dateSociala = {
         {
             scenariu: "1. O familie cu mulți copii trece printr-o perioadă grea de sărăcie și nu își permite cumpărarea rechizitelor școlare. Cum intervine statul?",
             optiuni: [
-                { text: "A. Oferă burse sociale, rechizite și ajutoare materiale pentru a garanta accesul la educație.", raspuns: "🌟 Bravo! Statul sprijină financiar familiile aflate în dificultate pentru ca elevii să meargă la școală!", puncte: 10 },
-                { text: "B. Îi obligă pe copii să renunțe la școală și să își caute de lucru.", raspuns: "❌ Statul are datoria de a sprijini copiii prin ajutoare sociale, nu de a le opri educația.", puncte: 0 }
+                { text: " Oferă burse sociale, rechizite și ajutoare materiale pentru a garanta accesul la educație.", raspuns: "🌟 Bravo! Statul sprijină financiar familiile aflate în dificultate pentru ca elevii să meargă la școală!", puncte: 10 },
+                { text: " Îi obligă pe copii să renunțe la școală și să își caute de lucru.", raspuns: "❌ Statul are datoria de a sprijini copiii prin ajutoare sociale, nu de a le opri educația.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Într-o țară din lume are loc un cutremur devastator și mii de copii rămân fără hrană și adăpost. Ce instituție internațională intervine direct?",
             optiuni: [
-                { text: "A. UNICEF (Fondul Națiunilor Unite pentru Copii).", raspuns: "🛡️ Excelent! UNICEF este instituția interguvernamentală dedicată ajutorării copiilor din zone afectate de catastrofe!", puncte: 10 },
-                { text: "B. O primărie dintr-un alt oraș mic.", raspuns: "⚠️ Ajutorul internațional la nivel mondial este organizat direct prin instituții precum UNICEF.", puncte: 0 }
+                { text: " UNICEF (Fondul Națiunilor Unite pentru Copii).", raspuns: "🛡️ Excelent! UNICEF este instituția interguvernamentală dedicată ajutorării copiilor din zone afectate de catastrofe!", puncte: 10 },
+                { text: " O primărie dintr-un alt oraș mic.", raspuns: "⚠️ Ajutorul internațional la nivel mondial este organizat direct prin instituții precum UNICEF.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. La nivel local (în comuna sau orașul tău), o familie are nevoie de asistență socială pentru un copil cu nevoi speciale. Unde se adresează?",
             optiuni: [
-                { text: "A. La Serviciul Public de Asistență Socială de la nivel local.", raspuns: "👏 Minunat! Serviciile locale de asistență socială oferă sprijin direct cetățenilor din localitate!", puncte: 10 },
-                { text: "B. La o școală din alt județ.", raspuns: "❌ Sprijinul social local este oferit de serviciile de asistență din propria localitate sau la nivel de județ (DGASPC).", puncte: 0 }
+                { text: " La Serviciul Public de Asistență Socială de la nivel local.", raspuns: "👏 Minunat! Serviciile locale de asistență socială oferă sprijin direct cetățenilor din localitate!", puncte: 10 },
+                { text: " La o școală din alt județ.", raspuns: "❌ Sprijinul social local este oferit de serviciile de asistență din propria localitate sau la nivel de județ (DGASPC).", puncte: 0 }
             ]
         },
         {
             scenariu: "4. De ce sunt necesare legile create de stat pentru drepturile copilului?",
             optiuni: [
-                { text: "A. Pentru a recunoaște și garanta drepturile tuturor copiilor, fără nicio discriminare.", raspuns: "🌟 Foarte bine! Prin legi, statul asigură protecție împotriva violenței, acces la sănătate și educație!", puncte: 10 },
-                { text: "B. Pentru a le interzice copiilor să își spună părerea.", raspuns: "❌ Legile au scopul de a proteja și garanta drepturile, nu de a le restricționa nejustificat.", puncte: 0 }
+                { text: " Pentru a recunoaște și garanta drepturile tuturor copiilor, fără nicio discriminare.", raspuns: "🌟 Foarte bine! Prin legi, statul asigură protecție împotriva violenței, acces la sănătate și educație!", puncte: 10 },
+                { text: " Pentru a le interzice copiilor să își spună părerea.", raspuns: "❌ Legile au scopul de a proteja și garanta drepturile, nu de a le restricționa nejustificat.", puncte: 0 }
             ]
         }
     ],
@@ -1091,29 +1091,29 @@ const dateSociala = {
         {
             scenariu: "1. O localitate este afectată de inundații mari, iar mulți oameni au rămas fără case. Un ONG strânge ajutoare și alimente. Cum reacționezi?",
             optiuni: [
-                { text: "A. Arăți solidaritate și ajuți cu haine sau alimente pentru cei afectați.", raspuns: "🌟 Bravo! Solidaritatea este valoarea prin care oamenii depășesc momentele grele!", puncte: 10 },
-                { text: "B. Spui că nu este treaba ta și că doar statul trebuie să intervină.", raspuns: "❌ Deși statul are obligații, solidaritatea societății civile salvează vieți în situații de criză.", puncte: 0 }
+                { text: " Arăți solidaritate și ajuți cu haine sau alimente pentru cei afectați.", raspuns: "🌟 Bravo! Solidaritatea este valoarea prin care oamenii depășesc momentele grele!", puncte: 10 },
+                { text: " Spui că nu este treaba ta și că doar statul trebuie să intervină.", raspuns: "❌ Deși statul are obligații, solidaritatea societății civile salvează vieți în situații de criză.", puncte: 0 }
             ]
         },
         {
             scenariu: "2. Un coleg este agresat constant la școală și îi este frică să vorbească cu profesorii. Ce organizație nonguvernamentală îl poate proteja prin telefon?",
             optiuni: [
-                { text: "A. Asociația 'Telefonul Copilului'.", raspuns: "🛡️ Excelent! Asociația 'Telefonul Copilului' protejează copiii împotriva oricărei forme de abuz!", puncte: 10 },
-                { text: "B. Un club de jocuri pe calculator.", raspuns: "⚠️ Telefonul Copilului oferă consiliere gratuită și protecție directă copiilor aflați în pericol.", puncte: 0 }
+                { text: " Asociația 'Telefonul Copilului'.", raspuns: "🛡️ Excelent! Asociația 'Telefonul Copilului' protejează copiii împotriva oricărei forme de abuz!", puncte: 10 },
+                { text: " Un club de jocuri pe calculator.", raspuns: "⚠️ Telefonul Copilului oferă consiliere gratuită și protecție directă copiilor aflați în pericol.", puncte: 0 }
             ]
         },
         {
             scenariu: "3. Statul dorește să ia o decizie care ar putea reduce accesul copiilor defavorizați la școală. Ce poate face societatea civilă?",
             optiuni: [
-                { text: "A. Să protesteze, să atragă atenția publică și să conteste decizia autorităților.", raspuns: "👏 Minunat! Societatea civilă apăra drepturile cetățenilor când deciziile statului le pun în pericol!", puncte: 10 },
-                { text: "B. Să tacă și să accepte orice măsură fără să pună întrebări.", raspuns: "❌ Rolul societății civile este să vegheze ca drepturile să fie respectate de către stat.", puncte: 0 }
+                { text: " Să protesteze, să atragă atenția publică și să conteste decizia autorităților.", raspuns: "👏 Minunat! Societatea civilă apăra drepturile cetățenilor când deciziile statului le pun în pericol!", puncte: 10 },
+                { text: " Să tacă și să accepte orice măsură fără să pună întrebări.", raspuns: "❌ Rolul societății civile este să vegheze ca drepturile să fie respectate de către stat.", puncte: 0 }
             ]
         },
         {
             scenariu: "4. Ce organizație internațională activează în România din 1990 pentru sprijinirea copiilor în educație și sănătate?",
             optiuni: [
-                { text: "A. World Vision România.", raspuns: "🌟 Foarte bine! World Vision sprijină accesul copiilor la educație, servicii culturale și de sănătate!", puncte: 10 },
-                { text: "B. O companie de mașini.", raspuns: "❌ World Vision este un ONG internațional dedicat dezvoltării copiilor din comunități vulnerabile.", puncte: 0 }
+                { text: " World Vision România.", raspuns: "🌟 Foarte bine! World Vision sprijină accesul copiilor la educație, servicii culturale și de sănătate!", puncte: 10 },
+                { text: " O companie de mașini.", raspuns: "❌ World Vision este un ONG internațional dedicat dezvoltării copiilor din comunități vulnerabile.", puncte: 0 }
             ]
         }
     ],
@@ -4473,6 +4473,1644 @@ const dateSociala = {
                 "Guvernul este mai presus de Parlament", 
                 "Parlamentul conduce instanțele de judecată", 
                 "Judecătorii conduc Parlamentul"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "7. Autoritatea legislativă și legile",
+    rezumat: `
+        <h3>1. Ce este Parlamentul și din ce este format?</h3>
+        <p>Parlamentul este <b>autoritatea legislativă</b> a României (scriitorul de legi). Este <b>bicameral</b>, adică alcătuit din două camere:</p>
+        <ul>
+            <li><b>Camera Deputaților</b> (membrii se numesc deputați);</li>
+            <li><b>Senatul</b> (membrii se numesc senatori).</li>
+        </ul>
+        <p>Deputații și senatorii sunt aleși de cetățeni la alegeri pentru un mandat de <b>4 ani</b>.</p>
+
+        <h3>2. Cum lucrează Parlamentul?</h3>
+        <p>De regulă, cele două Camere lucrează în ședințe separate. Se adună în <b>ședințe comune</b> pentru: mesajul Președintelui, aprobarea bugetului țării sau votarea noului Guvern.</p>
+        <p>Au două sesiuni de lucru pe an (februarie-iunie și septembrie-decembrie), iar în urgențe fac <i>sesiuni extraordinare</i>.</p>
+
+        <h3>3. Tipuri de legi</h3>
+        <p>Legile sunt reguli obligatorii pentru toată lumea. Ele sunt de 3 feluri:</p>
+        <ul>
+            <li><b>Constituționale:</b> Modifică Constituția;</li>
+            <li><b>Organice:</b> Reglementează domenii majore (școala, cetățenia, alegerile, pedepsele);</li>
+            <li><b>Ordinare:</b> Legi obișnuite pentru toate celelalte domenii.</li>
+        </ul>
+
+        <h3>4. Intrarea în vigoare și abrogarea</h3>
+        <p>O lege devine obligatorie după ce este publicată în <b>Monitorul Oficial</b>. Când o lege veche nu mai este utilă, ea este <b>abrogată</b> (anulată).</p>
+    `,
+    stiaiCa: "În limba română există expresia 'A trecut ca prin Monitorul Oficial', însă în realitate nicio lege nu se poate aplica dacă nu este mai întâi tipărită acolo pentru ca toți cetățenii să o poată citi!",
+    wordwallUrl: "https://wordwall.net/ro/embed/277c0dd62b6e4eccac96bbbb85407d01?themeId=23&templateId=49&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Auzi un coleg spunând că o lege votată de Parlament trebuie respectată doar de cei care au votat acel partid. Ce îi spui?",
+            optiuni: [
+                { text: "Legile sunt obligatorii pentru toți cetățenii, indiferent ce au votat.", raspuns: "🌟 Bravo! Legile se aplică egal tuturor oamenilor din stat!", puncte: 10 },
+                { text: "Are dreptate, votezi doar legile care îți plac.", raspuns: "❌ Respectarea legilor este obligatorie pentru fiecare cetățean.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un deputat propune o schimbare importantă în sistemul de note din școli. În ce tip de lege se încadrează?",
+            optiuni: [
+                { text: "În lege organică, deoarece școala și educația sunt domenii majore.", raspuns: "🛡️ Excelent! Organizarea învățământului se face prin lege organică!", puncte: 10 },
+                { text: "În lege constituțională.", raspuns: "⚠️ Schimbările din învățământ se fac prin legi organice, nu constituționale.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Parlamentul a votat o lege nouă vinerea trecută, dar nu a fost trimisă la Monitorul Oficial. Are voie poliția să te amendeze azi pe baza ei?",
+            optiuni: [
+                { text: "Nu, legea devine obligatorie doar după publicarea în Monitorul Oficial.", raspuns: "👏 Foarte bine! Fără publicare oficială, legea nu este în vigoare!", puncte: 10 },
+                { text: "Da, dacă a fost votată este valabilă pe loc.", raspuns: "❌ O lege devine aplicabilă doar după publicarea oficială.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. O lege veche din 1950 privind trăsurile cu cai blochează traficul de azi. Ce trebuie să facă Parlamentul?",
+            optiuni: [
+                { text: "Să o abroge (să o anuleze), fiindcă nu mai corespunde prezentului.", raspuns: "🌟 Exact! Abrogarea șterge legile vechi și depășite!", puncte: 10 },
+                { text: "Să o lase așa și să amendeze pe toată lumea.", raspuns: "❌ Legile depășite de timp trebuie abrogated de parlamentari.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Care este autoritatea legislativă a statului român?", 
+            raspunsuri: [
+                "Parlamentul României", 
+                "Guvernul României", 
+                "Primăria Generală", 
+                "Înalta Curte de Justiție"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Din ce camere este format Parlamentul bicameral?", 
+            raspunsuri: [
+                "Camera Deputaților și Senatul", 
+                "Guvernul și Ministerul Educației", 
+                "Tribunalul și Judecătoria", 
+                "Primăria și Consiliul Local"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Pentru ce perioadă sunt aleși parlamentarii?", 
+            raspunsuri: [
+                "Un mandat de 4 ani", 
+                "Pe viață", 
+                "Un mandat de 2 ani", 
+                "Un mandat de 10 ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Când se întâlnesc cele două Camere în ședință comună?", 
+            raspunsuri: [
+                "Pentru aprobarea bugetului de stat sau învestirea Guvernului", 
+                "În fiecare zi de vineri", 
+                "Doar în timpul vacanței de vară", 
+                "Pentru stabilirea vacanțelor școlare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce legi reglementează domeniile fundamentale precum școala sau alegerile?", 
+            raspunsuri: [
+                "Legile organice", 
+                "Legile ordinare", 
+                "Decretele locale", 
+                "Regulamentele de bloc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Unde se publică o lege pentru a intra în vigoare?", 
+            raspunsuri: [
+                "În Monitorul Oficial al României", 
+                "Pe rețelele de socializare", 
+                "În ziarele de sport", 
+                "Pe avizierul școlii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce înseamnă 'abrogarea' unei legi?", 
+            raspunsuri: [
+                "Ișirea din vigoare (anularea) unei legi vechi", 
+                "Traducerea legii într-o limbă străină", 
+                "Multiplicarea legii la copiator", 
+                "Schimbarea numelui legii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cine pune în aplicare legile adoptate de Parlament?", 
+            raspunsuri: [
+                "Guvernul (autoritatea executivă)", 
+                "Adunarea elevilor", 
+                "Casa de Asigurări", 
+                "Televiziunea Națională"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "8. Autoritatea executivă. Președintele. Administrația centrală și locală",
+    rezumat: `
+        <h3>1. Ce este Guvernul și ce rol are?</h3>
+        <p>Guvernul este <b>autoritatea executivă</b> (pune în aplicare legile). Este condus de <b>Prim-ministru</b> și format din miniștri. Adoptă <i>hotărâri</i> și <i>ordonanțe</i> și elaborează bugetul țării.</p>
+        <p>Guvernul răspunde în fața Parlamentului, care îl poate demite prin <b>moțiune de cenzură</b>.</p>
+
+        <h3>2. Administrația publică: Locală vs. Centrală</h3>
+        <ul>
+            <li><b>Administrația locală (Comune și Orașe):</b> Primarul și Consiliul Local;</li>
+            <li><b>Administrația județeană:</b> Președintele Consiliului Județean și Consiliul Județean;</li>
+            <li><b>Prefectul:</b> Numiți de Guvern în fiecare județ pentru a verifica aplicarea legilor.</li>
+        </ul>
+        <p>Primarii și consilierii sunt aleși de cetățeni pentru <b>4 ani</b> pe baza <i>autonomiei locale</i> (nu se subordonează Guvernului).</p>
+
+        <h3>3. Președintele României</h3>
+        <p>Este ales direct de popor pentru maximum <b>două mandate de 5 ani</b>. Pe durata mandatului <b>nu poate fi membru de partid</b>.</p>
+
+        <h3>4. Rolul Președintelui</h3>
+        <p>Reprezintă statul român, este comandantul armatei, veghează la respectarea Constituției, mediază între puterile statului și emite <b>decrete</b>.</p>
+    `,
+    stiaiCa: "În timp ce parlamentarii și primarii au mandate de 4 ani, Președintele României este singurul demnitar ales pentru un mandat de 5 ani!",
+    wordwallUrl: "https://wordwall.net/ro/embed/6b7375d059644076af86b655c2bf2baa?themeId=48&templateId=30&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Primarul orașului tău dorește să construiască un parc nou, dar un ministru îi ordonă să anuleze proiectul. Cum reacționează primarul?",
+            optiuni: [
+                { text: "Continuă proiectul, deoarece primăria funcționează pe baza autonomiei locale.", raspuns: "🌟 Bravo! Administrația locală nu este subordonată Guvernului!", puncte: 10 },
+                { text: "Execută ordinul, fiindcă ministrul este șeful primarului.", raspuns: "❌ Primarul este ales de cetățeni și răspunde în fața comunității, nu a ministrului.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Președintele României dorește să rămână președinte al partidului din care provine pe durata celor 5 ani de mandat. Este permis?",
+            optiuni: [
+                { text: "Nu, pe durata mandatului președintele nu poate fi membru al niciunui partid.", raspuns: "🛡️ Excelent! Președintele trebuie să fie neutru și să medieze în societate!", puncte: 10 },
+                { text: "Da, poate fi președinte de țară și șef de partid în același timp.", raspuns: "⚠️ Constituția interzice președintelui să facă parte dintr-un partid politic.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Parlamentul este nemulțumit de activitatea Guvernului și dorește schimbarea miniștrilor. Ce procedură folosește?",
+            optiuni: [
+                { text: "Votează o moțiune de cenzură pentru retragerea încrederii acordate Guvernului.", raspuns: "👏 Foarte bine! Moțiunea de cenzură este instrumentul de control al Parlamentului!", puncte: 10 },
+                { text: "Trimite poliția să închidă clădirea Guvernului.", raspuns: "❌ În democrație, demiterea Guvernului se face legal prin moțiune de cenzură.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Vezi o știre despre un incendiu grav într-un județ, iar reprezentantul Guvernului la nivel județean coordonează ajutoarele. Cine este acesta?",
+            optiuni: [
+                { text: "Prefectul județului, numit de Guvern pentru a aplica legile pe plan local.", raspuns: "🌟 Exact! Prefectul este reprezentantul Guvernului în județ!", puncte: 10 },
+                { text: "Președintele Curții de Apel.", raspuns: "❌ Judecătorii nu se ocupă de administrația județului, ci prefectul.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cine reprezintă autoritatea executivă într-un stat?", 
+            raspunsuri: [
+                "Guvernul", 
+                "Parlamentul", 
+                "Judecătoria", 
+                "Școala"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cine desemnează Prim-ministrul României?", 
+            raspunsuri: [
+                "Președintele României", 
+                "Primarul Capitalei", 
+                "Avocatul Poporului", 
+                "Consiliul Județean"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum poate Parlamentul să demită Guvernul?", 
+            raspunsuri: [
+                "Prin moțiune de cenzură", 
+                "Prin scrisoare recomandată", 
+                "Prin votarea bugetului școlar", 
+                "Prin anularea alegerilor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Pentru ce perioadă este ales Președintele României?", 
+            raspunsuri: [
+                "Mandat de 5 ani (maximum două mandate)", 
+                "Mandat de 4 ani pe viață", 
+                "Mandat de 2 ani", 
+                "Mandat de 10 ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce act juridic emite Președintele României?", 
+            raspunsuri: [
+                "Decret", 
+                "Ordonanță de urgență", 
+                "Lege organică", 
+                "Regulament școlar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Cine rezolvă treburile publice din orașe și comune?", 
+            raspunsuri: [
+                "Consiliul Local și Primarul", 
+                "Ministerul de Externe", 
+                "Prefectul și senatorii", 
+                "Președintele țării"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Cine reprezintă Guvernul la nivelul fiecărui județ?", 
+            raspunsuri: [
+                "Prefectul", 
+                "Primarul", 
+                "Directorul școlii", 
+                "Ministrul educației"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce principiu garantează că primăriile nu sunt subordonate Guvernului?", 
+            raspunsuri: [
+                "Principiul autonomiei locale", 
+                "Principiul cenzurii", 
+                "Unipartidismul", 
+                "Monarhia absolută"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "9. Autoritatea judecătorească. Statul de drept",
+    rezumat: `
+        <h3>1. Ce este Autoritatea judecătorească?</h3>
+        <p>Are rolul de a înfăptui <b>justiția</b> în numele legii, de a pedepsi încălcarea ei și de a menține ordinea în stat.</p>
+        <p>Judecătorii și procurorii se numesc <b>magistrați</b>.</p>
+
+        <h3>2. Instanțele și Magistrații</h3>
+        <ul>
+            <li><b>Instanțe judecătorești:</b> Judecătorie ➔ Tribunal ➔ Curtea de Apel ➔ Înalta Curte de Casație și Justiție;</li>
+            <li><b>Judecătorii:</b> Sunt independenți, se supun doar legii și sunt <i>inamovibili</i> (nu pot fi mutați sau dați afară fără acordul lor);</li>
+            <li><b>Procurorii:</b> Lucrează în <i>parchete</i> (Ministerul Public) și apără interesele societății și ale cetățenilor.</li>
+        </ul>
+
+        <h3>3. Consiliul Superior al Magistraturii (CSM)</h3>
+        <p>Este garantul independenței justiției. Se ocupă de recrutarea, formarea și sancționarea disciplinară a magistraților.</p>
+
+        <h3>4. Ce garantează Statul de drept?</h3>
+        <p>Nicio persoană nu este mai presus de lege. Statul garantează egalitatea în fața legii, prezumția de nevinovăție, independența judecătorilor și protejarea drepturilor omului.</p>
+    `,
+    stiaiCa: "Magistrații (judecătorii și procurorii) nu au voie să fie membri în partide politice și nici să aibă alte meserii, singura excepție fiind cea de profesor universitar!",
+    wordwallUrl: "https://wordwall.net/ro/embed/0845337e3bcc4a46892cfe2f3307fd13?themeId=22&templateId=8&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un om politic puternic dorește să schimbe din funcție un judecător pentru că nu i-a plăcut o sentință. Este posibil?",
+            optiuni: [
+                { text: "Nu, judecătorii sunt inamovibili și nu pot fi dați afară de politicieni.", raspuns: "🌟 Bravo! Inamovibilitatea protejează independența judecătorilor!", puncte: 10 },
+                { text: "Da, politicienii pot schimba orice judecător când doresc.", raspuns: "❌ Amestecul politicului în justiție încalcă statul de drept.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. O persoană este acuzată de o faptă pe internet, dar procesul încă nu s-a încheiat. Cum trebuie privită?",
+            optiuni: [
+                { text: "Este nevinovată până la o hotărâre judecătorească definitivă.", raspuns: "🛡️ Excelent! Prezumția de nevinovăție este un pilon al justiției!", puncte: 10 },
+                { text: "Este vinovată din start fiindcă a apărut la știri.", raspuns: "⚠️ Nicio persoană nu este vinovată fără o decizie finală a instanței.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Cineva susține că un primar nu trebuie să primească amendă de circulație pentru că conduce orașul. Ce îi spui?",
+            optiuni: [
+                { text: "În statul de drept nimeni nu este mai presus de lege, toți sunt egali.", raspuns: "👏 Foarte bine! Legea se aplică în mod egal tuturor cetățenilor!", puncte: 10 },
+                { text: "Are dreptate, conducătorii au voie să încalce regulile rutiere.", raspuns: "❌ În statul de drept nu există privilegii pentru guvernanți.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un procuror anchetează un caz de furt din cartier. Pe cine reprezintă el în instanță?",
+            optiuni: [
+                { text: "Interesele societății și ale cetățenilor.", raspuns: "🌟 Exact! Procurorii apără ordinea de drept și interesele publice!", puncte: 10 },
+                { text: "Doar interesele partidului aflat la guvernare.", raspuns: "❌ Procurorii sunt imparțiali și apără legea și societatea.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Care este rolul Autorității judecătorești?", 
+            raspunsuri: [
+                "Înăptuiește justiția și menține ordinea de drept", 
+                "Propune și votează legi în Parlament", 
+                "Construiește școli și spitale", 
+                "Conduce politica externă a țării"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum se numesc, împreună, judecătorii și procurorii?", 
+            raspunsuri: [
+                "Magistrați", 
+                "Parlamentari", 
+                "Miniștri", 
+                "Consilieri"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce înseamnă că judecătorii sunt 'inamovibili'?", 
+            raspunsuri: [
+                "Nu pot fi mutați sau dați afară fără acordul lor", 
+                "Nu au voie să se îmbrace în robe", 
+                "Sunt aleși prin vot o dată la 4 ani", 
+                "Lucrează numai din clădirea Guvernului"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care este instanța judecătorească supremă din România?", 
+            raspunsuri: [
+                "Înalta Curte de Casație și Justiție", 
+                "Judecătoria de Sector", 
+                "Tribunalul Județean", 
+                "Curtea de Apel"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce instituție este garantul independenței justiției?", 
+            raspunsuri: [
+                "Consiliul Superior al Magistraturii (CSM)", 
+                "Ministerul Educației", 
+                "Primăria Generală", 
+                "Camera Deputaților"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. În cadrul cărei structuri sunt organizați procurorii?", 
+            raspunsuri: [
+                "Parchete (Ministerul Public)", 
+                "Prefecturi județene", 
+                "Comisii parlamentare", 
+                "Inspectorate școlare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce altă funcție pot deține magistrații, ca excepție?", 
+            raspunsuri: [
+                "Cadru didactic în învățământul superior", 
+                "Primar de oraș", 
+                "Deputat în Parlament", 
+                "Președinte de partid"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce principiu afirmă că 'nimeni nu este mai presus de lege'?", 
+            raspunsuri: [
+                "Principiul statului de drept", 
+                "Principiul cenzurii presei", 
+                "Principiul monarhiei absolute", 
+                "Principiul votului secret"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "10. Procesul de elaborare a legilor. Participarea cetățenilor la elaborarea legislației",
+    rezumat: `
+        <h3>1. Cine are inițiativă legislativă?</h3>
+        <p>Propunerea de legi noi poate veni de la <b>Guvern</b>, <b>deputați</b>, <b>senatori</b> sau direct de la <b>cetățeni</b>.</p>
+
+        <h3>2. Condițiile unei inițiative cetățenești</h3>
+        <p>Cetățenii pot propune legi dacă strâng <b>minimum 100.000 de semnături</b> din cel puțin un sfert din județele țării. Sunt excluse: taxele și impozitele, problemele internaționale, amnistia și grațierea.</p>
+
+        <h3>3. Pașii de la idee la lege</h3>
+        <ol>
+            <li>Grup de minimum 10 cetățeni ➔ Strângerea de semnături;</li>
+            <li>Depunerea la Parlament ➔ Verificarea de către Curtea Constituțională;</li>
+            <li>Dezbaterea și votul în ambele Camere ale Parlamentului;</li>
+            <li>Promulgarea de către Președinte (în maximum 20 de zile) ➔ Publicarea în Monitorul Oficial.</li>
+        </ol>
+
+        <h3>4. Intrarea în vigoare</h3>
+        <p>O lege adoptată intră în vigoare la <b>3 zile de la publicarea în Monitorul Oficial</b> (sau la o dată ulterioară prevăzută în textul ei).</p>
+    `,
+    stiaiCa: "Termenul de 'promulgare' înseamnă aprobarea oficială a legii de către Președinte, iar dacă acesta consideră că legea are probleme, o poate trimite o singură dată înapoi la Parlament pentru reexaminare!",
+    wordwallUrl: "https://wordwall.net/ro/embed/c8e9d09a9acb4023a9048046a7442451?themeId=41&templateId=36&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un grup de cetățeni dorește să propună o lege prin care să se anuleze toate taxele pe mașini din țară. Este posibilă o astfel de inițiativă cetățenească?",
+            optiuni: [
+                { text: "Nu, problemele fiscale (taxe și impozite) sunt excluse de la inițiativa cetățenilor.", raspuns: "🌟 Bravo! Ai reținut excepțiile prevăzute în Constituție!", puncte: 10 },
+                { text: "Da, cetățenii pot propune absolut orice fel de lege.", raspuns: "❌ Aspectele fiscale, internaționale sau amnistia nu pot fi inițiate de cetățeni.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. O lege votată de Parlament este trimisă Președintelui. Acesta observă o greșeală mare în text. Ce poate face?",
+            optiuni: [
+                { text: "Poate cere o singură dată Parlamentului reexaminarea legii înainte de promulgare.", raspuns: "🛡️ Excelent! Președintele are dreptul de a cere o singură reexaminare!", puncte: 10 },
+                { text: "Poate arunca legea la gunoi și scrie alta în loc.", raspuns: "⚠️ Președintele nu scrie legi, ci poate doar trimite proiectul înapoi la Parlament.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O lege nouă este publicată azi în Monitorul Oficial și nu are menționată nicio dată specială. Când devine obligatorie?",
+            optiuni: [
+                { text: "Peste 3 zile de la publicare.", raspuns: "👏 Foarte bine! Regula generală este intrarea în vigoare la 3 zile de la publicare!", puncte: 10 },
+                { text: "Imediat în aceeași secundă.", raspuns: "❌ Legea intră în vigoare la 3 zile de la publicare, pentru ca lumea să apuce să o citească.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un proiect de lege de la cetățeni ajunge la Parlament, dar Curtea Constituțională descoperă că e ilegal. Ce se întâmplă?",
+            optiuni: [
+                { text: "Proiectul este oprit, fiindcă CCR verifică legalitatea inițiativelor.", raspuns: "🌟 Exact! Curtea Constituțională blochează inițiativele ilegale!", puncte: 10 },
+                { text: "Merg mai departe și îl votează oricum.", raspuns: "❌ Curtea Constituțională garantează respectarea Constituției.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cine are dreptul de inițiativă legislativă în România?", 
+            raspunsuri: [
+                "Guvernul, deputații, senatorii și cetățenii", 
+                "Doar Președintele țării", 
+                "Doar primarii din marile orașe", 
+                "Directorii de școală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Din câte persoane trebuie să fie format grupul care inițiază o lege cetățenească?", 
+            raspunsuri: [
+                "Minimum 10 cetățeni", 
+                "Un singur om", 
+                "Minimum 1.000 de elevi", 
+                "Toți primarii din țară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. În ce domeniu NU pot avea cetățenii inițiativă legislativă?", 
+            raspunsuri: [
+                "Aspecte fiscale (taxe și impozite)", 
+                "Protecția mediului", 
+                "Educație și școli", 
+                "Sport și cultură"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce instituție verifică legalitatea inițiativei legislative a cetățenilor?", 
+            raspunsuri: [
+                "Curtea Constituțională", 
+                "Poliția Națională", 
+                "Ministerul de Finanțe", 
+                "Primăria Generală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce înseamnă 'promulgarea' unei legi?", 
+            raspunsuri: [
+                "Aprobarea oficială și semnarea ei de către Președinte", 
+                "Discuția despre lege în pauza de masă", 
+                "Anularea definitivă a legii", 
+                "Traducerea legii pe internet"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. În cât timp de la primire trebuie Președintele să promulge o lege?", 
+            raspunsuri: [
+                "În termen de 20 de zile", 
+                "În 24 de ore", 
+                "În 6 luni", 
+                "În 3 ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. De câte ori poate cere Președintele reexaminarea unei legi de către Parlament?", 
+            raspunsuri: [
+                "O singură dată", 
+                "De câte ori dorește", 
+                "De maximum 10 ori", 
+                "Niciodată"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Când intră în vigoare o lege după publicarea în Monitorul Oficial?", 
+            raspunsuri: [
+                "La 3 zile de la publicare (sau la o dată menționată în text)", 
+                "După un an de zile", 
+                "Imediat înainte de publicare", 
+                "În prima zi de școală"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "11. Drepturi și libertăți cetățenești. Respectarea legilor. Limite ale libertății",
+    rezumat: `
+        <h3>1. Drepturi, libertăți și îndatoriri</h3>
+        <p>Constituția garantează drepturile cetățenilor, dar impune și <b>îndatoriri</b> (datorii / obligații): respectarea Constituției și a legilor, fidelitatea față de țară, apărarea României și plata taxelor.</p>
+        <p>Libertatea ta se termină acolo unde începe libertatea celuilalt!</p>
+
+        <h3>2. Ce este socializarea?</h3>
+        <p>Este procesul prin care învățăm, înțelegem și ne adaptăm la normele și regulile societății.</p>
+
+        <h3>3. Controlul social</h3>
+        <p>Reprezintă mijloacele prin care societatea ne ajută să respectăm normele, prin două pârghii:</p>
+        <ul>
+            <li><b>Sancțiuni (constrângeri):</b> Dispreț, amenzi, sancțiuni disciplinare, confiscarea bunurilor sau închisoare;</li>
+            <li><b>Recompense (recunoaștere):</b> Laude, admirație, medalii, premii și diplome.</li>
+        </ul>
+
+        <h3>4. Avantaje și limite</h3>
+        <p><b>Avantaje:</b> Ordine, organizare, legalitate.</p>
+        <p><b>Limite / Riscuri:</b> Delincvență, conflicte, nonconformism sau intervenția exagerată în viața privată.</p>
+    `,
+    stiaiCa: "Sinonimele cele mai folosite pentru cuvântul 'îndatoriri' sunt: datorii, obligații sau sarcini",
+    wordwallUrl: "https://wordwall.net/ro/embed/b8fca8fc2e5d4aaa9df2c88151444e23?themeId=51&templateId=36&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un coleg ascultă muzică foarte tare pe telefon în timpul orei, susținând că are 'dreptul la libertate de exprimare'. Ce îi spui?",
+            optiuni: [
+                { text: "Libertatea ta nu trebuie să încalce dreptul celorlalți la liniște și educație.", raspuns: "🌟 Bravo! Ai înțeles limita libertății în societate!", puncte: 10 },
+                { text: "Are dreptate, fiecare face ce vrea cu libertatea lui.", raspuns: "❌ Exercitarea drepturilor trebuie să respecte drepturile celorlalți.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un cetățean refuză să își plătească impozitele anuale, spunând că banii sunt ai lui. Ce îndatorire constituțională încalcă?",
+            optiuni: [
+                { text: "Îndatorirea fundamentală de plată a taxelor și impozitelor.", raspuns: "🛡️ Excelent! Taxele asigură funcționarea școlilor și spitalelor!", puncte: 10 },
+                { text: "Dreptul la liberă circulație.", raspuns: "⚠️ Plata taxelor este o îndatorire constituțională obligatorie.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Ai primit o diplomă și un premiu pentru că ai ajutat la curățenia din curtea școlii. Ce formă de control social este aceasta?",
+            optiuni: [
+                { text: "Recompensare și recunoaștere socială.", raspuns: "👏 Foarte bine! Recompensele încurajează comportamentul pozitiv!", puncte: 10 },
+                { text: "O sancțiune disciplinară contravențională.", raspuns: "❌ Premiile și diplomele sunt recompense, nu sancțiuni.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un șofer depășește viteza legală și primește o amendă de la poliție. Ce reprezintă amenda?",
+            optiuni: [
+                { text: "O constrângere și sancțiune pentru nerespectarea normelor.", raspuns: "🌟 Exact! Amenzile fac parte din mijloacele de control social!", puncte: 10 },
+                { text: "O formă de învățare prin socializare primară.", raspuns: "❌ Amenda este o sancțiune contravențională stabilită prin lege.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce au cetățenii, pe lângă drepturi și libertăți?", 
+            raspunsuri: [
+                "Îndatoriri (datorii și respectarea legilor)", 
+                "Să meargă zilnic la meciuri de fotbal", 
+                "Să cumpere doar produse scumpe", 
+                "Să desființeze regulamentele școlare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele este o îndatorire fundamentală a cetățeanului?", 
+            raspunsuri: [
+                "Plata taxelor și a impozitelor", 
+                "Vizionarea emisiunilor TV", 
+                "Purtarea de haine de marcă", 
+                "Călătoriile în străinătate"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum se numește procesul prin care învățăm și ne adaptăm la normele societății?", 
+            raspunsuri: [
+                "Socializare", 
+                "Privatizare", 
+                "Promulgare", 
+                "Ostracizare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce reprezintă controlul social?", 
+            raspunsuri: [
+                "Mecanismele prin care societatea impune reguli, sancțiuni și recompense", 
+                "Programul de funcționare al televiziunilor", 
+                "Controlul mecanic al mașinilor din trafic", 
+                "Verificarea biletelor la cinematograf"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Care dintre următoarele este o formă de constrângere socială?", 
+            raspunsuri: [
+                "Amenda contravențională sau penala", 
+                "Oferirea unei medalii de aur", 
+                "Lauda din partea profesorului", 
+                "Inmânarea unei diplome"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care dintre următoarele este o formă de recompensare socială?", 
+            raspunsuri: [
+                "Diploma și admirația celorlalți", 
+                "Confiscarea bunurilor", 
+                "Închisoarea", 
+                "Sanctiunea disciplinară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce regulă de bază trebuie respectată în exercitarea libertății personale?", 
+            raspunsuri: [
+                "Respectarea drepturilor și libertăților celorlalți", 
+                "Ignorarea completă a regulilor de bloc", 
+                "Impunerea propriei păreri prin forță", 
+                "Facem orice vrem fără nicio limită"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Care este un avantaj principal al controlului social?", 
+            raspunsuri: [
+                "Menținerea ordinii, organizării și legalității", 
+                "Apariția conflictelor între străzi", 
+                "Creșterea delincvenței juvenile", 
+                "Intervenția în viața privată"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "12. Justiția ca instituție de apărare și de înfăptuire a dreptății. Egalitatea în fața legii și accesul la justiție al cetățenilor. Consecințe ale nerespectării legii",
+    rezumat: `
+        <h3>1. Ce este justiția și ce înseamnă a face dreptate?</h3>
+        <p>Justiția este sinonimă cu <b>dreptatea</b>. A face dreptate înseamnă a aplica legea pentru a proteja drepturile și libertățile oamenilor nedreptățiți.</p>
+
+        <h3>2. Secțiile instanțelor de judecată</h3>
+        <ul>
+            <li><b>Penală:</b> Rezolvă infracțiuni grave (viața, bunurile, integritatea);</li>
+            <li><b>Civilă:</b> Rezolvă conflicte personale (proprietăți, moșteniri, divorțuri);</li>
+            <li><b>Contencios administrativ:</b> Conflicte între cetățeni și autorități;</li>
+            <li><b>Conflicte de muncă:</b> Dispute între angajați și angajatori.</li>
+        </ul>
+
+        <h3>3. Principiile judecării</h3>
+        <p>Acces liber la justiție, ședințe publice și orale, egalitatea părților, prezumția de nevinovăție și garantarea dreptului la apărare (prin avocat).</p>
+
+        <h3>4. Scopul pedepselor pentru nerespectarea legii</h3>
+        <p>Pedepsele (amendă, muncă în folosul comunității, confiscarea bunurilor, închisoare) se aplică pentru:</p>
+        <ul>
+            <li><b>Sancționare:</b> Restabilirea dreptății;</li>
+            <li><b>Descurajare:</b> Împiedicarea altora de a comite fapte rele;</li>
+            <li><b>Reabilitare:</b> Ajutarea făptuitorului să se reintegreze în societate.</li>
+        </ul>
+    `,
+    stiaiCa: "În cadrul unui proces penal sau civil, dacă o persoană nu își permite financiar un avocat, statul îi asigură gratuit un apărător (avocat din oficiu) pentru a-i garanta dreptul la apărare!",
+    wordwallUrl: "https://wordwall.net/ro/embed/9dd87ce82a594b4e8886041754debdec?themeId=46&templateId=35&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un angajat nu a primit salariul de la șeful lui de trei luni. La ce secție a instanței de judecată trebuie să se adreseze?",
+            optiuni: [
+                { text: "La secția pentru conflicte de muncă.", raspuns: "🌟 Bravo! Această secție rezolvă disputele dintre angajați și angajatori!", puncte: 10 },
+                { text: "La secția penală pentru infracțiuni grave.", raspuns: "❌ Neînțelegerile privind munca și salariul merg la secția de conflicte de muncă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un cetățean acuzat într-un proces nu are bani să își angajeze un avocat. Ce se întâmplă cu dreptul lui la apărare?",
+            optiuni: [
+                { text: "Statul este obligat să îi asigure un avocat din oficiu.", raspuns: "🛡️ Excelent! Dreptul la apărare este garantat tuturor cetățenilor!", puncte: 10 },
+                { text: "Trebuie să se apere singur chiar dacă nu știe legile.", raspuns: "⚠️ Dreptul la apărare este un principiu constituțional garantat.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O persoană care a greșit și a fost pedepsită face cursuri în închisoare pentru a învăța o meserie nouă. Ce scop are această pedeapsă?",
+            optiuni: [
+                { text: "Reabilitarea și reintergrarea în societate.", raspuns: "👏 Foarte bine! Pedeapsa ajută făptuitorul să nu mai repete greșeala!", puncte: 10 },
+                { text: "Doar descurajarea prietenilor lui.", raspuns: "❌ Pregătirea pentru o viață normală reprezintă reabilitarea.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un judecător dorește să țină un proces în secret total, fără public și fără martori, deși legea nu cere asta. Este corect?",
+            optiuni: [
+                { text: "Nu, ședințele de judecată au caracter public și oral.", raspuns: "🌟 Exact! Transparența este un principiu fundamental al justiției!", puncte: 10 },
+                { text: "Da, judecătorul poate ascunde procesul de populație.", raspuns: "❌ Ședințele de judecată sunt, de regulă, publice.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce înseamnă înfăptuirea justiției într-un stat?", 
+            raspunsuri: [
+                "A face dreptate prin aplicarea legii", 
+                "A scrie legi noi în fiecare zi", 
+                "A alege primarii din marile orașe", 
+                "A colecta impozitele de la cetățeni"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce secție a instanței rezolvă conflictele legate de moșteniri și proprietăți?", 
+            raspunsuri: [
+                "Secția civilă", 
+                "Secția penală", 
+                "Secția de contencios administrativ", 
+                "Secția militară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce secție rezolvă neînțelegerile dintre cetățeni și autoritățile publice?", 
+            raspunsuri: [
+                "Contencios administrativ", 
+                "Secția penală", 
+                "Conflicte de muncă", 
+                "Judecătoria de sector"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care dintre următoarele este un principiu al aplicării justiției?", 
+            raspunsuri: [
+                "Accesul liber la justiție și egalitatea părților", 
+                "Secretizarea tuturor dosarelor", 
+                "Pedeapsa fără administrarea de probe", 
+                "Judecarea doar a persoanelor bogați"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cum se numește decizia motivată emisă de judecător la finalul unui proces?", 
+            raspunsuri: [
+                "Hotărâre judecătorească", 
+                "Ordonanță de urgență", 
+                "Lege organică", 
+                "Propunere legislativă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este una dintre pedepsele aplicate pentru nerespectarea legii?", 
+            raspunsuri: [
+                "Munca neremunerată în folosul comunității", 
+                "Inmânarea unei diplome de merit", 
+                "Premierea cu bani din buget", 
+                "Promovarea în funcția de primar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care este scopul pedepsei care urmărește să ajute făptuitorul să se schimbe?", 
+            raspunsuri: [
+                "Reabilitarea", 
+                "Descurajarea", 
+                "Marginalizarea", 
+                "Confiscarea"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cine conduce toate procesele din instanțele de judecată?", 
+            raspunsuri: [
+                "Judecătorii", 
+                "Deputații", 
+                "Prefecții", 
+                "Primarii"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "13. Copilul în procesul judiciar. Delincvența juvenilă",
+    rezumat: `
+        <h3>1. Copilul în procesele civile și dreptul de a fi ascultat</h3>
+        <p>În orice proces, autoritățile trebuie să urmărească <b>interesul superior al minorului</b>. Ascultarea copilului care a împlinit <b>10 ani</b> este obligatorie în deciziile care îl privesc (locuință, măsuri de protecție).</p>
+
+        <h3>2. Ce este delincvența juvenilă?</h3>
+        <p>Este fenomenul prin care minorii încalcă legea. Cauze frecvente: influența anturajului („gașca”), probleme financiare în familie, abandonul școlar sau dorința de a fi „cool”.</p>
+
+        <h3>3. Limitele răspunderii penale la minori</h3>
+        <ul>
+            <li><b>Sub 14 ani:</b> Nu răspunde penal (părinții plătesc pagubele);</li>
+            <li><b>Între 14 și 16 ani:</b> Răspunde penal doar dacă a acționat cu <i>discernământ</i>;</li>
+            <li><b>Peste 16 ani:</b> Răspunde penal în condițiile legii.</li>
+        </ul>
+
+        <h3>4. Măsuri educative pentru minori</h3>
+        <p>În loc de pedepsele obișnuite ale adulților, instanța aplică măsuri educative:</p>
+        <ul>
+            <li><b>Neprivative de libertate:</b> Supraveghere, stagiu de formare civică, consemnare la sfârșit de săptămână;</li>
+            <li><b>Privative de libertate:</b> Internare într-un centru educativ sau centru de detenție.</li>
+        </ul>
+    `,
+    stiaiCa: "În procesul penal, minorii acuzați au dreptul de a refuza să dea declarații și de a fi asistați obligatoriu de un avocat și de părinți pe tot parcursul audierilor!",
+    wordwallUrl: "https://wordwall.net/ro/embed/0c6d3da392be44f888b08fd699345fba?themeId=66&templateId=11&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții unui elev de 11 ani divorțează, iar judecătorul dorește să stabilească la cine va locui copilul. Este obligat judecătorul să îl asculte pe copil?",
+            optiuni: [
+                { text: "Da, ascultarea copilului de peste 10 ani este obligatorie în instanță.", raspuns: "🌟 Bravo! La 10 ani împliniți, opinia copilului trebuie ascultată!", puncte: 10 },
+                { text: "Nu, copiii nu au voie să vorbească în fața unui judecător.", raspuns: "❌ Legea obligă instanța să asculte minorul care a împlinit 10 ani.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un elev de 13 ani sparge din greșeală geamul unei școli. Cine răspunde pentru pagubă?",
+            optiuni: [
+                { text: "Părinții elevului, deoarece sub 14 ani minorul nu răspunde penal.", raspuns: "🛡️ Excelent! Sub 14 ani pagubele sunt acoperite de părinți!", puncte: 10 },
+                { text: "Elevul merge direct la închisoare.", raspuns: "⚠️ Copiii sub 14 ani nu au răspundere penală.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un adolescent de 15 ani comite o faptă gravă la îndemnul găștii de prieteni. Cum stabilește instanța dacă răspunde penal?",
+            optiuni: [
+                { text: "Verifică dacă minorul a avut discernământ (dacă a realizat ce face).", raspuns: "👏 Foarte bine! Între 14 și 16 ani se testează discernământul!", puncte: 10 },
+                { text: "Îl pedepsește automat ca pe un adult de 40 de ani.", raspuns: "❌ Între 14 și 16 ani răspunderea depinde de existența discernământului.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un minor care a încălcat legea este trimis de judecător la cursuri de formare civică și supravegheat în weekend. Ce fel de măsură este aceasta?",
+            optiuni: [
+                { text: "Măsură educativă neprivativă de libertate.", raspuns: "🌟 Exact! Scopul este educarea și corectarea comportamentului!", puncte: 10 },
+                { text: "Pedeapsă cu detenția pe viață.", raspuns: "❌ Cursurile și supravegherea sunt măsuri educative neprivative de libertate.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce principiu trebuie să urmărească autoritățile în orice proces cu copii?", 
+            raspunsuri: [
+                "Interesul superior al minorului", 
+                "Interesul financiar al instanței", 
+                "Pedeapsa maximă rapidă", 
+                "Secretizarea totală a dosarului"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. De la ce vârstă este obligatorie ascultarea copilului în procesele civile de familie?", 
+            raspunsuri: [
+                "De la vârsta de 10 ani", 
+                "De la vârsta de 18 ani", 
+                "De la vârsta de 5 ani", 
+                "De la vârsta de 16 ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este delincvența juvenilă?", 
+            raspunsuri: [
+                "Încălcarea legilor de către minori", 
+                "Absența elevilor de la orele de sport", 
+                "Participarea la concursuri școlare", 
+                "Munca de voluntariat în parc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care este situația răspunderii penale pentru copiii sub 14 ani?", 
+            raspunsuri: [
+                "Nu răspund penal, paguba fiind achitată de părinți", 
+                "Răspund penal exact ca un adult", 
+                "Sunt trimiși automat la închisoare", 
+                "Primesc o amendă din alocație"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. În ce condiții răspunde penal un minor cu vârsta între 14 și 16 ani?", 
+            raspunsuri: [
+                "Dacă se dovedește că a săvârșit fapta cu discernământ", 
+                "Automat, fără nicio verificare", 
+                "Doar dacă este de acord conducerea școlii", 
+                "Doar dacă fapta s-a petrecut duminica"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. De la ce vârstă răspund penal toți minorii conform legii?", 
+            raspunsuri: [
+                "De la 16 ani", 
+                "De la 10 ani", 
+                "De la 21 de ani", 
+                "De la 12 ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care dintre următoarele este o măsură educativă neprivativă de libertate?", 
+            raspunsuri: [
+                "Stagiul de formare civică și supravegherea", 
+                "Internarea într-un centru de detenție", 
+                "Închisoarea pe viață", 
+                "Munca în altă țară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Care dintre următoarele este o măsură educativă privativă de libertate?", 
+            raspunsuri: [
+                "Internarea într-un centru educativ", 
+                "Asistarea zilnică", 
+                "Consemnarea la sfârșit de săptămână", 
+                "Lauda în fața clasei"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "14. Implicarea civică în contextul democrației reprezentative și al formelor de manifestare a democrației directe",
+    rezumat: `
+        <h3>1. Democrația reprezentativă (indirectă)</h3>
+        <p>Cetățenii își aleg reprezentanții (deputați, senatori, primari) prin vot, pentru a lua decizii în numele lor pe o perioadă limitată (mandat).</p>
+
+        <h3>2. Democrația directă</h3>
+        <p>Presupune implicarea directă a cetățenilor în luarea deciziilor. Formele principale sunt <b>referendumul</b> și <b>inițiativele cetățenești</b>.</p>
+
+        <h3>3. Referendumul: decizional vs. consultativ</h3>
+        <ul>
+            <li><b>Decizional:</b> Decizia cetățenilor devine lege (ex: schimbarea Constituției sau demiterea Președintelui);</li>
+            <li><b>Consultativ:</b> Oferă o părere pe probleme de interes național, la inițiativa Președintelui.</li>
+        </ul>
+
+        <h3>4. Niveluri de implicare civică</h3>
+        <p>Implicarea cetățenilor se face prin <b>informare</b> (aflarea datelor de la autorități), <b>consultare</b> (dezbateri publice) și <b>participare activă</b> (inițiative și parteneriate).</p>
+    `,
+    stiaiCa: "La alegeri votăm o persoană sau un partid pentru a ne reprezenta, iar la referendum votăm o problemă/o întrebare cu DA sau NU!",
+    wordwallUrl: "https://wordwall.net/ro/embed/be0fe76afed99057c3594c2e2fba94b4?themeId=22&templateId=11&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Într-un oraș se dorește demolarea unui parc istoric pentru a construi un mall. Primarul organizează un vot direct al tuturor cetățenilor din oraș. Ce formă de democrație este aceasta?",
+            optiuni: [
+                { text: "Democrație directă, realizată prin referendum local.", raspuns: "🌟 Bravo! Cetățenii decid direct problema, fără intermediari!", puncte: 10 },
+                { text: "Democrație reprezentativă limitată.", raspuns: "❌ Votul direct pe o problemă specifică reprezintă o formă a democrației directe.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Oamenii din cartierul tău votează o dată la 4 ani primarul și consilierii pentru a se ocupa de curățenie și drumuri. Ce formă de democrație exercită?",
+            optiuni: [
+                { text: "Democrație reprezentativă (își aleg reprezentanții).", raspuns: "🛡️ Excelent! Reprezentanții aleși guvernează în numele cetățenilor!", puncte: 10 },
+                { text: "Referendum consultativ permanent.", raspuns: "⚠️ Alegerea unor conducători pe 4 ani este democrație reprezentativă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Președintele țării dorește să afle părerea cetățenilor despre o lege nouă privind mediul, înainte ca Parlamentul să o dezbată. Ce va organiza?",
+            optiuni: [
+                { text: "Un referendum consultativ.", raspuns: "👏 Foarte bine! Referendumul consultativ cere opinia poporului!", puncte: 10 },
+                { text: "Un referendum decizional de suspendare.", raspuns: "❌ Consultarea populației de către Președinte se face prin referendum consultativ.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un grup de elevi și părinți participă la o dezbatere publică la primărie pentru a propune piste de biciclete. La ce nivel de implicare civică sunt?",
+            optiuni: [
+                { text: "La nivel de consultare și participare activă.", raspuns: "🌟 Exact! Implicarea în dezbateri este o formă de participare civică!", puncte: 10 },
+                { text: "La nivel de votare reprezentativă obligatorie.", raspuns: "❌ Participarea la dezbateri publice este o formă de consultare și implicare civică.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce este democrația reprezentativă?", 
+            raspunsuri: [
+                "Regimul în care deciziile sunt luate de reprezentanți aleși prin vot", 
+                "Conducerea țării de către un singur om pe viață", 
+                "Votarea tuturor legilor direct pe telefon în fiecare zi", 
+                "Interzicerea alegerilor parlamentare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care sunt formele principale ale democrației directe?", 
+            raspunsuri: [
+                "Referendumul și inițiativele cetățenești", 
+                "Alegerile parlamentare și prezidențiale", 
+                "Ședințele de Guvern și decretele", 
+                "Deciziile judecătorești"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce se votează în cadrul unui referendum?", 
+            raspunsuri: [
+                "O problemă/întrebare specifică de interes public", 
+                "Un candidat pentru funcția de primar", 
+                "Lista de miniștri din Guvern", 
+                "Noul director al școlii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce tip de referendum se organizează pentru schimbarile din Constituție?", 
+            raspunsuri: [
+                "Referendum decizional", 
+                "Referendum consultativ", 
+                "Referendum școlar", 
+                "Referendum secret"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cine poate iniția un referendum consultativ pe probleme naționale?", 
+            raspunsuri: [
+                "Președintele României", 
+                "Orice judecător din țară", 
+                "Prefectul județului", 
+                "Directorul de televiziune"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este primul nivel de implicare civică a cetățeanului?", 
+            raspunsuri: [
+                "Informarea (aflarea datelor de la autorități)", 
+                "Organizarea de proteste", 
+                "Candidarea la alegeri", 
+                "Plata amenzilor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce valoare stă la baza democrației directe și reprezentative?", 
+            raspunsuri: [
+                "Libertatea, egalitatea de șanse și transparența", 
+                "Cenzura presei libere", 
+                "Privilegiile pentru conducători", 
+                "Pedeapsa fără judecată"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce se întâmplă dacă un reprezentant ales nu mai susține interesele cetățenilor?", 
+            raspunsuri: [
+                "Nu va mai fi votat la următoarele alegeri", 
+                "Rămâne în funcție pe viață", 
+                "Închide Parlamentul", 
+                "Desființează școlile"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "15. Alegerile și votul. Alegerea reprezentanților. Evaluarea activității reprezentanților aleși",
+    rezumat: `
+        <h3>1. Votul cenzitar vs. Votul universal</h3>
+        <ul>
+            <li><b>Votul cenzitar:</b> Permitea votul doar celor cu averi sau profesii speciale (trecut);</li>
+            <li><b>Votul universal:</b> Dreptul fiecărui cetățean adult (18 ani) de a vota. În România s-a introdus în 1918, iar femeile au primit drept de vot în 1938.</li>
+        </ul>
+
+        <h3>2. Tipuri de alegeri și condiții de vârstă</h3>
+        <p>Votul este facultativ, dar reprezintă o îndatorire morală. Vârsta minimă pentru candidați este:</p>
+        <ul>
+            <li><b>23 de ani:</b> Primari, consilieri, deputați și europarlamentari;</li>
+            <li><b>33 de ani:</b> Senatori;</li>
+            <li><b>35 de ani:</b> Președintele țării (mandat de 5 ani, la fel ca europarlamentarii).</li>
+        </ul>
+
+        <h3>3. Tipuri de scrutin (vot)</h3>
+        <p><b>Uninominal:</b> Votăm o singură persoană (primar, președinte).</p>
+        <p><b>Plurinominal (de listă):</b> Votăm liste de candidați (consilieri, parlamentari).</p>
+
+        <h3>4. Cine NU are drept de vot?</h3>
+        <p>Persoanele sub 18 ani, cele puse sub interdicție (afecțiuni mintale grave) și cele condamnate definitiv la pierderea drepturilor electorale.</p>
+    `,
+    stiaiCa: "În timp ce în România votul este facultativ, în țări precum Belgia sau Grecia participarea la alegeri este obligatorie prin lege pentru toți cetățenii!",
+    wordwallUrl: "https://wordwall.net/ro/embed/52ad9d384339429991c843b73283a610?themeId=52&templateId=11&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un tânăr de 24 de ani dorește să candideze pentru funcția de Senat la alegerile parlamentare. Este posibil?",
+            optiuni: [
+                { text: "Nu, vârsta minimă pentru a candida ca senator este de 33 de ani.", raspuns: "🌟 Bravo! Pentru Senat este nevoie de minimum 33 de ani!", puncte: 10 },
+                { text: "Da, după 18 ani poți candida la orice funcție din stat.", raspuns: "❌ Fiecare funcție are condiții minime de vârstă (23, 33 sau 35 de ani).", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. La alegerile locale, cetățenii primesc două buletine de vot: unul cu numele primarilor și altul cu liste de partide pentru consiliu. Ce fel de scrutin este votul pentru primar?",
+            optiuni: [
+                { text: "Scrutin uninominal (votăm o singură persoană).", raspuns: "🛡️ Excelent! Votul pentru o singură persoană este uninominal!", puncte: 10 },
+                { text: "Scrutin cenzitar obligatoriu.", raspuns: "⚠️ Alegerea primarului este un vot uninominal.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O persoană împlinește 18 ani exact în ziua alegerilor. Are voie să voteze?",
+            optiuni: [
+                { text: "Da, au drept de vot toți cetățenii care au 18 ani inclusiv în ziua alegerilor.", raspuns: "👏 Foarte bine! Vârsta de 18 ani împlinită în ziua votului dă drept plin!", puncte: 10 },
+                { text: "Nu, trebuie să aibă 18 ani împliniți cu cel puțin o lună înainte.", raspuns: "❌ Legea permite votul din prima zi în care ai împlinit 18 ani.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un cetățean susține că votul cenzitar era ma bun, când doar cei foarte bogați votau. Cum evaluezi ideea?",
+            optiuni: [
+                { text: "Este nedreaptă; votul universal asigură egalitatea tuturor cetățenilor.", raspuns: "🌟 Exact! Votul universal garantează democrația egală pentru toți!", puncte: 10 },
+                { text: "Are dreptate, oamenii săraci nu ar trebui să voteze.", raspuns: "❌ Votul cenzitar discrimina cetățenii pe baza averii.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezenta votul cenzitar din trecut?", 
+            raspunsuri: [
+                "Votul oferit doar cetățenilor cu averi sau profesii speciale", 
+                "Dreptul tuturor elevilor de a vota în școală", 
+                "Votarea secretă pe calculator", 
+                "Interzicerea alegerilor parlamentare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. În ce an au obținut femeile dreptul de vot în România?", 
+            raspunsuri: [
+                "În anul 1938", 
+                "În anul 1918", 
+                "În anul 2000", 
+                "În anul 1848"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Care este vârsta minimă pentru a avea drept de vot în România?", 
+            raspunsuri: [
+                "18 ani (împliniți inclusiv în ziua alegerilor)", 
+                "21 de ani", 
+                "16 ani", 
+                "25 de ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care este vârsta minimă pentru a candida la funcția de Președinte al României?", 
+            raspunsuri: [
+                "35 de ani", 
+                "23 de ani", 
+                "33 de ani", 
+                "50 de ani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce reprezintă scrutinul uninominal?", 
+            raspunsuri: [
+                "Votarea unei singure persoane (ex: primar, președinte)", 
+                "Votarea unei liste cu mai mulți candidați", 
+                "Anularea buletinului de vot", 
+                "Votul prin corespondență"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este durata mandatului pentru Președinte și Europarlamentari?", 
+            raspunsuri: [
+                " Un mandat de 5 ani", 
+                "Un mandat de 4 ani", 
+                "Un mandat de 2 ani", 
+                "Un mandat pe viață"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce instituție principală se ocupă de organizarea alegerilor în România?", 
+            raspunsuri: [
+                "Biroul Electoral Central (BEC)", 
+                "Ministerul Educației", 
+                "Curtea de Apel", 
+                "Poliția Locală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cine NU are drept de vot conform Constituției?", 
+            raspunsuri: [
+                "Persoanele puse sub interdicție și cele condamnate la pierderea drepturilor electorale", 
+                "Cetățenii care nu au studii superioare", 
+                "Persoanele care nu au mașină proprie", 
+                "Pensionarii"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "16. Societatea civilă, organizații nonguvernamentale, tipuri de inițiative cetățenești în comunitățile locale",
+    rezumat: `
+        <h3>1. Ce este societatea civilă?</h3>
+        <p>Reprezintă totalitatea formelor de organizare (ONG-uri, sindicate, cluburi, mișcări ecologiste, mass-media) prin care cetățenii reacționează independent de Guvern și ajută comunitatea.</p>
+
+        <h3>2. Ce sunt Organizațiile Nonguvernamentale (ONG-uri)?</h3>
+        <p>Sunt asociații sau fundații create de cetățeni. Caracteristici principale: <b>nonprofit</b> (nu urmăresc câștig de bani), <b>independență</b> și <b>neafiliere politică</b> (nu aparțin niciunui partid).</p>
+
+        <h3>3. Rolul ONG-urilor și acțiunile lor</h3>
+        <p>Promovează <b>voluntariatul</b>, campaniile publice și ajută administrația locală prin consultanță și proiecte sociale, de mediu sau de educație.</p>
+
+        <h3>4. Cum ne putem implica în comunitatea locală?</h3>
+        <ul>
+            <li>Inițierea de <b>petiții</b> (cereri oficiale);</li>
+            <li>Participarea la <b>dezbateri publice</b> și ședințe ale Consiliului Local;</li>
+            <li>Acțiuni individuale sau în grup de <b>voluntariat</b> și proteste pașnice.</li>
+        </ul>
+    `,
+    stiaiCa: "Membrii unei organizații nonguvernamentale își oferă adesea timpul și energia ca voluntari fără a fi plătiți, iar banii adunați din donații merg direct la ajutarea copiilor, animalelor sau mediului!",
+    wordwallUrl: "https://wordwall.net/ro/embed/01a92e06eaa24d9fb689c97c23d1d6ae?themeId=48&templateId=35&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un grup de elevi dorește să curățe un parc din cartier și să strângă hrană pentru animale. Înființează un mic club de voluntari. Fac ei parte din societatea civilă?",
+            optiuni: [
+                { text: "Da, inițiativele de voluntariat fac parte din societatea civilă.", raspuns: "🌟 Bravo! Implicarea cetățenilor din proprie inițiativă este esența societății civile!", puncte: 10 },
+                { text: "Nu, doar autoritățile statului pot curăța parcurile.", raspuns: "❌ Cetățenii se pot organiza independent prin voluntariat.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un membru al unei fundații ecologiste susține că ONG-ul lor trebuie să primească ordine de la un partid politic. Este corect?",
+            optiuni: [
+                { text: "Nu, ONG-urile au drept caracteristică neafilierea politică și independența.", raspuns: "🛡️ Excelent! ONG-urile sunt independente de partidele politice!", puncte: 10 },
+                { text: "Da, orice ONG trebuie condus de un partid.", raspuns: "⚠️ ONG-urile sunt neafiliate politic și își păstrează autonomia.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Oamenii dintr-un bloc sunt nemulțumiți că nu există trecere de pietoni în fața școlii. Ce formă de inițiativă cetățenească pot folosi?",
+            optiuni: [
+                { text: "Pot redacta și semna o petiție trimisă primăriei.", raspuns: "👏 Foarte bine! Petiția este un instrument legal de inițiativă cetățenească!", puncte: 10 },
+                { text: "Trebuie să aștepte alegerile de peste 4 ani.", raspuns: "❌ Cetățenii se pot adresa primăriei oricând prin petiții și dezbateri.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. O asociație care ajută adăposturile de câini folosește toate donațiile primite pentru hrana animalelor și nu păstrează profit. Cum se numește această caracteristică?",
+            optiuni: [
+                { text: "Caracter nonprofit.", raspuns: "🌟 Exact! Organizațiile nonguvernamentale funcționează fără scop lucrativ (nonprofit)!", puncte: 10 },
+                { text: "Caracter bugetar de stat.", raspuns: "❌ ONG-urile sunt private și funcționează pe principiul nonprofit.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă societatea civilă?", 
+            raspunsuri: [
+                "Formele de organizare ale cetățenilor independente de guvern", 
+                "Ansamblul clădirilor de birouri dintr-un oraș", 
+                "Armata și poliția unui stat", 
+                "Totalitatea tribunalelor din țară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele este o componentă a societății civile?", 
+            raspunsuri: [
+                "Organizațiile Nonguvernamentale (ONG-uri)", 
+                "Ministerul de Finanțe", 
+                "Președinția României", 
+                "Consiliul Județean"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce înseamnă că un ONG este 'nonprofit'?", 
+            raspunsuri: [
+                "Nu urmărește obținerea unui câștig bănesc (profit)", 
+                "Nu are voie să primească nicio donație", 
+                "Este susținut 100% din bugetul primăriei", 
+                "Funcționează doar o dată pe an"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care este o caracteristică de bază a ONG-urilor?", 
+            raspunsuri: [
+                "Neafilierea politică și autonomia", 
+                "Subordonarea față de un partid politic", 
+                "Obligația de a avea doar membri adulți", 
+                "Conducerea de către primar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cum se pot constitui ONG-urile?", 
+            raspunsuri: [
+                "Sub formă de asociații sau fundații", 
+                "Sub formă de ministere", 
+                "Sub formă de secții de poliție", 
+                "Sub formă de judecătorii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce presupune activitatea de voluntariat?", 
+            raspunsuri: [
+                "Implicarea de bunăvoie în folosul comunității, fără plată", 
+                "Munca obligatorie impusă de instanță", 
+                "Completarea alegerilor electorale", 
+                "Plata taxelor și impozitelor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care este o formă de manifestare a inițiativei cetățenești locale?", 
+            raspunsuri: [
+                "Inițierea de petiții și participarea la dezbateri", 
+                "Promulgarea unei legi de către președinte", 
+                "Suspendarea unui judecător din funcție", 
+                "Mărirea impozitelor pe locuințe"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce rol pot avea ONG-urile în raport cu administrația publică?", 
+            raspunsuri: [
+                "Parteneri și consultanți ai autorităților", 
+                "Judecători ai deciziilor primarului", 
+                "Comandanți ai armatei naționale", 
+                "Organizatori ai sesiunilor din Parlament"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "17. Mass-media și rolul ei în societate",
+    rezumat: `
+        <h3>1. Ce este mass-media?</h3>
+        <p>Reprezintă ansamblul mijloacelor de comunicare în masă care transmit informații către un număr foarte mare de oameni.</p>
+        <p><i>Nota gramaticală:</i> Expresia „mijloace mass-media” este un <b>pleonasm</b>, deoarece „media” înseamnă deja mijloace de comunicare.</p>
+
+        <h3>2. Clasificarea mijloacelor de comunicare</h3>
+        <ul>
+            <li><b>Scrise vs. Audiovizuale:</b> Ziare/reviste vs. Radio/Televiziune;</li>
+            <li><b>Tradiționale vs. Moderne:</b> Ziare/radio vs. Televiziune/Internet;</li>
+            <li><b>Frecvență:</b> Cotidiene (zilnice), hebdomadare (săptămânale) sau lunare.</li>
+        </ul>
+
+        <h3>3. Rolurile mass-mediei în societate</h3>
+        <p>Informare, educație și culturalizare (modele de comportament), divertisment (relaxare) și socializare/comunicare.</p>
+
+        <h3>4. Social media și tinerii</h3>
+        <p>Reprezintă aplicațiile și site-urile online (rețele de socializare) folosite zilnic de adolescenți pentru a schimba mesaje text, imagini, audio și clipuri video.</p>
+    `,
+    stiaiCa: "Cuvântul 'hebdomadar' vine din limba greacă (hebdomas = șapte) și denumește o publicație sau o revistă care apare exact o dată pe săptămână!",
+    wordwallUrl: "https://wordwall.net/ro/embed/d87150b6212e452bba39d41776cc4991?themeId=41&templateId=35&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Un prieten folosește expresia 'mijloace mass-media'. Profesorul de limba română îi corectează exprimarea. De ce?",
+            optiuni: [
+                { text: "Este un pleonasm, deoarece cuvântul 'media' înseamnă deja mijloace de comunicare.", raspuns: "🌟 Bravo! Ai reținut regula gramaticală din lecție!", puncte: 10 },
+                { text: "Este o cacofonie interzisă în vorbire.", raspuns: "❌ Repetarea sensului cuvintelor este un pleonasm.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un ziar local apare pe tarabe în fiecare dimineață. Cum se numește această publicație după frecvența apariției?",
+            optiuni: [
+                { text: "Ziar cotidian (cu apariție zilnică).", raspuns: "🛡️ Excelent! Cotidian înseamnă cu apariție în fiecare zi!", puncte: 10 },
+                { text: "Publicație hebdomadară.", raspuns: "⚠️ Publicațiile săptămânale sunt hebdomadare, iar cele zilnice sunt cotidiene.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Urmărești un documentar despre natură la televizor și înveți lucruri noi despre protejarea mediului. Ce rol îndeplinește mass-media în acest caz?",
+            optiuni: [
+                { text: "Rolul de educație și culturalizare.", raspuns: "👏 Foarte bine! Documentarele contribuie la educarea publicului!", puncte: 10 },
+                { text: "Doar rolul de divertisment pasiv.", raspuns: "❌ Informațiile care ne învață valori și cunoștințe îndeplinesc rolul de educație.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Trimiți un clip video amuzant unui grup de colegi pe o aplicație de chat. Ce fel de mijloc folosești?",
+            optiuni: [
+                { text: "Social media (instrument online modern).", raspuns: "🌟 Exact! Social media facilitează schimbul de conținut între membri!", puncte: 10 },
+                { text: "Mijloc de comunicare scris de tip hebdomadar.", raspuns: "❌ Aplicațiile și softurile de comunicare pe internet fac parte din social media.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă mass-media?", 
+            raspunsuri: [
+                "Ansamblul mijloacelor de comunicare adresate unui public foarte numeros", 
+                "O ședință secretă a parlamentarilor", 
+                "Un grup restrâns de prieteni din clasă", 
+                "Dicționarul de termeni juridici"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce greșeală de exprimare reprezintă formularea 'mijloace mass-media'?", 
+            raspunsuri: [
+                "Pleonasm", 
+                "Cacofonie", 
+                "Dezacord", 
+                "Hiperbolă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum se numesc publicațiile cu apariție săptămânală?", 
+            raspunsuri: [
+                "Hebdomadare", 
+                "Cotidiene", 
+                "Lunare", 
+                "Anuale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care dintre următoarele este considerat un mijloc modern de comunicare?", 
+            raspunsuri: [
+                "Internetul și social media", 
+                "Ziarul tipărit pe hârtie", 
+                "Scrisoarea prin poștă", 
+                "Revista săptămânală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce rol are mass-media când transmite emisiuni muzicale sau comedii?", 
+            raspunsuri: [
+                "Divertisment", 
+                "Sancționare penală", 
+                "Promulgare de legi", 
+                "Votare uninominală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care este forma corectă de plural a substantivului 'masă' (cu sens de mulțime)?", 
+            raspunsuri: [
+                "Mase de oameni", 
+                "Mese de oameni", 
+                "Masuri de oameni", 
+                "Masii de oameni"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce este Social Media?", 
+            raspunsuri: [
+                "Site-uri și aplicații online care facilitează schimbul de conținuturi", 
+                "Televiziunea prin cablu din anii '90", 
+                "Ziarul de sport difuzat la chioșc", 
+                "Stația de radio a școlii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce rol îndeplinește mass-media când oferă știri despre vreme sau evenimente?", 
+            raspunsuri: [
+                "Transmitere de informații", 
+                "Marginalizare socială", 
+                "Excludere electorală", 
+                "Redactare de petiții"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "18. Mass-media și rolul ei în formarea opiniei publice",
+    rezumat: `
+        <h3>1. Ce este opinia publică?</h3>
+        <p>Provenit din latină (<i>opinari</i> = a exprima o părere, <i>publicus</i> = popor), termenul înseamnă părerile exprimate de un număr mare de oameni despre o problemă de interes general.</p>
+
+        <h3>2. Cum influențează mass-media opinia publică?</h3>
+        <ul>
+            <li><b>Propagandă și reclamă:</b> Prezentarea persuasivă a ideilor pentru a câștiga adepți;</li>
+            <li><b>Manipulare:</b> Modificarea comportamentului oamenilor prin titluri șocante sau imagini emoționante;</li>
+            <li><b>Dezinformare:</b> Informarea greșită sau ascunderea unor date;</li>
+            <li><b>Discreditare:</b> Defăimarea și calomnia unei persoane.</li>
+        </ul>
+
+        <h3>3. Responsabilitate: CNA și Jurnaliștii</h3>
+        <p>În România, <b>Consiliul Național al Audiovizualului (CNA)</b> supraveghează informarea corectă. Jurnaliștii trebuie să respecte <i>deontologia</i> (codul moral): să verifice din mai multe surse, să respecte viața privată și să rectifice greșelile.</p>
+
+        <h3>4. Ce trebuie să facă cetățenii și ce este sondajul?</h3>
+        <p>Cetățenii trebuie să se informeze din mai multe surse și să nu distribuie știri false care produc panică.</p>
+        <p><b>Sondajul de opinie:</b> Tehnică (prin interviu sau chestionar) de cunoaștere a preferințelor populației.</p>
+    `,
+    stiaiCa: "Cuvântul 'deontologie' se referă la codul de reguli morale al unei profesii; jurnaliștii au obligația morală de a verifica o știre din cel puțin 3 surse independente înainte de a o publica!",
+    wordwallUrl: "https://wordwall.net/ro/embed/a66a5a7ce8324fb59f859646fd58e008?themeId=22&templateId=35&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Vezi o știre pe internet cu un titlu uriaș și șocant care anunță că școlile se închid definitiv de mâine, dar niciun alt site oficial nu scrie despre asta. Ce faci?",
+            optiuni: [
+                { text: "Nu o distribui și cauți informația pe site-urile oficiale ale ministerului.", raspuns: "🌟 Bravo! Ai evitat dezinformarea și manipularea prin titluri șocante!", puncte: 10 },
+                { text: "O trimiți imediat pe toate grupurile de clasa pentru a avertiza colegii.", raspuns: "❌ Cetățenii nu trebuie să distribuie știri neverificate care produc panică.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. O emisiune TV prezintă imagini vechi din altă țară susținând că se petrec azi în orașul tău. Ce instituție poate sancționa postul TV?",
+            optiuni: [
+                { text: "Consiliul Național al Audiovizualului (CNA).", raspuns: "🛡️ Excelent! CNA supraveghează informarea corectă a cetățenilor!", puncte: 10 },
+                { text: "Consiliul Județean.", raspuns: "⚠️ CNA este instituția publică ce supraveghează audiovizualul.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un jurnalist descoperă că a scris o informație greșită într-un articol de ieri. Ce obligă deontologia profesională să facă?",
+            optiuni: [
+                { text: "Să rectifice (să corecteze) public informația falsă.", raspuns: "👏 Foarte bine! Codul moral al jurnaliștilor cere rectificarea greșelilor!", puncte: 10 },
+                { text: "Să șteargă totul și să se prefacă că nu a scris nimic.", raspuns: "❌ Jurnaliștii responsabili publică erata și corectează informația.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Înainte de alegeri, o firmă întreabă 1.000 de cetățeni pe stradă cu cine vor vota. Cum se numește această cercetare?",
+            optiuni: [
+                { text: "Sondaj de opinie electoral.", raspuns: "🌟 Exact! Sondajul măsoară preferințele populației într-o problemă generală!", puncte: 10 },
+                { text: "Moțiune de cenzură.", raspuns: "❌ Întrebarea populației prin chestionar reprezintă un sondaj de opinie.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă opinia publică?", 
+            raspunsuri: [
+                "Părerile exprimate de un număr mare de oameni privind o problemă generală", 
+                "Gândurile secrete ale unui singur om", 
+                "Regulamentul scris de judecători", 
+                "Decizia primarului într-o ședință"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce este manipularea prin mass-media?", 
+            raspunsuri: [
+                "Modificarea atitudinii oamenilor în interesul unor centre de putere", 
+                "Traducerea unui film în limba română", 
+                "Tipărirea ziarului pe hârtie reciclată", 
+                "Repararea antenelor de televiziune"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce instituție din România supraveghează informarea corectă la radio și TV?", 
+            raspunsuri: [
+                "Consiliul Național al Audiovizualului (CNA)", 
+                "Inspectoratul Școlar", 
+                "Avocatul Poporului", 
+                "Curtea Constituțională"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce reprezintă deontologia jurnaliștilor?", 
+            raspunsuri: [
+                "Un cod de reguli și valori morale față de cetățeni", 
+                "Diplomă de absolvire a facultății", 
+                "Abonamentul lunar la ziare", 
+                "Taxa plătită de televiziuni"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce obligație au cetățenii pentru a evita dezinformarea?", 
+            raspunsuri: [
+                "Să se informeze din mai multe surse", 
+                "Să creadă primul titlu văzut pe internet", 
+                "Să distribuie rapid orice știre alarmantă", 
+                "Să nu mai citească nicio știre niciodată"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Cum se numeste tehnica de investigare a preferințelor populației prin chestionar?", 
+            raspunsuri: [
+                "Sondaj de opinie", 
+                "Promulgare", 
+                "Abrogare", 
+                "Referendum decizional"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce înseamnă dezinformarea?", 
+            raspunsuri: [
+                "Informarea eronată sau ascunderea intenționată a datelor", 
+                "Publicarea unui ziar săptămânal", 
+                "Organizarea de emisiuni pentru copii", 
+                "Transmiterea meciurilor de fotbal"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Din ce limba provin termenii 'opinari' și 'publicus'?", 
+            raspunsuri: [
+                "Limba latină", 
+                "Limba greacă", 
+                "Limba engleză", 
+                "Limba franceză"
             ], 
             corect: 0 
         }

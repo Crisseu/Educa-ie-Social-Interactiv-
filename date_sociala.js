@@ -6800,6 +6800,1759 @@ const dateSociala = {
             corect: 0 
         }
     ]
+},
+{
+    titlu: "6. Valoarea și funcțiile banilor",
+    rezumat: `
+        <h3>1. Ce determină valoarea banilor?</h3>
+        <p>Banii nu au o valoare proprie, ci una atribuită de:</p>
+        <ul>
+            <li><b>Valoarea nominală (cupiura):</b> Cifra scrisă pe bancnotă/monedă (ex: 100 lei);</li>
+            <li><b>Puterea de cumpărare:</b> Cât putem cumpăra cu ei (relație <i>invers proporțională</i> cu prețul: când prețurile cresc, valoarea banilor scade);</li>
+            <li><b>Alegerile oamenilor</b> și <b>valoarea muncii</b> prestate.</li>
+        </ul>
+
+        <h3>2. Funcțiile principale ale banilor</h3>
+        <ul>
+            <li><b>Măsură a valorii:</b> Exprimăm în bani prețul oricărui bun sau serviciu;</li>
+            <li><b>Mijloc de schimb:</b> Cumpărăm alimente, haine, cărți sau servicii;</li>
+            <li><b>Mijloc de plată:</b> Achităm salarii, impozite, chirii, amenzi sau rate bancare;</li>
+            <li><b>Mijloc de economisire:</b> Păstrăm bani azi pentru nevoile din viitor.</li>
+        </ul>
+    `,
+    stiaiCa: "Fața unei monede sau bancnote se numește avers, iar spatele ei se numește revers. Termenul cupiură desemnează valoarea înscrisă pe acea bancnotă!",
+    wordwallUrl: "https://wordwall.net/ro/embed/991d5e84cd144eb19c66c765171c73f6?themeId=54&templateId=3&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Anul trecut puteai cumpăra 10 caiete cu 50 de lei. Anul acesta, pentru că prețul caietelor a crescut, cu aceiași 50 de lei mai poți cumpăra doar 7 caiete. Ce s-a întâmplat cu valoarea banilor?",
+            optiuni: [
+                { text: "Valoarea banilor a scăzut (relație invers proporțională cu prețurile).", raspuns: "🌟 Bravo! Când prețurile cresc, puterea de cumpărare a banilor scade!", puncte: 10 },
+                { text: "Valoarea banilor a crescut de două ori.", raspuns: "❌ Când cumperi mai puține produse cu aceeași sumă, valoarea banilor scade.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Părinții tăi primesc salariul la finalul lunii și plătesc factura la curent și impozitul pe casă. Ce funcție îndeplinesc banii în aceste situații?",
+            optiuni: [
+                { text: "Mijloc de plată.", raspuns: "🛡️ Excelent! Plata salariilor, taxelor și facturilor este funcția de mijloc de plată!", puncte: 10 },
+                { text: "Mijloc de economisire.", raspuns: "⚠️ Economisirea înseamnă păstrarea banilor, iar achitarea datoriilor/taxelor este mijloc de plată.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Pui deoparte câte 20 de lei în fiecare săptămână într-o pușculiță pentru a-ți cumpăra o bicicletă la vară. Ce funcție a banilor folosești?",
+            optiuni: [
+                { text: "Mijloc de economisire.", raspuns: "👏 Foarte bine! Păstrarea banilor din prezent pentru viitor reprezintă economisirea!", puncte: 10 },
+                { text: "Măsură a valorii.", raspuns: "❌ Păstrarea banilor pentru o achiziție viitoare este funcția de economisire.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Te uiți la etichetele din librărie și observi că un ghiozdan costă 150 de lei, iar un stilou costă 30 de lei. Ce funcție a banilor te ajută să compari cele două produse?",
+            optiuni: [
+                { text: "Măsură a valorii.", raspuns: "🌟 Exact! Banii ne ajută să evaluăm și să comparăm valoarea bunurilor!", puncte: 10 },
+                { text: "Mijloc de plată a amenzilor.", raspuns: "❌ Stabilirea și compararea prețurilor reprezintă funcția de măsură a valorii.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cum se numește cifra (valoarea) înscrisă pe o bancnotă sau monedă?", 
+            raspunsuri: [
+                "Valoare nominală (cupiură)", 
+                "Valoare sentimentală", 
+                "Valoare de troc", 
+                "Valoare juridică"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce relație există între prețul bunurilor și valoarea (puterea de cumpărare) a banilor?", 
+            raspunsuri: [
+                "Relație invers proporțională", 
+                "Relație direct proporțională", 
+                "Nu există nicio legătură", 
+                "Relație identică permanent"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce se întâmplă cu valoarea banilor atunci când prețurile produselor SCAD?", 
+            raspunsuri: [
+                "Valoarea banilor crește (putem cumpăra mai mult)", 
+                "Valoarea banilor dispare complet", 
+                "Valoarea banilor scade la jumătate", 
+                "Bancnotele își schimbă culoarea"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce funcție îndeplinesc banii atunci când mergem la magazin să cumpărăm alimente?", 
+            raspunsuri: [
+                "Mijloc de schimb", 
+                "Mijloc de economisire", 
+                "Mijloc de sancționare", 
+                "Mijloc de votare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. În ce funcție a banilor se încadrează achitarea salariilor, impozitelor și amenzilor?", 
+            raspunsuri: [
+                "Mijloc de plată", 
+                "Măsură a valorii", 
+                "Mijloc de divertisment", 
+                "Mijloc de transport"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce presupune funcția banilor ca 'măsură a valorii'?", 
+            raspunsuri: [
+                "Exprimarea în bani a valorii tuturor bunurilor și serviciilor", 
+                "Cântărirea monedelor la bancă", 
+                "Măsurarea lungimii bancnotelor cu rigla", 
+                "Numărarea banilor din pușculiță"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Cine poate folosi banii ca mijloc de economisire?", 
+            raspunsuri: [
+                "Atât persoanele fizice, cât și firmele (persoanele juridice)", 
+                "Doar băncile naționale", 
+                "Numai copiii sub 14 ani", 
+                "Doar primăriile și ministerele"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum se numesc cele două fețe ale unei monede sau bancnote?", 
+            raspunsuri: [
+                "Avers (fața) și revers (spatele)", 
+                "Stânga și dreapta", 
+                "Interior și exterior", 
+                "Nominal și scriptural"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "7. Moneda națională a României",
+    rezumat: `
+        <h3>1. Scurt istoric al monedei pe teritoriul nostru</h3>
+        <p>Cea mai veche monedă emisă pe teritoriul țării noastre a fost <b>drahma de argint</b> (orașul Histria, anul 480 î.H.). De-a lungul timpului au circulat denari romani, galbeni, parale, taleri olandezi etc.</p>
+        <p>Strămoșul leului este <b>talerul-leu olandez</b> (1575), care avea gravat pe revers un leu rampant (ridicat pe labele din spate).</p>
+
+        <h3>2. Apariția leului românesc</h3>
+        <ul>
+            <li><b>1867:</b> Este stabilită moneda națională <b>leu</b> (monedă metalică împărțită în 100 de bani);</li>
+            <li><b>1877:</b> Apar primii bani românești de hârtie, pentru cheltuielile din Războiul de Independență.</li>
+        </ul>
+
+        <h3>3. Banii aflați astăzi în circulație</h3>
+        <ul>
+            <li><b>Monede:</b> 1 ban, 5 bani, 10 bani, 50 de bani;</li>
+            <li><b>Bancnote:</b> 1 leu, 5 lei, 10 lei, 20 de lei, 50 de lei, 100 de lei, 200 de lei, 500 de lei.</li>
+        </ul>
+
+        <h3>4. Elemente de siguranță și cursul valutar</h3>
+        <p>Bancnotele au ca elemente de identificare: <b>anul fabricației</b>, <b>cupiura</b> și <b>semnătura guvernatorului BNR și a casierului central</b>.</p>
+        <p><b>Cursul valutar</b> este prețul de schimb al unei monede într-o altă valută (ex: 1 EUR = 4,7788 RON).</p>
+    `,
+    stiaiCa: "Chiar dacă talerul olandez cu leu a dispărut demult din circulație, oamenii din Țările Române s-au obișnuit atât de mult să calculeze prețurile în „lei”, încât în 1867 statul român a ales oficial acest nume pentru moneda națională!",
+    wordwallUrl: "https://wordwall.net/ro/embed/9774404d5c3a46a5a510bf9968459481?themeId=22&templateId=2&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Primești rest o bancnotă de 50 de lei care nu are anul fabricației și nici semnătura guvernatorului BNR. Ce trebuie să suspectezi?",
+            optiuni: [
+                { text: "Că bancnota este falsă, deoarece îi lipsesc elementele obligatorii de siguranță.", raspuns: "🌟 Bravo! Semnătura guvernatorului BNR și anul fabricației sunt elemente esențiale de identificare!", puncte: 10 },
+                { text: "Că este o ediție specială de sărbători.", raspuns: "❌ Toate bancnotele legale au imprimate aceste elemente de siguranță.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Pleci într-o excursie la Chișinău și vrei să afli câți lei moldovenești (MDL) primești pentru 100 de lei românești (RON). Ce indicator verifici?",
+            optiuni: [
+                { text: "Cursul valutar stabilit de banca națională.", raspuns: "🛡️ Excelent! Cursul valutar arată prețul de schimb al unei monede într-o valută!", puncte: 10 },
+                { text: "Numărul de monede de 1 ban din circulație.", raspuns: "⚠️ Schimbul dintre două monede diferite se face pe baza cursului valutar.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un coleg afirmă că primii bani românești de hârtie au apărut abia după Primul Război Mondial. Are dreptate?",
+            optiuni: [
+                { text: "Nu, primii bani românești de hârtie au fost emiși în anul 1877, în timpul Războiului de Independență.", raspuns: "👏 Foarte bine! În 1877 au fost tipărite primele bancnote românești!", puncte: 10 },
+                { text: "Da, înainte de 1920 existau doar monede din lemn.", raspuns: "❌ Primii bani de hârtie din România au apărut în anul 1877.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Vrei să cumperi un covrig de 2 lei și ai în buzunar doar monede de 50 de bani. Câte monede de 50 de bani îți trebuie?",
+            optiuni: [
+                { text: "4 monede de 50 de bani (deoarece 1 leu = 100 de bani).", raspuns: "🌟 Exact! 4 x 50 bani = 200 bani = 2 lei!", puncte: 10 },
+                { text: "2 monede de 50 de bani.", raspuns: "❌ 2 monede de 50 de bani fac doar 100 de bani, adică 1 leu.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Care a fost cea mai veche monedă emisă pe teritoriul țării noastre (în anul 480 î.H.)?", 
+            raspunsuri: [
+                "Drahma de argint de la Histria", 
+                "Talerul olandez", 
+                "Leul românesc", 
+                "Dolarul american"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. De la ce monedă străină provine denumirea de „leu” a monedei noastre?", 
+            raspunsuri: [
+                "De la talerul-leu olandez (leeuwendaalder)", 
+                "De la parala turcească", 
+                "De la țechinul venețian", 
+                "De la creițarul nemțesc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. În ce an a fost stabilit leul ca monedă națională a României?", 
+            raspunsuri: [
+                "În anul 1867", 
+                "În anul 1575", 
+                "În anul 1918", 
+                "În anul 2002"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. În ce context au fost emiși primii bani românești de hârtie în anul 1877?", 
+            raspunsuri: [
+                "Pentru acoperirea cheltuielilor din Războiul de Independență", 
+                "Pentru construirea primului metrou din București", 
+                "Pentru aderarea la Uniunea Europeană", 
+                "Pentru organizarea Jocurilor Olimpice"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Câte subdiviziuni (bani) are 1 leu românesc?", 
+            raspunsuri: [
+                "100 de bani", 
+                "50 de bani", 
+                "10 bani", 
+                "1000 de bani"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care dintre următoarele valori este o MONEDĂ aflată astăzi în circulație în România?", 
+            raspunsuri: [
+                "50 de bani", 
+                "5 lei", 
+                "20 de lei", 
+                "100 de lei"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce element de siguranță apare imprimat pe bancnotele românești?", 
+            raspunsuri: [
+                "Semnătura guvernatorului BNR și a casierului central", 
+                "Numele primarului din capitală", 
+                "Semnătura directorului școlii", 
+                "Data de expirare a bancnotei"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce reprezintă cursul valutar?", 
+            raspunsuri: [
+                "Prețul de schimb al unei monede într-o altă valută", 
+                "Greutatea în grame a unei monede de metal", 
+                "Taxa plătită pentru tipărirea banilor", 
+                "Suma maximă pe care o poți ține în portofel"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "8. Instrumente și mijloace de plată: prin numerar, prin card, prin internet și mobile banking",
+    rezumat: `
+        <h3>1. Ce este plata și numerarul?</h3>
+        <p><b>Plata</b> reprezintă un transfer de bani prin care se achită o datorie (de la <i>plătitor</i> către beneficiar).</p>
+        <p><b>Numerarul (cash sau bani lichizi):</b> Este mijlocul direct de plată format din monedele și bancnotele aflate în circulație.</p>
+
+        <h3>2. Cardul bancar: Debit vs. Credit</h3>
+        <p>Cardul este un instrument din plastic cu un cip electronic. Poate fi:</p>
+        <ul>
+            <li><b>Card de debit:</b> Folosește banii proprii pe care îi ai deja în contul tău bancar;</li>
+            <li><b>Card de credit:</b> Folosește bani împrumutați de la bancă, pe care trebuie să îi restitui ulterior.</li>
+        </ul>
+
+        <h3>3. Plăți online la distanță</h3>
+        <ul>
+            <li><b>Internet banking:</b> Platformă online a băncii accesată pe browser cu o parolă;</li>
+            <li><b>Mobile banking:</b> Aplicație instalată direct pe telefonul mobil (smartphone) sau tabletă pentru plăți rapide.</li>
+        </ul>
+        <p>Prin ele se pot plăti facturi, taxe, impozite sau face transferuri în lei și valută.</p>
+    `,
+    stiaiCa: "Primele carduri bancare din lume nu aveau cip sau bandă magnetică – erau făcute din carton sau metal, iar datele clientului erau ștanțate în relief pentru a fi copiate pe o foaie de hârtie la magazin!",
+    wordwallUrl: "https://wordwall.net/ro/embed/492384c959b74a599a0ec6704e372eac?themeId=51&templateId=2&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții tăi cumpără un televizor și folosesc un card bancar, deși nu aveau acei bani în cont, urmând să îi returneze băncii luna viitoare. Ce tip de card au folosit?",
+            optiuni: [
+                { text: "Card de credit (plată cu bani împrumutați de la bancă).", raspuns: "🌟 Bravo! Cardul de credit folosește o linie de împrumut oferită de bancă!", puncte: 10 },
+                { text: "Card de debit cu numerar lichid.", raspuns: "❌ Cardul de debit extrage doar banii proprii existenți deja în cont.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Vrei să achiți factura la internet de acasă, folosind o aplicație descărcată pe smartphone-ul tău. Ce serviciu bancar utilizezi?",
+            optiuni: [
+                { text: "Mobile banking.", raspuns: "🛡️ Excelent! Aplicația bancară de pe telefonul mobil reprezintă serviciul de mobile banking!", puncte: 10 },
+                { text: "Plată prin troc direct.", raspuns: "⚠️ Tranzacțiile efectuate prin aplicația de pe telefon fac parte din mobile banking.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un vânzător la o piață de legume acceptă doar 'bani lichizi'. Ce îți cere el de fapt?",
+            optiuni: [
+                { text: "Numerar (bancnote și monede aflate în circulație).", raspuns: "👏 Foarte bine! Cash sau bani lichizi sunt alte denumiri pentru numerar!", puncte: 10 },
+                { text: "Un transfer printr-o platformă de internet banking.", raspuns: "❌ Bani lichizi înseamnă monede și bancnote fizice (numerar).", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Primești un mesaj suspect pe telefon în care ți se cere parola de la aplicația de mobile banking pentru 'actualizarea datelor'. Cum procedezi?",
+            optiuni: [
+                { text: "Nu trimit niciodată parola și anunț părinții sau banca.", raspuns: "🌟 Exact! Parola de internet/mobile banking este strict personală și secretă!", puncte: 10 },
+                { text: "Trimit parola rapid ca să nu îmi blocheze contul.", raspuns: "❌ Băncile nu cer niciodată parolele prin mesaje sau e-mailuri.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă plata în economie?", 
+            raspunsuri: [
+                "Un transfer de fonduri prin care se stinge o obligație (se achită o datorie)", 
+                "O promisiune verbală fără nicio valoare", 
+                "Tipărirea de bani noi într-o fabrică", 
+                "Schimbul de informații la televizor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum mai este cunoscut numerarul în limbajul curent?", 
+            raspunsuri: [
+                "Cash sau bani lichizi", 
+                "Monedă virtuală", 
+                "Criptomonedă", 
+                "Internet banking"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce dispozitiv conține în interior un card bancar modern?", 
+            raspunsuri: [
+                "Un cip electronic pe care sunt stocate informații", 
+                "O baterie solară de rezervă", 
+                "Un card de memorie pentru fotografii", 
+                "O antenă radio de mari dimensiuni"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce sunt cardurile de DEBIT?", 
+            raspunsuri: [
+                "Carduri care extrag banii proprii aflați deja în contul bancar", 
+                "Carduri care oferă bani împrumutați de la bancă", 
+                "Carduri de reducere la librărie", 
+                "Bilete de călătorie cu trenul"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Prin ce se deosebește cardul de CREDIT de cel de debit?", 
+            raspunsuri: [
+                "Permite plăți cu bani împrumutați de la bancă, ce trebuie restituiți ulterior", 
+                "Este confecționat din hârtie reciclată", 
+                "Nu poate fi folosit la cumpărături", 
+                "Nu are nevoie de un cont bancar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce este serviciul de internet banking?", 
+            raspunsuri: [
+                "O platformă online a băncii accesată pe bază de parolă pentru a face plăți", 
+                "Un magazin online de telefoane mobile", 
+                "Un joc video cu simulări economice", 
+                "O rețea de socializare pentru bancheri"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce reprezintă mobile banking?", 
+            raspunsuri: [
+                "O aplicație pe smartphone sau tabletă pentru tranzacții bancare rapide", 
+                "Un bancomat instalat într-un autobuz", 
+                "Plata abonamentului la telefon prin poștă", 
+                "Încărcarea telefonului la priză"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce tipuri de operațiuni se pot face prin internet și mobile banking?", 
+            raspunsuri: [
+                "Plăți facturi, taxe, impozite și transferuri în lei sau valută", 
+                "Tipărirea de bancnote acasă la imprimantă", 
+                "Anularea datoriilor fără a le plăti", 
+                "Modificarea cursului valutar al BNR"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "9. Alegerea unui scop. Nevoi și dorințe versus resurse",
+    rezumat: `
+        <h3>1. Ce sunt nevoile (trebuințele)?</h3>
+        <p>Sunt necesități ale oamenilor satisfăcute prin consumul de bunuri și servicii. După complexitate, ele se împart în:</p>
+        <ul>
+            <li><b>Nevoi de bază (inferioare):</b> Hrană, apă, adăpost, siguranță, interacțiune și apartenența la grupuri;</li>
+            <li><b>Nevoi superioare:</b> Recunoaștere socială, dezvoltare personală și autorealizare.</li>
+        </ul>
+
+        <h3>2. Ce sunt dorințele?</h3>
+        <p>Sunt aspirații către obiecte sau experiențe care ne aduc plăcere (ex: un parfum de brand, un spectacol, o excursie). Ceea ce pentru unii este o dorință, pentru alții poate fi o necesitate.</p>
+
+        <h3>3. Resursele și scopurile personale</h3>
+        <p><b>Resursele</b> sunt mijloacele (bani, timp, energie, cunoștințe) pe care le folosim pentru a ne îndeplini nevoile și dorințele.</p>
+        <p><b>Scopurile personale</b> sunt țintele pe care ni le propunem. Ele ne oferă o <i>viziune pe termen lung</i> și <i>motivație pe termen scurt</i>.</p>
+    `,
+    stiaiCa: "Psihologul Abraham Maslow a așezat nevoile umane sub forma unei piramide: oamenii nu se pot concentra pe nevoile superioare (cum ar fi autorealizarea) dacă nu își satisfac mai întâi nevoile de bază precum hrana, apa și siguranța!",
+    wordwallUrl: "https://wordwall.net/ro/embed/52d257a7c7714c1b873ddaac0a37fade?themeId=60&templateId=49&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Ai primit 100 de lei de la bunici. Îți este foarte foame după ore, dar îți dorești și un bilet la un concert de luna viitoare. Ce alegi să satisfaci mai întâi?",
+            optiuni: [
+                { text: "Cumpăr ceva de mâncare (nevoie de bază), iar restul banilor îi pun deoparte pentru concert (dorință).", raspuns: "🌟 Bravo! Nevoile de bază (hrana) au întotdeauna prioritate față de dorințe!", puncte: 10 },
+                { text: "Cheltuiesc toți banii pe bilet și stau nemâncat toată ziua.", raspuns: "❌ Satisfacerea nevoilor vitale este esențială înaintea dorințelor de relaxare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Pentru un sportiv de performanță, o pereche de adidași speciali de alergare este o necesitate zilnică, pe când pentru un elev obișnuit poate fi doar o dorință de modă. Ce demonstrează acest lucru?",
+            optiuni: [
+                { text: "Nevoile și dorințele nu sunt identice pentru toți oamenii.", raspuns: "🛡️ Excelent! Ceea ce pentru unii este o dorință, pentru alții reprezintă o necesitate!", puncte: 10 },
+                { text: "Toți oamenii au exact aceleași nevoi și dorințe în fiecare zi.", raspuns: "⚠️ Nevoile și dorințele diferă în funcție de ocupație, vârstă și stil de viață.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Îți dorești să intri la un liceu foarte bun și îți propui să înveți câte o oră în plus în fiecare zi. Ce ai stabilit în acest caz?",
+            optiuni: [
+                { text: "Un scop personal (care îți oferă o viziune pe termen lung și motivație zilnică).", raspuns: "👏 Foarte bine! Scopurile personale ne ajută să alegem ce este important și ne întăresc încrederea!", puncte: 10 },
+                { text: "O nevoie biologică de bază.", raspuns: "❌ Țintele pe care ni le propunem prin acțiunile noastre sunt scopuri personale.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un coleg susține că singurele resurse de care ai nevoie pentru a-ți atinge un scop sunt banii. Are dreptate?",
+            optiuni: [
+                { text: "Nu, resursele includ orice mijloace valorificate: timp, energie, cunoștințe, abilități și bani.", raspuns: "🌟 Exact! Resursele sunt toate mijloacele pe care le folosim pentru a realiza un scop!", puncte: 10 },
+                { text: "Da, fără sume mari de bani nu există niciun fel de resurse.", raspuns: "❌ Timpul, educația și munca proprie sunt resurse la fel de importante ca banii.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce sunt nevoile (trebuințele) oamenilor?", 
+            raspunsuri: [
+                "Necesități ale oamenilor satisfăcute prin consumul de bunuri și servicii", 
+                "Doar obiectele de lux foarte scumpe", 
+                "Regulile scrise în Codul Rutier", 
+                "Bancnotele străine aflate la bancă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Care dintre următoarele fac parte din categoria nevoilor de bază?", 
+            raspunsuri: [
+                "Hrana, apa, adăpostul și siguranța", 
+                "Autorealizarea și faima mondială", 
+                "Achiziția unui parfum de brand", 
+                "Participarea la un festival de muzică"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce exemple se încadrează în categoria nevoilor SUPERIOARE?", 
+            raspunsuri: [
+                "Recunoașterea socială, dezvoltarea personală și autorealizarea", 
+                "Apa potabilă și hrana zilnică", 
+                "Adăpostul împotriva frigului", 
+                "Somnul și odihna fizică"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce sunt dorințele?", 
+            raspunsuri: [
+                "Stări sufletești care aspiră către obiecte sau experiențe ce aduc plăcere", 
+                "Obligații legale impuse de primărie", 
+                "Taxe plătite către bugetul de stat", 
+                "Resurse naturale inepuizabile"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce reprezintă resursele în raport cu scopurile noastre?", 
+            raspunsuri: [
+                "Mijloacele pe care le valorificăm pentru realizarea unui scop personal", 
+                "Obstacolele care ne împiedică să evoluăm", 
+                "Doar monedele vechi din muzee", 
+                "Amenzile primite pentru încălcarea legii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce sunt scopurile personale?", 
+            raspunsuri: [
+                "Țintele către care tinde cineva prin acțiunile sale", 
+                "Dorințele altor persoane impuse cu forța", 
+                "Produsele expirate dintr-un magazin", 
+                "Conturile bancare ale firmelor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce îi oferă unui om stabilirea unor scopuri personale clare?", 
+            raspunsuri: [
+                "Viziune pe termen lung, motivație pe termen scurt și încredere în sine", 
+                "Scutire de la plata tuturor produselor", 
+                "Dreptul de a nu mai respecta nicio regulă", 
+                "O diplomă automată fără efort"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Este adevărat că nevoile și dorințele sunt identice pentru toți oamenii?", 
+            raspunsuri: [
+                "Nu; ceea ce pentru unii este o dorință, pentru alții poate fi o necesitate", 
+                "Da, toți oamenii își doresc exact aceleași lucruri", 
+                "Da, dorințele sunt stabilite prin lege pentru toată țara", 
+                "Nu, doar adulții au dorințe, copiii nu"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "10. Resurse necesare pentru atingerea unui scop",
+    rezumat: `
+        <h3>1. Categorii principale de resurse</h3>
+        <ul>
+            <li><b>Resursele materiale:</b> Bunurile care asigură calitatea vieții (locuința, electrocasnicele, autoturismul personal);</li>
+            <li><b>Resursele financiare:</b> Veniturile (salarii, economii). Sunt <i>limitate</i>, contribuie la obținerea celorlalte resurse, iar epuizarea lor duce la împrumuturi;</li>
+            <li><b>Resursele umane:</b> Oamenii care ne ajută să ne atingem scopurile, dar și <b>resursele personale</b> (trăsăturile noastre de caracter: voință, încredere, creativitate, echilibru).</li>
+        </ul>
+
+        <h3>2. Alte resurse indispensabile</h3>
+        <ul>
+            <li><b>Resursele informaționale:</b> Cunoștințele acumulate și accesul la surse de informare și comunicare (cărți, internet, telefon, televiziune);</li>
+            <li><b>Resursele de timp:</b> Durata necesară realizării unui scop. Timpul trebuie estimat corect pentru a nu rata termenul final.</li>
+        </ul>
+    `,
+    stiaiCa: "Spre deosebire de banii care pot fi economisiți sau împrumutați, timpul este singura resursă care nu poate fi stocată, cumpărată sau recuperată odată ce a trecut — de aceea organizarea lui este esențială!",
+    wordwallUrl: "https://wordwall.net/ro/embed/c9b7152c1700456eb96af1013d3844da?themeId=46&templateId=48&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Vrei să pregătești un proiect important pentru olimpiadă, dar amâni totul până în ultima seară și nu reușești să îl termini. Ce resursă ai gestionat greșit?",
+            optiuni: [
+                { text: "Resursele de timp (nu ai estimat corect durata necesară).", raspuns: "🌟 Bravo! Estimarea greșită a timpului duce la nerealizarea scopului la termen!", puncte: 10 },
+                { text: "Resursele materiale ale școlii.", raspuns: "❌ Amânarea și lipsa de organizare țin de gestionarea resurselor de timp.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Te pregătești pentru un examen și folosești manuale, culegeri, laptopul și internetul pentru a căuta lecții explicative. Ce tip de resurse utilizezi?",
+            optiuni: [
+                { text: "Resurse informaționale.", raspuns: "🛡️ Excelent! Cărțile, internetul și cunoștințele sunt resurse informaționale!", puncte: 10 },
+                { text: "Resurse financiare nerambursabile.", raspuns: "⚠️ Accesul la informație și surse de studiu reprezintă resurse informaționale.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O sportivă își propune să câștige o medalie. Pe lângă antrenorul care o îndrumă, ea are multă voință, creativitate și încredere în sine. În ce categorie intră aceste calități?",
+            optiuni: [
+                { text: "Resurse umane (mai exact, resurse personale de caracter).", raspuns: "👏 Foarte bine! Antrenorul și trăsăturile personale fac parte din resursele umane!", puncte: 10 },
+                { text: "Resurse materiale de consum.", raspuns: "❌ Voința, încrederea și oamenii care ne sprijină sunt resurse umane.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. O familie își cheltuiește toate economiile înainte de finalul lunii și este nevoită să ceară un credit de la bancă. Ce trăsătură a resurselor financiare se observă aici?",
+            optiuni: [
+                { text: "Resursele financiare sunt limitate, iar epuizarea lor presupune apelarea la împrumuturi.", raspuns: "🌟 Exact! Banii sunt limitați și trebuie administrați cu grijă!", puncte: 10 },
+                { text: "Resursele financiare sunt inepuizabile ca aerul.", raspuns: "❌ Doar bunurile libere din natură sunt nelimitate; banii sunt o resursă limitată.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Care dintre următoarele elemente fac parte din resursele MATERIALE?", 
+            raspunsuri: [
+                "Locuința, electrocasnicele și autoturismul personal", 
+                "Voința, creativitatea și încrederea în sine", 
+                "Cărțile, ziarele și rețelele de internet", 
+                "Orele libere de la sfârșitul săptămânii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce se întâmplă atunci când se epuizează resursele financiare ale unei persoane?", 
+            raspunsuri: [
+                "Se apelează la împrumuturi", 
+                "Se transformă automat în resurse de timp", 
+                "Prețurile din magazine scad la zero", 
+                "Nu mai este nevoie de niciun fel de resurse"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce rol au resursele financiare față de celelalte categorii de resurse?", 
+            raspunsuri: [
+                "Contribuie la asigurarea celorlalte resurse", 
+                "Înlocuiesc complet nevoia de a învăța", 
+                "Sunt singurele resurse care nu se termină niciodată", 
+                "Nu au nicio legătură cu scopurile personale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce includ resursele UMANE în atingerea unui scop?", 
+            raspunsuri: [
+                "Persoanele care ne ajută și resursele personale (voință, creativitate)", 
+                "Doar banii din contul bancar", 
+                "Mobilierul și aparatura din casă", 
+                "Numărul de zile dintr-un an calendaristic"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Din ce categorie fac parte trăsăturile de caracter precum voința, încrederea și echilibrul?", 
+            raspunsuri: [
+                "Resurse personale (parte a resurselor umane)", 
+                "Resurse materiale", 
+                "Resurse informaționale", 
+                "Resurse financiare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Care sunt exemple de resurse INFORMAȚIONALE?", 
+            raspunsuri: [
+                "Cunoștințele asimilate, cărțile, internetul și telefonul mobil", 
+                "Autoturismul și apartamentul familiei", 
+                "Salariul lunar și economiile din bancă", 
+                "Răbdarea și curajul unui sportiv"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. De ce trebuie estimat foarte bine timpul atunci când ne propunem un scop?", 
+            raspunsuri: [
+                "Pentru a evita riscul nerealizării la termen a rezultatului final", 
+                "Pentru a primi mai mulți bani de buzunar", 
+                "Deoarece timpul poate fi depozitat la bancă", 
+                "Pentru a nu mai folosi resurse informaționale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. De ce depinde măsura în care fiecare resursă contribuie la atingerea unui scop?", 
+            raspunsuri: [
+                "De domeniul vizat (educație, carieră, afaceri, artă, sport etc.)", 
+                "Doar de anotimpul în care ne aflăm", 
+                "Exclusiv de culoarea bancnotelor", 
+                "De numărul de prieteni de pe rețelele sociale"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "11. Venituri și cheltuieli ale familiei",
+    rezumat: `
+        <h3>1. Sursele de venituri ale familiei</h3>
+        <p>Sunt sumele de bani obținute de membrii familiei, indiferent de vârstă: <b>salarii</b>, <b>alocații</b>, <b>pensii</b>, indemnizații, venituri din activități independente, <b>chirii</b> și <b>dobânzi</b>.</p>
+
+        <h3>2. Obiectivele pentru cheltuieli</h3>
+        <ul>
+            <li><b>Cheltuieli pentru consum:</b> Alimentație, haine, întreținerea locuinței, sănătate, educație, transport, telefonie, timp liber;</li>
+            <li><b>Cheltuieli pentru investiții:</b> Cumpărări de terenuri, bunuri de valoare, construcții noi și reparații mari;</li>
+            <li><b>Cheltuieli de producție:</b> Întreținerea gospodăriilor rurale;</li>
+            <li><b>Impozite și taxe</b>, plus alte cheltuieli.</li>
+        </ul>
+
+        <h3>3. Bugetul de familie</h3>
+        <p>Reprezintă estimarea pe o perioadă a veniturilor și cheltuielilor unei familii. Poate fi:</p>
+        <ul>
+            <li><b>Excedentar:</b> Veniturile sunt mai mari decât cheltuielile;</li>
+            <li><b>Echilibrat:</b> Veniturile sunt aproximativ egale cu cheltuielile;</li>
+            <li><b>Deficitar:</b> Veniturile sunt mai mici decât cheltuielile.</li>
+        </ul>
+
+        <h3>4. De ce planificăm bugetul?</h3>
+        <p>Pentru a evita problemele financiare, a opri cheltuielile excesive, a economisi și a crea un <b>fond pentru situații neprevăzute</b>.</p>
+    `,
+    stiaiCa: "Specialiștii în educație financiară recomandă regula 50 / 30 / 20 pentru bugetul familiei: 50% din venituri pentru cheltuieli de bază (consum), 30% pentru dorințe și timp liber, iar 20% pentru economii și fondul de urgență!",
+    wordwallUrl: "https://wordwall.net/ro/embed/9865a5b98acf4d109af8a8b753ac3f67?themeId=22&templateId=45&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Într-o lună, o familie are venituri totale de 6.500 de lei și cheltuieli de 5.800 de lei, reușind să pună deoparte 700 de lei. Cum este bugetul acestei familii?",
+            optiuni: [
+                { text: "Buget excedentar (veniturile sunt mai mari decât cheltuielile).", raspuns: "🌟 Bravo! Surplusul de 700 de lei arată un buget excedentar!", puncte: 10 },
+                { text: "Buget deficitar.", raspuns: "❌ Bugetul deficitar apare atunci când cheltuielile depășesc veniturile.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Părinții tăi decid să cumpere un teren și să renoveze complet acoperișul casei. În ce categorie intră aceste cheltuieli?",
+            optiuni: [
+                { text: "Cheltuieli pentru investiții.", raspuns: "🛡️ Excelent! Cumpărarea de terenuri, construcțiile noi și reparațiile mari sunt investiții!", puncte: 10 },
+                { text: "Cheltuieli zilnice pentru consum alimentar.", raspuns: "⚠️ Bunurile de valoare și reparațiile capitale fac parte din investiții.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O familie cheltuiește în fiecare lună mai mulți bani decât câștigă, apelând mereu la împrumuturi. Ce tip de buget are și ce ar trebui să facă?",
+            optiuni: [
+                { text: "Are un buget deficitar și trebuie să își planifice bugetul pentru a opri cheltuielile excesive.", raspuns: "👏 Foarte bine! Planificarea bugetului ajută la evitarea problemelor financiare!", puncte: 10 },
+                { text: "Are un buget echilibrat și nu trebuie să schimbe nimic.", raspuns: "❌ Când cheltuielile sunt mai mari decât veniturile, bugetul este deficitar.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un coleg susține că doar adulții care merg la serviciu aduc venituri în familie, iar alocația de stat pentru copii nu se pune la socoteală. Are dreptate?",
+            optiuni: [
+                { text: "Nu, veniturile familiei includ sumele obținute de fiecare membru, indiferent de vârstă (inclusiv alocațiile).", raspuns: "🌟 Exact! Alocațiile elevilor fac parte din sursele de venit ale familiei!", puncte: 10 },
+                { text: "Da, alocația este o cheltuială de producție.", raspuns: "❌ Orice sumă încasată de membrii familiei (salarii, pensii, alocații) este un venit.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă bugetul de familie?", 
+            raspunsuri: [
+                "Estimarea pe o anumită perioadă a veniturilor și cheltuielilor unei familii", 
+                "Doar lista de cumpărături pentru supermarket", 
+                "Suma de bani împrumutată de la vecini", 
+                "Taxa plătită anual la primărie"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum se numește bugetul în care veniturile sunt MAI MARI decât cheltuielile?", 
+            raspunsuri: [
+                "Buget excedentar", 
+                "Buget deficitar", 
+                "Buget echilibrat", 
+                "Buget blocat"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce înseamnă un buget DEFICITAR?", 
+            raspunsuri: [
+                "Veniturile sunt mai mici decât cheltuielile", 
+                "Veniturile sunt egale cu cheltuielile", 
+                "Familia nu are nicio cheltuială în luna respectivă", 
+                "Toți banii sunt păstrați într-un depozit bancar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Care dintre următoarele este o sursă de VENIT a familiei?", 
+            raspunsuri: [
+                "Salariile, alocațiile, pensiile și veniturile din chirii", 
+                "Factura la energie electrică și abonamentul la telefon", 
+                "Cumpărarea de haine și rechizite școlare", 
+                "Plata impozitului pe locuință"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. În ce categorie intră cheltuielile pentru alimentație, îmbrăcăminte, educație și sănătate?", 
+            raspunsuri: [
+                "Cheltuieli pentru consum", 
+                "Cheltuieli de producție industrială", 
+                "Venituri din dobânzi", 
+                "Cheltuieli pentru investiții imobiliare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce fel de cheltuieli sunt cumpărarea de terenuri și manopera pentru construcții noi?", 
+            raspunsuri: [
+                "Cheltuieli pentru investiții", 
+                "Cheltuieli pentru consum zilnic", 
+                "Impozite și taxe locale", 
+                "Cheltuieli pentru socializare"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Cum este bugetul unei familii atunci când veniturile sunt aproximativ egale cu cheltuielile?", 
+            raspunsuri: [
+                "Buget echilibrat", 
+                "Buget excedentar", 
+                "Buget deficitar", 
+                "Buget nerealist"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. La ce contribuie planificarea atentă a bugetului de familie?", 
+            raspunsuri: [
+                "La oprirea cheltuielilor excesive și crearea unui fond pentru situații neprevăzute", 
+                "La creșterea automată a prețurilor din magazine", 
+                "La eliminarea completă a impozitelor către stat", 
+                "La cheltuirea tuturor banilor în prima zi a lunii"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "12. Venituri și cheltuieli personale",
+    rezumat: `
+        <h3>1. Ce este bugetul personal?</h3>
+        <p>Este o parte a bugetului de familie și reprezintă estimarea pe o anumită perioadă a veniturilor și cheltuielilor unei singure persoane, fiind strâns legat de scopurile personale.</p>
+        <ul>
+            <li><b>Venituri personale:</b> Bani primiți din bugetul familiei (bani de buzunar, alocație) + venituri proprii (burse, premii, activități);</li>
+            <li><b>Cheltuieli personale:</b> Cheltuieli realizate de propria persoană + o parte din cheltuielile comune ale familiei.</li>
+        </ul>
+
+        <h3>2. Economiile vs. Situația de impas</h3>
+        <ul>
+            <li><b>Economiile:</b> Apar când veniturile sunt mai mari decât cheltuielile. Servesc pentru <i>investiții</i> și pentru <i>situații neprevăzute</i>;</li>
+            <li><b>Situația de impas:</b> Apare când veniturile sunt mai mici decât cheltuielile. Necesită prioritizarea cheltuielilor, renunțarea la cele inutile sau consultarea unui specialist financiar.</li>
+        </ul>
+
+        <h3>3. Avantajele planificării bugetului personal</h3>
+        <p>Te ajută să faci diferența dintre <b>nevoi și dorințe</b>, să faci cumpărături inteligente, să economisești și îți oferă <b>siguranță și stabilitate financiară</b>.</p>
+    `,
+    stiaiCa: "Chiar și economisirea unei sume mici în fiecare zi — de exemplu, 5 lei puși deoparte zilnic în loc de o gustare nesănătoasă — se transformă la finalul unui an școlar într-o sumă de peste 1.800 de lei!",
+    wordwallUrl: "https://wordwall.net/ro/embed/00b0d265172f4499bc6a1ca17a8a5da7?themeId=69&templateId=30&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Primești 200 de lei pe lună (alocație și bani de buzunar), dar la jumătatea lunii ai cheltuit deja 220 de lei împrumutând 20 de lei de la un coleg. În ce situație se află bugetul tău personal?",
+            optiuni: [
+                { text: "În situație de impas (veniturile sunt mai mici decât cheltuielile) și trebuie să prioritizez cheltuielile.", raspuns: "🌟 Bravo! Când cheltuiești mai mult decât ai, trebuie să renunți la cheltuielile inutile!", puncte: 10 },
+                { text: "Ai obținut economii pentru investiții.", raspuns: "❌ Economiile apar doar atunci când veniturile depășesc cheltuielile.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. La finalul lunii, după ce ți-ai cumpărat rechizitele necesare și biletul de autobuz, îți rămân necheltuiți 60 de lei. Cum se numește această diferență?",
+            optiuni: [
+                { text: "Economii (partea necheltuită din venit).", raspuns: "🛡️ Excelent! Economiile te ajută să faci investiții sau să acoperi situații neprevăzute!", puncte: 10 },
+                { text: "Cheltuieli comune ale familiei.", raspuns: "⚠️ Suma necheltuită dintr-un venit poartă numele de economii.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Te afli într-un magazin și vrei să cumperi o pereche de căști scumpe pe care le-ai văzut într-o reclamă, deși căștile tale funcționează perfect, iar banii îți trebuie pentru o culegere de examen. Cum te ajută planificarea bugetului?",
+            optiuni: [
+                { text: "Mă ajută să fac diferența dintre nevoi și dorințe și să fac cumpărături inteligente.", raspuns: "👏 Foarte bine! Planificarea bugetului îți oferă control și stabilitate financiară!", puncte: 10 },
+                { text: "Mă obligă să cumpăr imediat căștile ca să nu rămân cu bani.", raspuns: "❌ Un buget bine planificat te ajută să eviți cumpărăturile impulsive.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Ai câștigat o bursă de merit la școală și primești și bani de buzunar de la părinți. În ce categorie intră acești bani?",
+            optiuni: [
+                { text: "Venituri personale (venituri proprii + venituri din bugetul familiei).", raspuns: "🌟 Exact! Atât bursa, cât și banii primiți de la familie formează veniturile tale personale!", puncte: 10 },
+                { text: "Cheltuieli de producție industrială.", raspuns: "❌ Sumele de bani destinate ție sau câștigate de tine sunt venituri personale.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce reprezintă bugetul personal?", 
+            raspunsuri: [
+                "Estimarea pe o perioadă a veniturilor și cheltuielilor unei persoane", 
+                "Totalul banilor dintr-o bancă națională", 
+                "Lista de cumpărături a unui supermarket", 
+                "Impozitul plătit de firme către stat"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Din ce sunt formate veniturile personale ale unui elev?", 
+            raspunsuri: [
+                "Bani primiți din bugetul familiei și venituri proprii (ex: burse)", 
+                "Doar din împrumuturi de la colegi", 
+                "Din plata facturilor la energie electrică", 
+                "Din amenzi și taxe locale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum se numește partea necheltuită din venit atunci când veniturile sunt mai mari decât cheltuielile?", 
+            raspunsuri: [
+                "Economii", 
+                "Impas financiar", 
+                "Datorie publică", 
+                "Troc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. La ce servește economisirea banilor?", 
+            raspunsuri: [
+                "Pentru realizarea de investiții și acoperirea situațiilor neprevăzute", 
+                "Pentru a pierde valoarea banilor în timp", 
+                "Pentru a evita plata prețului la magazin", 
+                "Doar pentru a colecționa bancnote vechi"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. În ce situație se află bugetul personal atunci când veniturile sunt MAI MICI decât cheltuielile?", 
+            raspunsuri: [
+                "Într-o situație de impas", 
+                "Într-o situație excedentară", 
+                "În echilibru perfect", 
+                "În creștere accelerată"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce trebuie să faci dacă bugetul tău personal ajunge în impas?", 
+            raspunsuri: [
+                "Să prioritizezi cheltuielile și să renunți la cele inutile", 
+                "Să cumperi mai multe obiecte de lux", 
+                "Să ignori complet sumele cheltuite", 
+                "Să arunci bonurile fiscale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Care este unul dintre principalele avantaje ale planificării bugetului personal?", 
+            raspunsuri: [
+                "Te ajută să faci diferența dintre nevoi și dorințe", 
+                "Îți dublează automat alocația în fiecare lună", 
+                "Elimină toate prețurile din magazine", 
+                "Te scutește de învățatul pentru examene"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce conferă unei persoane estimarea corectă și corelarea veniturilor cu cheltuielile?", 
+            raspunsuri: [
+                "Siguranță și stabilitate financiară", 
+                "Un buget deficitar permanent", 
+                "Dependență totală de împrumuturi", 
+                "Pierderea tuturor resurselor materiale"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "13. Produse și servicii bancare",
+    rezumat: `
+        <h3>1. Ce este banca?</h3>
+        <p><b>Banca</b> este o instituție financiară care acordă credite și asigură circulația banilor în economie.</p>
+
+        <h3>2. Produsele bancare (ce oferă banca)</h3>
+        <ul>
+            <li><b>Depozitul bancar:</b> Sumă depusă de client la bancă; banca păstrează banii și îi plătește clientului un câștig numit <b>dobândă</b> (simplă: <i>Ds = S × d × n</i> sau compusă: <i>Dc = S[(1+d)ⁿ - 1]</i>);</li>
+            <li><b>Creditul bancar:</b> Împrumut acordat clientului (<b>debitor</b>) de către bancă (<b>creditor</b>), care se restituie la o dată stabilită (<b>scadență</b>) împreună cu o dobândă;</li>
+            <li><b>Plasamentul:</b> Investirea unei sume de bani pentru a obține un <b>profit</b> suplimentar.</li>
+        </ul>
+
+        <h3>3. Serviciile bancare (activități la cererea clientului)</h3>
+        <ul>
+            <li><b>Operații cu numerar:</b> Încasări și plăți cu bancnote și monede;</li>
+            <li><b>Tranzacții interbancare:</b> Transferuri electronice de bani între bănci diferite;</li>
+            <li><b>Schimb valutar:</b> Transformarea unei sume dintr-o monedă în alta.</li>
+        </ul>
+    `,
+    stiaiCa: "Albert Einstein numea dobânda compusă „a opta minune a lumii”, deoarece la fiecare an dobânda se calculează nu doar la suma depusă inițial, ci și la dobânzile acumulate în anii anteriori!",
+    wordwallUrl: "https://wordwall.net/ro/embed/a4a1829af46a42d38fad690c973722e6?themeId=55&templateId=2&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții tăi iau un împrumut de la bancă pentru a cumpăra un apartament și trebuie să îl returneze până la o anumită dată. Cine este 'debitorul' și cum se numește data limită?",
+            optiuni: [
+                { text: "Părinții sunt debitori, iar data se numește scadență.", raspuns: "🌟 Bravo! Banca este creditorul, iar clientul care ia împrumutul este debitorul!", puncte: 10 },
+                { text: "Banca este debitorul, iar data se numește cupiură.", raspuns: "❌ Banca acordă banii (creditor), iar clientul îi primește (debitor).", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Depui 1.000 de lei într-un depozit bancar pe un an, cu o dobândă anuală simplă de 5%. Cine plătește dobânda în acest caz?",
+            optiuni: [
+                { text: "Banca îi plătește dobânda clientului (deponentului).", raspuns: "🛡️ Excelent! La depozit banca îți plătește dobândă, iar la credit tu îi plătești băncii!", puncte: 10 },
+                { text: "Clientul îi plătește băncii dobândă.", raspuns: "⚠️ Clientul plătește dobândă doar când ia un credit, nu când depune bani.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Părinții tăi transferă bani online din contul lor de la o bancă în contul bunicilor deschis la o altă bancă. Ce serviciu bancar folosesc?",
+            optiuni: [
+                { text: "Tranzacții interbancare (realizate electronic).", raspuns: "👏 Foarte bine! Transferurile între bănci diferite se numesc tranzacții interbancare!", puncte: 10 },
+                { text: "Schimb valutar cu numerar.", raspuns: "❌ Schimbul valutar transformă o monedă în alta (ex: lei în euro).", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Mergi la ghișeul băncii cu 500 de lei și ceri să primești echivalentul lor în euro pentru o excursie. Ce serviciu bancar soliciți?",
+            optiuni: [
+                { text: "Schimb valutar.", raspuns: "🌟 Exact! Transformarea unei sume dintr-o monedă în alta este schimbul valutar!", puncte: 10 },
+                { text: "Credit ipotecar pe termen lung.", raspuns: "❌ Transformarea leilor în valută este un serviciu de schimb valutar.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce sunt depozitele, creditele și plasamentele?", 
+            raspunsuri: [
+                "Produse bancare", 
+                "Servicii de transport", 
+                "Bunuri libere", 
+                "Impozite locale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cine este „creditorul” în cazul unui credit bancar?", 
+            raspunsuri: [
+                "Banca ce acordă împrumutul", 
+                "Clientul care ia banii", 
+                "Vânzătorul din magazin", 
+                "Primăria orașului"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum se numește clientul care primește un împrumut?", 
+            raspunsuri: [
+                "Debitor", 
+                "Creditor", 
+                "Deponent", 
+                "Furnizor"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce primește clientul pentru un depozit bancar?", 
+            raspunsuri: [
+                "Dobândă", 
+                "Amendă", 
+                "Scadență", 
+                "Valută"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cum se numește data la care trebuie restituit un credit?", 
+            raspunsuri: [
+                "Scadență (termen)", 
+                "Cupiură", 
+                "Avers", 
+                "Troc"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce urmărește un client printr-un plasament bancar?", 
+            raspunsuri: [
+                "Obținerea unui profit", 
+                "Plata unei amenzi", 
+                "Schimbul de monede", 
+                "Retragerea de numerar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce presupune serviciul de schimb valutar?", 
+            raspunsuri: [
+                "Transformarea unei monede în alta", 
+                "Depunerea de lei în cont", 
+                "Plata facturii la curent", 
+                "Tipărirea de bancnote"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum se realizează tranzacțiile interbancare?", 
+            raspunsuri: [
+                "Electronic", 
+                "Prin poștă", 
+                "Prin troc", 
+                "Doar cu monede"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "14. Mijloace moderne de economisire. Instrumente de economisire pentru copii",
+    rezumat: `
+        <h3>1. Economiile și contul bancar</h3>
+        <p><b>Economiile</b> reprezintă banii care rămân după ce scădem cheltuielile din venituri. Pentru siguranță și câștig din dobândă, ele se păstrează într-un <b>cont bancar</b> (sub formă de depozit).</p>
+
+        <h3>2. Tipuri de depozite bancare</h3>
+        <ul>
+            <li><b>Depozitul la vedere:</b> Ai acces oricând la bani, dar dobânda este scăzută;</li>
+            <li><b>Depozitul la termen:</b> Banii sunt blocați pe o perioadă fixă, iar dobânda este mai mare. Poate fi cu <i>dobândă simplă</i> (acordată la final) sau <i>dobândă compusă / cu capitalizare</i> (se adaugă la suma depusă).</li>
+        </ul>
+
+        <h3>3. Conturile de economii pentru copii</h3>
+        <p>Se deschid pe numele minorului pentru ca la <b>18 ani</b> tânărul să aibă bani pentru studii sau o afacere. Pași: mergi la bancă cu <b>părintele/tutorele</b>, cu <b>actul lui de identitate</b> și <b>certificatul tău de naștere</b>.</p>
+
+        <h3>4. Alte mijloace moderne de economisire</h3>
+        <ul>
+            <li><b>Fondurile de investiții:</b> Oferă câștiguri mai mari decât dobânda bancară, dar implică și riscuri;</li>
+            <li><b>Pensiile private:</b> Contribuții la un fond care oferă o pensie suplimentară față de cea de stat.</li>
+        </ul>
+    `,
+    stiaiCa: "În România există chiar și un program guvernamental special numit Contul Junior Centenar, prin care părinții pot economisi bani pentru copii, iar statul oferă anual o primă (un bonus) de 600 de lei dacă se depune cel puțin 1.200 de lei pe an!",
+    wordwallUrl: "https://wordwall.net/ro/embed/ba95c5ae79074f07b7a696e190e06765?themeId=22&templateId=3&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții tăi pun deoparte o sumă de bani pentru facultatea ta, dar vor să fie siguri că îi pot retrage oricând apare o urgență medicală, chiar dacă dobânda este mică. Ce aleg?",
+            optiuni: [
+                { text: "Un depozit la vedere.", raspuns: "🌟 Bravo! Depozitul la vedere îți oferă acces oricând la bani!", puncte: 10 },
+                { text: "Un fond de investiții cu risc ridicat.", raspuns: "❌ Pentru acces imediat și siguranță maximă se alege depozitul la vedere.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Ai 14 ani și vrei să mergi singur la bancă, doar cu carnetul de elev, pentru a-ți deschide un cont de economii. Îți va deschide banca acest cont?",
+            optiuni: [
+                { text: "Nu, trebuie să mergi cu un părinte/tutore, actul lui de identitate și certificatul tău de naștere.", raspuns: "🛡️ Excelent! Minorii au nevoie de prezența și actele unui părinte sau tutore!", puncte: 10 },
+                { text: "Da, carnetul de elev este suficient la orice bancă.", raspuns: "⚠️ Pentru deschiderea unui cont de minor sunt obligatorii prezența părintelui și certificatul de naștere.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un adult dorește câștiguri mai mari decât dobânda unui depozit bancar și este dispus să își asume anumite riscuri financiare. Ce instrument modern poate alege?",
+            optiuni: [
+                { text: "Fondurile de investiții.", raspuns: "👏 Foarte bine! Fondurile de investiții pot aduce câștiguri mai mari, dar presupun și riscuri!", puncte: 10 },
+                { text: "Păstrarea banilor într-o pușculiță acasă.", raspuns: "❌ Banii ținuți în casă nu produc niciun câștig.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. La un depozit pe 3 ani, dobânda câștigată în primul an se adaugă automat la suma depusă, astfel încât în anul al doilea se calculează dobândă la o sumă mai mare. Cum se numește această dobândă?",
+            optiuni: [
+                { text: "Dobândă compusă (sau cu capitalizare).", raspuns: "🌟 Exact! Capitalizarea înseamnă adăugarea dobânzii la depozitul inițial!", puncte: 10 },
+                { text: "Dobândă la vedere fără termen.", raspuns: "❌ Adăugarea dobânzii la suma inițială poartă numele de dobândă compusă.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce rămâne din venituri după ce scădem cheltuielile?", 
+            raspunsuri: [
+                "Economiile", 
+                "Datoriile", 
+                "Impozitele", 
+                "Creditele"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum este dobânda la un depozit la vedere?", 
+            raspunsuri: [
+                "Scăzută", 
+                "Foarte mare", 
+                "Dublă", 
+                "Inexistentă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. De ce este mai mare dobânda la depozitul la termen?", 
+            raspunsuri: [
+                "Suma este imobilizată", 
+                "Banii se retrag zilnic", 
+                "Nu există nicio bancă", 
+                "Se plătește în valută"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce se întâmplă cu dobânda compusă (cu capitalizare)?", 
+            raspunsuri: [
+                "Se adaugă la depozit", 
+                "Se pierde anual", 
+                "Se donează statului", 
+                "Se scade din cont"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Cine te însoțește la bancă pentru a-ți deschide un cont?", 
+            raspunsuri: [
+                "Părintele sau tutorele", 
+                "Un coleg de clasă", 
+                "Dirigintele clasei", 
+                "Primarul orașului"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce act al tău este necesar pentru deschiderea contului?", 
+            raspunsuri: [
+                "Certificatul de naștere", 
+                "Carnetul de note", 
+                "Biletul de autobuz", 
+                "Diploma de merit"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce caracterizează fondurile de investiții?", 
+            raspunsuri: [
+                "Câștiguri mari, dar riscuri", 
+                "Zero riscuri și câștig fix", 
+                "Doar pentru pensionari", 
+                "Bani păstrați acasă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Ce oferă pensiile private la bătrânețe?", 
+            raspunsuri: [
+                "O pensie suplimentară", 
+                "O excursie gratuită", 
+                "Un credit fără dobândă", 
+                "Scutire de impozite"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "15. Alegerea ofertei bancare: termeni ai contractului; dobândă; comisioane",
+    rezumat: `
+        <h3>1. Ce este contractul bancar?</h3>
+        <p>Este un <b>acord scris</b> între bancă și client (la deschiderea unui depozit sau luarea unui credit). Informațiile din el se numesc <b>clauze contractuale</b>.</p>
+
+        <h3>2. Principalele clauze contractuale</h3>
+        <ul>
+            <li><b>Durata contractului:</b> Perioada acordului (pentru calculul dobânzii la depozite sau restituirea eșalonată la credite);</li>
+            <li><b>Dobânda:</b> Suma primită în plus de client (la depozit) sau încasată de bancă (la credit);</li>
+            <li><b>Comisionul:</b> Suma (fixă sau procent) încasată de bancă pentru servicii: deschidere/închidere cont, administrare, retragere numerar, plăți online sau între bănci;</li>
+            <li><b>Penalitățile:</b> Sume plătite de partea care nu respectă contractul;</li>
+            <li><b>Rezilierea:</b> Încetarea contractului înainte de termen, din vina unei părți, care suportă costurile suplimentare.</li>
+        </ul>
+    `,
+    stiaiCa: "Atunci când compari două oferte de credit, cel mai important indicator de urmărit nu este doar dobânda, ci DAE (Dobânda Anuală Efectivă), deoarece aceasta include și toate comisioanele percepute de bancă!",
+    wordwallUrl: "https://wordwall.net/ro/embed/7375d1a5e16e41df8a63ec9fc2894c40?themeId=27&templateId=82&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții tăi au un credit și întârzie cu plata ratei lunare cu 10 zile față de data stabilită în contract. Ce va aplica banca conform clauzelor?",
+            optiuni: [
+                { text: "Penalități pentru nerespectarea contractului.", raspuns: "🌟 Bravo! Penalitățile se aplică părții care nu respectă termenii din contract!", puncte: 10 },
+                { text: "O dobândă bonus în favoarea clientului.", raspuns: "❌ Întârzierea plății atrage penalități, nu câștiguri.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Retragi 200 de lei de la bancomatul altei bănci și observi că ți s-au oprit din cont 205 lei. Ce reprezintă acei 5 lei opriți de bancă?",
+            optiuni: [
+                { text: "Comision de retragere numerar.", raspuns: "🛡️ Excelent! Comisionul este suma încasată de bancă pentru diverse servicii!", puncte: 10 },
+                { text: "Rezilierea automată a contractului.", raspuns: "⚠️ Suma reținută pentru un serviciu bancar se numește comision.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un client decide să închidă un depozit la termen după doar 2 luni, deși contractul era încheiat pe 12 luni. Cum se numește această încetare înainte de termen?",
+            optiuni: [
+                { text: "Rezilierea contractului.", raspuns: "👏 Foarte bine! Rezilierea este încetarea acordului înainte de termenul stabilit!", puncte: 10 },
+                { text: "Scadența finală a creditului.", raspuns: "❌ Încetarea contractului înainte de termen poartă numele de reziliere.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Două bănci oferă aceeași dobândă la un cont, dar Banca A are comision de administrare 0 lei, iar Banca B cere 15 lei pe lună. Ce ar trebui să verifici înainte de a semna?",
+            optiuni: [
+                { text: "Toate clauzele contractuale, în special comisioanele.", raspuns: "🌟 Exact! Analizarea comisioanelor te ajută să alegi cea mai avantajoasă ofertă!", puncte: 10 },
+                { text: "Doar culoarea cardului oferit de bancă.", raspuns: "❌ Alegerea ofertei depinde de dobândă, comisioane și durata contractului.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cum se încheie un contract bancar?", 
+            raspunsuri: [
+                "În scris", 
+                "Doar verbal", 
+                "Prin mesaj SMS", 
+                "Fără semnătură"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum se numesc informațiile din contractul bancar?", 
+            raspunsuri: [
+                "Clauze contractuale", 
+                "Note de subsol", 
+                "Reguli de circulație", 
+                "Reclame comerciale"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este comisionul bancar?", 
+            raspunsuri: [
+                "Suma încasată de bancă pentru servicii", 
+                "Câștigul clientului la depozit", 
+                "Împrumutul primit de client", 
+                "Impozitul plătit la primărie"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Cum poate fi calculat un comision?", 
+            raspunsuri: [
+                "Sumă fixă sau procent", 
+                "Doar în valută străină", 
+                "Numai în monede", 
+                "La alegerea clientului"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce sunt penalitățile dintr-un contract?", 
+            raspunsuri: [
+                "Sume plătite pentru nerespectarea acordului", 
+                "Bonusuri pentru clienții fideli", 
+                "Dobânzi oferite la economii", 
+                "Reduceri la cumpărături"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce reprezintă rezilierea contractului?", 
+            raspunsuri: [
+                "Încetarea lui înainte de termen", 
+                "Prelungirea lui cu un an", 
+                "Dublarea sumei depuse", 
+                "Deschiderea unui cont nou"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Cine suportă costurile la rezilierea înainte de termen?", 
+            raspunsuri: [
+                "Partea vinovată", 
+                "Statul român", 
+                "Nicio parte", 
+                "Banca Națională"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Care dintre următoarele este un tip de comision?", 
+            raspunsuri: [
+                "De administrare cont", 
+                "De rezolvare teme", 
+                "De transport școlar", 
+                "De alimentare auto"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "16. Alegerea ofertei bancare. Avantaje și riscuri în raport cu instituțiile bancare",
+    rezumat: `
+        <h3>1. Avantajele pentru client</h3>
+        <ul>
+            <li><b>La depozite:</b> Garantarea de către stat, acces rapid la bani, operațiuni online, card atașat și dobânzi atractive;</li>
+            <li><b>La credite:</b> Acces rapid la bani pentru nevoi personale, alegerea perioadei de restituire și dobânzi acceptabile.</li>
+        </ul>
+
+        <h3>2. Dezavantajele pentru client</h3>
+        <ul>
+            <li><b>La depozite:</b> Comisioane de deschidere/închidere cont și <b>impozitarea dobânzii</b> ca orice alt venit;</li>
+            <li><b>La credite:</b> Dobândă mai mare decât la depozite, comision de analiză a cererii și împovărarea financiară pe o perioadă.</li>
+        </ul>
+
+        <h3>3. Riscurile pentru client (pierderea banilor)</h3>
+        <ul>
+            <li><b>La depozite:</b> Sumele peste <b>100.000 de euro</b> nu sunt garantate; dacă dobânda este mai mică decât comisioanele, retragi mai puțin decât ai depus;</li>
+            <li><b>La credite:</b> Neplata ratelor duce la recuperarea banilor din averea clientului și la înregistrarea în <b>Biroul de Credit</b> (chiar și la simple întârzieri).</li>
+        </ul>
+    `,
+    stiaiCa: "În România, Fondul de Garantare a Depozitelor Bancare (FGDB) garantează prin lege economiile fiecărei persoane în limita a 100.000 de euro per bancă — chiar dacă acea bancă ar da faliment, statul îți returnează banii!",
+    wordwallUrl: "https://wordwall.net/ro/embed/8a166f4142e14b8c8a6e8b7b26c9e5b3?themeId=27&templateId=82&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții tăi vor să își pună economiile de 20.000 de euro la bancă și se tem că ar putea pierde banii dacă banca are probleme. Ce le poți spune?",
+            optiuni: [
+                { text: "Depozitele sub 100.000 de euro sunt garantate de stat.", raspuns: "🌟 Bravo! Statul garantează depozitele bancare până la echivalentul a 100.000 de euro!", puncte: 10 },
+                { text: "Banca poate păstra banii fără nicio garanție.", raspuns: "❌ Sumele sub 100.000 de euro sunt protejate și garantate de stat.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un client deschide un depozit mic, iar la finalul anului observă că dobânda primită a fost de 15 lei, dar comisioanele de administrare au fost de 25 de lei. Ce risc s-a produs?",
+            optiuni: [
+                { text: "Dobânda a fost mai mică decât comisioanele, retrăgând mai puțin decât a depus.", raspuns: "🛡️ Excelent! De aceea trebuie să comparăm mereu dobânda cu comisioanele băncii!", puncte: 10 },
+                { text: "Statul a confiscat suma pentru Biroul de Credit.", raspuns: "⚠️ Când comisioanele depășesc dobânda, suma retrasă este mai mică decât cea depusă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O persoană are un credit și întârzie de câteva ori cu plata ratelor lunare. Unde riscă să fie înregistrată?",
+            optiuni: [
+                { text: "În Biroul de Credit (ceea ce îi va îngreuna alte împrumuturi).", raspuns: "👏 Foarte bine! Chiar și întârzierile la plata ratelor duc la înregistrarea în Biroul de Credit!", puncte: 10 },
+                { text: "Pe lista clienților cu dobândă zero.", raspuns: "❌ Întârzierile la plată duc la raportarea în Biroul de Credit.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un vecin susține că dobânda câștigată la un depozit bancar nu se impozitează niciodată. Are dreptate?",
+            optiuni: [
+                { text: "Nu, impozitarea dobânzii ca orice alt venit este un dezavantaj al depozitelor.", raspuns: "🌟 Exact! Câștigul din dobânda unui depozit bancar este supus impozitării!", puncte: 10 },
+                { text: "Da, dobânda este scutită de orice taxă.", raspuns: "❌ Impozitarea dobânzii este unul dintre dezavantajele depozitelor bancare.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Până la ce sumă sunt garantate depozitele de către stat?", 
+            raspunsuri: [
+                "100.000 de euro", 
+                "10.000 de euro", 
+                "1.000 de euro", 
+                "500.000 de euro"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Ce se întâmplă cu dobânda câștigată la un depozit?", 
+            raspunsuri: [
+                "Este impozitată", 
+                "Se dublează automat", 
+                "Se donează băncii", 
+                "Nu se declară"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Cum este dobânda la credite față de cea la depozite?", 
+            raspunsuri: [
+                "Mai mare", 
+                "Mai mică", 
+                "Identică", 
+                "Zero"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce comision apare la solicitarea unui credit?", 
+            raspunsuri: [
+                "De analiză a cererii", 
+                "De tipărire bancnote", 
+                "De schimb valutar", 
+                "De transport numerar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Când retragi dintr-un depozit mai puțin decât ai depus?", 
+            raspunsuri: [
+                "Când comisioanele depășesc dobânda", 
+                "Când plătești cu cardul", 
+                "Când folosești mobile banking", 
+                "Când depui în lei"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Unde ești înregistrat dacă întârzii plata ratelor?", 
+            raspunsuri: [
+                "În Biroul de Credit", 
+                "La Primăria locală", 
+                "În Monitorul Oficial", 
+                "La Camera de Comerț"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce face banca dacă un client nu își poate restitui creditul?", 
+            raspunsuri: [
+                "Recuperează din averea lui", 
+                "Îi iartă toată datoria", 
+                "Îi oferă alt credit", 
+                "Îi crește salariul"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Care este un avantaj al depozitelor bancare?", 
+            raspunsuri: [
+                "Operațiuni online și card atașat", 
+                "Împovărarea financiară", 
+                "Comision de analiză", 
+                "Riscul de executare"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "17. Produse și servicii de asigurare",
+    rezumat: `
+        <h3>1. Ce este asigurarea?</h3>
+        <p>Este acordul dintre <b>asigurat</b> (persoană sau firmă) și <b>asigurator</b> (firma de asigurări), prin care asiguratorul preia riscul unor evenimente neprevăzute.</p>
+        <ul>
+            <li><b>Prima de asigurare:</b> Suma de bani plătită de asigurat către asigurator;</li>
+            <li><b>Despăgubirea:</b> Suma plătită de asigurator către asigurat dacă are loc evenimentul (riscul) asigurat.</li>
+        </ul>
+
+        <h3>2. Tipuri principale de asigurări</h3>
+        <ul>
+            <li><b>Asigurări de bunuri:</b> Protejează locuințe, mașini, electrocasnice, bijuterii, culturi agricole împotriva furtului, incendiului, inundației, cutremurului sau accidentelor;</li>
+            <li><b>Asigurări de persoane:</b> Protejează viața și sănătatea oamenilor împotriva accidentelor, bolilor, intervențiilor chirurgicale, invalidității sau decesului;</li>
+            <li><b>Asigurarea de răspundere civilă:</b> Acoperă prejudiciile (pagubele sau vătămările) produse neintenționat unei alte persoane.</li>
+        </ul>
+    `,
+    stiaiCa: "În România, două dintre cele mai cunoscute asigurări sunt obligatorii prin lege: RCA (asigurarea de răspundere civilă auto, pentru orice mașină care circulă pe drumurile publice) și PAD (asigurarea obligatorie a locuinței împotriva cutremurelor, alunecărilor de teren și inundațiilor)!",
+    wordwallUrl: "https://wordwall.net/ro/embed/7a2744445b2d47119878bd68a24ed14c?themeId=42&templateId=8&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții tăi încheie o poliță pentru apartament, plătind 400 de lei pe an pentru a fi protejați în caz de incendiu sau inundație. Cum se numește această sumă de 400 de lei?",
+            optiuni: [
+                { text: "Prima de asigurare.", raspuns: "🌟 Bravo! Prima de asigurare este suma plătită de asigurat către firma de asigurări!", puncte: 10 },
+                { text: "Despăgubirea financiară.", raspuns: "❌ Despăgubirea este suma pe care o primești doar dacă se produce paguba.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. În urma unei furtuni puternice, acoperișul unei case asigurate este distrus, iar firma de asigurări îi plătește proprietarului 15.000 de lei pentru reparații. Ce reprezintă acești bani?",
+            optiuni: [
+                { text: "Despăgubirea plătită de asigurator.", raspuns: "🛡️ Excelent! Când are loc evenimentul asigurat, asiguratorul plătește despăgubirea!", puncte: 10 },
+                { text: "Prima de asigurare anuală.", raspuns: "⚠️ Suma plătită de asigurator pentru acoperirea pagubei se numește despăgubire.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. Un șofer lovește din greșeală în parcare mașina vecinului. Ce tip de asigurare acoperă reparația mașinii vecinului păgubit?",
+            optiuni: [
+                { text: "Asigurarea de răspundere civilă.", raspuns: "👏 Foarte bine! Răspunderea civilă acoperă pagubele produse neintenționat altor persoane!", puncte: 10 },
+                { text: "Asigurarea de persoane pentru intervenții chirurgicale.", raspuns: "❌ Prejudiciile produse neintenționat altora sunt acoperite de asigurarea de răspundere civilă.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un sportiv își face o asigurare care să îi acopere costurile unei eventuale operații sau accidentări. În ce categorie intră această poliță?",
+            optiuni: [
+                { text: "Asigurări de persoane.", raspuns: "🌟 Exact! Bolile, accidentele și intervențiile chirurgicale sunt acoperite de asigurările de persoane!", puncte: 10 },
+                { text: "Asigurări de bunuri.", raspuns: "❌ Protecția sănătății și a vieții omului ține de asigurările de persoane.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Cine preia riscurile într-un contract de asigurare?", 
+            raspunsuri: [
+                "Asiguratorul", 
+                "Asiguratul", 
+                "Creditorul", 
+                "Debitorul"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum se numește suma plătită de asigurat firmei?", 
+            raspunsuri: [
+                "Primă de asigurare", 
+                "Despăgubire", 
+                "Dobândă", 
+                "Dividende"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Când primește asiguratul despăgubirea?", 
+            raspunsuri: [
+                "Doar dacă are loc evenimentul asigurat", 
+                "În fiecare lună automat", 
+                "La expirarea contractului fără daune", 
+                "Imediat după semnarea cererii"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. Ce protejează asigurările de bunuri?", 
+            raspunsuri: [
+                "Locuințele, mașinile și culturile", 
+                "Doar intervențiile chirurgicale", 
+                "Conturile bancare în valută", 
+                "Notele elevilor la școală"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Care este un risc acoperit de asigurările de persoane?", 
+            raspunsuri: [
+                "Accidentul de muncă și boala", 
+                "Furtul autoturismului", 
+                "Inundația în apartament", 
+                "Spargerea unui magazin"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce acoperă asigurarea de răspundere civilă?", 
+            raspunsuri: [
+                "Pagube produse neintenționat altora", 
+                "Furtul propriilor bijuterii", 
+                "Pierderea banilor la bursă", 
+                "Ratele restante la bancă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce rol au asigurările asupra bugetului familiei?", 
+            raspunsuri: [
+                "Diminuează cheltuielile neplanificate", 
+                "Cresc taxele către primărie", 
+                "Elimină nevoia de a munci", 
+                "Dublează salariul lunar"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cine poate avea calitatea de „asigurat”?", 
+            raspunsuri: [
+                "O persoană fizică sau o firmă", 
+                "Doar Banca Națională", 
+                "Numai primăriile", 
+                "Doar elevii majori"
+            ], 
+            corect: 0 
+        }
+    ]
+},
+{
+    titlu: "18. Alegerea ofertei. Avantaje și riscuri în raport cu instituțiile financiare nebancare",
+    rezumat: `
+        <h3>1. Ce sunt Instituțiile Financiare Nebancare (IFN)?</h3>
+        <p>Sunt organizații nebancare care desfășoară activități de creditare sau alte operații financiare pe trei planuri: <b>Asigurări</b>, <b>Piața de capital</b> și <b>Pensii private</b>.</p>
+
+        <h3>2. Piața de capital (hârtii de valoare)</h3>
+        <ul>
+            <li><b>Acțiunea:</b> Dovedește că deținătorul este <i>proprietar</i> la o firmă; câștigul se numește <b>dividend</b> (parte din profit);</li>
+            <li><b>Obligațiunea:</b> Dovedește un <i>împrumut</i> acordat unei firme/autorități; câștigul este <b>dobânda</b>;</li>
+            <li><b>Titlul de stat:</b> Dovedește un <i>împrumut</i> acordat statului; câștigul este <b>dobânda</b>.</li>
+        </ul>
+
+        <h3>3. Pensiile private (25% contribuție din salariul brut)</h3>
+        <ul>
+            <li><b>Pilonul I (20,25%):</b> Pensia de stat;</li>
+            <li><b>Pilonul II (4,75%):</b> Fond de pensii administrat privat (obligatoriu pentru salariați);</li>
+            <li><b>Pilonul III (facultativ):</b> Contribuție suplimentară lunară la un IFN pentru o pensie mai mare la bătrânețe.</li>
+        </ul>
+
+        <h3>4. Avantaje și riscuri în relația cu IFN</h3>
+        <p><b>Avantaje:</b> Transferarea riscurilor (asigurări), creșterea veniturilor (hârtii de valoare) și pensii suplimentare.</p>
+        <p><b>Riscuri:</b> Legate de seriozitatea instituției alese — trebuie să verifici recenziile clienților și publicațiile financiare, deoarece <i>o reclamă îmbietoare nu este o garanție</i>.</p>
+    `,
+    stiaiCa: "Titlurile de stat sunt considerate unele dintre cele mai sigure investiții de pe piața de capital, deoarece împrumuți bani direct statului român, iar câștigul din dobândă este neimpozabil!",
+    wordwallUrl: "https://wordwall.net/ro/embed/50c158a90860438080f6d6bf7a818777?themeId=46&templateId=48&fontStackId=0", // Link embed Wordwall
+    dileme: [
+        {
+            scenariu: "1. Părinții tăi cumpără acțiuni la o companie de energie și, la finalul anului, primesc o parte din profitul firmei. Cum se numește acest câștig?",
+            optiuni: [
+                { text: "Dividend (deoarece acțiunea îi face proprietari la firmă).", raspuns: "🌟 Bravo! Acțiunea îți oferă statutul de proprietar, iar câștigul se numește dividend!", puncte: 10 },
+                { text: "Amendă contractuală.", raspuns: "❌ Partea din profitul unei firme distribuită acționarilor se numește dividend.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "2. Un angajat vrea să aibă la bătrânețe, pe lângă pensia de la stat, încă o pensie suplimentară din economiile sale lunare. La ce pilon de pensii poate contribui suplimentar?",
+            optiuni: [
+                { text: "La Pilonul III (pensii facultative administrate de un IFN).", raspuns: "🛡️ Excelent! Pilonul III reprezintă pensiile private facultative pentru un venit suplimentar!", puncte: 10 },
+                { text: "La Baza Națională de Troc.", raspuns: "⚠️ Contribuția suplimentară facultativă face parte din Pilonul III de pensii.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "3. O persoană vede pe internet o reclamă foarte atractivă a unui IFN necunoscut, care promite câștiguri uriașe peste noapte, și vrea să semneze imediat contractul. Ce sfat îi dai?",
+            optiuni: [
+                { text: "Să se informeze înainte de la clienți vechi și din publicații financiare; o reclamă nu e o garanție.", raspuns: "👏 Foarte bine! Riscurile țin de seriozitatea instituției, așa că verificarea prealabilă este esențială!", puncte: 10 },
+                { text: "Să semneze repede fără să citească contractul.", raspuns: "❌ O reclamă îmbietoare nu garantează seriozitatea unei instituții financiare.", puncte: 0 }
+            ]
+        },
+        {
+            scenariu: "4. Un cetățean cumpără un titlu de stat și o obligațiune a unei companii. Ce face el de fapt prin aceste două instrumente financiare?",
+            optiuni: [
+                { text: "Acordă un împrumut statului și companiei, urmând să primească dobândă.", raspuns: "🌟 Exact! Atât titlul de stat, cât și obligațiunea reprezintă împrumuturi purtătoare de dobândă!", puncte: 10 },
+                { text: "Devine directorul general al statului și al firmei.", raspuns: "❌ Acțiunea te face proprietar; obligațiunea și titlul de stat sunt împrumuturi cu dobândă.", puncte: 0 }
+            ]
+        }
+    ],
+    quiz: [
+        { 
+            intrebare: "1. Ce dovedește deținerea unei ACȚIUNI la o companie?", 
+            raspunsuri: [
+                "Că ești proprietar la firmă", 
+                "Că ai datorii la stat", 
+                "Că ești angajat la bancă", 
+                "Că ai o asigurare auto"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "2. Cum se numește câștigul obținut dintr-o acțiune?", 
+            raspunsuri: [
+                "Dividend", 
+                "Comision", 
+                "Penalitate", 
+                "Chirie"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "3. Ce este un TITLU DE STAT?", 
+            raspunsuri: [
+                "Un împrumut acordat statului", 
+                "O diplomă de absolvire", 
+                "Un buletin de identitate", 
+                "O taxă pe locuință"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "4. În ce constă câștigul la obligațiuni și titluri de stat?", 
+            raspunsuri: [
+                "În dobândă", 
+                "În alocație", 
+                "În cupiură", 
+                "În bursă"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "5. Ce procent din salariul brut merge spre fondul de pensii?", 
+            raspunsuri: [
+                "25%", 
+                "10%", 
+                "50%", 
+                "5%"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "6. Ce reprezintă Pilonul III de pensii?", 
+            raspunsuri: [
+                "Pensii private facultative", 
+                "Pensia minimă de la stat", 
+                "Alocația pentru copii", 
+                "Ajutorul de șomaj"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "7. Ce procent din salariul brut merge către Pilonul II?", 
+            raspunsuri: [
+                "4,75%", 
+                "20,25%", 
+                "15%", 
+                "10%"
+            ], 
+            corect: 0 
+        },
+        { 
+            intrebare: "8. Cum te ferești de riscurile unui IFN neserios?", 
+            raspunsuri: [
+                "Te informezi înainte să semnezi", 
+                "Crezi orice reclamă TV", 
+                "Nu citești clauzele", 
+                "Plătești totul în avans"
+            ], 
+            corect: 0 
+        }
+    ]
 }
     ]
 };
